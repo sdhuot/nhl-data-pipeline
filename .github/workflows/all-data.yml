@@ -1,0 +1,42 @@
+name: Fetch NHL All Data (nightly)
+
+on:
+  schedule:
+    - cron: "30 9 * * *"   # 09:30 UTC ~ 00:30 Alaska
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run collector (season auto)
+        run: |
+          python scripts/fetch_nhl_all.py --season auto --out data/raw
+
+      - name: Commit & push changes
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "data: nightly NHL all raw refresh"
+            git push
+          fi
