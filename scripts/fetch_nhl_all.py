@@ -1,36 +1,67 @@
 #!/usr/bin/env python3
 """
-NHL all-in scraper (raw + a few ready CSVs)
+NHL scraper (NEW API ONLY) — 2025-26 season
 
-What it grabs (current season window):
-- Standings (current)
-- Teams list
-- Team rosters and player details
-- Season schedule (Sep 1 -> today)
-- For every gamePk in that schedule:
-  - statsapi feed/live
-  - api-web gamecenter: landing, play-by-play, boxscore
-  - shift charts (api.nhle.com)
+Sources (all confirmed from the "new" stack):
+- Standings + team metadata: https://api-web.nhle.com/v1/standings/now
+- League schedule by day:    https://api-web.nhle.com/v1/schedule/YYYY-MM-DD
+- Per-game data:
+    - landing:     https://api-web.nhle.com/v1/gamecenter/{gamePk}/landing
+    - play-by-play:https://api-web.nhle.com/v1/gamecenter/{gamePk}/play-by-play
+    - boxscore:    https://api-web.nhle.com/v1/gamecenter/{gamePk}/boxscore
+- Shift charts:    https://api.nhle.com/stats/rest/en/shiftcharts?cayenneExp=gameId={gamePk}
 
-Writes to:
-- data/raw/YYYY-MM-DD/...
-- data/csv/YYYY-MM-DD/...
+Writes:
+- data/raw/YYYY-MM-DD/... (all JSON)
+- data/csv/YYYY-MM-DD/standings.csv
+- data/csv/YYYY-MM-DD/teams.csv (derived from standings)
+- data/csv/YYYY-MM-DD/schedule.csv (from daily schedule sweep)
+- data/csv/YYYY-MM-DD/players.csv (derived from boxscores seen so far)
 
-You can safely run daily; it only writes into today's dated folder.
+Notes:
+- Season is fixed to 2025-09-01 through today. (Adjust window below if desired.)
+- No dependencies on statsapi.web.nhl.com. If only the new API works for you, this will run.
 """
 
-import os, json, time
-from datetime import date, datetime
-from dateutil.relativedelta import relativedelta
-import requests
+import os
+import json
+import time
+from datetime import date, datetime, timedelta
+from typing import Dict, Any, List, Optional
+
 import pandas as pd
+import requests
 
-# ------------ HTTP helpers ------------
+# ----------------- Config -----------------
+API_WEB = "https://api-web.nhle.com/v1"
+API_STATS_REST = "https://api.nhle.com/stats/rest/en"
+
+USER_AGENT = "nhl-newapi-scraper/1.0 (+github actions)"
+TIMEOUT = 45
+RETRIES = 3
+BACKOFF = 1.5
+
+# Season window (fixed to 2025-26 as requested)
+def season_start_for_2025_26() -> date:
+    return date(2025, 9, 1)
+
+def today_str() -> str:
+    return date.today().strftime("%Y-%m-%d")
+
+# ------------- IO Helpers -----------------
+def ensure_dir(path: str):
+    os.makedirs(path, exist_ok=True)
+
+def dump_json(obj: Any, path: str):
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
+
+# ------------- HTTP Helper ----------------
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": "nhl-scraper/1.0 (+github actions)"})
-TIMEOUT = 40
+SESSION.headers.update({"User-Agent": USER_AGENT})
 
-def jget(url, params=None, retries=3, sleep=1.5):
+def jget(url: str, params: Optional[Dict[str, Any]] = None,
+         retries: int = RETRIES, sleep: float = BACKOFF) -> Optional[Dict[str, Any]]:
     for i in range(retries):
         try:
             r = SESSION.get(url, params=params, timeout=TIMEOUT)
@@ -43,169 +74,153 @@ def jget(url, params=None, retries=3, sleep=1.5):
                 print(f"[WARN] Failed {url}: {e}")
                 return None
             time.sleep(sleep * (2 ** i))
+    return None
 
-def ensure_dir(p):
-    os.makedirs(p, exist_ok=True)
-
-def dump_json(obj, path):
-    with open(path, "w", encoding="utf-8") as f:
-        json.dump(obj, f, ensure_ascii=False, indent=2)
-
-# ------------ Season window helpers ------------
-def season_start_date(today: date) -> str:
-    start_year = today.year if today.month >= 7 else today.year - 1
-    return f"{start_year}-09-01"
-
-def today_yyyymmdd():
-    return date.today().strftime("%Y-%m-%d")
-
-# ------------ Endpoints ------------
-STATSAPI = "https://api.nhle.com/stats/api/v1"
-API_WEB  = "https://api-web.nhle.com/v1"
-API_NHLE = "https://api.nhle.com/stats/rest/en"
-
+# ------------- Main -----------------------
 def main():
-    run_date = today_yyyymmdd()
+    run_date = today_str()
     raw_dir = os.path.join("data", "raw", run_date)
     csv_dir = os.path.join("data", "csv", run_date)
     ensure_dir(raw_dir)
     ensure_dir(csv_dir)
 
-    today_d = date.today()
-    start = season_start_date(today_d)
-    end   = today_d.strftime("%Y-%m-%d")
-
-    # ---------- 0) Standings (current) ----------
-    print("Fetching standings...")
-    standings_now = jget(f"{API_WEB}/standings/now")
-    if standings_now:
-        dump_json(standings_now, os.path.join(raw_dir, "standings_now.json"))
-        rows = standings_now.get("standings", [])
+    # ---------- 0) Standings (teams metadata) ----------
+    print("Fetching standings/now …")
+    standings = jget(f"{API_WEB}/standings/now")
+    if standings:
+        dump_json(standings, os.path.join(raw_dir, "standings_now.json"))
+        rows = standings.get("standings", [])
         if rows:
             pd.json_normalize(rows, max_level=1).to_csv(
                 os.path.join(csv_dir, "standings.csv"), index=False
             )
+        # Build a teams table (id, name, triCode) from standings payload
+        team_rows: List[Dict[str, Any]] = []
+        for row in rows:
+            club = row.get("teamAbbrev", {}) or {}
+            # Some shapes: teamId, teamName, teamAbbrev (string)
+            team_rows.append({
+                "teamId": row.get("teamId"),
+                "name": row.get("teamName"),
+                "triCode": row.get("teamAbbrev"),
+                "conference": row.get("conferenceName"),
+                "division": row.get("divisionName"),
+            })
+        if team_rows:
+            teams_df = pd.DataFrame(team_rows).drop_duplicates(subset=["teamId"]).sort_values("teamId")
+            teams_df.to_csv(os.path.join(csv_dir, "teams.csv"), index=False)
+    else:
+        print("[WARN] standings/now unavailable; continuing…")
 
-    # ---------- 1) Teams ----------
-    print("Fetching teams...")
-    teams = jget(f"{STATSAPI}/teams")
-    teams_df = pd.DataFrame()
-    if teams:
-        dump_json(teams, os.path.join(raw_dir, "teams.json"))
-        teams_df = pd.json_normalize(teams.get("teams", []), max_level=1)
-        teams_df.to_csv(os.path.join(csv_dir, "teams.csv"), index=False)
+    # ---------- 1) League schedule sweep (by date) ----------
+    # We stick to new API by scanning each date from season start to today.
+    start_d = season_start_for_2025_26()
+    end_d = date.today()
+    print(f"Fetching schedule day-by-day: {start_d} → {end_d} …")
+    game_rows: List[Dict[str, Any]] = []
+    game_pks: List[int] = []
+    cur = start_d
+    while cur <= end_d:
+        ymd = cur.strftime("%Y-%m-%d")
+        sched = jget(f"{API_WEB}/schedule/{ymd}")
+        if sched and isinstance(sched.get("gameWeek"), list):
+            # gameWeek -> [ { "date":"YYYY-MM-DD", "games":[...] }, ... ] (varies)
+            for wk in sched["gameWeek"]:
+                for g in wk.get("games", []):
+                    gpk = g.get("id") or g.get("gameId") or g.get("gamePk")
+                    if not gpk:
+                        continue
+                    if gpk not in game_pks:
+                        game_pks.append(int(gpk))
+                    game_rows.append({
+                        "gamePk": int(gpk),
+                        "gameDate": g.get("startTimeUTC") or g.get("startTime"),  # UTC iso
+                        "homeId": (g.get("homeTeam", {}) or {}).get("id"),
+                        "homeTri": (g.get("homeTeam", {}) or {}).get("abbrev"),
+                        "awayId": (g.get("awayTeam", {}) or {}).get("id"),
+                        "awayTri": (g.get("awayTeam", {}) or {}).get("abbrev"),
+                        "venue": (g.get("venue", {}) or {}).get("default") or g.get("venueName"),
+                        "gameState": g.get("gameState"),
+                    })
+        # tiny delay so we don’t hammer
+        time.sleep(0.10)
+        cur += timedelta(days=1)
 
-    # ---------- 2) Rosters + player details ----------
-    players_records = []
-    if not teams_df.empty:
-        for _, t in teams_df.iterrows():
-            tid = t.get("id")
-            tname = t.get("name")
-            if pd.isna(tid):
-                continue
-            print(f"Roster: {tname} ({tid})")
-            roster = jget(f"{STATSAPI}/teams/{int(tid)}", params={"expand": "team.roster"})
-            if roster:
-                dump_json(roster, os.path.join(raw_dir, f"team_{tid}_roster.json"))
-                roster_list = (
-                    roster.get("teams", [{}])[0]
-                    .get("roster", {})
-                    .get("roster", [])
-                )
-                for r in roster_list:
-                    p = r.get("person", {})
-                    pid = p.get("id")
-                    rec = {
-                        "teamId": tid,
-                        "teamName": tname,
-                        "personId": pid,
-                        "personFullName": p.get("fullName"),
-                        "positionCode": (r.get("position") or {}).get("code"),
-                        "positionName": (r.get("position") or {}).get("name"),
-                        "jerseyNumber": r.get("jerseyNumber"),
-                    }
-                    # Player details
-                    if pid:
-                        person = jget(f"{STATSAPI}/people/{int(pid)}")
-                        if person:
-                            dump_json(
-                                person,
-                                os.path.join(raw_dir, f"player_{pid}.json")
-                            )
-                            pdata = (person.get("people") or [{}])[0]
-                            # attach some common fields
-                            rec.update({
-                                "birthDate": pdata.get("birthDate"),
-                                "birthCity": pdata.get("birthCity"),
-                                "birthCountry": pdata.get("birthCountry"),
-                                "height": pdata.get("height"),
-                                "weight": pdata.get("weight"),
-                                "shootsCatches": pdata.get("shootsCatches"),
-                                "currentAge": pdata.get("currentAge"),
-                                "primaryNumber": pdata.get("primaryNumber"),
-                                "primaryPosition": (pdata.get("primaryPosition") or {}).get("abbreviation"),
-                            })
-                    players_records.append(rec)
-
-    if players_records:
-        pd.DataFrame(players_records).to_csv(os.path.join(csv_dir, "players.csv"), index=False)
-
-    # ---------- 3) Schedule ----------
-    print(f"Fetching schedule {start} -> {end} ...")
-    sched = jget(f"{STATSAPI}/schedule", params={"startDate": start, "endDate": end})
-    game_rows = []
-    game_pks = []
-    if sched:
-        dump_json(sched, os.path.join(raw_dir, "schedule.json"))
-        for d in sched.get("dates", []):
-            gms = d.get("games", [])
-            for g in gms:
-                game_pks.append(g.get("gamePk"))
-                game_rows.append({
-                    "gamePk": g.get("gamePk"),
-                    "gameType": g.get("gameType"),
-                    "season": g.get("season"),
-                    "gameDate": g.get("gameDate"),
-                    "status": (g.get("status") or {}).get("detailedState"),
-                    "homeId": (g.get("teams", {}).get("home", {}).get("team") or {}).get("id"),
-                    "homeName": (g.get("teams", {}).get("home", {}).get("team") or {}).get("name"),
-                    "awayId": (g.get("teams", {}).get("away", {}).get("team") or {}).get("id"),
-                    "awayName": (g.get("teams", {}).get("away", {}).get("team") or {}).get("name"),
-                    "venue": (g.get("venue") or {}).get("name"),
-                })
+    # Write schedule csv
     if game_rows:
-        pd.DataFrame(game_rows).to_csv(os.path.join(csv_dir, "schedule.csv"), index=False)
+        pd.DataFrame(game_rows).drop_duplicates(subset=["gamePk"]).to_csv(
+            os.path.join(csv_dir, "schedule.csv"), index=False
+        )
+    print(f"Total unique games discovered: {len(game_pks)}")
 
-    # ---------- 4) Per-game payloads ----------
-    # Keep it polite with a tiny delay to avoid hammering
-    for idx, gpk in enumerate([gp for gp in game_pks if gp], start=1):
+    # ---------- 2) Per-game payloads (new API only) ----------
+    # For each gamePk: landing, play-by-play, boxscore (api-web)
+    # plus shift charts (stats/rest)
+    players_seen: Dict[int, Dict[str, Any]] = {}  # aggregate simple player attributes from boxscores
+    for idx, gpk in enumerate(game_pks, start=1):
         if idx % 50 == 0:
             print(f"…{idx} games processed")
 
-        # statsapi feed/live
-        feed = jget(f"{STATSAPI}/game/{gpk}/feed/live")
-        if feed:
-            dump_json(feed, os.path.join(raw_dir, f"game_{gpk}_feed_live.json"))
-
-        # api-web gamecenter (landing, play-by-play, boxscore)
+        # landing
         landing = jget(f"{API_WEB}/gamecenter/{gpk}/landing")
         if landing:
             dump_json(landing, os.path.join(raw_dir, f"game_{gpk}_landing.json"))
 
+        # play-by-play
         pbp = jget(f"{API_WEB}/gamecenter/{gpk}/play-by-play")
         if pbp:
             dump_json(pbp, os.path.join(raw_dir, f"game_{gpk}_pbp.json"))
 
+        # boxscore
         box = jget(f"{API_WEB}/gamecenter/{gpk}/boxscore")
         if box:
             dump_json(box, os.path.join(raw_dir, f"game_{gpk}_boxscore.json"))
+            # Try to lift basic player fields so you still get a players.csv without StatsAPI
+            # Shapes can vary; commonly box["playerByGameStats"] or team blocks have players with sweaterNumber/position/shootsCatches
+            try:
+                def harvest(side: Dict[str, Any], team_id: Optional[int]):
+                    players = (side or {}).get("players") or (side or {}).get("skaters") or []
+                    if isinstance(players, dict):
+                        players = list(players.values())
+                    for p in players:
+                        pid = p.get("playerId") or p.get("id")
+                        if not pid:
+                            continue
+                        pid = int(pid)
+                        rec = players_seen.get(pid, {})
+                        rec.update({
+                            "personId": pid,
+                            "fullName": p.get("name", {}).get("default") or p.get("name"),
+                            "teamId": team_id,
+                            "sweaterNumber": p.get("sweaterNumber") or p.get("jerseyNumber"),
+                            "position": (p.get("position") or {}).get("abbrev") or p.get("position"),
+                            "shootsCatches": p.get("shootsCatches") or p.get("shoots") or p.get("catches"),
+                            "height": p.get("height"),
+                            "weight": p.get("weight"),
+                        })
+                        players_seen[pid] = rec
 
-        # shift charts (uses gameId)
-        shifts = jget(f"{API_NHLE}/shiftcharts", params={"cayenneExp": f"gameId={gpk}"})
+                teams_blk = (box or {}).get("teams") or {}
+                home_blk = teams_blk.get("home") or {}
+                away_blk = teams_blk.get("away") or {}
+                harvest(home_blk, (home_blk.get("id") if isinstance(home_blk.get("id"), int) else None))
+                harvest(away_blk, (away_blk.get("id") if isinstance(away_blk.get("id"), int) else None))
+            except Exception as e:
+                print(f"[WARN] Could not harvest players from boxscore {gpk}: {e}")
+
+        # shift charts (Stats REST)
+        shifts = jget(f"{API_STATS_REST}/shiftcharts", params={"cayenneExp": f"gameId={gpk}"})
         if shifts:
             dump_json(shifts, os.path.join(raw_dir, f"game_{gpk}_shifts.json"))
 
-        time.sleep(0.15)  # be nice
+        time.sleep(0.12)  # be nice
+
+    # ---------- 3) Players CSV (derived from boxscores seen so far) ----------
+    if players_seen:
+        players_df = pd.DataFrame(list(players_seen.values()))
+        # drop duplicate records keeping the most recent info encountered
+        players_df = players_df.drop_duplicates(subset=["personId"], keep="last")
+        players_df.to_csv(os.path.join(csv_dir, "players.csv"), index=False)
 
     print("Done.")
 
