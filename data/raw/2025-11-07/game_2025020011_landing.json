@@ -1,0 +1,1215 @@
+{
+  "id": 2025020011,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-09",
+  "venue": {
+    "default": "Benchmark International Arena"
+  },
+  "venueLocation": {
+    "default": "Tampa"
+  },
+  "startTimeUTC": "2025-10-09T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 581,
+      "market": "H",
+      "countryCode": "US",
+      "network": "The Spot",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 294,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "TSN5",
+      "sequenceNumber": 135
+    },
+    {
+      "id": 242,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "RDSI",
+      "sequenceNumber": 136
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    },
+    "score": 5,
+    "sog": 34,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+  },
+  "homeTeam": {
+    "id": 14,
+    "commonName": {
+      "default": "Lightning"
+    },
+    "abbrev": "TBL",
+    "placeName": {
+      "default": "Tampa Bay"
+    },
+    "placeNameWithPreposition": {
+      "default": "Tampa Bay",
+      "fr": "de Tampa Bay"
+    },
+    "score": 4,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 145,
+            "strength": "pp",
+            "playerId": 8477416,
+            "firstName": {
+              "default": "Oliver"
+            },
+            "lastName": {
+              "default": "Bjorkstrand"
+            },
+            "name": {
+              "default": "O. Bjorkstrand"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8477416.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-bjorkstrand-scores-ppg-against-linus-ullmark-6382527296112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-bjorkstrand-marque-un-but-en-a-n-contre-linus-ullmark-6382527880112",
+            "highlightClip": 6382527296112,
+            "highlightClipFr": 6382527880112,
+            "discreteClip": 6382525418112,
+            "discreteClipFr": 6382527511112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "05:35",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477404,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Guentzel"
+                },
+                "name": {
+                  "default": "J. Guentzel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 59
+              },
+              {
+                "playerId": 8478010,
+                "firstName": {
+                  "default": "Brayden"
+                },
+                "lastName": {
+                  "default": "Point"
+                },
+                "name": {
+                  "default": "B. Point"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev145.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 252,
+            "strength": "ev",
+            "playerId": 8478010,
+            "firstName": {
+              "default": "Brayden"
+            },
+            "lastName": {
+              "default": "Point"
+            },
+            "name": {
+              "default": "B. Point"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8478010.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-point-scores-goal-against-linus-ullmark-6382526709112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-point-marque-un-but-contre-linus-ullmark-6382526519112",
+            "highlightClip": 6382526709112,
+            "highlightClipFr": 6382526519112,
+            "discreteClip": 6382527697112,
+            "discreteClipFr": 6382528567112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "07:00",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477404,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Guentzel"
+                },
+                "name": {
+                  "default": "J. Guentzel"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 59
+              },
+              {
+                "playerId": 8478178,
+                "firstName": {
+                  "default": "Darren"
+                },
+                "lastName": {
+                  "default": "Raddysh"
+                },
+                "name": {
+                  "default": "D. Raddysh"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev252.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 326,
+            "strength": "pp",
+            "playerId": 8481528,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Cozens"
+            },
+            "name": {
+              "default": "D. Cozens"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481528.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-cozens-scores-ppg-against-andrei-vasilevskiy-6382528385112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-cozens-marque-un-but-en-a-n-contre-andrei-vasilevskiy-6382527308112",
+            "highlightClip": 6382528385112,
+            "highlightClipFr": 6382527308112,
+            "discreteClip": 6382527316112,
+            "discreteClipFr": 6382529068112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "10:18",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480801,
+                "firstName": {
+                  "default": "Brady"
+                },
+                "lastName": {
+                  "default": "Tkachuk"
+                },
+                "name": {
+                  "default": "B. Tkachuk"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 7
+              },
+              {
+                "playerId": 8482105,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Sanderson"
+                },
+                "name": {
+                  "default": "J. Sanderson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 85
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev326.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1341",
+            "eventId": 466,
+            "strength": "pp",
+            "playerId": 8476453,
+            "firstName": {
+              "default": "Nikita"
+            },
+            "lastName": {
+              "default": "Kucherov",
+              "cs": "Kučerov",
+              "fi": "Kutsherov",
+              "sk": "Kučerov"
+            },
+            "name": {
+              "default": "N. Kucherov",
+              "cs": "N. Kučerov",
+              "fi": "N. Kutsherov",
+              "sk": "N. Kučerov"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8476453.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-kucherov-scores-ppg-against-linus-ullmark-6382527634112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-kucherov-marque-un-but-en-a-n-contre-linus-ullmark-6382529969112",
+            "highlightClip": 6382527634112,
+            "highlightClipFr": 6382529969112,
+            "discreteClip": 6382529672112,
+            "discreteClipFr": 6382529370112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "14:46",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475167,
+                "firstName": {
+                  "default": "Victor"
+                },
+                "lastName": {
+                  "default": "Hedman"
+                },
+                "name": {
+                  "default": "V. Hedman"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 77
+              },
+              {
+                "playerId": 8478010,
+                "firstName": {
+                  "default": "Brayden"
+                },
+                "lastName": {
+                  "default": "Point"
+                },
+                "name": {
+                  "default": "B. Point"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev466.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 613,
+            "strength": "ev",
+            "playerId": 8482245,
+            "firstName": {
+              "default": "Artem",
+              "cs": "Arťom",
+              "fi": "Artjom",
+              "sk": "Arťom"
+            },
+            "lastName": {
+              "default": "Zub"
+            },
+            "name": {
+              "default": "A. Zub"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482245.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-zub-scores-goal-against-andrei-vasilevskiy-6382530011112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-zub-marque-un-but-contre-andrei-vasilevskiy-6382530198112",
+            "highlightClip": 6382530011112,
+            "highlightClipFr": 6382530198112,
+            "discreteClip": 6382530296112,
+            "discreteClipFr": 6382530683112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "00:42",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480801,
+                "firstName": {
+                  "default": "Brady"
+                },
+                "lastName": {
+                  "default": "Tkachuk"
+                },
+                "name": {
+                  "default": "B. Tkachuk"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 7
+              },
+              {
+                "playerId": 8482116,
+                "firstName": {
+                  "default": "Tim"
+                },
+                "lastName": {
+                  "default": "Stützle"
+                },
+                "name": {
+                  "default": "T. Stützle"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev613.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 255,
+            "strength": "ev",
+            "playerId": 8481596,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Pinto"
+            },
+            "name": {
+              "default": "S. Pinto"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-pinto-scores-goal-against-andrei-vasilevskiy-6382531693112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-pinto-marque-un-but-contre-andrei-vasilevskiy-6382530529112",
+            "highlightClip": 6382531693112,
+            "highlightClipFr": 6382530529112,
+            "discreteClip": 6382531220112,
+            "discreteClipFr": 6382529546112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "15:09",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482245,
+                "firstName": {
+                  "default": "Artem",
+                  "cs": "Arťom",
+                  "fi": "Artjom",
+                  "sk": "Arťom"
+                },
+                "lastName": {
+                  "default": "Zub"
+                },
+                "name": {
+                  "default": "A. Zub"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 2
+              },
+              {
+                "playerId": 8480801,
+                "firstName": {
+                  "default": "Brady"
+                },
+                "lastName": {
+                  "default": "Tkachuk"
+                },
+                "name": {
+                  "default": "B. Tkachuk"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 7
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev255.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 258,
+            "strength": "ev",
+            "playerId": 8481596,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Pinto"
+            },
+            "name": {
+              "default": "S. Pinto"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-pinto-scores-goal-against-andrei-vasilevskiy-6382532870112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-pinto-marque-un-but-contre-andrei-vasilevskiy-6382534431112",
+            "highlightClip": 6382532870112,
+            "highlightClipFr": 6382534431112,
+            "discreteClip": 6382533839112,
+            "discreteClipFr": 6382533641112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "18:13",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482105,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Sanderson"
+                },
+                "name": {
+                  "default": "J. Sanderson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 85
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev258.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 260,
+            "strength": "ev",
+            "playerId": 8473512,
+            "firstName": {
+              "default": "Claude"
+            },
+            "lastName": {
+              "default": "Giroux"
+            },
+            "name": {
+              "default": "C. Giroux"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8473512.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-giroux-scores-empty-net-goal-6382534536112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-giroux-ott-marque-un-but-dans-un-filet-desert-6382531883112",
+            "highlightClip": 6382534536112,
+            "highlightClipFr": 6382531883112,
+            "discreteClip": 6382532961112,
+            "discreteClipFr": 6382534631112,
+            "goalsToDate": 1,
+            "awayScore": 5,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "19:12",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8481596,
+                "firstName": {
+                  "default": "Shane"
+                },
+                "lastName": {
+                  "default": "Pinto"
+                },
+                "name": {
+                  "default": "S. Pinto"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 12
+              },
+              {
+                "playerId": 8482245,
+                "firstName": {
+                  "default": "Artem",
+                  "cs": "Arťom",
+                  "fi": "Artjom",
+                  "sk": "Arťom"
+                },
+                "lastName": {
+                  "default": "Zub"
+                },
+                "name": {
+                  "default": "A. Zub"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev260.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 261,
+            "strength": "ev",
+            "playerId": 8476453,
+            "firstName": {
+              "default": "Nikita"
+            },
+            "lastName": {
+              "default": "Kucherov",
+              "cs": "Kučerov",
+              "fi": "Kutsherov",
+              "sk": "Kučerov"
+            },
+            "name": {
+              "default": "N. Kucherov",
+              "cs": "N. Kučerov",
+              "fi": "N. Kutsherov",
+              "sk": "N. Kučerov"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8476453.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tbl-kucherov-scores-goal-against-linus-ullmark-6382533859112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tbl-kucherov-marque-un-but-contre-linus-ullmark-6382532469112",
+            "highlightClip": 6382533859112,
+            "highlightClipFr": 6382532469112,
+            "discreteClip": 6382532881112,
+            "discreteClipFr": 6382534734112,
+            "goalsToDate": 2,
+            "awayScore": 5,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "19:46",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478178,
+                "firstName": {
+                  "default": "Darren"
+                },
+                "lastName": {
+                  "default": "Raddysh"
+                },
+                "name": {
+                  "default": "D. Raddysh"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 43
+              },
+              {
+                "playerId": 8475167,
+                "firstName": {
+                  "default": "Victor"
+                },
+                "lastName": {
+                  "default": "Hedman"
+                },
+                "name": {
+                  "default": "V. Hedman"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020011/ev261.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8473512,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8473512.png",
+        "name": {
+          "default": "C. Giroux"
+        },
+        "sweaterNo": 28,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8478010,
+        "teamAbbrev": "TBL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8478010.png",
+        "name": {
+          "default": "B. Point"
+        },
+        "sweaterNo": 21,
+        "position": "C",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8480801,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480801.png",
+        "name": {
+          "default": "B. Tkachuk"
+        },
+        "sweaterNo": 7,
+        "position": "L",
+        "goals": 0,
+        "assists": 3,
+        "points": 3
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:26",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kurtis"
+              },
+              "lastName": {
+                "default": "MacDermid"
+              },
+              "sweaterNumber": 23
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Curtis"
+              },
+              "lastName": {
+                "default": "Douglas"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "02:26",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Curtis"
+              },
+              "lastName": {
+                "default": "Douglas"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kurtis"
+              },
+              "lastName": {
+                "default": "MacDermid"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "04:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Cozens"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gage"
+              },
+              "lastName": {
+                "default": "Goncalves"
+              },
+              "sweaterNumber": 93
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "09:10",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Hagel"
+              },
+              "sweaterNumber": 38
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brady"
+              },
+              "lastName": {
+                "default": "Tkachuk"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "12:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brady"
+              },
+              "lastName": {
+                "default": "Tkachuk"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Hagel"
+              },
+              "sweaterNumber": 38
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "12:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Anthony"
+              },
+              "lastName": {
+                "default": "Cirelli"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Thomas"
+              },
+              "lastName": {
+                "default": "Chabot"
+              },
+              "sweaterNumber": 72
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "12:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Hagel"
+              },
+              "sweaterNumber": 38
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brady"
+              },
+              "lastName": {
+                "default": "Tkachuk"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "12:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Thomas"
+              },
+              "lastName": {
+                "default": "Chabot"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anthony"
+              },
+              "lastName": {
+                "default": "Cirelli"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "12:38",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Emil"
+              },
+              "lastName": {
+                "default": "Lilleberg"
+              },
+              "sweaterNumber": 78
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Donovan"
+              },
+              "lastName": {
+                "default": "Sebrango"
+              },
+              "sweaterNumber": 37
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "12:38",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Donovan"
+              },
+              "lastName": {
+                "default": "Sebrango"
+              },
+              "sweaterNumber": 37
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Emil"
+              },
+              "lastName": {
+                "default": "Lilleberg"
+              },
+              "sweaterNumber": 78
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "12:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Perron"
+              },
+              "sweaterNumber": 57
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mitchell"
+              },
+              "lastName": {
+                "default": "Chaffee"
+              },
+              "sweaterNumber": 41
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "15:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pontus"
+              },
+              "lastName": {
+                "default": "Holmberg"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Fabian"
+              },
+              "lastName": {
+                "default": "Zetterlund"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mitchell"
+              },
+              "lastName": {
+                "default": "Chaffee"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Cozens"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "18:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mitchell"
+              },
+              "lastName": {
+                "default": "Chaffee"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jake"
+              },
+              "lastName": {
+                "default": "Sanderson"
+              },
+              "sweaterNumber": 85
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Artem",
+                "cs": "Arťom",
+                "fi": "Artjom",
+                "sk": "Arťom"
+              },
+              "lastName": {
+                "default": "Zub"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Yanni"
+              },
+              "lastName": {
+                "default": "Gourde"
+              },
+              "sweaterNumber": 37
+            },
+            "descKey": "interference"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

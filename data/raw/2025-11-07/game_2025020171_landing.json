@@ -1,0 +1,911 @@
+{
+  "id": 2025020171,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-30",
+  "venue": {
+    "default": "Lenovo Center"
+  },
+  "venueLocation": {
+    "default": "Raleigh"
+  },
+  "startTimeUTC": "2025-10-30T23:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 329,
+      "market": "N",
+      "countryCode": "US",
+      "network": "ESPN+",
+      "sequenceNumber": 16
+    },
+    {
+      "id": 391,
+      "market": "N",
+      "countryCode": "US",
+      "network": "HULU",
+      "sequenceNumber": 17
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 2,
+    "commonName": {
+      "default": "Islanders"
+    },
+    "abbrev": "NYI",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 2,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg"
+  },
+  "homeTeam": {
+    "id": 12,
+    "commonName": {
+      "default": "Hurricanes"
+    },
+    "abbrev": "CAR",
+    "placeName": {
+      "default": "Carolina",
+      "fr": "Caroline"
+    },
+    "placeNameWithPreposition": {
+      "default": "Carolina",
+      "fr": "de la Caroline"
+    },
+    "score": 6,
+    "sog": 34,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 85,
+            "strength": "ev",
+            "playerId": 8484203,
+            "firstName": {
+              "default": "Bradly"
+            },
+            "lastName": {
+              "default": "Nadeau"
+            },
+            "name": {
+              "default": "B. Nadeau"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8484203.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bradly-nadeau-with-a-goal-vs-new-york-islanders-6384316669112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bradly-nadeau-with-a-goal-vs-les-islanders-de-new-york-6384315005112",
+            "highlightClip": 6384316669112,
+            "highlightClipFr": 6384315005112,
+            "discreteClip": 6384317163112,
+            "discreteClipFr": 6384314700112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "02:33",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev85.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 125,
+            "strength": "sh",
+            "playerId": 8476422,
+            "firstName": {
+              "default": "Mike"
+            },
+            "lastName": {
+              "default": "Reilly"
+            },
+            "name": {
+              "default": "M. Reilly"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476422.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-car-reilly-scores-shg-against-david-rittich-6384314711112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-car-reilly-marque-un-but-en-i-n-contre-david-rittich-6384316382112",
+            "highlightClip": 6384314711112,
+            "highlightClipFr": 6384316382112,
+            "discreteClip": 6384317269112,
+            "discreteClipFr": 6384317167112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "05:21",
+            "shotType": "wrap-around",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev125.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 154,
+            "strength": "ev",
+            "playerId": 8476921,
+            "firstName": {
+              "default": "Jordan"
+            },
+            "lastName": {
+              "default": "Martinook"
+            },
+            "name": {
+              "default": "J. Martinook"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476921.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-car-martinook-scores-goal-against-david-rittich-6384315226112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-car-martinook-marque-un-but-contre-david-rittich-6384316301112",
+            "highlightClip": 6384315226112,
+            "highlightClipFr": 6384316301112,
+            "discreteClip": 6384315523112,
+            "discreteClipFr": 6384315808112,
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "10:21",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8473533,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Staal"
+                },
+                "name": {
+                  "default": "J. Staal"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8480830,
+                "firstName": {
+                  "default": "Andrei",
+                  "cs": "Andrej",
+                  "sk": "Andrej"
+                },
+                "lastName": {
+                  "default": "Svechnikov",
+                  "cs": "Svečnikov",
+                  "fi": "Svetshnikov",
+                  "sk": "Svečnikov"
+                },
+                "name": {
+                  "default": "A. Svechnikov",
+                  "cs": "A. Svečnikov",
+                  "fi": "A. Svetshnikov",
+                  "sk": "A. Svečnikov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 37
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev154.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 346,
+            "strength": "pp",
+            "playerId": 8485366,
+            "firstName": {
+              "default": "Matthew"
+            },
+            "lastName": {
+              "default": "Schaefer"
+            },
+            "name": {
+              "default": "M. Schaefer"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8485366.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-car-schaefer-scores-ppg-against-brandon-bussi-6384318123112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-car-schaefer-marque-un-but-en-a-n-contre-brandon-bussi-6384317938112",
+            "highlightClip": 6384318123112,
+            "highlightClipFr": 6384317938112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "13:20",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475151,
+                "firstName": {
+                  "default": "Kyle"
+                },
+                "lastName": {
+                  "default": "Palmieri"
+                },
+                "name": {
+                  "default": "K. Palmieri"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 21
+              },
+              {
+                "playerId": 8477494,
+                "firstName": {
+                  "default": "Jonathan"
+                },
+                "lastName": {
+                  "default": "Drouin"
+                },
+                "name": {
+                  "default": "J. Drouin"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 29
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev346.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 158,
+            "strength": "ev",
+            "playerId": 8482809,
+            "firstName": {
+              "default": "Jackson"
+            },
+            "lastName": {
+              "default": "Blake"
+            },
+            "name": {
+              "default": "J. Blake"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482809.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-car-blake-scores-goal-against-david-rittich-6384322824112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-car-blake-marque-un-but-contre-david-rittich-6384319374112",
+            "highlightClip": 6384322824112,
+            "highlightClipFr": 6384319374112,
+            "discreteClip": 6384321644112,
+            "discreteClipFr": 6384321837112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "01:51",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475791,
+                "firstName": {
+                  "default": "Taylor"
+                },
+                "lastName": {
+                  "default": "Hall"
+                },
+                "name": {
+                  "default": "T. Hall"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8483548,
+                "firstName": {
+                  "default": "Brandon"
+                },
+                "lastName": {
+                  "default": "Bussi"
+                },
+                "name": {
+                  "default": "B. Bussi"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 32
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev158.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1441",
+            "eventId": 1021,
+            "strength": "ev",
+            "playerId": 8481601,
+            "firstName": {
+              "default": "Simon"
+            },
+            "lastName": {
+              "default": "Holmstrom",
+              "cs": "Holmström",
+              "fi": "Holmström",
+              "sk": "Holmström",
+              "sv": "Holmström"
+            },
+            "name": {
+              "default": "S. Holmstrom",
+              "cs": "S. Holmström",
+              "fi": "S. Holmström",
+              "sk": "S. Holmström",
+              "sv": "S. Holmström"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8481601.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-car-holmstrom-scores-goal-against-brandon-bussi-6384320492112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-car-holmstrom-marque-un-but-contre-brandon-bussi-6384320491112",
+            "highlightClip": 6384320492112,
+            "highlightClipFr": 6384320491112,
+            "discreteClip": 6384323328112,
+            "discreteClipFr": 6384322167112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "10:48",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477950,
+                "firstName": {
+                  "default": "Tony"
+                },
+                "lastName": {
+                  "default": "DeAngelo"
+                },
+                "name": {
+                  "default": "T. DeAngelo"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev1021.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1441",
+            "eventId": 1027,
+            "strength": "ev",
+            "playerId": 8480830,
+            "firstName": {
+              "default": "Andrei",
+              "cs": "Andrej",
+              "sk": "Andrej"
+            },
+            "lastName": {
+              "default": "Svechnikov",
+              "cs": "Svečnikov",
+              "fi": "Svetshnikov",
+              "sk": "Svečnikov"
+            },
+            "name": {
+              "default": "A. Svechnikov",
+              "cs": "A. Svečnikov",
+              "fi": "A. Svetshnikov",
+              "sk": "A. Svečnikov"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8480830.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-car-svechnikov-scores-goal-against-david-rittich-6384321758112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-car-svechnikov-marque-un-but-contre-david-rittich-6384322743112",
+            "highlightClip": 6384321758112,
+            "highlightClipFr": 6384322743112,
+            "discreteClip": 6384320783112,
+            "discreteClipFr": 6384322934112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "10:59",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482100,
+                "firstName": {
+                  "default": "Alexander"
+                },
+                "lastName": {
+                  "default": "Nikishin"
+                },
+                "name": {
+                  "default": "A. Nikishin"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 21
+              },
+              {
+                "playerId": 8482702,
+                "firstName": {
+                  "default": "Logan"
+                },
+                "lastName": {
+                  "default": "Stankoven"
+                },
+                "name": {
+                  "default": "L. Stankoven"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 22
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev1027.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1144,
+            "strength": "ev",
+            "playerId": 8482702,
+            "firstName": {
+              "default": "Logan"
+            },
+            "lastName": {
+              "default": "Stankoven"
+            },
+            "name": {
+              "default": "L. Stankoven"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482702.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-car-stankoven-scores-goal-against-david-rittich-6384320984112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-car-stankoven-marque-un-but-contre-david-rittich-6384320985112",
+            "highlightClip": 6384320984112,
+            "highlightClipFr": 6384320985112,
+            "discreteClip": 6384321186112,
+            "discreteClipFr": 6384322673112,
+            "goalsToDate": 4,
+            "awayScore": 2,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "19:49",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477940,
+                "firstName": {
+                  "default": "Nikolaj"
+                },
+                "lastName": {
+                  "default": "Ehlers"
+                },
+                "name": {
+                  "default": "N. Ehlers"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020171/ev1144.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480830,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8480830.png",
+        "name": {
+          "default": "A. Svechnikov",
+          "cs": "A. Svečnikov",
+          "fi": "A. Svetshnikov",
+          "sk": "A. Svečnikov"
+        },
+        "sweaterNo": 37,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8483548,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8483548.png",
+        "name": {
+          "default": "B. Bussi"
+        },
+        "sweaterNo": 32,
+        "position": "G",
+        "goalsAgainstAverage": 2.0,
+        "savePctg": 0.929
+      },
+      {
+        "star": 3,
+        "playerId": 8484203,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8484203.png",
+        "name": {
+          "default": "B. Nadeau"
+        },
+        "sweaterNo": 29,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jackson"
+              },
+              "lastName": {
+                "default": "Blake"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Rittich"
+              },
+              "sweaterNumber": 33
+            },
+            "descKey": "interference-goalkeeper"
+          },
+          {
+            "timeInPeriod": "12:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Bussi"
+              },
+              "sweaterNumber": 32
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "descKey": "delaying-game-puck-over-glass",
+            "servedBy": {
+              "default": "A. Svechnikov",
+              "cs": "A. Svečnikov",
+              "fi": "A. Svetshnikov",
+              "sk": "A. Svečnikov"
+            }
+          },
+          {
+            "timeInPeriod": "16:02",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kyle"
+              },
+              "lastName": {
+                "default": "MacLean"
+              },
+              "sweaterNumber": 32
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Nikishin"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "16:02",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Nikishin"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kyle"
+              },
+              "lastName": {
+                "default": "MacLean"
+              },
+              "sweaterNumber": 32
+            },
+            "descKey": "roughing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Bo"
+              },
+              "lastName": {
+                "default": "Horvat"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Staal"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "03:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Taylor"
+              },
+              "lastName": {
+                "default": "Hall"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anders"
+              },
+              "lastName": {
+                "default": "Lee"
+              },
+              "sweaterNumber": 27
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:14",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Andrei",
+                "cs": "Andrej",
+                "sk": "Andrej"
+              },
+              "lastName": {
+                "default": "Svechnikov",
+                "cs": "Svečnikov",
+                "fi": "Svetshnikov",
+                "sk": "Svečnikov"
+              },
+              "sweaterNumber": 37
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Schaefer"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "10:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Martinook"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Bo"
+              },
+              "lastName": {
+                "default": "Horvat"
+              },
+              "sweaterNumber": 14
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "10:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Bo"
+              },
+              "lastName": {
+                "default": "Horvat"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Martinook"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "roughing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

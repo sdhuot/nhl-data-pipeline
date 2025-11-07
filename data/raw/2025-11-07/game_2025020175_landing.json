@@ -1,0 +1,769 @@
+{
+  "id": 2025020175,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-30",
+  "venue": {
+    "default": "Rogers Place"
+  },
+  "venueLocation": {
+    "default": "Edmonton"
+  },
+  "startTimeUTC": "2025-10-31T01:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "America/Edmonton",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    },
+    {
+      "id": 27,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSG",
+      "sequenceNumber": 408
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 3,
+    "commonName": {
+      "default": "Rangers"
+    },
+    "abbrev": "NYR",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 4,
+    "sog": 35,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg"
+  },
+  "homeTeam": {
+    "id": 22,
+    "commonName": {
+      "default": "Oilers"
+    },
+    "abbrev": "EDM",
+    "placeName": {
+      "default": "Edmonton"
+    },
+    "placeNameWithPreposition": {
+      "default": "Edmonton",
+      "fr": "d'Edmonton"
+    },
+    "score": 3,
+    "sog": 36,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 128,
+            "strength": "ev",
+            "playerId": 8477380,
+            "firstName": {
+              "default": "Jonny"
+            },
+            "lastName": {
+              "default": "Brodzinski"
+            },
+            "name": {
+              "default": "J. Brodzinski"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8477380.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyr-edm-brodzinski-scores-goal-against-stuart-skinner-6384321435112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyr-edm-brodzinski-marque-un-but-contre-stuart-skinner-6384321224112",
+            "highlightClip": 6384321435112,
+            "highlightClipFr": 6384321224112,
+            "discreteClip": 6384319346112,
+            "discreteClipFr": 6384322011112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NYR"
+            },
+            "timeInPeriod": "05:44",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020175/ev128.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 142,
+            "strength": "ev",
+            "playerId": 8477498,
+            "firstName": {
+              "default": "Darnell"
+            },
+            "lastName": {
+              "default": "Nurse"
+            },
+            "name": {
+              "default": "D. Nurse"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8477498.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyr-edm-nurse-scores-goal-against-igor-shesterkin-6384320664112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyr-edm-nurse-marque-un-but-contre-igor-shesterkin-6384321527112",
+            "highlightClip": 6384320664112,
+            "highlightClipFr": 6384321527112,
+            "discreteClip": 6384321230112,
+            "discreteClipFr": 6384319476112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "06:51",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478013,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Walman"
+                },
+                "name": {
+                  "default": "J. Walman"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 96
+              },
+              {
+                "playerId": 8478458,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Roslovic"
+                },
+                "name": {
+                  "default": "J. Roslovic"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 28
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020175/ev142.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 654,
+            "strength": "pp",
+            "playerId": 8483512,
+            "firstName": {
+              "default": "Matt"
+            },
+            "lastName": {
+              "default": "Savoie"
+            },
+            "name": {
+              "default": "M. Savoie"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8483512.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/matt-savoie-with-a-powerplay-goal-vs-new-york-rangers-6384323064112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/matt-savoie-with-a-powerplay-goal-vs-les-rangers-de-new-york-6384324049112",
+            "highlightClip": 6384323064112,
+            "highlightClipFr": 6384324049112,
+            "discreteClip": 6384322505112,
+            "discreteClipFr": 6384324144112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "08:48",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474641,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Henrique"
+                },
+                "name": {
+                  "default": "A. Henrique"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8477934,
+                "firstName": {
+                  "default": "Leon"
+                },
+                "lastName": {
+                  "default": "Draisaitl"
+                },
+                "name": {
+                  "default": "L. Draisaitl"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 29
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020175/ev654.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 204,
+            "strength": "ev",
+            "playerId": 8477498,
+            "firstName": {
+              "default": "Darnell"
+            },
+            "lastName": {
+              "default": "Nurse"
+            },
+            "name": {
+              "default": "D. Nurse"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8477498.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyr-edm-nurse-scores-goal-against-igor-shesterkin-6384324063112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyr-edm-nurse-marque-un-but-contre-igor-shesterkin-6384325047112",
+            "highlightClip": 6384324063112,
+            "highlightClipFr": 6384325047112,
+            "discreteClip": 6384324750112,
+            "discreteClipFr": 6384324244112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "10:24",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483455,
+                "firstName": {
+                  "default": "Isaac"
+                },
+                "lastName": {
+                  "default": "Howard"
+                },
+                "name": {
+                  "default": "I. Howard"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 53
+              },
+              {
+                "playerId": 8478013,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Walman"
+                },
+                "name": {
+                  "default": "J. Walman"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 96
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020175/ev204.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 942,
+            "strength": "ev",
+            "playerId": 8482073,
+            "firstName": {
+              "default": "Braden"
+            },
+            "lastName": {
+              "default": "Schneider"
+            },
+            "name": {
+              "default": "B. Schneider"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8482073.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyr-edm-schneider-scores-goal-against-stuart-skinner-6384325110112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyr-edm-schneider-marque-un-but-contre-stuart-skinner-6384324121112",
+            "highlightClip": 6384325110112,
+            "highlightClipFr": 6384324121112,
+            "discreteClip": 6384325301112,
+            "discreteClipFr": 6384326488112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "08:18",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482157,
+                "firstName": {
+                  "default": "Will"
+                },
+                "lastName": {
+                  "default": "Cuylle"
+                },
+                "name": {
+                  "default": "W. Cuylle"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 50
+              },
+              {
+                "playerId": 8480001,
+                "firstName": {
+                  "default": "Urho"
+                },
+                "lastName": {
+                  "default": "Vaakanainen"
+                },
+                "name": {
+                  "default": "U. Vaakanainen"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020175/ev942.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 997,
+            "strength": "ev",
+            "playerId": 8479390,
+            "firstName": {
+              "default": "Taylor"
+            },
+            "lastName": {
+              "default": "Raddysh"
+            },
+            "name": {
+              "default": "T. Raddysh"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8479390.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyr-edm-raddysh-scores-goal-against-stuart-skinner-6384326780112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyr-edm-raddysh-marque-un-but-contre-stuart-skinner-6384327269112",
+            "highlightClip": 6384326780112,
+            "highlightClipFr": 6384327269112,
+            "discreteClip": 6384327569112,
+            "discreteClipFr": 6384327470112,
+            "goalsToDate": 5,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "12:04",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477839,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Sheary"
+                },
+                "name": {
+                  "default": "C. Sheary"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020175/ev997.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 1145,
+            "strength": "ev",
+            "playerId": 8476468,
+            "firstName": {
+              "default": "J.T."
+            },
+            "lastName": {
+              "default": "Miller"
+            },
+            "name": {
+              "default": "J. Miller"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8476468.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyr-edm-miller-scores-goal-against-stuart-skinner-6384326916112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyr-edm-miller-scores-goal-6384328577112",
+            "highlightClip": 6384326916112,
+            "highlightClipFr": 6384328577112,
+            "discreteClip": 6384326121112,
+            "discreteClipFr": 6384325624112,
+            "goalsToDate": 3,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "NYR"
+            },
+            "timeInPeriod": "02:49",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482073,
+                "firstName": {
+                  "default": "Braden"
+                },
+                "lastName": {
+                  "default": "Schneider"
+                },
+                "name": {
+                  "default": "B. Schneider"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 4
+              },
+              {
+                "playerId": 8482109,
+                "firstName": {
+                  "default": "Alexis"
+                },
+                "lastName": {
+                  "default": "Lafrenière"
+                },
+                "name": {
+                  "default": "A. Lafrenière"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020175/ev1145.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8474641,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8474641.png",
+        "name": {
+          "default": "A. Henrique"
+        },
+        "sweaterNo": 19,
+        "position": "C",
+        "goals": 0,
+        "assists": 1,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8477498,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8477498.png",
+        "name": {
+          "default": "D. Nurse"
+        },
+        "sweaterNo": 25,
+        "position": "D",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8476468,
+        "teamAbbrev": "NYR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8476468.png",
+        "name": {
+          "default": "J. Miller"
+        },
+        "sweaterNo": 8,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "17:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Troy"
+              },
+              "lastName": {
+                "default": "Stecher"
+              },
+              "sweaterNumber": 51
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Laba"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "McDavid"
+              },
+              "sweaterNumber": 97
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "13:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Isaac"
+              },
+              "lastName": {
+                "default": "Howard"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Juuso"
+              },
+              "lastName": {
+                "default": "Parssinen",
+                "cs": "Pärssinen",
+                "fi": "Pärssinen",
+                "sk": "Pärssinen",
+                "sv": "Pärssinen"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Fox"
+              },
+              "sweaterNumber": 23
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Darnell"
+              },
+              "lastName": {
+                "default": "Nurse"
+              },
+              "sweaterNumber": 25
+            },
+            "descKey": "tripping",
+            "servedBy": {
+              "default": "A. Lafrenière"
+            }
+          },
+          {
+            "timeInPeriod": "19:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mika"
+              },
+              "lastName": {
+                "default": "Zibanejad"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Roslovic"
+              },
+              "sweaterNumber": 28
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "02:11",
+    "secondsRemaining": 131,
+    "running": false,
+    "inIntermission": false
+  }
+}

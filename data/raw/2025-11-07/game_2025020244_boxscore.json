@@ -1,0 +1,80 @@
+{
+  "id": 2025020244,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-09",
+  "venue": {
+    "default": "Little Caesars Arena"
+  },
+  "venueLocation": {
+    "default": "Detroit"
+  },
+  "startTimeUTC": "2025-11-09T18:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-05:00",
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 551,
+      "market": "A",
+      "countryCode": "US",
+      "network": "CHSN",
+      "sequenceNumber": 243
+    },
+    {
+      "id": 562,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNDET",
+      "sequenceNumber": 271
+    }
+  ],
+  "gameState": "FUT",
+  "gameScheduleState": "OK",
+  "regPeriods": 3,
+  "awayTeam": {
+    "id": 16,
+    "commonName": {
+      "default": "Blackhawks"
+    },
+    "abbrev": "CHI",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg?season=20252026",
+    "placeName": {
+      "default": "Chicago"
+    },
+    "placeNameWithPreposition": {
+      "default": "Chicago",
+      "fr": "de Chicago"
+    }
+  },
+  "homeTeam": {
+    "id": 17,
+    "commonName": {
+      "default": "Red Wings"
+    },
+    "abbrev": "DET",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026",
+    "placeName": {
+      "default": "Detroit"
+    },
+    "placeNameWithPreposition": {
+      "default": "Detroit",
+      "fr": "de Detroit"
+    }
+  },
+  "clock": {
+    "timeRemaining": "20:00",
+    "secondsRemaining": 1200,
+    "running": false,
+    "inIntermission": false
+  }
+}

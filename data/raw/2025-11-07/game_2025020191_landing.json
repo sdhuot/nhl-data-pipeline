@@ -1,0 +1,635 @@
+{
+  "id": 2025020191,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-01",
+  "venue": {
+    "default": "Crypto.com Arena"
+  },
+  "venueLocation": {
+    "default": "Los Angeles"
+  },
+  "startTimeUTC": "2025-11-02T01:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "America/Los_Angeles",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 564,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNW",
+      "sequenceNumber": 279
+    },
+    {
+      "id": 409,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSGSN",
+      "sequenceNumber": 402
+    },
+    {
+      "id": 22,
+      "market": "H",
+      "countryCode": "US",
+      "network": "KCAL",
+      "sequenceNumber": 655
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 1,
+    "commonName": {
+      "default": "Devils"
+    },
+    "abbrev": "NJD",
+    "placeName": {
+      "default": "New Jersey"
+    },
+    "placeNameWithPreposition": {
+      "default": "New Jersey",
+      "fr": "du New Jersey"
+    },
+    "score": 4,
+    "sog": 22,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+  },
+  "homeTeam": {
+    "id": 26,
+    "commonName": {
+      "default": "Kings"
+    },
+    "abbrev": "LAK",
+    "placeName": {
+      "default": "Los Angeles"
+    },
+    "placeNameWithPreposition": {
+      "default": "Los Angeles",
+      "fr": "de Los Angeles"
+    },
+    "score": 1,
+    "sog": 44,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 69,
+            "strength": "ev",
+            "playerId": 8480002,
+            "firstName": {
+              "default": "Nico"
+            },
+            "lastName": {
+              "default": "Hischier"
+            },
+            "name": {
+              "default": "N. Hischier"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8480002.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-lak-hischier-scores-goal-against-darcy-kuemper-6384410536112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-lak-hischier-marque-un-but-contre-darcy-kuemper-6384410059112",
+            "highlightClip": 6384410536112,
+            "highlightClipFr": 6384410059112,
+            "discreteClip": 6384411496112,
+            "discreteClipFr": 6384411014112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "01:22",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482684,
+                "firstName": {
+                  "default": "Luke"
+                },
+                "lastName": {
+                  "default": "Hughes"
+                },
+                "name": {
+                  "default": "L. Hughes"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020191/ev69.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 464,
+            "strength": "ev",
+            "playerId": 8483531,
+            "firstName": {
+              "default": "Brian"
+            },
+            "lastName": {
+              "default": "Halonen"
+            },
+            "name": {
+              "default": "B. Halonen"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8483531.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-lak-halonen-scores-goal-against-darcy-kuemper-6384413624112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-lak-halonen-marque-un-but-contre-darcy-kuemper-6384413622112",
+            "highlightClip": 6384413624112,
+            "highlightClipFr": 6384413622112,
+            "discreteClip": 6384411758112,
+            "discreteClipFr": 6384412828112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "03:12",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476822,
+                "firstName": {
+                  "default": "Luke"
+                },
+                "lastName": {
+                  "default": "Glendening"
+                },
+                "name": {
+                  "default": "L. Glendening"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8479395,
+                "firstName": {
+                  "default": "Dennis"
+                },
+                "lastName": {
+                  "default": "Cholowski"
+                },
+                "name": {
+                  "default": "D. Cholowski"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020191/ev464.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 764,
+            "strength": "sh",
+            "playerId": 8482110,
+            "firstName": {
+              "default": "Dawson"
+            },
+            "lastName": {
+              "default": "Mercer"
+            },
+            "name": {
+              "default": "D. Mercer"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8482110.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-lak-mercer-scores-shg-against-darcy-kuemper-6384413741112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-lak-mercer-marque-un-but-en-i-n-contre-darcy-kuemper-6384414558112",
+            "highlightClip": 6384413741112,
+            "highlightClipFr": 6384414558112,
+            "discreteClip": 6384412800112,
+            "discreteClipFr": 6384414056112,
+            "goalsToDate": 7,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "03:09",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478399,
+                "firstName": {
+                  "default": "Jonas"
+                },
+                "lastName": {
+                  "default": "Siegenthaler"
+                },
+                "name": {
+                  "default": "J. Siegenthaler"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020191/ev764.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 851,
+            "strength": "ev",
+            "playerId": 8483808,
+            "firstName": {
+              "default": "Andrei",
+              "cs": "Andrej",
+              "sk": "Andrej"
+            },
+            "lastName": {
+              "default": "Kuzmenko"
+            },
+            "name": {
+              "default": "A. Kuzmenko"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8483808.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-lak-kuzmenko-scores-goal-against-jacob-markstrom-6384414072112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-lak-kuzmenko-marque-un-but-contre-jacob-markstrom-6384415146112",
+            "highlightClip": 6384414072112,
+            "highlightClipFr": 6384415146112,
+            "discreteClip": 6384413497112,
+            "discreteClipFr": 6384413576112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "09:49",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8471685,
+                "firstName": {
+                  "default": "Anze",
+                  "cs": "Anže",
+                  "sk": "Anže"
+                },
+                "lastName": {
+                  "default": "Kopitar"
+                },
+                "name": {
+                  "default": "A. Kopitar"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8482155,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Laferriere"
+                },
+                "name": {
+                  "default": "A. Laferriere"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020191/ev851.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1460",
+            "eventId": 940,
+            "strength": "sh",
+            "playerId": 8482110,
+            "firstName": {
+              "default": "Dawson"
+            },
+            "lastName": {
+              "default": "Mercer"
+            },
+            "name": {
+              "default": "D. Mercer"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8482110.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-lak-mercer-scores-empty-net-goal-6384415163112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-lak-mercer-njd-marque-un-but-dans-un-filet-desert-6384413882112",
+            "highlightClip": 6384415163112,
+            "highlightClipFr": 6384413882112,
+            "discreteClip": 6384414093112,
+            "discreteClipFr": 6384415075112,
+            "goalsToDate": 8,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "16:12",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8474593,
+                "firstName": {
+                  "default": "Jacob"
+                },
+                "lastName": {
+                  "default": "Markstrom",
+                  "cs": "Markström",
+                  "fi": "Markström",
+                  "sk": "Markström",
+                  "sv": "Markström"
+                },
+                "name": {
+                  "default": "J. Markstrom",
+                  "cs": "J. Markström",
+                  "fi": "J. Markström",
+                  "sk": "J. Markström",
+                  "sv": "J. Markström"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 25
+              },
+              {
+                "playerId": 8475455,
+                "firstName": {
+                  "default": "Brenden"
+                },
+                "lastName": {
+                  "default": "Dillon"
+                },
+                "name": {
+                  "default": "B. Dillon"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 5
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020191/ev940.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8474593,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8474593.png",
+        "name": {
+          "default": "J. Markstrom",
+          "cs": "J. Markström",
+          "fi": "J. Markström",
+          "sk": "J. Markström",
+          "sv": "J. Markström"
+        },
+        "sweaterNo": 25,
+        "position": "G",
+        "goalsAgainstAverage": 1.0,
+        "savePctg": 0.977
+      },
+      {
+        "star": 2,
+        "playerId": 8483531,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8483531.png",
+        "name": {
+          "default": "B. Halonen"
+        },
+        "sweaterNo": 48,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482110,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8482110.png",
+        "name": {
+          "default": "D. Mercer"
+        },
+        "sweaterNo": 91,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Arseny"
+              },
+              "lastName": {
+                "default": "Gritsyuk"
+              },
+              "sweaterNumber": 81
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Joel"
+              },
+              "lastName": {
+                "default": "Armia"
+              },
+              "sweaterNumber": 40
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "13:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nico"
+              },
+              "lastName": {
+                "default": "Hischier"
+              },
+              "sweaterNumber": 13
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Laferriere"
+              },
+              "sweaterNumber": 14
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:10",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Timo"
+              },
+              "lastName": {
+                "default": "Meier"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikey",
+                "cs": "Michael",
+                "de": "Michael",
+                "fi": "Michael",
+                "sk": "Michael",
+                "sv": "Michael"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "15:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dougie"
+              },
+              "lastName": {
+                "default": "Hamilton"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Andrei",
+                "cs": "Andrej",
+                "sk": "Andrej"
+              },
+              "lastName": {
+                "default": "Kuzmenko"
+              },
+              "sweaterNumber": 96
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

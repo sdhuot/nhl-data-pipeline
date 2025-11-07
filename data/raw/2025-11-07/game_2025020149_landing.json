@@ -1,0 +1,931 @@
+{
+  "id": 2025020149,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-27",
+  "venue": {
+    "default": "Canadian Tire Centre"
+  },
+  "venueLocation": {
+    "default": "Ottawa"
+  },
+  "startTimeUTC": "2025-10-27T23:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 548,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "Prime",
+      "sequenceNumber": 105
+    },
+    {
+      "id": 33,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "RDS",
+      "sequenceNumber": 132
+    },
+    {
+      "id": 31,
+      "market": "A",
+      "countryCode": "US",
+      "network": "NESN",
+      "sequenceNumber": 396
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 6,
+    "commonName": {
+      "default": "Bruins"
+    },
+    "abbrev": "BOS",
+    "placeName": {
+      "default": "Boston"
+    },
+    "placeNameWithPreposition": {
+      "default": "Boston",
+      "fr": "de Boston"
+    },
+    "score": 2,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    },
+    "score": 7,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 152,
+            "strength": "ev",
+            "playerId": 8479987,
+            "firstName": {
+              "default": "Morgan"
+            },
+            "lastName": {
+              "default": "Geekie"
+            },
+            "name": {
+              "default": "M. Geekie"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8479987.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-geekie-scores-goal-against-leevi-merilainen-6384164117112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-geekie-marque-un-but-contre-leevi-merilainen-6384163412112",
+            "highlightClip": 6384164117112,
+            "highlightClipFr": 6384163412112,
+            "discreteClip": 6384163411112,
+            "discreteClipFr": 6384164511112,
+            "goalsToDate": 7,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "03:06",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev152.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 103,
+            "strength": "pp",
+            "playerId": 8480208,
+            "firstName": {
+              "default": "Drake"
+            },
+            "lastName": {
+              "default": "Batherson"
+            },
+            "name": {
+              "default": "D. Batherson"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480208.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-batherson-scores-ppg-against-jeremy-swayman-6384167079112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-batherson-marque-un-but-en-a-n-contre-jeremy-swayman-6384164520112",
+            "highlightClip": 6384167079112,
+            "highlightClipFr": 6384164520112,
+            "discreteClip": 6384166384112,
+            "discreteClipFr": 6384165981112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "10:25",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482092,
+                "firstName": {
+                  "default": "Ridly"
+                },
+                "lastName": {
+                  "default": "Greig"
+                },
+                "name": {
+                  "default": "R. Greig"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8482105,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Sanderson"
+                },
+                "name": {
+                  "default": "J. Sanderson"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 85
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev103.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 506,
+            "strength": "ev",
+            "playerId": 8473512,
+            "firstName": {
+              "default": "Claude"
+            },
+            "lastName": {
+              "default": "Giroux"
+            },
+            "name": {
+              "default": "C. Giroux"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8473512.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-giroux-scores-goal-against-jeremy-swayman-6384166125112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-giroux-marque-un-but-contre-jeremy-swayman-6384165729112",
+            "highlightClip": 6384166125112,
+            "highlightClipFr": 6384165729112,
+            "discreteClip": 6384167121112,
+            "discreteClipFr": 6384166541112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "01:08",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478020,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Amadio"
+                },
+                "name": {
+                  "default": "M. Amadio"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8481596,
+                "firstName": {
+                  "default": "Shane"
+                },
+                "lastName": {
+                  "default": "Pinto"
+                },
+                "name": {
+                  "default": "S. Pinto"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 12
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev506.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 779,
+            "strength": "ev",
+            "playerId": 8480208,
+            "firstName": {
+              "default": "Drake"
+            },
+            "lastName": {
+              "default": "Batherson"
+            },
+            "name": {
+              "default": "D. Batherson"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480208.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-batherson-scores-goal-against-jeremy-swayman-6384169414112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-batherson-marque-un-but-contre-jeremy-swayman-6384168554112",
+            "highlightClip": 6384169414112,
+            "highlightClipFr": 6384168554112,
+            "discreteClip": 6384166568112,
+            "discreteClipFr": 6384165951112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "14:44",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480188,
+                "firstName": {
+                  "default": "Fabian"
+                },
+                "lastName": {
+                  "default": "Zetterlund"
+                },
+                "name": {
+                  "default": "F. Zetterlund"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 20
+              },
+              {
+                "playerId": 8474189,
+                "firstName": {
+                  "default": "Lars"
+                },
+                "lastName": {
+                  "default": "Eller"
+                },
+                "name": {
+                  "default": "L. Eller"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 89
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev779.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 857,
+            "strength": "pp",
+            "playerId": 8482116,
+            "firstName": {
+              "default": "Tim"
+            },
+            "lastName": {
+              "default": "Stützle"
+            },
+            "name": {
+              "default": "T. Stützle"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-stutzle-scores-ppg-against-jeremy-swayman-6384168078112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-stutzle-marque-un-but-en-a-n-contre-jeremy-swayman-6384168171112",
+            "highlightClip": 6384168078112,
+            "highlightClipFr": 6384168171112,
+            "discreteClip": 6384170218112,
+            "discreteClipFr": 6384169729112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "00:13",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482105,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Sanderson"
+                },
+                "name": {
+                  "default": "J. Sanderson"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 85
+              },
+              {
+                "playerId": 8480208,
+                "firstName": {
+                  "default": "Drake"
+                },
+                "lastName": {
+                  "default": "Batherson"
+                },
+                "name": {
+                  "default": "D. Batherson"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 19
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev857.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 109,
+            "strength": "pp",
+            "playerId": 8482116,
+            "firstName": {
+              "default": "Tim"
+            },
+            "lastName": {
+              "default": "Stützle"
+            },
+            "name": {
+              "default": "T. Stützle"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-stutzle-scores-ppg-against-jeremy-swayman-6384168469112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-stutzle-marque-un-but-en-a-n-contre-jeremy-swayman-6384169661112",
+            "highlightClip": 6384168469112,
+            "highlightClipFr": 6384169661112,
+            "discreteClip": 6384169850112,
+            "discreteClipFr": 6384169557112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "09:33",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482105,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Sanderson"
+                },
+                "name": {
+                  "default": "J. Sanderson"
+                },
+                "assistsToDate": 8,
+                "sweaterNumber": 85
+              },
+              {
+                "playerId": 8481528,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Cozens"
+                },
+                "name": {
+                  "default": "D. Cozens"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev109.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 110,
+            "strength": "ev",
+            "playerId": 8476393,
+            "firstName": {
+              "default": "Nick"
+            },
+            "lastName": {
+              "default": "Cousins"
+            },
+            "name": {
+              "default": "N. Cousins"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8476393.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-cousins-scores-goal-against-jeremy-swayman-6384169269112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-cousins-marque-un-but-contre-jeremy-swayman-6384169367112",
+            "highlightClip": 6384169269112,
+            "highlightClipFr": 6384169367112,
+            "discreteClip": 6384169751112,
+            "discreteClipFr": 6384170147112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "12:22",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482116,
+                "firstName": {
+                  "default": "Tim"
+                },
+                "lastName": {
+                  "default": "Stützle"
+                },
+                "name": {
+                  "default": "T. Stützle"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8475324,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Jensen"
+                },
+                "name": {
+                  "default": "N. Jensen"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 3
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev110.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 111,
+            "strength": "pp",
+            "playerId": 8480188,
+            "firstName": {
+              "default": "Fabian"
+            },
+            "lastName": {
+              "default": "Zetterlund"
+            },
+            "name": {
+              "default": "F. Zetterlund"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480188.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-zetterlund-scores-ppg-against-jeremy-swayman-6384169756112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-zetterlund-marque-un-but-en-a-n-contre-jeremy-swayman-6384168682112",
+            "highlightClip": 6384169756112,
+            "highlightClipFr": 6384168682112,
+            "discreteClip": 6384170654112,
+            "discreteClipFr": 6384169470112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 7,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "13:04",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478469,
+                "firstName": {
+                  "default": "Thomas"
+                },
+                "lastName": {
+                  "default": "Chabot"
+                },
+                "name": {
+                  "default": "T. Chabot"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 72
+              },
+              {
+                "playerId": 8474102,
+                "firstName": {
+                  "default": "David"
+                },
+                "lastName": {
+                  "default": "Perron"
+                },
+                "name": {
+                  "default": "D. Perron"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 57
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev111.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1134,
+            "strength": "ev",
+            "playerId": 8478042,
+            "firstName": {
+              "default": "Viktor"
+            },
+            "lastName": {
+              "default": "Arvidsson"
+            },
+            "name": {
+              "default": "V. Arvidsson"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8478042.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-ott-arvidsson-scores-goal-against-leevi-merilainen-6384170172112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-ott-arvidsson-marque-un-but-contre-leevi-merilainen-6384169383112",
+            "highlightClip": 6384170172112,
+            "highlightClipFr": 6384169383112,
+            "discreteClip": 6384171333112,
+            "discreteClipFr": 6384168484112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 7,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "19:50",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483489,
+                "firstName": {
+                  "default": "Fraser"
+                },
+                "lastName": {
+                  "default": "Minten"
+                },
+                "name": {
+                  "default": "F. Minten"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 93
+              },
+              {
+                "playerId": 8479661,
+                "firstName": {
+                  "default": "Tanner"
+                },
+                "lastName": {
+                  "default": "Jeannot"
+                },
+                "name": {
+                  "default": "T. Jeannot"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 84
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020149/ev1134.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480208,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480208.png",
+        "name": {
+          "default": "D. Batherson"
+        },
+        "sweaterNo": 19,
+        "position": "R",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8482116,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+        "name": {
+          "default": "T. Stützle"
+        },
+        "sweaterNo": 18,
+        "position": "C",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8482447,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482447.png",
+        "name": {
+          "default": "L. Meriläinen"
+        },
+        "sweaterNo": 1,
+        "position": "G",
+        "goalsAgainstAverage": 2.0,
+        "savePctg": 0.929
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "Eyssimont"
+              },
+              "sweaterNumber": 81
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Kleven"
+              },
+              "sweaterNumber": 43
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "13:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mark"
+              },
+              "lastName": {
+                "default": "Kastelic"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Fabian"
+              },
+              "lastName": {
+                "default": "Zetterlund"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Zadorov"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "Amadio"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "04:14",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Cozens"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Zadorov"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "09:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "McAvoy"
+              },
+              "sweaterNumber": 73
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tim"
+              },
+              "lastName": {
+                "default": "Stützle"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "12:43",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "McAvoy"
+              },
+              "sweaterNumber": 73
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Leevi"
+              },
+              "lastName": {
+                "default": "Meriläinen"
+              },
+              "sweaterNumber": 1
+            },
+            "descKey": "interference-goalkeeper"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

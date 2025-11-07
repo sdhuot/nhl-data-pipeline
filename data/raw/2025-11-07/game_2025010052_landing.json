@@ -1,0 +1,706 @@
+{
+  "id": 2025010052,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-27",
+  "venue": {
+    "default": "KeyBank Center"
+  },
+  "venueLocation": {
+    "default": "Buffalo"
+  },
+  "startTimeUTC": "2025-09-27T19:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 17,
+    "commonName": {
+      "default": "Red Wings"
+    },
+    "abbrev": "DET",
+    "placeName": {
+      "default": "Detroit"
+    },
+    "placeNameWithPreposition": {
+      "default": "Detroit",
+      "fr": "de Detroit"
+    },
+    "score": 2,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 5,
+    "sog": 21,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 156,
+            "strength": "ev",
+            "playerId": 8480839,
+            "firstName": {
+              "default": "Rasmus"
+            },
+            "lastName": {
+              "default": "Dahlin"
+            },
+            "name": {
+              "default": "R. Dahlin"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480839.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-dahlin-scores-goal-against-sebastian-cossa-6380195730112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-dahlin-marque-un-but-contre-sebastian-cossa-6380195637112",
+            "highlightClip": 6380195730112,
+            "highlightClipFr": 6380195637112,
+            "discreteClip": 6380194535112,
+            "discreteClipFr": 6380196990112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "03:41",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481524,
+                "firstName": {
+                  "default": "Bowen"
+                },
+                "lastName": {
+                  "default": "Byram"
+                },
+                "name": {
+                  "default": "B. Byram"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 4
+              },
+              {
+                "playerId": 8484145,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Benson"
+                },
+                "name": {
+                  "default": "Z. Benson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010052/ev156.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 202,
+            "strength": "ev",
+            "playerId": 8485404,
+            "firstName": {
+              "default": "Radim"
+            },
+            "lastName": {
+              "default": "Mrtka"
+            },
+            "name": {
+              "default": "R. Mrtka"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8485404.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-mrtka-scores-goal-against-sebastian-cossa-6380196123112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-mrtka-marque-un-but-contre-sebastian-cossa-6380195511112",
+            "highlightClip": 6380196123112,
+            "highlightClipFr": 6380195511112,
+            "discreteClip": 6380196520112,
+            "discreteClipFr": 6380195515112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "12:17",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484797,
+                "firstName": {
+                  "default": "Konsta"
+                },
+                "lastName": {
+                  "default": "Helenius"
+                },
+                "name": {
+                  "default": "K. Helenius"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 94
+              },
+              {
+                "playerId": 8482765,
+                "firstName": {
+                  "default": "Isak"
+                },
+                "lastName": {
+                  "default": "Rosen"
+                },
+                "name": {
+                  "default": "I. Rosen"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010052/ev202.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 63,
+            "strength": "ev",
+            "playerId": 8474141,
+            "firstName": {
+              "default": "Patrick"
+            },
+            "lastName": {
+              "default": "Kane"
+            },
+            "name": {
+              "default": "P. Kane"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8474141.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-kane-scores-goal-against-alex-lyon-6380196828112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-kane-marque-un-but-contre-alex-lyon-6380196033112",
+            "highlightClip": 6380196828112,
+            "highlightClipFr": 6380196033112,
+            "discreteClip": 6380197716112,
+            "discreteClipFr": 6380196533112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "18:27",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479337,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "DeBrincat"
+                },
+                "name": {
+                  "default": "A. DeBrincat"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010052/ev63.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 472,
+            "strength": "ev",
+            "playerId": 8479420,
+            "firstName": {
+              "default": "Tage"
+            },
+            "lastName": {
+              "default": "Thompson"
+            },
+            "name": {
+              "default": "T. Thompson"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479420.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-thompson-scores-goal-against-sebastian-cossa-6380198317112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-thompson-marque-un-but-contre-sebastian-cossa-6380198995112",
+            "highlightClip": 6380198317112,
+            "highlightClipFr": 6380198995112,
+            "discreteClip": 6380197145112,
+            "discreteClipFr": 6380196961112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "00:14",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480064,
+                "firstName": {
+                  "default": "Josh"
+                },
+                "lastName": {
+                  "default": "Norris"
+                },
+                "name": {
+                  "default": "J. Norris"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010052/ev472.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 67,
+            "strength": "ev",
+            "playerId": 8483464,
+            "firstName": {
+              "default": "Marco"
+            },
+            "lastName": {
+              "default": "Kasper"
+            },
+            "name": {
+              "default": "M. Kasper"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8483464.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-kasper-scores-goal-against-alex-lyon-6380197536112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-kasper-marque-un-but-contre-alex-lyon-6380197745112",
+            "highlightClip": 6380197536112,
+            "highlightClipFr": 6380197745112,
+            "discreteClip": 6380198604112,
+            "discreteClipFr": 6380196652112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "13:36",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475279,
+                "firstName": {
+                  "default": "Ben"
+                },
+                "lastName": {
+                  "default": "Chiarot"
+                },
+                "name": {
+                  "default": "B. Chiarot"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8479337,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "DeBrincat"
+                },
+                "name": {
+                  "default": "A. DeBrincat"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010052/ev67.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 790,
+            "strength": "pp",
+            "playerId": 8479420,
+            "firstName": {
+              "default": "Tage"
+            },
+            "lastName": {
+              "default": "Thompson"
+            },
+            "name": {
+              "default": "T. Thompson"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479420.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-thompson-scores-ppg-against-sebastian-cossa-6380197860112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-thompson-marque-un-but-en-a-n-contre-sebastian-cossa-6380199997112",
+            "highlightClip": 6380197860112,
+            "highlightClipFr": 6380199997112,
+            "discreteClip": 6380199301112,
+            "discreteClipFr": 6380197259112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "00:37",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477949,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Tuch"
+                },
+                "name": {
+                  "default": "A. Tuch"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 89
+              },
+              {
+                "playerId": 8480064,
+                "firstName": {
+                  "default": "Josh"
+                },
+                "lastName": {
+                  "default": "Norris"
+                },
+                "name": {
+                  "default": "J. Norris"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010052/ev790.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "0651",
+            "eventId": 1022,
+            "strength": "ev",
+            "playerId": 8480064,
+            "firstName": {
+              "default": "Josh"
+            },
+            "lastName": {
+              "default": "Norris"
+            },
+            "name": {
+              "default": "J. Norris"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480064.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/josh-norris-with-a-goal-vs-detroit-red-wings-6380198264112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/josh-norris-with-a-goal-vs-les-red-wings-de-detroit-6380198060112",
+            "highlightClip": 6380198264112,
+            "highlightClipFr": 6380198060112,
+            "discreteClip": 6380197960112,
+            "discreteClipFr": 6380199327112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "19:47",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8479420,
+                "firstName": {
+                  "default": "Tage"
+                },
+                "lastName": {
+                  "default": "Thompson"
+                },
+                "name": {
+                  "default": "T. Thompson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 72
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010052/ev1022.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8479420,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479420.png",
+        "name": {
+          "default": "T. Thompson"
+        },
+        "sweaterNo": 72,
+        "position": "C",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8480064,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480064.png",
+        "name": {
+          "default": "J. Norris"
+        },
+        "sweaterNo": 9,
+        "position": "C",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8485404,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8485404.png",
+        "name": {
+          "default": "R. Mrtka"
+        },
+        "sweaterNo": 57,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "15:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Johnson"
+              },
+              "sweaterNumber": 33
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ian"
+              },
+              "lastName": {
+                "default": "Mitchell"
+              },
+              "sweaterNumber": 51
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "15:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Conor"
+              },
+              "lastName": {
+                "default": "Timmins"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Amadeus"
+              },
+              "lastName": {
+                "default": "Lombardi"
+              },
+              "sweaterNumber": 78
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "19:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sebastian"
+              },
+              "lastName": {
+                "default": "Cossa"
+              },
+              "sweaterNumber": 33
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "descKey": "delaying-game-illegal-play-by-goalie",
+            "servedBy": {
+              "default": "I. Mitchell"
+            }
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "14:02",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Albert"
+              },
+              "lastName": {
+                "default": "Johansson"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Norris"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

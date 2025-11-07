@@ -1,0 +1,590 @@
+{
+  "id": 2025020081,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-18",
+  "venue": {
+    "default": "Xfinity Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Philadelphia",
+    "fr": "Philadelphie"
+  },
+  "startTimeUTC": "2025-10-18T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 567,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNNO",
+      "sequenceNumber": 274
+    },
+    {
+      "id": 322,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NBCSP",
+      "sequenceNumber": 380
+    },
+    {
+      "id": 569,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNWI",
+      "sequenceNumber": 410
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 30,
+    "commonName": {
+      "default": "Wild"
+    },
+    "abbrev": "MIN",
+    "placeName": {
+      "default": "Minnesota"
+    },
+    "placeNameWithPreposition": {
+      "default": "Minnesota",
+      "fr": "du Minnesota"
+    },
+    "score": 1,
+    "sog": 16,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg"
+  },
+  "homeTeam": {
+    "id": 4,
+    "commonName": {
+      "default": "Flyers"
+    },
+    "abbrev": "PHI",
+    "placeName": {
+      "default": "Philadelphia",
+      "fr": "Philadelphie"
+    },
+    "placeNameWithPreposition": {
+      "default": "Philadelphia",
+      "fr": "de Philadelphie"
+    },
+    "score": 2,
+    "sog": 21,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 496,
+            "strength": "ev",
+            "playerId": 8475765,
+            "firstName": {
+              "default": "Vladimir"
+            },
+            "lastName": {
+              "default": "Tarasenko"
+            },
+            "name": {
+              "default": "V. Tarasenko"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8475765.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-phi-tarasenko-scores-goal-against-dan-vladar-6383050864112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vladimir-tarasenko-with-a-goal-vs-les-flyers-de-philadelphie-6383050280112",
+            "highlightClip": 6383050864112,
+            "highlightClipFr": 6383050280112,
+            "discreteClip": 6383050768112,
+            "discreteClipFr": 6383049278112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MIN"
+            },
+            "timeInPeriod": "01:55",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482079,
+                "firstName": {
+                  "default": "Marco"
+                },
+                "lastName": {
+                  "default": "Rossi"
+                },
+                "name": {
+                  "default": "M. Rossi"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8476463,
+                "firstName": {
+                  "default": "Jonas"
+                },
+                "lastName": {
+                  "default": "Brodin"
+                },
+                "name": {
+                  "default": "J. Brodin"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 25
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020081/ev496.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 354,
+            "strength": "ev",
+            "playerId": 8480015,
+            "firstName": {
+              "default": "Owen"
+            },
+            "lastName": {
+              "default": "Tippett"
+            },
+            "name": {
+              "default": "O. Tippett"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480015.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-phi-tippett-scores-goal-against-jesper-wallstedt-6383057367112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/min-phi-tippett-marque-un-but-contre-jesper-wallstedt-6383057152112",
+            "highlightClip": 6383057367112,
+            "highlightClipFr": 6383057152112,
+            "discreteClip": 6383057442112,
+            "discreteClipFr": 6383058721112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "07:10",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481533,
+                "firstName": {
+                  "default": "Trevor"
+                },
+                "lastName": {
+                  "default": "Zegras"
+                },
+                "name": {
+                  "default": "T. Zegras"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 46
+              },
+              {
+                "playerId": 8477989,
+                "firstName": {
+                  "default": "Christian"
+                },
+                "lastName": {
+                  "default": "Dvorak"
+                },
+                "name": {
+                  "default": "C. Dvorak"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 22
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020081/ev354.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 1149,
+            "strength": "ev",
+            "playerId": 8480220,
+            "firstName": {
+              "default": "Noah"
+            },
+            "lastName": {
+              "default": "Cates"
+            },
+            "name": {
+              "default": "N. Cates"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480220.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-phi-cates-scores-goal-against-jesper-wallstedt-6383058765112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/min-phi-cates-marque-un-but-contre-jesper-wallstedt-6383058180112",
+            "highlightClip": 6383058765112,
+            "highlightClipFr": 6383058180112,
+            "discreteClip": 6383058062112,
+            "discreteClipFr": 6383058565112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "02:37",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482159,
+                "firstName": {
+                  "default": "Tyson"
+                },
+                "lastName": {
+                  "default": "Foerster"
+                },
+                "name": {
+                  "default": "T. Foerster"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8482142,
+                "firstName": {
+                  "default": "Jamie"
+                },
+                "lastName": {
+                  "default": "Drysdale"
+                },
+                "name": {
+                  "default": "J. Drysdale"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020081/ev1149.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480220,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480220.png",
+        "name": {
+          "default": "N. Cates"
+        },
+        "sweaterNo": 27,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8480015,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480015.png",
+        "name": {
+          "default": "O. Tippett"
+        },
+        "sweaterNo": 74,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8478435,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8478435.png",
+        "name": {
+          "default": "D. Vladar",
+          "cs": "D. Vladař",
+          "sk": "D. Vladař"
+        },
+        "sweaterNo": 80,
+        "position": "G",
+        "goalsAgainstAverage": 0.96,
+        "savePctg": 0.938
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:56",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nicolas"
+              },
+              "lastName": {
+                "default": "Deslauriers"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Marcus"
+              },
+              "lastName": {
+                "default": "Foligno"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "01:56",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Marcus"
+              },
+              "lastName": {
+                "default": "Foligno"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nicolas"
+              },
+              "lastName": {
+                "default": "Deslauriers"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "18:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonas"
+              },
+              "lastName": {
+                "default": "Brodin"
+              },
+              "sweaterNumber": 25
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Christian"
+              },
+              "lastName": {
+                "default": "Dvorak"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:55",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "descKey": "delaying-game-unsuccessful-challenge",
+            "servedBy": {
+              "default": "T. Zegras"
+            }
+          },
+          {
+            "timeInPeriod": "04:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Owen"
+              },
+              "lastName": {
+                "default": "Tippett"
+              },
+              "sweaterNumber": 74
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jonas"
+              },
+              "lastName": {
+                "default": "Brodin"
+              },
+              "sweaterNumber": 25
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "19:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Hartman"
+              },
+              "sweaterNumber": 38
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Owen"
+              },
+              "lastName": {
+                "default": "Tippett"
+              },
+              "sweaterNumber": 74
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jamie"
+              },
+              "lastName": {
+                "default": "Drysdale"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matt"
+              },
+              "lastName": {
+                "default": "Boldy"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "02:23",
+    "secondsRemaining": 143,
+    "running": false,
+    "inIntermission": false
+  }
+}

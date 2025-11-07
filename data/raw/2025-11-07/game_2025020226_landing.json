@@ -1,0 +1,838 @@
+{
+  "id": 2025020226,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-06",
+  "venue": {
+    "default": "Crypto.com Arena"
+  },
+  "venueLocation": {
+    "default": "Los Angeles"
+  },
+  "startTimeUTC": "2025-11-07T03:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-08:00",
+  "venueTimezone": "America/Los_Angeles",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 329,
+      "market": "N",
+      "countryCode": "US",
+      "network": "ESPN+",
+      "sequenceNumber": 16
+    },
+    {
+      "id": 391,
+      "market": "N",
+      "countryCode": "US",
+      "network": "HULU",
+      "sequenceNumber": 17
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 13,
+    "commonName": {
+      "default": "Panthers"
+    },
+    "abbrev": "FLA",
+    "placeName": {
+      "default": "Florida",
+      "fr": "Floride"
+    },
+    "placeNameWithPreposition": {
+      "default": "Florida",
+      "fr": "de la Floride"
+    },
+    "score": 5,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 26,
+    "commonName": {
+      "default": "Kings"
+    },
+    "abbrev": "LAK",
+    "placeName": {
+      "default": "Los Angeles"
+    },
+    "placeNameWithPreposition": {
+      "default": "Los Angeles",
+      "fr": "de Los Angeles"
+    },
+    "score": 2,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 77,
+            "strength": "ev",
+            "playerId": 8477935,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Bennett"
+            },
+            "name": {
+              "default": "S. Bennett"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477935.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-lak-bennett-scores-goal-against-anton-forsberg-6384770417112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-lak-bennett-marque-un-but-contre-anton-forsberg-6384772295112",
+            "highlightClip": 6384770417112,
+            "highlightClipFr": 6384772295112,
+            "discreteClip": 6384772194112,
+            "discreteClipFr": 6384772470112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "02:06",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8473507,
+                "firstName": {
+                  "default": "Jeff"
+                },
+                "lastName": {
+                  "default": "Petry"
+                },
+                "name": {
+                  "default": "J. Petry"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 2
+              },
+              {
+                "playerId": 8480003,
+                "firstName": {
+                  "default": "Jesper"
+                },
+                "lastName": {
+                  "default": "Boqvist"
+                },
+                "name": {
+                  "default": "J. Boqvist"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 70
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020226/ev77.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 227,
+            "strength": "pp",
+            "playerId": 8471685,
+            "firstName": {
+              "default": "Anze",
+              "cs": "Anže",
+              "sk": "Anže"
+            },
+            "lastName": {
+              "default": "Kopitar"
+            },
+            "name": {
+              "default": "A. Kopitar"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8471685.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-lak-kopitar-scores-ppg-against-sergei-bobrovsky-6384773387112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-lak-kopitar-marque-un-but-en-a-n-contre-sergei-bobrovsky-6384772528112",
+            "highlightClip": 6384773387112,
+            "highlightClipFr": 6384772528112,
+            "discreteClip": 6384773584112,
+            "discreteClipFr": 6384772423112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "09:23",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477960,
+                "firstName": {
+                  "default": "Adrian"
+                },
+                "lastName": {
+                  "default": "Kempe"
+                },
+                "name": {
+                  "default": "A. Kempe"
+                },
+                "assistsToDate": 11,
+                "sweaterNumber": 9
+              },
+              {
+                "playerId": 8482124,
+                "firstName": {
+                  "default": "Quinton"
+                },
+                "lastName": {
+                  "default": "Byfield"
+                },
+                "name": {
+                  "default": "Q. Byfield"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 55
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020226/ev227.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 351,
+            "strength": "ev",
+            "playerId": 8470621,
+            "firstName": {
+              "default": "Corey"
+            },
+            "lastName": {
+              "default": "Perry"
+            },
+            "name": {
+              "default": "C. Perry"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8470621.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-lak-perry-scores-goal-against-sergei-bobrovsky-6384771038112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-lak-perry-marque-un-but-contre-sergei-bobrovsky-6384772028112",
+            "highlightClip": 6384771038112,
+            "highlightClipFr": 6384772028112,
+            "discreteClip": 6384770448112,
+            "discreteClipFr": 6384770445112,
+            "goalsToDate": 6,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "11:00",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479998,
+                "firstName": {
+                  "default": "Mikey",
+                  "cs": "Michael",
+                  "de": "Michael",
+                  "fi": "Michael",
+                  "sk": "Michael",
+                  "sv": "Michael"
+                },
+                "lastName": {
+                  "default": "Anderson"
+                },
+                "name": {
+                  "default": "M. Anderson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 44
+              },
+              {
+                "playerId": 8476441,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Edmundson"
+                },
+                "name": {
+                  "default": "J. Edmundson"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020226/ev351.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 442,
+            "strength": "ev",
+            "playerId": 8473419,
+            "firstName": {
+              "default": "Brad"
+            },
+            "lastName": {
+              "default": "Marchand"
+            },
+            "name": {
+              "default": "B. Marchand"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8473419.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-lak-marchand-scores-goal-against-anton-forsberg-6384774095112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-lak-marchand-marque-un-but-contre-anton-forsberg-6384774287112",
+            "highlightClip": 6384774095112,
+            "highlightClipFr": 6384774287112,
+            "discreteClip": 6384773106112,
+            "discreteClipFr": 6384773301112,
+            "goalsToDate": 8,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "17:30",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477932,
+                "firstName": {
+                  "default": "Aaron"
+                },
+                "lastName": {
+                  "default": "Ekblad"
+                },
+                "name": {
+                  "default": "A. Ekblad"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 5
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020226/ev442.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 675,
+            "strength": "ev",
+            "playerId": 8477933,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Reinhart"
+            },
+            "name": {
+              "default": "S. Reinhart"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477933.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-lak-reinhart-scores-goal-against-anton-forsberg-6384774135112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-lak-reinhart-marque-un-but-contre-anton-forsberg-6384774136112",
+            "highlightClip": 6384774135112,
+            "highlightClipFr": 6384774136112,
+            "discreteClip": 6384773648112,
+            "discreteClipFr": 6384773250112,
+            "goalsToDate": 7,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "11:45",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477409,
+                "firstName": {
+                  "default": "Carter"
+                },
+                "lastName": {
+                  "default": "Verhaeghe"
+                },
+                "name": {
+                  "default": "C. Verhaeghe"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8478859,
+                "firstName": {
+                  "default": "Niko"
+                },
+                "lastName": {
+                  "default": "Mikkola"
+                },
+                "name": {
+                  "default": "N. Mikkola"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020226/ev675.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 901,
+            "strength": "sh",
+            "playerId": 8482113,
+            "firstName": {
+              "default": "Anton"
+            },
+            "lastName": {
+              "default": "Lundell"
+            },
+            "name": {
+              "default": "A. Lundell"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8482113.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-lak-lundell-scores-shg-against-anton-forsberg-6384776324112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-lak-lundell-marque-un-but-en-i-n-contre-anton-forsberg-6384775549112",
+            "highlightClip": 6384776324112,
+            "highlightClipFr": 6384775549112,
+            "discreteClip": 6384776616112,
+            "discreteClipFr": 6384774271112,
+            "goalsToDate": 4,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "08:41",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480185,
+                "firstName": {
+                  "default": "Eetu"
+                },
+                "lastName": {
+                  "default": "Luostarinen"
+                },
+                "name": {
+                  "default": "E. Luostarinen"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020226/ev901.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 951,
+            "strength": "ev",
+            "playerId": 8473419,
+            "firstName": {
+              "default": "Brad"
+            },
+            "lastName": {
+              "default": "Marchand"
+            },
+            "name": {
+              "default": "B. Marchand"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8473419.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-lak-marchand-scores-goal-against-anton-forsberg-6384776227112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-lak-marchand-marque-un-but-contre-anton-forsberg-6384774782112",
+            "highlightClip": 6384776227112,
+            "highlightClipFr": 6384774782112,
+            "discreteClip": 6384776127112,
+            "discreteClipFr": 6384776529112,
+            "goalsToDate": 9,
+            "awayScore": 5,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "12:36",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478859,
+                "firstName": {
+                  "default": "Niko"
+                },
+                "lastName": {
+                  "default": "Mikkola"
+                },
+                "name": {
+                  "default": "N. Mikkola"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020226/ev951.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8473419,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8473419.png",
+        "name": {
+          "default": "B. Marchand"
+        },
+        "sweaterNo": 63,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8478859,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8478859.png",
+        "name": {
+          "default": "N. Mikkola"
+        },
+        "sweaterNo": 77,
+        "position": "D",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8482113,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8482113.png",
+        "name": {
+          "default": "A. Lundell"
+        },
+        "sweaterNo": 15,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:32",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "A.J."
+              },
+              "lastName": {
+                "default": "Greer"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Corey"
+              },
+              "lastName": {
+                "default": "Perry"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "08:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brad"
+              },
+              "lastName": {
+                "default": "Marchand"
+              },
+              "sweaterNumber": 63
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikey",
+                "cs": "Michael",
+                "de": "Michael",
+                "fi": "Michael",
+                "sk": "Michael",
+                "sv": "Michael"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "holding-the-stick"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joel"
+              },
+              "lastName": {
+                "default": "Armia"
+              },
+              "sweaterNumber": 40
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          },
+          {
+            "timeInPeriod": "12:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Bennett"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Trevor"
+              },
+              "lastName": {
+                "default": "Moore"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:32",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Phillip"
+              },
+              "lastName": {
+                "default": "Danault"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Bennett"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "07:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carter"
+              },
+              "lastName": {
+                "default": "Verhaeghe"
+              },
+              "sweaterNumber": 23
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikey",
+                "cs": "Michael",
+                "de": "Michael",
+                "fi": "Michael",
+                "sk": "Michael",
+                "sv": "Michael"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "17:44",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Corey"
+              },
+              "lastName": {
+                "default": "Perry"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "A.J."
+              },
+              "lastName": {
+                "default": "Greer"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "17:44",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "A.J."
+              },
+              "lastName": {
+                "default": "Greer"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Corey"
+              },
+              "lastName": {
+                "default": "Perry"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "fighting"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": true,
+    "inIntermission": false
+  }
+}

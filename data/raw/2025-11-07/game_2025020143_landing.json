@@ -1,0 +1,692 @@
+{
+  "id": 2025020143,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-26",
+  "venue": {
+    "default": "Canada Life Centre"
+  },
+  "venueLocation": {
+    "default": "Winnipeg"
+  },
+  "startTimeUTC": "2025-10-26T22:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "America/Winnipeg",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 292,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN3",
+      "sequenceNumber": 134
+    },
+    {
+      "id": 558,
+      "market": "A",
+      "countryCode": "US",
+      "network": "Utah16",
+      "sequenceNumber": 372
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 68,
+    "commonName": {
+      "default": "Mammoth"
+    },
+    "abbrev": "UTA",
+    "placeName": {
+      "default": "Utah"
+    },
+    "placeNameWithPreposition": {
+      "default": "Utah",
+      "fr": "de l'Utah"
+    },
+    "score": 3,
+    "sog": 32,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 52,
+    "commonName": {
+      "default": "Jets"
+    },
+    "abbrev": "WPG",
+    "placeName": {
+      "default": "Winnipeg"
+    },
+    "placeNameWithPreposition": {
+      "default": "Winnipeg",
+      "fr": "de Winnipeg"
+    },
+    "score": 2,
+    "sog": 30,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 486,
+            "strength": "ev",
+            "playerId": 8476331,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "DeMelo",
+              "cs": "Demelo",
+              "de": "Demelo",
+              "fi": "Demelo",
+              "sk": "Demelo",
+              "sv": "Demelo"
+            },
+            "name": {
+              "default": "D. DeMelo",
+              "cs": "D. Demelo",
+              "de": "D. Demelo",
+              "fi": "D. Demelo",
+              "sk": "D. Demelo",
+              "sv": "D. Demelo"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476331.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-wpg-demelo-scores-goal-against-vitek-vanecek-6384110231112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-wpg-demelo-marque-un-but-contre-vitek-vanecek-6384108255112",
+            "highlightClip": 6384110231112,
+            "highlightClipFr": 6384108255112,
+            "discreteClip": 6384108753112,
+            "discreteClipFr": 6384107553112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "00:45",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477504,
+                "firstName": {
+                  "default": "Josh"
+                },
+                "lastName": {
+                  "default": "Morrissey"
+                },
+                "name": {
+                  "default": "J. Morrissey"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 44
+              },
+              {
+                "playerId": 8478398,
+                "firstName": {
+                  "default": "Kyle"
+                },
+                "lastName": {
+                  "default": "Connor"
+                },
+                "name": {
+                  "default": "K. Connor"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 81
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020143/ev486.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 664,
+            "strength": "pp",
+            "playerId": 8479410,
+            "firstName": {
+              "default": "Mikhail",
+              "cs": "Michail",
+              "fi": "Mihail",
+              "sk": "Michail"
+            },
+            "lastName": {
+              "default": "Sergachev",
+              "cs": "Sergačov",
+              "fi": "Sergatshov",
+              "sk": "Sergačov"
+            },
+            "name": {
+              "default": "M. Sergachev",
+              "cs": "M. Sergačov",
+              "fi": "M. Sergatshov",
+              "sk": "M. Sergačov"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8479410.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-wpg-sergachev-scores-ppg-against-connor-hellebuyck-6384111128112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-wpg-sergachev-marque-un-but-en-a-n-contre-connor-hellebuyck-6384111528112",
+            "highlightClip": 6384111128112,
+            "highlightClipFr": 6384111528112,
+            "discreteClip": 6384107782112,
+            "discreteClipFr": 6384109461112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "10:03",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477951,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Schmaltz"
+                },
+                "name": {
+                  "default": "N. Schmaltz"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020143/ev664.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 683,
+            "strength": "ev",
+            "playerId": 8479619,
+            "firstName": {
+              "default": "Michael"
+            },
+            "lastName": {
+              "default": "Carcone"
+            },
+            "name": {
+              "default": "M. Carcone"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8479619.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-wpg-carcone-scores-goal-against-connor-hellebuyck-6384110162112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-wpg-carcone-marque-un-but-contre-connor-hellebuyck-6384108885112",
+            "highlightClip": 6384110162112,
+            "highlightClipFr": 6384108885112,
+            "discreteClip": 6384111235112,
+            "discreteClipFr": 6384108085112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "11:07",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479977,
+                "firstName": {
+                  "default": "Kailer"
+                },
+                "lastName": {
+                  "default": "Yamamoto"
+                },
+                "name": {
+                  "default": "K. Yamamoto"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 56
+              },
+              {
+                "playerId": 8477220,
+                "firstName": {
+                  "default": "Nate"
+                },
+                "lastName": {
+                  "default": "Schmidt"
+                },
+                "name": {
+                  "default": "N. Schmidt"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020143/ev683.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 722,
+            "strength": "pp",
+            "playerId": 8476460,
+            "firstName": {
+              "default": "Mark"
+            },
+            "lastName": {
+              "default": "Scheifele"
+            },
+            "name": {
+              "default": "M. Scheifele"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476460.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-wpg-scheifele-scores-ppg-against-vitek-vanecek-6384109877112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-wpg-scheifele-marque-un-but-en-a-n-contre-vitek-vanecek-6384110352112",
+            "highlightClip": 6384109877112,
+            "highlightClipFr": 6384110352112,
+            "discreteClip": 6384107884112,
+            "discreteClipFr": 6384109875112,
+            "goalsToDate": 8,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "15:09",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477504,
+                "firstName": {
+                  "default": "Josh"
+                },
+                "lastName": {
+                  "default": "Morrissey"
+                },
+                "name": {
+                  "default": "J. Morrissey"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 44
+              },
+              {
+                "playerId": 8480014,
+                "firstName": {
+                  "default": "Gabriel"
+                },
+                "lastName": {
+                  "default": "Vilardi"
+                },
+                "name": {
+                  "default": "G. Vilardi"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020143/ev722.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 982,
+            "strength": "ev",
+            "playerId": 8482699,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Guenther"
+            },
+            "name": {
+              "default": "D. Guenther"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482699.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-wpg-guenther-scores-goal-against-connor-hellebuyck-6384110615112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-wpg-guenther-marque-un-but-contre-connor-hellebuyck-6384112995112",
+            "highlightClip": 6384110615112,
+            "highlightClipFr": 6384112995112,
+            "discreteClip": 6384114456112,
+            "discreteClipFr": 6384113564112,
+            "goalsToDate": 5,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "14:24",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483431,
+                "firstName": {
+                  "default": "Logan"
+                },
+                "lastName": {
+                  "default": "Cooley"
+                },
+                "name": {
+                  "default": "L. Cooley"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 92
+              },
+              {
+                "playerId": 8482175,
+                "firstName": {
+                  "default": "JJ"
+                },
+                "lastName": {
+                  "default": "Peterka"
+                },
+                "name": {
+                  "default": "J. Peterka"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020143/ev982.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477504,
+        "teamAbbrev": "WPG",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8477504.png",
+        "name": {
+          "default": "J. Morrissey"
+        },
+        "sweaterNo": 44,
+        "position": "D",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8479410,
+        "teamAbbrev": "UTA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8479410.png",
+        "name": {
+          "default": "M. Sergachev",
+          "cs": "M. Sergačov",
+          "fi": "M. Sergatshov",
+          "sk": "M. Sergačov"
+        },
+        "sweaterNo": 98,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482699,
+        "teamAbbrev": "UTA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482699.png",
+        "name": {
+          "default": "D. Guenther"
+        },
+        "sweaterNo": 11,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Chibrikov"
+              },
+              "sweaterNumber": 90
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dmitri"
+              },
+              "lastName": {
+                "default": "Simashev"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "09:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Neal"
+              },
+              "lastName": {
+                "default": "Pionk"
+              },
+              "sweaterNumber": 4
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          },
+          {
+            "timeInPeriod": "13:12",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Marino"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nino"
+              },
+              "lastName": {
+                "default": "Niederreiter"
+              },
+              "sweaterNumber": 62
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Chibrikov"
+              },
+              "sweaterNumber": 90
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "JJ"
+              },
+              "lastName": {
+                "default": "Peterka"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "05:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "JJ"
+              },
+              "lastName": {
+                "default": "Peterka"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Chibrikov"
+              },
+              "sweaterNumber": 90
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "10:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Luke"
+              },
+              "lastName": {
+                "default": "Schenn"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Tanev"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "17:45",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "G. Nyquist"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

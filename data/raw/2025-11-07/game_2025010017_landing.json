@@ -1,0 +1,1035 @@
+{
+  "id": 2025010017,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-22",
+  "venue": {
+    "default": "Honda Center"
+  },
+  "venueLocation": {
+    "default": "Anaheim"
+  },
+  "startTimeUTC": "2025-09-23T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "America/Los_Angeles",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 558,
+      "market": "A",
+      "countryCode": "US",
+      "network": "Utah16",
+      "sequenceNumber": 372
+    },
+    {
+      "id": 553,
+      "market": "H",
+      "countryCode": "US",
+      "network": "Victory+",
+      "sequenceNumber": 373
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 68,
+    "commonName": {
+      "default": "Mammoth"
+    },
+    "abbrev": "UTA",
+    "placeName": {
+      "default": "Utah"
+    },
+    "placeNameWithPreposition": {
+      "default": "Utah",
+      "fr": "de l'Utah"
+    },
+    "score": 1,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 24,
+    "commonName": {
+      "default": "Ducks"
+    },
+    "abbrev": "ANA",
+    "placeName": {
+      "default": "Anaheim"
+    },
+    "placeNameWithPreposition": {
+      "default": "Anaheim",
+      "fr": "d'Anaheim"
+    },
+    "score": 6,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 336,
+            "strength": "ev",
+            "playerId": 8481563,
+            "firstName": {
+              "default": "Drew"
+            },
+            "lastName": {
+              "default": "Helleson"
+            },
+            "name": {
+              "default": "D. Helleson"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8481563.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-ana-helleson-scores-goal-against-karel-vejmelka-6379957743112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-ana-helleson-marque-un-but-contre-karel-vejmelka-6379956163112",
+            "highlightClip": 6379957743112,
+            "highlightClipFr": 6379956163112,
+            "discreteClip": 6379959114112,
+            "discreteClipFr": 6379958814112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "17:05",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478873,
+                "firstName": {
+                  "default": "Troy"
+                },
+                "lastName": {
+                  "default": "Terry"
+                },
+                "name": {
+                  "default": "T. Terry"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8478366,
+                "firstName": {
+                  "default": "Frank"
+                },
+                "lastName": {
+                  "default": "Vatrano"
+                },
+                "name": {
+                  "default": "F. Vatrano"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010017/ev336.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 205,
+            "strength": "ev",
+            "playerId": 8479547,
+            "firstName": {
+              "default": "Matthew"
+            },
+            "lastName": {
+              "default": "Phillips"
+            },
+            "name": {
+              "default": "M. Phillips"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8479547.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-ana-phillips-scores-goal-against-karel-vejmelka-6379958744112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-ana-phillips-marque-un-but-contre-karel-vejmelka-6379960635112",
+            "highlightClip": 6379958744112,
+            "highlightClipFr": 6379960635112,
+            "discreteClip": 6379959048112,
+            "discreteClipFr": 6379957764112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "04:10",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481563,
+                "firstName": {
+                  "default": "Drew"
+                },
+                "lastName": {
+                  "default": "Helleson"
+                },
+                "name": {
+                  "default": "D. Helleson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8481605,
+                "firstName": {
+                  "default": "Jackson"
+                },
+                "lastName": {
+                  "default": "LaCombe"
+                },
+                "name": {
+                  "default": "J. LaCombe"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010017/ev205.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 206,
+            "strength": "ev",
+            "playerId": 8484762,
+            "firstName": {
+              "default": "Beckett"
+            },
+            "lastName": {
+              "default": "Sennecke"
+            },
+            "name": {
+              "default": "B. Sennecke"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8484762.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-ana-sennecke-scores-goal-against-karel-vejmelka-6379958948112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-ana-sennecke-marque-un-but-contre-karel-vejmelka-6379958745112",
+            "highlightClip": 6379958948112,
+            "highlightClipFr": 6379958745112,
+            "discreteClip": 6379959444112,
+            "discreteClipFr": 6379960537112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "05:18",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482731,
+                "firstName": {
+                  "default": "Tyson"
+                },
+                "lastName": {
+                  "default": "Hinds"
+                },
+                "name": {
+                  "default": "T. Hinds"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 60
+              },
+              {
+                "playerId": 8484153,
+                "firstName": {
+                  "default": "Leo"
+                },
+                "lastName": {
+                  "default": "Carlsson"
+                },
+                "name": {
+                  "default": "L. Carlsson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010017/ev206.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 801,
+            "strength": "ev",
+            "playerId": 8482699,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Guenther"
+            },
+            "name": {
+              "default": "D. Guenther"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482699.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-ana-guenther-scores-goal-against-petr-mrazek-6379958879112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-ana-guenther-marque-un-but-contre-petr-mrazek-6379960448112",
+            "highlightClip": 6379958879112,
+            "highlightClipFr": 6379960448112,
+            "discreteClip": 6379957286112,
+            "discreteClipFr": 6379957787112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "14:48",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477951,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Schmaltz"
+                },
+                "name": {
+                  "default": "N. Schmaltz"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8479410,
+                "firstName": {
+                  "default": "Mikhail",
+                  "cs": "Michail",
+                  "fi": "Mihail",
+                  "sk": "Michail"
+                },
+                "lastName": {
+                  "default": "Sergachev",
+                  "cs": "Sergačov",
+                  "fi": "Sergatshov",
+                  "sk": "Sergačov"
+                },
+                "name": {
+                  "default": "M. Sergachev",
+                  "cs": "M. Sergačov",
+                  "fi": "M. Sergatshov",
+                  "sk": "M. Sergačov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 98
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010017/ev801.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 211,
+            "strength": "ev",
+            "playerId": 8476458,
+            "firstName": {
+              "default": "Ryan"
+            },
+            "lastName": {
+              "default": "Strome"
+            },
+            "name": {
+              "default": "R. Strome"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8476458.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-ana-strome-scores-goal-against-jaxson-stauber-6379961870112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-ana-strome-marque-un-but-contre-jaxson-stauber-6379960791112",
+            "highlightClip": 6379961870112,
+            "highlightClipFr": 6379960791112,
+            "discreteClip": 6379962050112,
+            "discreteClipFr": 6379959797112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "05:33",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478873,
+                "firstName": {
+                  "default": "Troy"
+                },
+                "lastName": {
+                  "default": "Terry"
+                },
+                "name": {
+                  "default": "T. Terry"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8481605,
+                "firstName": {
+                  "default": "Jackson"
+                },
+                "lastName": {
+                  "default": "LaCombe"
+                },
+                "name": {
+                  "default": "J. LaCombe"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010017/ev211.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 964,
+            "strength": "ev",
+            "playerId": 8477527,
+            "firstName": {
+              "default": "Ross"
+            },
+            "lastName": {
+              "default": "Johnston"
+            },
+            "name": {
+              "default": "R. Johnston"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8477527.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-ana-johnston-scores-goal-against-jaxson-stauber-6379962460112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-ana-johnston-marque-un-but-contre-jaxson-stauber-6379962652112",
+            "highlightClip": 6379962460112,
+            "highlightClipFr": 6379962652112,
+            "discreteClip": 6379961888112,
+            "discreteClipFr": 6379962463112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "09:18",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482136,
+                "firstName": {
+                  "default": "Jan"
+                },
+                "lastName": {
+                  "default": "Mysak"
+                },
+                "name": {
+                  "default": "J. Mysak"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 73
+              },
+              {
+                "playerId": 8481605,
+                "firstName": {
+                  "default": "Jackson"
+                },
+                "lastName": {
+                  "default": "LaCombe"
+                },
+                "name": {
+                  "default": "J. LaCombe"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010017/ev964.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1026,
+            "strength": "ev",
+            "playerId": 8479547,
+            "firstName": {
+              "default": "Matthew"
+            },
+            "lastName": {
+              "default": "Phillips"
+            },
+            "name": {
+              "default": "M. Phillips"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8479547.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-ana-phillips-scores-goal-against-jaxson-stauber-6379960412112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-ana-phillips-marque-un-but-contre-jaxson-stauber-6379960112112",
+            "highlightClip": 6379960412112,
+            "highlightClipFr": 6379960112112,
+            "discreteClip": 6379961588112,
+            "discreteClipFr": 6379962071112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "14:27",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475798,
+                "firstName": {
+                  "default": "Mikael"
+                },
+                "lastName": {
+                  "default": "Granlund"
+                },
+                "name": {
+                  "default": "M. Granlund"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 64
+              },
+              {
+                "playerId": 8481563,
+                "firstName": {
+                  "default": "Drew"
+                },
+                "lastName": {
+                  "default": "Helleson"
+                },
+                "name": {
+                  "default": "D. Helleson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010017/ev1026.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8479547,
+        "teamAbbrev": "ANA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8479547.png",
+        "name": {
+          "default": "M. Phillips"
+        },
+        "sweaterNo": 39,
+        "position": "R",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8481563,
+        "teamAbbrev": "ANA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8481563.png",
+        "name": {
+          "default": "D. Helleson"
+        },
+        "sweaterNo": 14,
+        "position": "D",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8481605,
+        "teamAbbrev": "ANA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8481605.png",
+        "name": {
+          "default": "J. LaCombe"
+        },
+        "sweaterNo": 2,
+        "position": "D",
+        "goals": 0,
+        "assists": 3,
+        "points": 3
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "12:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Olen"
+              },
+              "lastName": {
+                "default": "Zellweger"
+              },
+              "sweaterNumber": 51
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Guenther"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "holding-the-stick"
+          },
+          {
+            "timeInPeriod": "15:52",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Montana"
+              },
+              "lastName": {
+                "default": "Onyebuchi"
+              },
+              "sweaterNumber": 79
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Judd"
+              },
+              "lastName": {
+                "default": "Caulfield"
+              },
+              "sweaterNumber": 75
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "15:52",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Judd"
+              },
+              "lastName": {
+                "default": "Caulfield"
+              },
+              "sweaterNumber": 75
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Montana"
+              },
+              "lastName": {
+                "default": "Onyebuchi"
+              },
+              "sweaterNumber": 79
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "19:21",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Beckett"
+              },
+              "lastName": {
+                "default": "Sennecke"
+              },
+              "sweaterNumber": 45
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Schmaltz"
+              },
+              "sweaterNumber": 8
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tij"
+              },
+              "lastName": {
+                "default": "Iginla"
+              },
+              "sweaterNumber": 12
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Strome"
+              },
+              "sweaterNumber": 16
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "05:20",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Warren"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Curtis"
+              },
+              "lastName": {
+                "default": "Douglas"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "05:20",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Curtis"
+              },
+              "lastName": {
+                "default": "Douglas"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Warren"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "09:03",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Strome"
+              },
+              "sweaterNumber": 16
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Clayton"
+              },
+              "lastName": {
+                "default": "Keller"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "17:01",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "McCartney"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Vatrano"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "18:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jackson"
+              },
+              "lastName": {
+                "default": "LaCombe"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Andrew"
+              },
+              "lastName": {
+                "default": "Agozzino"
+              },
+              "sweaterNumber": 36
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:11",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "McCartney"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tyson"
+              },
+              "lastName": {
+                "default": "Hinds"
+              },
+              "sweaterNumber": 60
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "03:11",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tyson"
+              },
+              "lastName": {
+                "default": "Hinds"
+              },
+              "sweaterNumber": 60
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "McCartney"
+              },
+              "sweaterNumber": 62
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "16:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Chris"
+              },
+              "lastName": {
+                "default": "Kreider"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tij"
+              },
+              "lastName": {
+                "default": "Iginla"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "roughing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

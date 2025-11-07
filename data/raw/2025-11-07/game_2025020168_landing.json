@@ -1,0 +1,952 @@
+{
+  "id": 2025020168,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-30",
+  "venue": {
+    "default": "Canadian Tire Centre"
+  },
+  "venueLocation": {
+    "default": "Ottawa"
+  },
+  "startTimeUTC": "2025-10-30T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 5,
+    "periodType": "SO",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 289,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "SNW",
+      "sequenceNumber": 34
+    },
+    {
+      "id": 33,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "RDS",
+      "sequenceNumber": 132
+    },
+    {
+      "id": 294,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN5",
+      "sequenceNumber": 135
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 20,
+    "commonName": {
+      "default": "Flames"
+    },
+    "abbrev": "CGY",
+    "placeName": {
+      "default": "Calgary"
+    },
+    "placeNameWithPreposition": {
+      "default": "Calgary",
+      "fr": "de Calgary"
+    },
+    "score": 3,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg"
+  },
+  "homeTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    },
+    "score": 4,
+    "sog": 38,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 130,
+            "strength": "pp",
+            "playerId": 8481068,
+            "firstName": {
+              "default": "Yegor",
+              "cs": "Jegor",
+              "fi": "Jahor",
+              "sk": "Jegor"
+            },
+            "lastName": {
+              "default": "Sharangovich",
+              "cs": "Šarangovič",
+              "fi": "Sharanhovitsh",
+              "sk": "Šarangovič"
+            },
+            "name": {
+              "default": "Y. Sharangovich",
+              "cs": "J. Šarangovič",
+              "fi": "J. Sharanhovitsh",
+              "sk": "J. Šarangovič"
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8481068.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-ott-sharangovich-scores-ppg-against-linus-ullmark-6384312402112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-ott-sharangovich-marque-un-but-en-a-n-contre-linus-ullmark-6384314868112",
+            "highlightClip": 6384312402112,
+            "highlightClipFr": 6384314868112,
+            "discreteClip": 6384314188112,
+            "discreteClipFr": 6384312709112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "CGY"
+            },
+            "timeInPeriod": "05:51",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480797,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Farabee"
+                },
+                "name": {
+                  "default": "J. Farabee"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 86
+              },
+              {
+                "playerId": 8477346,
+                "firstName": {
+                  "default": "MacKenzie"
+                },
+                "lastName": {
+                  "default": "Weegar"
+                },
+                "name": {
+                  "default": "M. Weegar"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 52
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020168/ev130.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 147,
+            "strength": "sh",
+            "playerId": 8474189,
+            "firstName": {
+              "default": "Lars"
+            },
+            "lastName": {
+              "default": "Eller"
+            },
+            "name": {
+              "default": "L. Eller"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8474189.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-ott-eller-scores-shg-against-devin-cooley-6384315177112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-ott-eller-marque-un-but-en-i-n-contre-devin-cooley-6384313903112",
+            "highlightClip": 6384315177112,
+            "highlightClipFr": 6384313903112,
+            "discreteClip": 6384313699112,
+            "discreteClipFr": 6384313109112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "07:37",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481596,
+                "firstName": {
+                  "default": "Shane"
+                },
+                "lastName": {
+                  "default": "Pinto"
+                },
+                "name": {
+                  "default": "S. Pinto"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 12
+              },
+              {
+                "playerId": 8478469,
+                "firstName": {
+                  "default": "Thomas"
+                },
+                "lastName": {
+                  "default": "Chabot"
+                },
+                "name": {
+                  "default": "T. Chabot"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 72
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020168/ev147.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 359,
+            "strength": "pp",
+            "playerId": 8482679,
+            "firstName": {
+              "default": "Matt"
+            },
+            "lastName": {
+              "default": "Coronato"
+            },
+            "name": {
+              "default": "M. Coronato"
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8482679.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-ott-coronato-scores-ppg-against-linus-ullmark-6384313715112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-ott-coronato-marque-un-but-en-a-n-contre-linus-ullmark-6384314403112",
+            "highlightClip": 6384313715112,
+            "highlightClipFr": 6384314403112,
+            "discreteClip": 6384316559112,
+            "discreteClipFr": 6384313918112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CGY"
+            },
+            "timeInPeriod": "15:53",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480028,
+                "firstName": {
+                  "default": "Morgan"
+                },
+                "lastName": {
+                  "default": "Frost"
+                },
+                "name": {
+                  "default": "M. Frost"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 16
+              },
+              {
+                "playerId": 8478397,
+                "firstName": {
+                  "default": "Rasmus"
+                },
+                "lastName": {
+                  "default": "Andersson"
+                },
+                "name": {
+                  "default": "R. Andersson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 4
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020168/ev359.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 827,
+            "strength": "ev",
+            "playerId": 8482245,
+            "firstName": {
+              "default": "Artem",
+              "cs": "Arťom",
+              "fi": "Artjom",
+              "sk": "Arťom"
+            },
+            "lastName": {
+              "default": "Zub"
+            },
+            "name": {
+              "default": "A. Zub"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482245.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-ott-zub-scores-goal-against-devin-cooley-6384318251112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-ott-zub-marque-un-but-contre-devin-cooley-6384319038112",
+            "highlightClip": 6384318251112,
+            "highlightClipFr": 6384319038112,
+            "discreteClip": 6384320112112,
+            "discreteClipFr": 6384320604112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "02:36",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474189,
+                "firstName": {
+                  "default": "Lars"
+                },
+                "lastName": {
+                  "default": "Eller"
+                },
+                "name": {
+                  "default": "L. Eller"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 89
+              },
+              {
+                "playerId": 8480208,
+                "firstName": {
+                  "default": "Drake"
+                },
+                "lastName": {
+                  "default": "Batherson"
+                },
+                "name": {
+                  "default": "D. Batherson"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 19
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020168/ev827.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 912,
+            "strength": "ev",
+            "playerId": 8475172,
+            "firstName": {
+              "default": "Nazem"
+            },
+            "lastName": {
+              "default": "Kadri"
+            },
+            "name": {
+              "default": "N. Kadri"
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8475172.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-ott-kadri-scores-goal-against-linus-ullmark-6384321103112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-ott-kadri-marque-un-but-contre-linus-ullmark-6384321305112",
+            "highlightClip": 6384321103112,
+            "highlightClipFr": 6384321305112,
+            "discreteClip": 6384318973112,
+            "discreteClipFr": 6384319265112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CGY"
+            },
+            "timeInPeriod": "08:16",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476456,
+                "firstName": {
+                  "default": "Jonathan"
+                },
+                "lastName": {
+                  "default": "Huberdeau"
+                },
+                "name": {
+                  "default": "J. Huberdeau"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 10
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020168/ev912.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 404,
+            "strength": "ev",
+            "playerId": 8482105,
+            "firstName": {
+              "default": "Jake"
+            },
+            "lastName": {
+              "default": "Sanderson"
+            },
+            "name": {
+              "default": "J. Sanderson"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482105.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-ott-sanderson-scores-goal-against-devin-cooley-6384321040112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-ott-sanderson-marque-un-but-contre-devin-cooley-6384319879112",
+            "highlightClip": 6384321040112,
+            "highlightClipFr": 6384319879112,
+            "discreteClip": 6384322131112,
+            "discreteClipFr": 6384320666112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "17:11",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482116,
+                "firstName": {
+                  "default": "Tim"
+                },
+                "lastName": {
+                  "default": "Stützle"
+                },
+                "name": {
+                  "default": "T. Stützle"
+                },
+                "assistsToDate": 8,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8481606,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Spence"
+                },
+                "name": {
+                  "default": "J. Spence"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 10
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020168/ev404.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 5,
+          "periodType": "SO",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1010",
+            "eventId": 541,
+            "strength": "ev",
+            "playerId": 8480208,
+            "firstName": {
+              "default": "Drake"
+            },
+            "lastName": {
+              "default": "Batherson"
+            },
+            "name": {
+              "default": "D. Batherson"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480208.png",
+            "discreteClip": 6384322845112,
+            "discreteClipFr": 6384322056112,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "00:00",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [
+      {
+        "sequence": 1,
+        "playerId": 8480208,
+        "teamAbbrev": {
+          "default": "OTT"
+        },
+        "firstName": {
+          "default": "Drake"
+        },
+        "lastName": {
+          "default": "Batherson"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480208.png",
+        "gameWinner": true,
+        "discreteClip": 6384322845112,
+        "discreteClipFr": 6384322056112
+      },
+      {
+        "sequence": 2,
+        "playerId": 8477993,
+        "teamAbbrev": {
+          "default": "CGY"
+        },
+        "firstName": {
+          "default": "Justin"
+        },
+        "lastName": {
+          "default": "Kirkland"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8477993.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 3,
+        "playerId": 8482116,
+        "teamAbbrev": {
+          "default": "OTT"
+        },
+        "firstName": {
+          "default": "Tim"
+        },
+        "lastName": {
+          "default": "Stützle"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 4,
+        "playerId": 8480028,
+        "teamAbbrev": {
+          "default": "CGY"
+        },
+        "firstName": {
+          "default": "Morgan"
+        },
+        "lastName": {
+          "default": "Frost"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8480028.png",
+        "gameWinner": false
+      }
+    ],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8474189,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8474189.png",
+        "name": {
+          "default": "L. Eller"
+        },
+        "sweaterNo": 89,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8475172,
+        "teamAbbrev": "CGY",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8475172.png",
+        "name": {
+          "default": "N. Kadri"
+        },
+        "sweaterNo": 91,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482116,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+        "name": {
+          "default": "T. Stützle"
+        },
+        "sweaterNo": 18,
+        "position": "C",
+        "goals": 0,
+        "assists": 1,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:23",
+            "type": "MIN",
+            "duration": 4,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ridly"
+              },
+              "lastName": {
+                "default": "Greig"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "Pachal"
+              },
+              "sweaterNumber": 94
+            },
+            "descKey": "high-sticking-double-minor"
+          },
+          {
+            "timeInPeriod": "09:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kevin"
+              },
+              "lastName": {
+                "default": "Bahl"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Perron"
+              },
+              "sweaterNumber": 57
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "14:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Shane"
+              },
+              "lastName": {
+                "default": "Pinto"
+              },
+              "sweaterNumber": 12
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Morgan"
+              },
+              "lastName": {
+                "default": "Frost"
+              },
+              "sweaterNumber": 16
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "19:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Klapka"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jake"
+              },
+              "lastName": {
+                "default": "Sanderson"
+              },
+              "sweaterNumber": 85
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Jensen"
+              },
+              "sweaterNumber": 3
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nazem"
+              },
+              "lastName": {
+                "default": "Kadri"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "03:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Morgan"
+              },
+              "lastName": {
+                "default": "Frost"
+              },
+              "sweaterNumber": 16
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tim"
+              },
+              "lastName": {
+                "default": "Stützle"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "12:44",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Blake"
+              },
+              "lastName": {
+                "default": "Coleman"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Cousins"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "12:44",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Cousins"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "descKey": "embellishment"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:30",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Andersson"
+              },
+              "sweaterNumber": 4
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Drake"
+              },
+              "lastName": {
+                "default": "Batherson"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

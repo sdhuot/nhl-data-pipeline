@@ -1,0 +1,727 @@
+{
+  "id": 2025010025,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-23",
+  "venue": {
+    "default": "Scotiabank Arena"
+  },
+  "venueLocation": {
+    "default": "Toronto"
+  },
+  "startTimeUTC": "2025-09-23T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Toronto",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 294,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "TSN5",
+      "sequenceNumber": 135
+    },
+    {
+      "id": 293,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN4",
+      "sequenceNumber": 137
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    },
+    "score": 3,
+    "sog": 41,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+  },
+  "homeTeam": {
+    "id": 10,
+    "commonName": {
+      "default": "Maple Leafs"
+    },
+    "abbrev": "TOR",
+    "placeName": {
+      "default": "Toronto"
+    },
+    "placeNameWithPreposition": {
+      "default": "Toronto",
+      "fr": "de Toronto"
+    },
+    "score": 2,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 262,
+            "strength": "ev",
+            "playerId": 8479318,
+            "firstName": {
+              "default": "Auston"
+            },
+            "lastName": {
+              "default": "Matthews"
+            },
+            "name": {
+              "default": "A. Matthews"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8479318.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tor-matthews-scores-goal-against-leevi-merilainen-6380014384112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tor-matthews-marque-un-but-contre-leevi-merilainen-6380013796112",
+            "highlightClip": 6380014384112,
+            "highlightClipFr": 6380013796112,
+            "discreteClip": 6380014774112,
+            "discreteClipFr": 6380013096112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "TOR"
+            },
+            "timeInPeriod": "04:24",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475171,
+                "firstName": {
+                  "default": "Oliver"
+                },
+                "lastName": {
+                  "default": "Ekman-Larsson"
+                },
+                "name": {
+                  "default": "O. Ekman-Larsson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 95
+              },
+              {
+                "playerId": 8481711,
+                "firstName": {
+                  "default": "Matias"
+                },
+                "lastName": {
+                  "default": "Maccelli"
+                },
+                "name": {
+                  "default": "M. Maccelli"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010025/ev262.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 509,
+            "strength": "pp",
+            "playerId": 8482259,
+            "firstName": {
+              "default": "Bobby"
+            },
+            "lastName": {
+              "default": "McMann"
+            },
+            "name": {
+              "default": "B. McMann"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8482259.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tor-mcmann-scores-ppg-against-leevi-merilainen-6380013228112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tor-mcmann-marque-un-but-en-a-n-contre-leevi-merilainen-6380013324112",
+            "highlightClip": 6380013228112,
+            "highlightClipFr": 6380013324112,
+            "discreteClip": 6380013225112,
+            "discreteClipFr": 6380013921112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "TOR"
+            },
+            "timeInPeriod": "18:23",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484158,
+                "firstName": {
+                  "default": "Easton"
+                },
+                "lastName": {
+                  "default": "Cowan"
+                },
+                "name": {
+                  "default": "E. Cowan"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 53
+              },
+              {
+                "playerId": 8481711,
+                "firstName": {
+                  "default": "Matias"
+                },
+                "lastName": {
+                  "default": "Maccelli"
+                },
+                "name": {
+                  "default": "M. Maccelli"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010025/ev509.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 953,
+            "strength": "sh",
+            "playerId": 8480188,
+            "firstName": {
+              "default": "Fabian"
+            },
+            "lastName": {
+              "default": "Zetterlund"
+            },
+            "name": {
+              "default": "F. Zetterlund"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480188.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tor-zetterlund-scores-shg-against-artur-akhtyamov-6380017532112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tor-zetterlund-marque-un-but-en-i-n-contre-artur-akhtyamov-6380017909112",
+            "highlightClip": 6380017532112,
+            "highlightClipFr": 6380017909112,
+            "discreteClip": 6380016541112,
+            "discreteClipFr": 6380018014112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "TOR"
+            },
+            "timeInPeriod": "07:33",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482131,
+                "firstName": {
+                  "default": "Donovan"
+                },
+                "lastName": {
+                  "default": "Sebrango"
+                },
+                "name": {
+                  "default": "D. Sebrango"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 37
+              },
+              {
+                "playerId": 8481528,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Cozens"
+                },
+                "name": {
+                  "default": "D. Cozens"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010025/ev953.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "0641",
+            "eventId": 1096,
+            "strength": "pp",
+            "playerId": 8481596,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Pinto"
+            },
+            "name": {
+              "default": "S. Pinto"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ott-tor-pinto-scores-ppg-against-artur-akhtyamov-6380018629112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ott-tor-pinto-marque-un-but-en-a-n-contre-artur-akhtyamov-6380017747112",
+            "highlightClip": 6380018629112,
+            "highlightClipFr": 6380017747112,
+            "discreteClip": 6380017457112,
+            "discreteClipFr": 6380017657112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "17:58",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010025/ev1096.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 1128,
+            "strength": "ev",
+            "playerId": 8481596,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Pinto"
+            },
+            "name": {
+              "default": "S. Pinto"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/shane-pinto-with-a-goal-vs-toronto-maple-leafs-6380019412112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/shane-pinto-with-a-goal-vs-les-maple-leafs-de-toronto-6380017751112",
+            "highlightClip": 6380019412112,
+            "highlightClipFr": 6380017751112,
+            "discreteClip": 6380018247112,
+            "discreteClipFr": 6380016274112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "00:16",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478020,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Amadio"
+                },
+                "name": {
+                  "default": "M. Amadio"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8482105,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Sanderson"
+                },
+                "name": {
+                  "default": "J. Sanderson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 85
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010025/ev1128.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481596,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+        "name": {
+          "default": "S. Pinto"
+        },
+        "sweaterNo": 12,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8483710,
+        "teamAbbrev": "TOR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8483710.png",
+        "name": {
+          "default": "D. Hildeby"
+        },
+        "sweaterNo": 35,
+        "position": "G",
+        "goalsAgainstAverage": 0.0,
+        "savePctg": 1.0
+      },
+      {
+        "star": 3,
+        "playerId": 8480188,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480188.png",
+        "name": {
+          "default": "F. Zetterlund"
+        },
+        "sweaterNo": 20,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "17:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Shane"
+              },
+              "lastName": {
+                "default": "Pinto"
+              },
+              "sweaterNumber": 12
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "William"
+              },
+              "lastName": {
+                "default": "Nylander"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:32",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Easton"
+              },
+              "lastName": {
+                "default": "Cowan"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Donovan"
+              },
+              "lastName": {
+                "default": "Sebrango"
+              },
+              "sweaterNumber": 37
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "08:15",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Hayden"
+              },
+              "lastName": {
+                "default": "Hodgson"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Tavares"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "17:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Hayden"
+              },
+              "lastName": {
+                "default": "Hodgson"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Bobby"
+              },
+              "lastName": {
+                "default": "McMann"
+              },
+              "sweaterNumber": 74
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:10",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Cozens"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Knies"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "06:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Stephen"
+              },
+              "lastName": {
+                "default": "Halliday"
+              },
+              "sweaterNumber": 83
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Oliver"
+              },
+              "lastName": {
+                "default": "Ekman-Larsson"
+              },
+              "sweaterNumber": 95
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "09:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Steven"
+              },
+              "lastName": {
+                "default": "Lorentz"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Cousins"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "16:27",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Scott"
+              },
+              "lastName": {
+                "default": "Laughton"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Cousins"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "04:44",
+    "secondsRemaining": 284,
+    "running": false,
+    "inIntermission": false
+  }
+}

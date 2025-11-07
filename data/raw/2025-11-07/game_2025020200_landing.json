@@ -1,0 +1,613 @@
+{
+  "id": 2025020200,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-03",
+  "venue": {
+    "default": "Enterprise Center"
+  },
+  "venueLocation": {
+    "default": "St. Louis"
+  },
+  "startTimeUTC": "2025-11-04T01:30:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 289,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "SNW",
+      "sequenceNumber": 34
+    },
+    {
+      "id": 566,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNMW",
+      "sequenceNumber": 273
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 22,
+    "commonName": {
+      "default": "Oilers"
+    },
+    "abbrev": "EDM",
+    "placeName": {
+      "default": "Edmonton"
+    },
+    "placeNameWithPreposition": {
+      "default": "Edmonton",
+      "fr": "d'Edmonton"
+    },
+    "score": 2,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+  },
+  "homeTeam": {
+    "id": 19,
+    "commonName": {
+      "default": "Blues"
+    },
+    "abbrev": "STL",
+    "placeName": {
+      "default": "St. Louis"
+    },
+    "placeNameWithPreposition": {
+      "default": "St. Louis",
+      "fr": "de St. Louis"
+    },
+    "score": 3,
+    "sog": 22,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 341,
+            "strength": "pp",
+            "playerId": 8478458,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Roslovic"
+            },
+            "name": {
+              "default": "J. Roslovic"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478458.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-stl-roslovic-scores-ppg-against-jordan-binnington-6384481237112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-stl-roslovic-marque-un-but-en-a-n-contre-jordan-binnington-6384481819112",
+            "highlightClip": 6384481237112,
+            "highlightClipFr": 6384481819112,
+            "discreteClip": 6384481541112,
+            "discreteClipFr": 6384481047112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "18:38",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478402,
+                "firstName": {
+                  "default": "Connor"
+                },
+                "lastName": {
+                  "default": "McDavid"
+                },
+                "name": {
+                  "default": "C. McDavid"
+                },
+                "assistsToDate": 15,
+                "sweaterNumber": 97
+              },
+              {
+                "playerId": 8476454,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Nugent-Hopkins"
+                },
+                "name": {
+                  "default": "R. Nugent-Hopkins"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020200/ev341.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 390,
+            "strength": "ev",
+            "playerId": 8478233,
+            "firstName": {
+              "default": "Andrew"
+            },
+            "lastName": {
+              "default": "Mangiapane"
+            },
+            "name": {
+              "default": "A. Mangiapane"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478233.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-stl-mangiapane-scores-goal-against-jordan-binnington-6384482124112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-stl-mangiapane-marque-un-but-contre-jordan-binnington-6384482010112",
+            "highlightClip": 6384482124112,
+            "highlightClipFr": 6384482010112,
+            "discreteClip": 6384481567112,
+            "discreteClipFr": 6384482608112,
+            "goalsToDate": 4,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "02:27",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476454,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Nugent-Hopkins"
+                },
+                "name": {
+                  "default": "R. Nugent-Hopkins"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 93
+              },
+              {
+                "playerId": 8478402,
+                "firstName": {
+                  "default": "Connor"
+                },
+                "lastName": {
+                  "default": "McDavid"
+                },
+                "name": {
+                  "default": "C. McDavid"
+                },
+                "assistsToDate": 16,
+                "sweaterNumber": 97
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020200/ev390.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 666,
+            "strength": "pp",
+            "playerId": 8484164,
+            "firstName": {
+              "default": "Dalibor"
+            },
+            "lastName": {
+              "default": "Dvorsky"
+            },
+            "name": {
+              "default": "D. Dvorsky"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8484164.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-stl-dvorsky-scores-ppg-against-calvin-pickard-6384484026112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-stl-dvorsky-marque-un-but-en-a-n-contre-calvin-pickard-6384483630112",
+            "highlightClip": 6384484026112,
+            "highlightClipFr": 6384483630112,
+            "discreteClip": 6384482455112,
+            "discreteClipFr": 6384483637112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "16:08",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475753,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Faulk"
+                },
+                "name": {
+                  "default": "J. Faulk"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 72
+              },
+              {
+                "playerId": 8480023,
+                "firstName": {
+                  "default": "Robert"
+                },
+                "lastName": {
+                  "default": "Thomas"
+                },
+                "name": {
+                  "default": "R. Thomas"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020200/ev666.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 696,
+            "strength": "ev",
+            "playerId": 8480023,
+            "firstName": {
+              "default": "Robert"
+            },
+            "lastName": {
+              "default": "Thomas"
+            },
+            "name": {
+              "default": "R. Thomas"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480023.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-stl-thomas-scores-goal-against-calvin-pickard-6384482862112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-stl-thomas-marque-un-but-contre-calvin-pickard-6384481958112",
+            "highlightClip": 6384482862112,
+            "highlightClipFr": 6384481958112,
+            "discreteClip": 6384483936112,
+            "discreteClipFr": 6384482638112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "18:38",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481598,
+                "firstName": {
+                  "default": "Philip"
+                },
+                "lastName": {
+                  "default": "Broberg"
+                },
+                "name": {
+                  "default": "P. Broberg"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8483516,
+                "firstName": {
+                  "default": "Jimmy"
+                },
+                "lastName": {
+                  "default": "Snuggerud"
+                },
+                "name": {
+                  "default": "J. Snuggerud"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020200/ev696.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 1026,
+            "strength": "ev",
+            "playerId": 8480459,
+            "firstName": {
+              "default": "Pius"
+            },
+            "lastName": {
+              "default": "Suter"
+            },
+            "name": {
+              "default": "P. Suter"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480459.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-stl-suter-scores-goal-against-calvin-pickard-6384485741112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-stl-suter-marque-un-but-contre-calvin-pickard-6384485637112",
+            "highlightClip": 6384485741112,
+            "highlightClipFr": 6384485637112,
+            "discreteClip": 6384485251112,
+            "discreteClipFr": 6384484388112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "18:37",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476892,
+                "firstName": {
+                  "default": "Colton"
+                },
+                "lastName": {
+                  "default": "Parayko"
+                },
+                "name": {
+                  "default": "C. Parayko"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 55
+              },
+              {
+                "playerId": 8475170,
+                "firstName": {
+                  "default": "Brayden"
+                },
+                "lastName": {
+                  "default": "Schenn"
+                },
+                "name": {
+                  "default": "B. Schenn"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 10
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020200/ev1026.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480023,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480023.png",
+        "name": {
+          "default": "R. Thomas"
+        },
+        "sweaterNo": 18,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8480459,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480459.png",
+        "name": {
+          "default": "P. Suter"
+        },
+        "sweaterNo": 22,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8484164,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8484164.png",
+        "name": {
+          "default": "D. Dvorsky"
+        },
+        "sweaterNo": 54,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "18:30",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Oskar"
+              },
+              "lastName": {
+                "default": "Sundqvist"
+              },
+              "sweaterNumber": 70
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matt"
+              },
+              "lastName": {
+                "default": "Savoie"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Isaac"
+              },
+              "lastName": {
+                "default": "Howard"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexey",
+                "cs": "Alexej",
+                "de": "Alexei",
+                "es": "Alexei",
+                "fi": "Aleksei",
+                "sk": "Alexej",
+                "sv": "Alexei"
+              },
+              "lastName": {
+                "default": "Toropchenko",
+                "cs": "Toropčenko",
+                "fi": "Toroptshenko",
+                "sk": "Toropčenko"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "15:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "McDavid"
+              },
+              "sweaterNumber": 97
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Parayko"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

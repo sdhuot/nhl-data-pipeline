@@ -1,0 +1,91 @@
+{
+  "id": 2025020232,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-08",
+  "venue": {
+    "default": "Xfinity Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Philadelphia",
+    "fr": "Philadelphie"
+  },
+  "startTimeUTC": "2025-11-08T18:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-05:00",
+  "tvBroadcasts": [
+    {
+      "id": 230,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "RDS2",
+      "sequenceNumber": 133
+    },
+    {
+      "id": 294,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "TSN5",
+      "sequenceNumber": 135
+    },
+    {
+      "id": 322,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NBCSP",
+      "sequenceNumber": 380
+    }
+  ],
+  "gameState": "FUT",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "score": 0,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    }
+  },
+  "homeTeam": {
+    "id": 4,
+    "commonName": {
+      "default": "Flyers"
+    },
+    "abbrev": "PHI",
+    "score": 0,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg",
+    "placeName": {
+      "default": "Philadelphia",
+      "fr": "Philadelphie"
+    },
+    "placeNameWithPreposition": {
+      "default": "Philadelphia",
+      "fr": "de Philadelphie"
+    }
+  },
+  "shootoutInUse": true,
+  "otInUse": true,
+  "clock": {
+    "timeRemaining": "20:00",
+    "secondsRemaining": 1200,
+    "running": false,
+    "inIntermission": false
+  },
+  "displayPeriod": 1,
+  "maxPeriods": 5,
+  "plays": [],
+  "rosterSpots": [],
+  "regPeriods": 3
+}

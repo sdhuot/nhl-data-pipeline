@@ -1,0 +1,813 @@
+{
+  "id": 2025020152,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-28",
+  "venue": {
+    "default": "KeyBank Center"
+  },
+  "venueLocation": {
+    "default": "Buffalo"
+  },
+  "startTimeUTC": "2025-10-28T22:45:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 565,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNOH",
+      "sequenceNumber": 276
+    },
+    {
+      "id": 28,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSG-B",
+      "sequenceNumber": 383
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 29,
+    "commonName": {
+      "default": "Blue Jackets"
+    },
+    "abbrev": "CBJ",
+    "placeName": {
+      "default": "Columbus"
+    },
+    "placeNameWithPreposition": {
+      "default": "Columbus",
+      "fr": "de Columbus"
+    },
+    "score": 4,
+    "sog": 39,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg"
+  },
+  "homeTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 3,
+    "sog": 38,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 131,
+            "strength": "ev",
+            "playerId": 8482475,
+            "firstName": {
+              "default": "Yegor",
+              "cs": "Jegor",
+              "fi": "Jegor",
+              "sk": "Jegor"
+            },
+            "lastName": {
+              "default": "Chinakhov",
+              "cs": "Činachov",
+              "fi": "Tshinahov",
+              "sk": "Činachov"
+            },
+            "name": {
+              "default": "Y. Chinakhov",
+              "cs": "J. Činachov",
+              "fi": "J. Tshinahov",
+              "sk": "J. Činachov"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482475.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-buf-chinakhov-scores-goal-against-alex-lyon-6384210941112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-buf-chinakhov-marque-un-but-contre-alex-lyon-6384209283112",
+            "highlightClip": 6384210941112,
+            "highlightClipFr": 6384209283112,
+            "discreteClip": 6384211530112,
+            "discreteClipFr": 6384211627112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "06:09",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020152/ev131.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 309,
+            "strength": "ev",
+            "playerId": 8482659,
+            "firstName": {
+              "default": "Josh"
+            },
+            "lastName": {
+              "default": "Doan"
+            },
+            "name": {
+              "default": "J. Doan"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482659.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-buf-doan-scores-goal-against-jet-greaves-6384212188112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-buf-doan-marque-un-but-contre-jet-greaves-6384211002112",
+            "highlightClip": 6384212188112,
+            "highlightClipFr": 6384211002112,
+            "discreteClip": 6384213254112,
+            "discreteClipFr": 6384212793112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "11:39",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477949,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Tuch"
+                },
+                "name": {
+                  "default": "A. Tuch"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 89
+              },
+              {
+                "playerId": 8479982,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Timmins"
+                },
+                "name": {
+                  "default": "C. Timmins"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020152/ev309.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 310,
+            "strength": "ev",
+            "playerId": 8480802,
+            "firstName": {
+              "default": "Ryan"
+            },
+            "lastName": {
+              "default": "McLeod"
+            },
+            "name": {
+              "default": "R. McLeod"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480802.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-buf-mcleod-scores-goal-against-jet-greaves-6384213256112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-buf-mcleod-marque-un-but-contre-jet-greaves-6384214154112",
+            "highlightClip": 6384213256112,
+            "highlightClipFr": 6384214154112,
+            "discreteClip": 6384211197112,
+            "discreteClipFr": 6384213255112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "14:12",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481524,
+                "firstName": {
+                  "default": "Bowen"
+                },
+                "lastName": {
+                  "default": "Byram"
+                },
+                "name": {
+                  "default": "B. Byram"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 4
+              },
+              {
+                "playerId": 8477949,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Tuch"
+                },
+                "name": {
+                  "default": "A. Tuch"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 89
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020152/ev310.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 774,
+            "strength": "pp",
+            "playerId": 8478460,
+            "firstName": {
+              "default": "Zach"
+            },
+            "lastName": {
+              "default": "Werenski"
+            },
+            "name": {
+              "default": "Z. Werenski"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8478460.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-buf-werenski-scores-ppg-against-alex-lyon-6384214763112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-buf-werenski-marque-un-but-en-a-n-contre-alex-lyon-6384214467112",
+            "highlightClip": 6384214763112,
+            "highlightClipFr": 6384214467112,
+            "discreteClip": 6384213270112,
+            "discreteClipFr": 6384214464112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "19:44",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480893,
+                "firstName": {
+                  "default": "Kirill"
+                },
+                "lastName": {
+                  "default": "Marchenko",
+                  "cs": "Marčenko",
+                  "fi": "Martshenko",
+                  "sk": "Marčenko"
+                },
+                "name": {
+                  "default": "K. Marchenko",
+                  "cs": "K. Marčenko",
+                  "fi": "K. Martshenko",
+                  "sk": "K. Marčenko"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 86
+              },
+              {
+                "playerId": 8477497,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Monahan"
+                },
+                "name": {
+                  "default": "S. Monahan"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 23
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020152/ev774.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 312,
+            "strength": "ev",
+            "playerId": 8482623,
+            "firstName": {
+              "default": "Josh"
+            },
+            "lastName": {
+              "default": "Dunne"
+            },
+            "name": {
+              "default": "J. Dunne"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482623.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-buf-dunne-scores-goal-against-jet-greaves-6384215815112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-buf-dunne-marque-un-but-contre-jet-greaves-6384215612112",
+            "highlightClip": 6384215815112,
+            "highlightClipFr": 6384215612112,
+            "discreteClip": 6384216099112,
+            "discreteClipFr": 6384216479112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "02:40",
+            "shotType": "poke",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479359,
+                "firstName": {
+                  "default": "Beck"
+                },
+                "lastName": {
+                  "default": "Malenstyn"
+                },
+                "name": {
+                  "default": "B. Malenstyn"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8480807,
+                "firstName": {
+                  "default": "Mattias"
+                },
+                "lastName": {
+                  "default": "Samuelsson"
+                },
+                "name": {
+                  "default": "M. Samuelsson"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 23
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020152/ev312.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 318,
+            "strength": "ev",
+            "playerId": 8477425,
+            "firstName": {
+              "default": "Miles"
+            },
+            "lastName": {
+              "default": "Wood"
+            },
+            "name": {
+              "default": "M. Wood"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8477425.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-buf-wood-scores-goal-against-alex-lyon-6384214731112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-buf-wood-marque-un-but-contre-alex-lyon-6384215227112",
+            "highlightClip": 6384214731112,
+            "highlightClipFr": 6384215227112,
+            "discreteClip": 6384217075112,
+            "discreteClipFr": 6384216126112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "13:55",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482475,
+                "firstName": {
+                  "default": "Yegor",
+                  "cs": "Jegor",
+                  "fi": "Jegor",
+                  "sk": "Jegor"
+                },
+                "lastName": {
+                  "default": "Chinakhov",
+                  "cs": "Činachov",
+                  "fi": "Tshinahov",
+                  "sk": "Činachov"
+                },
+                "name": {
+                  "default": "Y. Chinakhov",
+                  "cs": "J. Činachov",
+                  "fi": "J. Tshinahov",
+                  "sk": "J. Činachov"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 59
+              },
+              {
+                "playerId": 8479371,
+                "firstName": {
+                  "default": "Dante"
+                },
+                "lastName": {
+                  "default": "Fabbro"
+                },
+                "name": {
+                  "default": "D. Fabbro"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020152/ev318.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 1135,
+            "strength": "ev",
+            "playerId": 8477425,
+            "firstName": {
+              "default": "Miles"
+            },
+            "lastName": {
+              "default": "Wood"
+            },
+            "name": {
+              "default": "M. Wood"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8477425.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-buf-wood-scores-goal-against-alex-lyon-6384218809112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-buf-wood-marque-un-but-contre-alex-lyon-6384218614112",
+            "highlightClip": 6384218809112,
+            "highlightClipFr": 6384218614112,
+            "discreteClip": 6384218711112,
+            "discreteClipFr": 6384217232112,
+            "goalsToDate": 3,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "02:53",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478460,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Werenski"
+                },
+                "name": {
+                  "default": "Z. Werenski"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8480806,
+                "firstName": {
+                  "default": "Isac"
+                },
+                "lastName": {
+                  "default": "Lundestrom",
+                  "cs": "Lundeström",
+                  "fi": "Lundeström",
+                  "sk": "Lundeström",
+                  "sv": "Lundeström"
+                },
+                "name": {
+                  "default": "I. Lundestrom",
+                  "cs": "I. Lundeström",
+                  "fi": "I. Lundeström",
+                  "sk": "I. Lundeström",
+                  "sv": "I. Lundeström"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020152/ev1135.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477425,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8477425.png",
+        "name": {
+          "default": "M. Wood"
+        },
+        "sweaterNo": 11,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8482623,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482623.png",
+        "name": {
+          "default": "J. Dunne"
+        },
+        "sweaterNo": 44,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482982,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482982.png",
+        "name": {
+          "default": "J. Greaves"
+        },
+        "sweaterNo": 73,
+        "position": "G",
+        "goalsAgainstAverage": 2.86,
+        "savePctg": 0.921
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "18:27",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Damon"
+              },
+              "lastName": {
+                "default": "Severson"
+              },
+              "sweaterNumber": 78
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Beck"
+              },
+              "lastName": {
+                "default": "Malenstyn"
+              },
+              "sweaterNumber": 29
+            },
+            "descKey": "roughing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "19:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Denton"
+              },
+              "lastName": {
+                "default": "Mateychuk"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kirill"
+              },
+              "lastName": {
+                "default": "Marchenko",
+                "cs": "Marčenko",
+                "fi": "Martshenko",
+                "sk": "Marčenko"
+              },
+              "sweaterNumber": 86
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Dunne"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Bowen"
+              },
+              "lastName": {
+                "default": "Byram"
+              },
+              "sweaterNumber": 4
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kirill"
+              },
+              "lastName": {
+                "default": "Marchenko",
+                "cs": "Marčenko",
+                "fi": "Martshenko",
+                "sk": "Marčenko"
+              },
+              "sweaterNumber": 86
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dmitri",
+                "cs": "Dmitrij",
+                "sk": "Dmitrij"
+              },
+              "lastName": {
+                "default": "Voronkov"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Dunne"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "roughing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "02:07",
+    "secondsRemaining": 127,
+    "running": false,
+    "inIntermission": false
+  }
+}

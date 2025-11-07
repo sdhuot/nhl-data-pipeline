@@ -1,0 +1,712 @@
+{
+  "id": 2025020107,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-21",
+  "venue": {
+    "default": "Delta Center"
+  },
+  "venueLocation": {
+    "default": "Salt Lake City"
+  },
+  "startTimeUTC": "2025-10-22T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "America/Denver",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 309,
+      "market": "N",
+      "countryCode": "US",
+      "network": "ESPN",
+      "sequenceNumber": 10
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 21,
+    "commonName": {
+      "default": "Avalanche"
+    },
+    "abbrev": "COL",
+    "placeName": {
+      "default": "Colorado"
+    },
+    "placeNameWithPreposition": {
+      "default": "Colorado",
+      "fr": "du Colorado"
+    },
+    "score": 3,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 68,
+    "commonName": {
+      "default": "Mammoth"
+    },
+    "abbrev": "UTA",
+    "placeName": {
+      "default": "Utah"
+    },
+    "placeNameWithPreposition": {
+      "default": "Utah",
+      "fr": "de l'Utah"
+    },
+    "score": 4,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 301,
+            "strength": "ev",
+            "playerId": 8480069,
+            "firstName": {
+              "default": "Cale"
+            },
+            "lastName": {
+              "default": "Makar"
+            },
+            "name": {
+              "default": "C. Makar"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480069.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-uta-makar-scores-goal-against-karel-vejmelka-6383497589112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-uta-makar-marque-un-but-contre-karel-vejmelka-6383496216112",
+            "highlightClip": 6383497589112,
+            "highlightClipFr": 6383496216112,
+            "discreteClip": 6383497978112,
+            "discreteClipFr": 6383499175112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "05:29",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480448,
+                "firstName": {
+                  "default": "Parker"
+                },
+                "lastName": {
+                  "default": "Kelly"
+                },
+                "name": {
+                  "default": "P. Kelly"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8482947,
+                "firstName": {
+                  "default": "Zakhar"
+                },
+                "lastName": {
+                  "default": "Bardakov"
+                },
+                "name": {
+                  "default": "Z. Bardakov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020107/ev301.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 667,
+            "strength": "pp",
+            "playerId": 8477951,
+            "firstName": {
+              "default": "Nick"
+            },
+            "lastName": {
+              "default": "Schmaltz"
+            },
+            "name": {
+              "default": "N. Schmaltz"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8477951.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-uta-schmaltz-scores-ppg-against-scott-wedgewood-6383500793112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-uta-schmaltz-marque-un-but-en-a-n-contre-scott-wedgewood-6383500305112",
+            "highlightClip": 6383500793112,
+            "highlightClipFr": 6383500305112,
+            "discreteClip": 6383498234112,
+            "discreteClipFr": 6383500602112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "09:17",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479343,
+                "firstName": {
+                  "default": "Clayton"
+                },
+                "lastName": {
+                  "default": "Keller"
+                },
+                "name": {
+                  "default": "C. Keller"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 9
+              },
+              {
+                "playerId": 8479410,
+                "firstName": {
+                  "default": "Mikhail",
+                  "cs": "Michail",
+                  "fi": "Mihail",
+                  "sk": "Michail"
+                },
+                "lastName": {
+                  "default": "Sergachev",
+                  "cs": "Sergačov",
+                  "fi": "Sergatshov",
+                  "sk": "Sergačov"
+                },
+                "name": {
+                  "default": "M. Sergachev",
+                  "cs": "M. Sergačov",
+                  "fi": "M. Sergatshov",
+                  "sk": "M. Sergačov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 98
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020107/ev667.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 205,
+            "strength": "ev",
+            "playerId": 8478474,
+            "firstName": {
+              "default": "Lawson"
+            },
+            "lastName": {
+              "default": "Crouse"
+            },
+            "name": {
+              "default": "L. Crouse"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8478474.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-uta-crouse-scores-goal-against-scott-wedgewood-6383502599112",
+            "highlightClip": 6383502599112,
+            "discreteClip": 6383501189112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "12:30",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478831,
+                "firstName": {
+                  "default": "Kevin"
+                },
+                "lastName": {
+                  "default": "Stenlund"
+                },
+                "name": {
+                  "default": "K. Stenlund"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 82
+              },
+              {
+                "playerId": 8479619,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Carcone"
+                },
+                "name": {
+                  "default": "M. Carcone"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 53
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020107/ev205.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 835,
+            "strength": "ev",
+            "playerId": 8480835,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Drury"
+            },
+            "name": {
+              "default": "J. Drury"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480835.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-uta-drury-scores-goal-against-karel-vejmelka-6383501902112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-uta-drury-marque-un-but-contre-karel-vejmelka-6383501620112",
+            "highlightClip": 6383501902112,
+            "highlightClipFr": 6383501620112,
+            "discreteClip": 6383501618112,
+            "discreteClipFr": 6383501623112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "01:10",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479525,
+                "firstName": {
+                  "default": "Ross"
+                },
+                "lastName": {
+                  "default": "Colton"
+                },
+                "name": {
+                  "default": "R. Colton"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020107/ev835.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 904,
+            "strength": "ev",
+            "playerId": 8479410,
+            "firstName": {
+              "default": "Mikhail",
+              "cs": "Michail",
+              "fi": "Mihail",
+              "sk": "Michail"
+            },
+            "lastName": {
+              "default": "Sergachev",
+              "cs": "Sergačov",
+              "fi": "Sergatshov",
+              "sk": "Sergačov"
+            },
+            "name": {
+              "default": "M. Sergachev",
+              "cs": "M. Sergačov",
+              "fi": "M. Sergatshov",
+              "sk": "M. Sergačov"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8479410.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-uta-sergachev-scores-goal-against-scott-wedgewood-6383501325112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-uta-sergachev-marque-un-but-contre-scott-wedgewood-6383500347112",
+            "highlightClip": 6383501325112,
+            "highlightClipFr": 6383500347112,
+            "discreteClip": 6383500646112,
+            "discreteClipFr": 6383502114112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "05:20",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020107/ev904.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1086,
+            "strength": "ev",
+            "playerId": 8480039,
+            "firstName": {
+              "default": "Martin"
+            },
+            "lastName": {
+              "default": "Necas",
+              "cs": "Nečas",
+              "sk": "Nečas"
+            },
+            "name": {
+              "default": "M. Necas",
+              "cs": "M. Nečas",
+              "sk": "M. Nečas"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480039.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-uta-necas-scores-goal-against-karel-vejmelka-6383502426112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-uta-necas-marque-un-but-contre-karel-vejmelka-6383502903112",
+            "highlightClip": 6383502426112,
+            "highlightClipFr": 6383502903112,
+            "discreteClip": 6383502720112,
+            "discreteClipFr": 6383501841112,
+            "goalsToDate": 5,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "17:44",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020107/ev1086.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 116,
+            "strength": "ev",
+            "playerId": 8482699,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Guenther"
+            },
+            "name": {
+              "default": "D. Guenther"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482699.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-uta-guenther-scores-goal-against-scott-wedgewood-6383502237112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-uta-guenther-marque-un-but-contre-scott-wedgewood-6383502231112",
+            "highlightClip": 6383502237112,
+            "highlightClipFr": 6383502231112,
+            "discreteClip": 6383502440112,
+            "discreteClipFr": 6383502240112,
+            "goalsToDate": 4,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "00:33",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479343,
+                "firstName": {
+                  "default": "Clayton"
+                },
+                "lastName": {
+                  "default": "Keller"
+                },
+                "name": {
+                  "default": "C. Keller"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 9
+              },
+              {
+                "playerId": 8479410,
+                "firstName": {
+                  "default": "Mikhail",
+                  "cs": "Michail",
+                  "fi": "Mihail",
+                  "sk": "Michail"
+                },
+                "lastName": {
+                  "default": "Sergachev",
+                  "cs": "Sergačov",
+                  "fi": "Sergatshov",
+                  "sk": "Sergačov"
+                },
+                "name": {
+                  "default": "M. Sergachev",
+                  "cs": "M. Sergačov",
+                  "fi": "M. Sergatshov",
+                  "sk": "M. Sergačov"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 98
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020107/ev116.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482699,
+        "teamAbbrev": "UTA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482699.png",
+        "name": {
+          "default": "D. Guenther"
+        },
+        "sweaterNo": 11,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8479410,
+        "teamAbbrev": "UTA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8479410.png",
+        "name": {
+          "default": "M. Sergachev",
+          "cs": "M. Sergačov",
+          "fi": "M. Sergatshov",
+          "sk": "M. Sergačov"
+        },
+        "sweaterNo": 98,
+        "position": "D",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8478872,
+        "teamAbbrev": "UTA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8478872.png",
+        "name": {
+          "default": "K. Vejmelka"
+        },
+        "sweaterNo": 70,
+        "position": "G",
+        "goalsAgainstAverage": 2.97,
+        "savePctg": 0.909
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Drury"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Marino"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:49",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gavin"
+              },
+              "lastName": {
+                "default": "Brindley"
+              },
+              "sweaterNumber": 54
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Clayton"
+              },
+              "lastName": {
+                "default": "Keller"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "18:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dmitri"
+              },
+              "lastName": {
+                "default": "Simashev"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Valeri",
+                "cs": "Valerij",
+                "sk": "Valerij"
+              },
+              "lastName": {
+                "default": "Nichushkin",
+                "cs": "Ničuškin",
+                "fi": "Nitshushkin",
+                "sk": "Ničuškin"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "04:27",
+    "secondsRemaining": 267,
+    "running": false,
+    "inIntermission": false
+  }
+}

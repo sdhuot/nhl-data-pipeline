@@ -1,0 +1,745 @@
+{
+  "id": 2025020140,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-26",
+  "venue": {
+    "default": "Prudential Center"
+  },
+  "venueLocation": {
+    "default": "Newark"
+  },
+  "startTimeUTC": "2025-10-26T17:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 282,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN",
+      "sequenceNumber": 101
+    },
+    {
+      "id": 2,
+      "market": "A",
+      "countryCode": "US",
+      "network": "ALT",
+      "sequenceNumber": 376
+    },
+    {
+      "id": 409,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSGSN",
+      "sequenceNumber": 402
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 21,
+    "commonName": {
+      "default": "Avalanche"
+    },
+    "abbrev": "COL",
+    "placeName": {
+      "default": "Colorado"
+    },
+    "placeNameWithPreposition": {
+      "default": "Colorado",
+      "fr": "du Colorado"
+    },
+    "score": 3,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 1,
+    "commonName": {
+      "default": "Devils"
+    },
+    "abbrev": "NJD",
+    "placeName": {
+      "default": "New Jersey"
+    },
+    "placeNameWithPreposition": {
+      "default": "New Jersey",
+      "fr": "du New Jersey"
+    },
+    "score": 4,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 284,
+            "strength": "ev",
+            "playerId": 8481721,
+            "firstName": {
+              "default": "Arseny"
+            },
+            "lastName": {
+              "default": "Gritsyuk"
+            },
+            "name": {
+              "default": "A. Gritsyuk"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481721.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-njd-gritsyuk-scores-goal-against-trent-miner-6384099727112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-njd-gritsyuk-marque-un-but-contre-trent-miner-6384098950112",
+            "highlightClip": 6384099727112,
+            "highlightClipFr": 6384098950112,
+            "discreteClip": 6384100024112,
+            "discreteClipFr": 6384097362112,
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "09:09",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478414,
+                "firstName": {
+                  "default": "Timo"
+                },
+                "lastName": {
+                  "default": "Meier"
+                },
+                "name": {
+                  "default": "T. Meier"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 28
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020140/ev284.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 291,
+            "strength": "ev",
+            "playerId": 8481559,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Hughes"
+            },
+            "name": {
+              "default": "J. Hughes"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481559.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-njd-hughes-scores-goal-against-trent-miner-6384100322112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-njd-hughes-marque-un-but-contre-trent-miner-6384098350112",
+            "highlightClip": 6384100322112,
+            "highlightClipFr": 6384098350112,
+            "discreteClip": 6384097659112,
+            "discreteClipFr": 6384100218112,
+            "goalsToDate": 7,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "09:48",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483495,
+                "firstName": {
+                  "default": "Simon",
+                  "cs": "Šimon",
+                  "sk": "Šimon"
+                },
+                "lastName": {
+                  "default": "Nemec"
+                },
+                "name": {
+                  "default": "S. Nemec",
+                  "cs": "Š. Nemec",
+                  "sk": "Š. Nemec"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8475455,
+                "firstName": {
+                  "default": "Brenden"
+                },
+                "lastName": {
+                  "default": "Dillon"
+                },
+                "name": {
+                  "default": "B. Dillon"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 5
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020140/ev291.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 339,
+            "strength": "ev",
+            "playerId": 8477501,
+            "firstName": {
+              "default": "Valeri",
+              "cs": "Valerij",
+              "sk": "Valerij"
+            },
+            "lastName": {
+              "default": "Nichushkin",
+              "cs": "Ničuškin",
+              "fi": "Nitshushkin",
+              "sk": "Ničuškin"
+            },
+            "name": {
+              "default": "V. Nichushkin",
+              "cs": "V. Ničuškin",
+              "fi": "V. Nitshushkin",
+              "sk": "V. Ničuškin"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477501.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-njd-nichushkin-scores-goal-against-jake-allen-6384097764112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-njd-nichushkin-marque-un-but-contre-jake-allen-6384098359112",
+            "highlightClip": 6384097764112,
+            "highlightClipFr": 6384098359112,
+            "discreteClip": 6384098150112,
+            "discreteClipFr": 6384100819112,
+            "goalsToDate": 5,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "12:55",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480069,
+                "firstName": {
+                  "default": "Cale"
+                },
+                "lastName": {
+                  "default": "Makar"
+                },
+                "name": {
+                  "default": "C. Makar"
+                },
+                "assistsToDate": 8,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8478109,
+                "firstName": {
+                  "default": "Victor"
+                },
+                "lastName": {
+                  "default": "Olofsson"
+                },
+                "name": {
+                  "default": "V. Olofsson"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 95
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020140/ev339.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 105,
+            "strength": "ev",
+            "playerId": 8477492,
+            "firstName": {
+              "default": "Nathan"
+            },
+            "lastName": {
+              "default": "MacKinnon"
+            },
+            "name": {
+              "default": "N. MacKinnon"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477492.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-njd-mackinnon-scores-goal-against-jake-allen-6384100445112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-njd-mackinnon-marque-un-but-contre-jake-allen-6384098366112",
+            "highlightClip": 6384100445112,
+            "highlightClipFr": 6384098366112,
+            "discreteClip": 6384098470112,
+            "discreteClipFr": 6384099939112,
+            "goalsToDate": 7,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "17:03",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477476,
+                "firstName": {
+                  "default": "Artturi"
+                },
+                "lastName": {
+                  "default": "Lehkonen"
+                },
+                "name": {
+                  "default": "A. Lehkonen"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 62
+              },
+              {
+                "playerId": 8478038,
+                "firstName": {
+                  "default": "Devon"
+                },
+                "lastName": {
+                  "default": "Toews"
+                },
+                "name": {
+                  "default": "D. Toews"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 7
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020140/ev105.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 713,
+            "strength": "ev",
+            "playerId": 8477015,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "Brown"
+            },
+            "name": {
+              "default": "C. Brown"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8477015.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/connor-brown-with-a-goal-vs-colorado-avalanche-6384099374112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/connor-brown-with-a-goal-vs-l-avalanche-du-colorado-6384100584112",
+            "highlightClip": 6384099374112,
+            "highlightClipFr": 6384100584112,
+            "discreteClip": 6384100173112,
+            "discreteClipFr": 6384100948112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "12:51",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483495,
+                "firstName": {
+                  "default": "Simon",
+                  "cs": "Šimon",
+                  "sk": "Šimon"
+                },
+                "lastName": {
+                  "default": "Nemec"
+                },
+                "name": {
+                  "default": "S. Nemec",
+                  "cs": "Š. Nemec",
+                  "sk": "Š. Nemec"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020140/ev713.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 1012,
+            "strength": "ev",
+            "playerId": 8475754,
+            "firstName": {
+              "default": "Brock"
+            },
+            "lastName": {
+              "default": "Nelson"
+            },
+            "name": {
+              "default": "B. Nelson"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8475754.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-njd-nelson-scores-goal-against-jake-allen-6384102866112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-njd-nelson-marque-un-but-contre-jake-allen-6384104556112",
+            "highlightClip": 6384102866112,
+            "highlightClipFr": 6384104556112,
+            "discreteClip": 6384104355112,
+            "discreteClipFr": 6384100199112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "13:55",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479525,
+                "firstName": {
+                  "default": "Ross"
+                },
+                "lastName": {
+                  "default": "Colton"
+                },
+                "name": {
+                  "default": "R. Colton"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 20
+              },
+              {
+                "playerId": 8484258,
+                "firstName": {
+                  "default": "Sam"
+                },
+                "lastName": {
+                  "default": "Malinski"
+                },
+                "name": {
+                  "default": "S. Malinski"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 70
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020140/ev1012.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 113,
+            "strength": "ev",
+            "playerId": 8481559,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Hughes"
+            },
+            "name": {
+              "default": "J. Hughes"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481559.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-njd-hughes-scores-goal-against-trent-miner-6384103681112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-njd-hughes-marque-un-but-contre-trent-miner-6384105067112",
+            "highlightClip": 6384103681112,
+            "highlightClipFr": 6384105067112,
+            "discreteClip": 6384104578112,
+            "discreteClipFr": 6384104575112,
+            "goalsToDate": 8,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "01:53",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483495,
+                "firstName": {
+                  "default": "Simon",
+                  "cs": "Šimon",
+                  "sk": "Šimon"
+                },
+                "lastName": {
+                  "default": "Nemec"
+                },
+                "name": {
+                  "default": "S. Nemec",
+                  "cs": "Š. Nemec",
+                  "sk": "Š. Nemec"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020140/ev113.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481559,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481559.png",
+        "name": {
+          "default": "J. Hughes"
+        },
+        "sweaterNo": 86,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8475754,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8475754.png",
+        "name": {
+          "default": "B. Nelson"
+        },
+        "sweaterNo": 11,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8477015,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8477015.png",
+        "name": {
+          "default": "C. Brown"
+        },
+        "sweaterNo": 16,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brock"
+              },
+              "lastName": {
+                "default": "Nelson"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Arseny"
+              },
+              "lastName": {
+                "default": "Gritsyuk"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "08:26",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Timo"
+              },
+              "lastName": {
+                "default": "Meier"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cale"
+              },
+              "lastName": {
+                "default": "Makar"
+              },
+              "sweaterNumber": 8
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "13:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Luke"
+              },
+              "lastName": {
+                "default": "Hughes"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Martin"
+              },
+              "lastName": {
+                "default": "Necas",
+                "cs": "Nečas",
+                "sk": "Nečas"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "03:07",
+    "secondsRemaining": 187,
+    "running": false,
+    "inIntermission": false
+  }
+}

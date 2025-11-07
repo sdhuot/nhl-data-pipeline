@@ -1,0 +1,916 @@
+{
+  "id": 2025020077,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-18",
+  "venue": {
+    "default": "Canadian Tire Centre"
+  },
+  "venueLocation": {
+    "default": "Ottawa"
+  },
+  "startTimeUTC": "2025-10-18T19:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 294,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN5",
+      "sequenceNumber": 135
+    },
+    {
+      "id": 242,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "RDSI",
+      "sequenceNumber": 136
+    },
+    {
+      "id": 27,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSG",
+      "sequenceNumber": 408
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 2,
+    "commonName": {
+      "default": "Islanders"
+    },
+    "abbrev": "NYI",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 5,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg"
+  },
+  "homeTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    },
+    "score": 4,
+    "sog": 32,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 346,
+            "strength": "pp",
+            "playerId": 8474102,
+            "firstName": {
+              "default": "David"
+            },
+            "lastName": {
+              "default": "Perron"
+            },
+            "name": {
+              "default": "D. Perron"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8474102.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-perron-scores-ppg-against-ilya-sorokin-6382953684112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-perron-marque-un-but-en-a-n-contre-ilya-sorokin-6382950822112",
+            "highlightClip": 6382953684112,
+            "highlightClipFr": 6382950822112,
+            "discreteClip": 6382951609112,
+            "discreteClipFr": 6382953168112,
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "17:01",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478469,
+                "firstName": {
+                  "default": "Thomas"
+                },
+                "lastName": {
+                  "default": "Chabot"
+                },
+                "name": {
+                  "default": "T. Chabot"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 72
+              },
+              {
+                "playerId": 8481560,
+                "firstName": {
+                  "default": "Arthur"
+                },
+                "lastName": {
+                  "default": "Kaliyev"
+                },
+                "name": {
+                  "default": "A. Kaliyev"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 34
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev346.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1560",
+            "eventId": 567,
+            "strength": "ev",
+            "playerId": 8481596,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Pinto"
+            },
+            "name": {
+              "default": "S. Pinto"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-pinto-scores-goal-against-ilya-sorokin-6382966609112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-pinto-marque-un-but-contre-ilya-sorokin-6382964251112",
+            "highlightClip": 6382966609112,
+            "highlightClipFr": 6382964251112,
+            "discreteClip": 6382964669112,
+            "discreteClipFr": 6382966515112,
+            "goalsToDate": 7,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "05:32",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480208,
+                "firstName": {
+                  "default": "Drake"
+                },
+                "lastName": {
+                  "default": "Batherson"
+                },
+                "name": {
+                  "default": "D. Batherson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8478469,
+                "firstName": {
+                  "default": "Thomas"
+                },
+                "lastName": {
+                  "default": "Chabot"
+                },
+                "name": {
+                  "default": "T. Chabot"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 72
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev567.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 109,
+            "strength": "ev",
+            "playerId": 8482476,
+            "firstName": {
+              "default": "Emil"
+            },
+            "lastName": {
+              "default": "Heineman"
+            },
+            "name": {
+              "default": "E. Heineman"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8482476.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-heineman-scores-goal-against-linus-ullmark-6382968740112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-heineman-marque-un-but-contre-linus-ullmark-6382968244112",
+            "highlightClip": 6382968740112,
+            "highlightClipFr": 6382968244112,
+            "discreteClip": 6382966679112,
+            "discreteClipFr": 6382965659112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "06:50",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477494,
+                "firstName": {
+                  "default": "Jonathan"
+                },
+                "lastName": {
+                  "default": "Drouin"
+                },
+                "name": {
+                  "default": "J. Drouin"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8476429,
+                "firstName": {
+                  "default": "Scott"
+                },
+                "lastName": {
+                  "default": "Mayfield"
+                },
+                "name": {
+                  "default": "S. Mayfield"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev109.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 630,
+            "strength": "ev",
+            "playerId": 8477500,
+            "firstName": {
+              "default": "Bo"
+            },
+            "lastName": {
+              "default": "Horvat"
+            },
+            "name": {
+              "default": "B. Horvat"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8477500.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-horvat-scores-goal-against-linus-ullmark-6382971190112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-horvat-marque-un-but-contre-linus-ullmark-6382968002112",
+            "highlightClip": 6382971190112,
+            "highlightClipFr": 6382968002112,
+            "discreteClip": 6382969185112,
+            "discreteClipFr": 6382968469112,
+            "goalsToDate": 4,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "09:57",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477506,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Pulock"
+                },
+                "name": {
+                  "default": "R. Pulock"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8475314,
+                "firstName": {
+                  "default": "Anders"
+                },
+                "lastName": {
+                  "default": "Lee"
+                },
+                "name": {
+                  "default": "A. Lee"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev630.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 781,
+            "strength": "ev",
+            "playerId": 8482116,
+            "firstName": {
+              "default": "Tim"
+            },
+            "lastName": {
+              "default": "Stützle"
+            },
+            "name": {
+              "default": "T. Stützle"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-stutzle-scores-goal-against-ilya-sorokin-6382974651112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-stutzle-marque-un-but-contre-ilya-sorokin-6382976410112",
+            "highlightClip": 6382974651112,
+            "highlightClipFr": 6382976410112,
+            "discreteClip": 6382974147112,
+            "discreteClipFr": 6382975521112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "16:46",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475324,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Jensen"
+                },
+                "name": {
+                  "default": "N. Jensen"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8480208,
+                "firstName": {
+                  "default": "Drake"
+                },
+                "lastName": {
+                  "default": "Batherson"
+                },
+                "name": {
+                  "default": "D. Batherson"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 19
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev781.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 786,
+            "strength": "ev",
+            "playerId": 8475314,
+            "firstName": {
+              "default": "Anders"
+            },
+            "lastName": {
+              "default": "Lee"
+            },
+            "name": {
+              "default": "A. Lee"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8475314.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-shabanov-scores-goal-against-linus-ullmark-6382976780112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-shabanov-marque-un-but-contre-linus-ullmark-6382976128112",
+            "highlightClip": 6382976780112,
+            "highlightClipFr": 6382976128112,
+            "discreteClip": 6382975923112,
+            "discreteClipFr": 6382976612112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "17:45",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8485702,
+                "firstName": {
+                  "default": "Max"
+                },
+                "lastName": {
+                  "default": "Shabanov"
+                },
+                "name": {
+                  "default": "M. Shabanov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 49
+              },
+              {
+                "playerId": 8485366,
+                "firstName": {
+                  "default": "Matthew"
+                },
+                "lastName": {
+                  "default": "Schaefer"
+                },
+                "name": {
+                  "default": "M. Schaefer"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev786.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 795,
+            "strength": "ev",
+            "playerId": 8481528,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Cozens"
+            },
+            "name": {
+              "default": "D. Cozens"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481528.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-cozens-scores-goal-against-ilya-sorokin-6382977047112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-cozens-marque-un-but-contre-ilya-sorokin-6382977325112",
+            "highlightClip": 6382977047112,
+            "highlightClipFr": 6382977325112,
+            "discreteClip": 6382976584112,
+            "discreteClipFr": 6382976064112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "18:47",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482116,
+                "firstName": {
+                  "default": "Tim"
+                },
+                "lastName": {
+                  "default": "Stützle"
+                },
+                "name": {
+                  "default": "T. Stützle"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev795.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 891,
+            "strength": "ev",
+            "playerId": 8475151,
+            "firstName": {
+              "default": "Kyle"
+            },
+            "lastName": {
+              "default": "Palmieri"
+            },
+            "name": {
+              "default": "K. Palmieri"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8475151.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-palmieri-scores-goal-against-linus-ullmark-6382989750112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-palmieri-marque-un-but-contre-linus-ullmark-6382989655112",
+            "highlightClip": 6382989750112,
+            "highlightClipFr": 6382989655112,
+            "discreteClip": 6382988359112,
+            "discreteClipFr": 6382989432112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 4,
+            "timeInPeriod": "06:00",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478445,
+                "firstName": {
+                  "default": "Mathew"
+                },
+                "lastName": {
+                  "default": "Barzal"
+                },
+                "name": {
+                  "default": "M. Barzal"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 13
+              },
+              {
+                "playerId": 8476917,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Pelech"
+                },
+                "name": {
+                  "default": "A. Pelech"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 3
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev891.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1083,
+            "strength": "ev",
+            "playerId": 8475314,
+            "firstName": {
+              "default": "Anders"
+            },
+            "lastName": {
+              "default": "Lee"
+            },
+            "name": {
+              "default": "A. Lee"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8475314.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-ott-lee-scores-goal-against-linus-ullmark-6382998609112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-ott-lee-marque-un-but-contre-linus-ullmark-6382996952112",
+            "highlightClip": 6382998609112,
+            "highlightClipFr": 6382996952112,
+            "discreteClip": 6382996675112,
+            "discreteClipFr": 6382997152112,
+            "goalsToDate": 2,
+            "awayScore": 5,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "NYI"
+            },
+            "timeInPeriod": "18:57",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476419,
+                "firstName": {
+                  "default": "Jean-Gabriel"
+                },
+                "lastName": {
+                  "default": "Pageau"
+                },
+                "name": {
+                  "default": "J. Pageau"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020077/ev1083.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8475314,
+        "teamAbbrev": "NYI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8475314.png",
+        "name": {
+          "default": "A. Lee"
+        },
+        "sweaterNo": 27,
+        "position": "L",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8482116,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+        "name": {
+          "default": "T. Stützle"
+        },
+        "sweaterNo": 18,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8477500,
+        "teamAbbrev": "NYI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8477500.png",
+        "name": {
+          "default": "B. Horvat"
+        },
+        "sweaterNo": 14,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "15:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Emil"
+              },
+              "lastName": {
+                "default": "Heineman"
+              },
+              "sweaterNumber": 51
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Claude"
+              },
+              "lastName": {
+                "default": "Giroux"
+              },
+              "sweaterNumber": 28
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "17:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Cousins"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Scott"
+              },
+              "lastName": {
+                "default": "Mayfield"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "18:29",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Artem",
+                "cs": "Arťom",
+                "fi": "Artjom",
+                "sk": "Arťom"
+              },
+              "lastName": {
+                "default": "Zub"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mathew"
+              },
+              "lastName": {
+                "default": "Barzal"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "12:41",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "descKey": "delaying-game-bench",
+            "servedBy": {
+              "default": "C. Cizikas"
+            }
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:59",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Fabian"
+              },
+              "lastName": {
+                "default": "Zetterlund"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tony"
+              },
+              "lastName": {
+                "default": "DeAngelo"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "02:23",
+            "type": "PS",
+            "duration": 0,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Schaefer"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Shane"
+              },
+              "lastName": {
+                "default": "Pinto"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "ps-tripping-on-breakaway"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

@@ -1,0 +1,849 @@
+{
+  "id": 2025020055,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-14",
+  "venue": {
+    "default": "SAP Center at San Jose"
+  },
+  "venueLocation": {
+    "default": "San Jose"
+  },
+  "startTimeUTC": "2025-10-15T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 561,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNSO",
+      "sequenceNumber": 277
+    },
+    {
+      "id": 314,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NBCSCA",
+      "sequenceNumber": 384
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 12,
+    "commonName": {
+      "default": "Hurricanes"
+    },
+    "abbrev": "CAR",
+    "placeName": {
+      "default": "Carolina",
+      "fr": "Caroline"
+    },
+    "placeNameWithPreposition": {
+      "default": "Carolina",
+      "fr": "de la Caroline"
+    },
+    "score": 5,
+    "sog": 43,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg"
+  },
+  "homeTeam": {
+    "id": 28,
+    "commonName": {
+      "default": "Sharks"
+    },
+    "abbrev": "SJS",
+    "placeName": {
+      "default": "San Jose"
+    },
+    "placeNameWithPreposition": {
+      "default": "San Jose",
+      "fr": "de San Jose"
+    },
+    "score": 1,
+    "sog": 17,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 499,
+            "strength": "ev",
+            "playerId": 8480336,
+            "firstName": {
+              "default": "Sean"
+            },
+            "lastName": {
+              "default": "Walker"
+            },
+            "name": {
+              "default": "S. Walker"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8480336.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-sjs-walker-scores-goal-against-alex-nedeljkovic-6382773071112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-sjs-walker-marque-un-but-contre-alex-nedeljkovic-6382774129112",
+            "highlightClip": 6382773071112,
+            "highlightClipFr": 6382774129112,
+            "discreteClip": 6382774238112,
+            "discreteClipFr": 6382774125112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "01:24",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478427,
+                "firstName": {
+                  "default": "Sebastian"
+                },
+                "lastName": {
+                  "default": "Aho"
+                },
+                "name": {
+                  "default": "S. Aho"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 20
+              },
+              {
+                "playerId": 8482093,
+                "firstName": {
+                  "default": "Seth"
+                },
+                "lastName": {
+                  "default": "Jarvis"
+                },
+                "name": {
+                  "default": "S. Jarvis"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020055/ev499.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 538,
+            "strength": "ev",
+            "playerId": 8482667,
+            "firstName": {
+              "default": "William"
+            },
+            "lastName": {
+              "default": "Eklund"
+            },
+            "name": {
+              "default": "W. Eklund"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8482667.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-sjs-eklund-scores-goal-against-brandon-bussi-6382775032112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-sjs-eklund-marque-un-but-contre-brandon-bussi-6382775622112",
+            "highlightClip": 6382775032112,
+            "highlightClipFr": 6382775622112,
+            "discreteClip": 6382775815112,
+            "discreteClipFr": 6382775528112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "04:38",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475726,
+                "firstName": {
+                  "default": "Tyler"
+                },
+                "lastName": {
+                  "default": "Toffoli"
+                },
+                "name": {
+                  "default": "T. Toffoli"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 73
+              },
+              {
+                "playerId": 8475181,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Leddy"
+                },
+                "name": {
+                  "default": "N. Leddy"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 4
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020055/ev538.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 355,
+            "strength": "ev",
+            "playerId": 8477478,
+            "firstName": {
+              "default": "William"
+            },
+            "lastName": {
+              "default": "Carrier"
+            },
+            "name": {
+              "default": "W. Carrier"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8477478.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-sjs-carrier-scores-goal-against-alex-nedeljkovic-6382774649112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-sjs-carrier-marque-un-but-contre-alex-nedeljkovic-6382774785112",
+            "highlightClip": 6382774649112,
+            "highlightClipFr": 6382774785112,
+            "discreteClip": 6382775357112,
+            "discreteClipFr": 6382776543112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "14:14",
+            "shotType": "poke",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482100,
+                "firstName": {
+                  "default": "Alexander"
+                },
+                "lastName": {
+                  "default": "Nikishin"
+                },
+                "name": {
+                  "default": "A. Nikishin"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 21
+              },
+              {
+                "playerId": 8476921,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Martinook"
+                },
+                "name": {
+                  "default": "J. Martinook"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020055/ev355.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 775,
+            "strength": "ev",
+            "playerId": 8480762,
+            "firstName": {
+              "default": "Eric"
+            },
+            "lastName": {
+              "default": "Robinson"
+            },
+            "name": {
+              "default": "E. Robinson"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8480762.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-sjs-robinson-scores-goal-against-alex-nedeljkovic-6382774670112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-sjs-robinson-marque-un-but-contre-alex-nedeljkovic-6382776144112",
+            "highlightClip": 6382774670112,
+            "highlightClipFr": 6382776144112,
+            "discreteClip": 6382775066112,
+            "discreteClipFr": 6382774974112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "18:39",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476422,
+                "firstName": {
+                  "default": "Mike"
+                },
+                "lastName": {
+                  "default": "Reilly"
+                },
+                "name": {
+                  "default": "M. Reilly"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020055/ev775.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 822,
+            "strength": "ev",
+            "playerId": 8476906,
+            "firstName": {
+              "default": "Shayne"
+            },
+            "lastName": {
+              "default": "Gostisbehere"
+            },
+            "name": {
+              "default": "S. Gostisbehere"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476906.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-sjs-gostisbehere-scores-goal-against-alex-nedeljkovic-6382778239112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-sjs-gostisbehere-marque-un-but-contre-alex-nedeljkovic-6382776387112",
+            "highlightClip": 6382778239112,
+            "highlightClipFr": 6382776387112,
+            "discreteClip": 6382778140112,
+            "discreteClipFr": 6382777630112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "01:52",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482702,
+                "firstName": {
+                  "default": "Logan"
+                },
+                "lastName": {
+                  "default": "Stankoven"
+                },
+                "name": {
+                  "default": "L. Stankoven"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8475791,
+                "firstName": {
+                  "default": "Taylor"
+                },
+                "lastName": {
+                  "default": "Hall"
+                },
+                "name": {
+                  "default": "T. Hall"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020055/ev822.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 902,
+            "strength": "ev",
+            "playerId": 8482809,
+            "firstName": {
+              "default": "Jackson"
+            },
+            "lastName": {
+              "default": "Blake"
+            },
+            "name": {
+              "default": "J. Blake"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482809.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-sjs-blake-scores-goal-against-alex-nedeljkovic-6382777552112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-sjs-blake-marque-un-but-contre-alex-nedeljkovic-6382776797112",
+            "highlightClip": 6382777552112,
+            "highlightClipFr": 6382776797112,
+            "discreteClip": 6382777464112,
+            "discreteClipFr": 6382778262112,
+            "goalsToDate": 1,
+            "awayScore": 5,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "07:25",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478970,
+                "firstName": {
+                  "default": "Jalen"
+                },
+                "lastName": {
+                  "default": "Chatfield"
+                },
+                "name": {
+                  "default": "J. Chatfield"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 5
+              },
+              {
+                "playerId": 8482702,
+                "firstName": {
+                  "default": "Logan"
+                },
+                "lastName": {
+                  "default": "Stankoven"
+                },
+                "name": {
+                  "default": "L. Stankoven"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 22
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020055/ev902.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482702,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482702.png",
+        "name": {
+          "default": "L. Stankoven"
+        },
+        "sweaterNo": 22,
+        "position": "C",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8483548,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8483548.png",
+        "name": {
+          "default": "B. Bussi"
+        },
+        "sweaterNo": 32,
+        "position": "G",
+        "goalsAgainstAverage": 1.0,
+        "savePctg": 0.941
+      },
+      {
+        "star": 3,
+        "playerId": 8476906,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476906.png",
+        "name": {
+          "default": "S. Gostisbehere"
+        },
+        "sweaterNo": 4,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:25",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "K'Andre"
+              },
+              "lastName": {
+                "default": "Miller"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Macklin"
+              },
+              "lastName": {
+                "default": "Celebrini"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "11:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Shayne"
+              },
+              "lastName": {
+                "default": "Gostisbehere"
+              },
+              "sweaterNumber": 4
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jeff"
+              },
+              "lastName": {
+                "default": "Skinner"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "15:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "William"
+              },
+              "lastName": {
+                "default": "Carrier"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mario"
+              },
+              "lastName": {
+                "default": "Ferraro"
+              },
+              "sweaterNumber": 38
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "17:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Will"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sebastian"
+              },
+              "lastName": {
+                "default": "Aho"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:55",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Gaudette"
+              },
+              "sweaterNumber": 81
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jackson"
+              },
+              "lastName": {
+                "default": "Blake"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "08:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jackson"
+              },
+              "lastName": {
+                "default": "Blake"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ty"
+              },
+              "lastName": {
+                "default": "Dellandrea"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Dickinson"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Nikishin"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "roughing",
+            "servedBy": {
+              "default": "Michael Misa"
+            }
+          },
+          {
+            "timeInPeriod": "08:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Dickinson"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Shayne"
+              },
+              "lastName": {
+                "default": "Gostisbehere"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "08:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Nikishin"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Dickinson"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "13:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Walker"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Wennberg"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

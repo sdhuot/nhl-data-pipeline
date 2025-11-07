@@ -1,0 +1,796 @@
+{
+  "id": 2025020101,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-21",
+  "venue": {
+    "default": "PPG Paints Arena"
+  },
+  "venueLocation": {
+    "default": "Pittsburgh"
+  },
+  "startTimeUTC": "2025-10-21T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 290,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "SNP",
+      "sequenceNumber": 33
+    },
+    {
+      "id": 528,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SN-PIT",
+      "sequenceNumber": 375
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 23,
+    "commonName": {
+      "default": "Canucks"
+    },
+    "abbrev": "VAN",
+    "placeName": {
+      "default": "Vancouver"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vancouver",
+      "fr": "de Vancouver"
+    },
+    "score": 1,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+  },
+  "homeTeam": {
+    "id": 5,
+    "commonName": {
+      "default": "Penguins"
+    },
+    "abbrev": "PIT",
+    "placeName": {
+      "default": "Pittsburgh"
+    },
+    "placeNameWithPreposition": {
+      "default": "Pittsburgh",
+      "fr": "de Pittsburgh"
+    },
+    "score": 5,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 63,
+            "strength": "ev",
+            "playerId": 8478856,
+            "firstName": {
+              "default": "Conor"
+            },
+            "lastName": {
+              "default": "Garland"
+            },
+            "name": {
+              "default": "C. Garland"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8478856.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-pit-garland-scores-goal-against-arturs-silovs-6383485937112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-pit-garland-marque-un-but-contre-arturs-silovs-6383485739112",
+            "highlightClip": 6383485937112,
+            "highlightClipFr": 6383485739112,
+            "discreteClip": 6383485342112,
+            "discreteClipFr": 6383485444112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "01:18",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480012,
+                "firstName": {
+                  "default": "Elias"
+                },
+                "lastName": {
+                  "default": "Pettersson"
+                },
+                "name": {
+                  "default": "E. Pettersson"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 40
+              },
+              {
+                "playerId": 8479425,
+                "firstName": {
+                  "default": "Filip"
+                },
+                "lastName": {
+                  "default": "Hronek"
+                },
+                "name": {
+                  "default": "F. Hronek"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020101/ev63.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 308,
+            "strength": "ev",
+            "playerId": 8480980,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "Dewar"
+            },
+            "name": {
+              "default": "C. Dewar"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8480980.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-pit-dewar-scores-goal-against-kevin-lankinen-6383485973112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-pit-dewar-marque-un-but-contre-kevin-lankinen-6383486453112",
+            "highlightClip": 6383485973112,
+            "highlightClipFr": 6383486453112,
+            "discreteClip": 6383487153112,
+            "discreteClipFr": 6383485082112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "11:39",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478450,
+                "firstName": {
+                  "default": "Parker"
+                },
+                "lastName": {
+                  "default": "Wotherspoon"
+                },
+                "name": {
+                  "default": "P. Wotherspoon"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8478569,
+                "firstName": {
+                  "default": "Noel"
+                },
+                "lastName": {
+                  "default": "Acciari"
+                },
+                "name": {
+                  "default": "N. Acciari"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 55
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020101/ev308.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 731,
+            "strength": "pp",
+            "playerId": 8478438,
+            "firstName": {
+              "default": "Tommy",
+              "cs": "Thomas",
+              "de": "Thomas",
+              "es": "Thomas",
+              "fi": "Thomas",
+              "sk": "Thomas",
+              "sv": "Thomas"
+            },
+            "lastName": {
+              "default": "Novak"
+            },
+            "name": {
+              "default": "T. Novak"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8478438.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/thomas-novak-with-a-powerplay-goal-vs-vancouver-canucks-6383490587112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/thomas-novak-with-a-powerplay-goal-vs-les-canucks-de-vancouver-6383490487112",
+            "highlightClip": 6383490587112,
+            "highlightClipFr": 6383490487112,
+            "discreteClip": 6383490488112,
+            "discreteClipFr": 6383489183112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "14:21",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8471724,
+                "firstName": {
+                  "default": "Kris"
+                },
+                "lastName": {
+                  "default": "Letang"
+                },
+                "name": {
+                  "default": "K. Letang"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 58
+              },
+              {
+                "playerId": 8479638,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Brazeau"
+                },
+                "name": {
+                  "default": "J. Brazeau"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 16
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020101/ev731.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 818,
+            "strength": "ev",
+            "playerId": 8471675,
+            "firstName": {
+              "default": "Sidney"
+            },
+            "lastName": {
+              "default": "Crosby"
+            },
+            "name": {
+              "default": "S. Crosby"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8471675.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-pit-crosby-scores-goal-against-kevin-lankinen-6383491184112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-pit-crosby-marque-un-but-contre-kevin-lankinen-6383490892112",
+            "highlightClip": 6383491184112,
+            "highlightClipFr": 6383490892112,
+            "discreteClip": 6383487341112,
+            "discreteClipFr": 6383489286112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "16:18",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476483,
+                "firstName": {
+                  "default": "Rickard"
+                },
+                "lastName": {
+                  "default": "Rakell"
+                },
+                "name": {
+                  "default": "R. Rakell"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 67
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020101/ev818.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 830,
+            "strength": "ev",
+            "playerId": 8477511,
+            "firstName": {
+              "default": "Anthony"
+            },
+            "lastName": {
+              "default": "Mantha"
+            },
+            "name": {
+              "default": "A. Mantha"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8477511.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-pit-mantha-scores-goal-against-kevin-lankinen-6383488387112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-pit-mantha-marque-un-but-contre-kevin-lankinen-6383490906112",
+            "highlightClip": 6383488387112,
+            "highlightClipFr": 6383490906112,
+            "discreteClip": 6383489802112,
+            "discreteClipFr": 6383488697112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "17:29",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8471215,
+                "firstName": {
+                  "default": "Evgeni",
+                  "cs": "Jevgenij",
+                  "fi": "Jevgeni",
+                  "sk": "Jevgenij"
+                },
+                "lastName": {
+                  "default": "Malkin"
+                },
+                "name": {
+                  "default": "E. Malkin"
+                },
+                "assistsToDate": 8,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8479638,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Brazeau"
+                },
+                "name": {
+                  "default": "J. Brazeau"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 16
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020101/ev830.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 1015,
+            "strength": "pp",
+            "playerId": 8479638,
+            "firstName": {
+              "default": "Justin"
+            },
+            "lastName": {
+              "default": "Brazeau"
+            },
+            "name": {
+              "default": "J. Brazeau"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8479638.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-pit-brazeau-scores-ppg-against-kevin-lankinen-6383494145112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-pit-brazeau-marque-un-but-en-a-n-contre-kevin-lankinen-6383494931112",
+            "highlightClip": 6383494145112,
+            "highlightClipFr": 6383494931112,
+            "discreteClip": 6383494836112,
+            "discreteClipFr": 6383495231112,
+            "goalsToDate": 5,
+            "awayScore": 1,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "05:56",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477511,
+                "firstName": {
+                  "default": "Anthony"
+                },
+                "lastName": {
+                  "default": "Mantha"
+                },
+                "name": {
+                  "default": "A. Mantha"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 39
+              },
+              {
+                "playerId": 8471724,
+                "firstName": {
+                  "default": "Kris"
+                },
+                "lastName": {
+                  "default": "Letang"
+                },
+                "name": {
+                  "default": "K. Letang"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 58
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020101/ev1015.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8479638,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8479638.png",
+        "name": {
+          "default": "J. Brazeau"
+        },
+        "sweaterNo": 16,
+        "position": "R",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8471675,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8471675.png",
+        "name": {
+          "default": "S. Crosby"
+        },
+        "sweaterNo": 87,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8471724,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8471724.png",
+        "name": {
+          "default": "K. Letang"
+        },
+        "sweaterNo": 58,
+        "position": "D",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Evander"
+              },
+              "lastName": {
+                "default": "Kane"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Dewar"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "13:14",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Shea"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Evander"
+              },
+              "lastName": {
+                "default": "Kane"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "17:07",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "Max Sasson"
+            }
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "12:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Drew"
+              },
+              "lastName": {
+                "default": "O'Connor"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anthony"
+              },
+              "lastName": {
+                "default": "Mantha"
+              },
+              "sweaterNumber": 39
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:01",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Evgeni",
+                "cs": "Jevgenij",
+                "fi": "Jevgeni",
+                "sk": "Jevgenij"
+              },
+              "lastName": {
+                "default": "Malkin"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Elias"
+              },
+              "lastName": {
+                "default": "Pettersson"
+              },
+              "sweaterNumber": 25
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "04:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Marcus"
+              },
+              "lastName": {
+                "default": "Pettersson"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anthony"
+              },
+              "lastName": {
+                "default": "Mantha"
+              },
+              "sweaterNumber": 39
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "07:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Filip"
+              },
+              "lastName": {
+                "default": "Hallander"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kiefer"
+              },
+              "lastName": {
+                "default": "Sherwood"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "16:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "P.O",
+                "cs": "Pierre-Olivier",
+                "de": "Pierre-Olivier",
+                "es": "Pierre-Olivier",
+                "fi": "Pierre-Olivier",
+                "sk": "Pierre-Olivier",
+                "sv": "Pierre-Olivier"
+              },
+              "lastName": {
+                "default": "Joseph"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Dewar"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

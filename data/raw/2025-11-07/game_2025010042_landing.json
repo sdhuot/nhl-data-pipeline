@@ -1,0 +1,633 @@
+{
+  "id": 2025010042,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-26",
+  "venue": {
+    "default": "UBS Arena"
+  },
+  "venueLocation": {
+    "default": "Elmont"
+  },
+  "startTimeUTC": "2025-09-26T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 410,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSGSN2",
+      "sequenceNumber": 397
+    },
+    {
+      "id": 409,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSGSN",
+      "sequenceNumber": 402
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 1,
+    "commonName": {
+      "default": "Devils"
+    },
+    "abbrev": "NJD",
+    "placeName": {
+      "default": "New Jersey"
+    },
+    "placeNameWithPreposition": {
+      "default": "New Jersey",
+      "fr": "du New Jersey"
+    },
+    "score": 4,
+    "sog": 27,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+  },
+  "homeTeam": {
+    "id": 2,
+    "commonName": {
+      "default": "Islanders"
+    },
+    "abbrev": "NYI",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 2,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 151,
+            "strength": "ev",
+            "playerId": 8476822,
+            "firstName": {
+              "default": "Luke"
+            },
+            "lastName": {
+              "default": "Glendening"
+            },
+            "name": {
+              "default": "L. Glendening"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8476822.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyi-glendening-scores-goal-against-ilya-sorokin-6380166202112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyi-glendening-marque-un-but-contre-ilya-sorokin-6380166386112",
+            "highlightClip": 6380166202112,
+            "highlightClipFr": 6380166386112,
+            "discreteClip": 6380166683112,
+            "discreteClipFr": 6380164538112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "02:01",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483429,
+                "firstName": {
+                  "default": "Seamus"
+                },
+                "lastName": {
+                  "default": "Casey"
+                },
+                "name": {
+                  "default": "S. Casey"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8483531,
+                "firstName": {
+                  "default": "Brian"
+                },
+                "lastName": {
+                  "default": "Halonen"
+                },
+                "name": {
+                  "default": "B. Halonen"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010042/ev151.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 662,
+            "strength": "ev",
+            "playerId": 8483553,
+            "firstName": {
+              "default": "Marc"
+            },
+            "lastName": {
+              "default": "Gatcomb"
+            },
+            "name": {
+              "default": "M. Gatcomb"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8483553.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyi-gatcomb-scores-goal-against-jake-allen-6380167032112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyi-gatcomb-marque-un-but-contre-jake-allen-6380166741112",
+            "highlightClip": 6380167032112,
+            "highlightClipFr": 6380166741112,
+            "discreteClip": 6380167143112,
+            "discreteClipFr": 6380167713112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "11:30",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478445,
+                "firstName": {
+                  "default": "Mathew"
+                },
+                "lastName": {
+                  "default": "Barzal"
+                },
+                "name": {
+                  "default": "M. Barzal"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 13
+              },
+              {
+                "playerId": 8477950,
+                "firstName": {
+                  "default": "Tony"
+                },
+                "lastName": {
+                  "default": "DeAngelo"
+                },
+                "name": {
+                  "default": "T. DeAngelo"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010042/ev662.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 915,
+            "strength": "ev",
+            "playerId": 8481594,
+            "firstName": {
+              "default": "Nathan"
+            },
+            "lastName": {
+              "default": "Légaré"
+            },
+            "name": {
+              "default": "N. Légaré"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481594.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyi-legare-scores-goal-against-ilya-sorokin-6380169616112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyi-legare-marque-un-but-contre-ilya-sorokin-6380168735112",
+            "highlightClip": 6380169616112,
+            "highlightClipFr": 6380168735112,
+            "discreteClip": 6380170413112,
+            "discreteClipFr": 6380168838112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "08:44",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481065,
+                "firstName": {
+                  "default": "Angus"
+                },
+                "lastName": {
+                  "default": "Crookshank"
+                },
+                "name": {
+                  "default": "A. Crookshank"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 36
+              },
+              {
+                "playerId": 8479291,
+                "firstName": {
+                  "default": "Kevin"
+                },
+                "lastName": {
+                  "default": "Rooney"
+                },
+                "name": {
+                  "default": "K. Rooney"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 10
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010042/ev915.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 152,
+            "strength": "ev",
+            "playerId": 8481721,
+            "firstName": {
+              "default": "Arseny"
+            },
+            "lastName": {
+              "default": "Gritsyuk"
+            },
+            "name": {
+              "default": "A. Gritsyuk"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481721.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyi-gritsyuk-scores-goal-against-ilya-sorokin-6380168743112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyi-gritsyuk-marque-un-but-contre-ilya-sorokin-6380169916112",
+            "highlightClip": 6380168743112,
+            "highlightClipFr": 6380169916112,
+            "discreteClip": 6380169829112,
+            "discreteClipFr": 6380170210112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "12:21",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481032,
+                "firstName": {
+                  "default": "Paul"
+                },
+                "lastName": {
+                  "default": "Cotter"
+                },
+                "name": {
+                  "default": "P. Cotter"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 47
+              },
+              {
+                "playerId": 8483429,
+                "firstName": {
+                  "default": "Seamus"
+                },
+                "lastName": {
+                  "default": "Casey"
+                },
+                "name": {
+                  "default": "S. Casey"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010042/ev152.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 153,
+            "strength": "ev",
+            "playerId": 8477407,
+            "firstName": {
+              "default": "Anthony"
+            },
+            "lastName": {
+              "default": "Duclair"
+            },
+            "name": {
+              "default": "A. Duclair"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8477407.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyi-duclair-scores-goal-against-jakub-malek-6380169837112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyi-duclair-marque-un-but-contre-jakub-malek-6380170319112",
+            "highlightClip": 6380169837112,
+            "highlightClipFr": 6380170319112,
+            "discreteClip": 6380171013112,
+            "discreteClipFr": 6380168446112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "16:50",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8485366,
+                "firstName": {
+                  "default": "Matthew"
+                },
+                "lastName": {
+                  "default": "Schaefer"
+                },
+                "name": {
+                  "default": "M. Schaefer"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010042/ev153.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 1030,
+            "strength": "ev",
+            "playerId": 8481065,
+            "firstName": {
+              "default": "Angus"
+            },
+            "lastName": {
+              "default": "Crookshank"
+            },
+            "name": {
+              "default": "A. Crookshank"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481065.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/angus-crookshank-with-a-goal-vs-new-york-islanders-6380168454112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/angus-crookshank-with-a-goal-vs-les-islanders-de-new-york-6380169637112",
+            "highlightClip": 6380168454112,
+            "highlightClipFr": 6380169637112,
+            "discreteClip": 6380169848112,
+            "discreteClipFr": 6380169839112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "18:57",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8481594,
+                "firstName": {
+                  "default": "Nathan"
+                },
+                "lastName": {
+                  "default": "Légaré"
+                },
+                "name": {
+                  "default": "N. Légaré"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 37
+              },
+              {
+                "playerId": 8483495,
+                "firstName": {
+                  "default": "Simon",
+                  "cs": "Šimon",
+                  "sk": "Šimon"
+                },
+                "lastName": {
+                  "default": "Nemec"
+                },
+                "name": {
+                  "default": "S. Nemec",
+                  "cs": "Š. Nemec",
+                  "sk": "Š. Nemec"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010042/ev1030.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481594,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481594.png",
+        "name": {
+          "default": "N. Légaré"
+        },
+        "sweaterNo": 37,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8481065,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481065.png",
+        "name": {
+          "default": "A. Crookshank"
+        },
+        "sweaterNo": 36,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8483429,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8483429.png",
+        "name": {
+          "default": "S. Casey"
+        },
+        "sweaterNo": 24,
+        "position": "D",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ethan"
+              },
+              "lastName": {
+                "default": "Bear"
+              },
+              "sweaterNumber": 74
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Arseny"
+              },
+              "lastName": {
+                "default": "Gritsyuk"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "07:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Eetu"
+              },
+              "lastName": {
+                "default": "Liukas"
+              },
+              "sweaterNumber": 84
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dougie"
+              },
+              "lastName": {
+                "default": "Hamilton"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

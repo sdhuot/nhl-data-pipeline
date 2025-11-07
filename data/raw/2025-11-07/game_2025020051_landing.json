@@ -1,0 +1,392 @@
+{
+  "id": 2025020051,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-14",
+  "venue": {
+    "default": "Madison Square Garden"
+  },
+  "venueLocation": {
+    "default": "New York"
+  },
+  "startTimeUTC": "2025-10-14T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 289,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "SNW",
+      "sequenceNumber": 34
+    },
+    {
+      "id": 27,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSG",
+      "sequenceNumber": 408
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 22,
+    "commonName": {
+      "default": "Oilers"
+    },
+    "abbrev": "EDM",
+    "placeName": {
+      "default": "Edmonton"
+    },
+    "placeNameWithPreposition": {
+      "default": "Edmonton",
+      "fr": "d'Edmonton"
+    },
+    "score": 2,
+    "sog": 22,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+  },
+  "homeTeam": {
+    "id": 3,
+    "commonName": {
+      "default": "Rangers"
+    },
+    "abbrev": "NYR",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 0,
+    "sog": 30,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 641,
+            "strength": "ev",
+            "playerId": 8479365,
+            "firstName": {
+              "default": "Trent"
+            },
+            "lastName": {
+              "default": "Frederic"
+            },
+            "name": {
+              "default": "T. Frederic"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8479365.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-nyr-frederic-scores-goal-against-igor-shesterkin-6382766008112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-nyr-frederic-marque-un-but-contre-igor-shesterkin-6382763749112",
+            "highlightClip": 6382766008112,
+            "highlightClipFr": 6382763749112,
+            "discreteClip": 6382763848112,
+            "discreteClipFr": 6382765114112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "10:22",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477953,
+                "firstName": {
+                  "default": "Kasperi"
+                },
+                "lastName": {
+                  "default": "Kapanen"
+                },
+                "name": {
+                  "default": "K. Kapanen"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 42
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020051/ev641.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1560",
+            "eventId": 1017,
+            "strength": "ev",
+            "playerId": 8474641,
+            "firstName": {
+              "default": "Adam"
+            },
+            "lastName": {
+              "default": "Henrique"
+            },
+            "name": {
+              "default": "A. Henrique"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8474641.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-nyr-henrique-scores-empty-net-goal-6382767476112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-nyr-henrique-edm-marque-un-but-dans-un-filet-desert-6382766501112",
+            "highlightClip": 6382767476112,
+            "highlightClipFr": 6382766501112,
+            "discreteClip": 6382767766112,
+            "discreteClipFr": 6382769339112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "18:52",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8478402,
+                "firstName": {
+                  "default": "Connor"
+                },
+                "lastName": {
+                  "default": "McDavid"
+                },
+                "name": {
+                  "default": "C. McDavid"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 97
+              },
+              {
+                "playerId": 8478233,
+                "firstName": {
+                  "default": "Andrew"
+                },
+                "lastName": {
+                  "default": "Mangiapane"
+                },
+                "name": {
+                  "default": "A. Mangiapane"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020051/ev1017.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8479973,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8479973.png",
+        "name": {
+          "default": "S. Skinner"
+        },
+        "sweaterNo": 74,
+        "position": "G",
+        "goalsAgainstAverage": 0.0,
+        "savePctg": 1.0
+      },
+      {
+        "star": 2,
+        "playerId": 8479365,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8479365.png",
+        "name": {
+          "default": "T. Frederic"
+        },
+        "sweaterNo": 10,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8478048,
+        "teamAbbrev": "NYR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8478048.png",
+        "name": {
+          "default": "I. Shesterkin",
+          "cs": "I. Šesťorkin",
+          "fi": "I. Shestjorkin",
+          "sk": "I. Šesťorkin"
+        },
+        "sweaterNo": 31,
+        "position": "G",
+        "goalsAgainstAverage": 1.01,
+        "savePctg": 0.952
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Troy"
+              },
+              "lastName": {
+                "default": "Stecher"
+              },
+              "sweaterNumber": 51
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jonny"
+              },
+              "lastName": {
+                "default": "Brodzinski"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "holding-the-stick"
+          },
+          {
+            "timeInPeriod": "12:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Leon"
+              },
+              "lastName": {
+                "default": "Draisaitl"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Braden"
+              },
+              "lastName": {
+                "default": "Schneider"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Kulak"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Vladislav"
+              },
+              "lastName": {
+                "default": "Gavrikov"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

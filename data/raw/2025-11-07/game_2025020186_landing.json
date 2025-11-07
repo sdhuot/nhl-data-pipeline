@@ -1,0 +1,1173 @@
+{
+  "id": 2025020186,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-01",
+  "venue": {
+    "default": "KeyBank Center"
+  },
+  "venueLocation": {
+    "default": "Buffalo"
+  },
+  "startTimeUTC": "2025-11-01T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 5,
+    "periodType": "SO",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 28,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSG-B",
+      "sequenceNumber": 383
+    },
+    {
+      "id": 520,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MNMT2",
+      "sequenceNumber": 409
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 15,
+    "commonName": {
+      "default": "Capitals"
+    },
+    "abbrev": "WSH",
+    "placeName": {
+      "default": "Washington"
+    },
+    "placeNameWithPreposition": {
+      "default": "Washington",
+      "fr": "de Washington"
+    },
+    "score": 3,
+    "sog": 34,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg"
+  },
+  "homeTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 4,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 66,
+            "strength": "ev",
+            "playerId": 8478440,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Strome"
+            },
+            "name": {
+              "default": "D. Strome"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8478440.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-buf-strome-scores-goal-against-ukko-pekka-luukkonen-6384406208112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-buf-strome-marque-un-but-contre-ukko-pekka-luukkonen-6384406008112",
+            "highlightClip": 6384406208112,
+            "highlightClipFr": 6384406008112,
+            "discreteClip": 6384406000112,
+            "discreteClipFr": 6384406577112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "01:07",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484186,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Leonard"
+                },
+                "name": {
+                  "default": "R. Leonard"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020186/ev66.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 81,
+            "strength": "ev",
+            "playerId": 8481656,
+            "firstName": {
+              "default": "Aliaksei",
+              "cs": "Alexej",
+              "de": "Alexei",
+              "es": "Alexei",
+              "fi": "Aljaksei",
+              "sk": "Alexej"
+            },
+            "lastName": {
+              "default": "Protas"
+            },
+            "name": {
+              "default": "A. Protas"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8481656.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-buf-protas-scores-goal-against-ukko-pekka-luukkonen-6384407468112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-buf-protas-marque-un-but-contre-ukko-pekka-luukkonen-6384407661112",
+            "highlightClip": 6384407468112,
+            "highlightClipFr": 6384407661112,
+            "discreteClip": 6384407080112,
+            "discreteClipFr": 6384405415112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "02:15",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481580,
+                "firstName": {
+                  "default": "Connor"
+                },
+                "lastName": {
+                  "default": "McMichael"
+                },
+                "name": {
+                  "default": "C. McMichael"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8476880,
+                "firstName": {
+                  "default": "Tom"
+                },
+                "lastName": {
+                  "default": "Wilson"
+                },
+                "name": {
+                  "default": "T. Wilson"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020186/ev81.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 88,
+            "strength": "ev",
+            "playerId": 8479420,
+            "firstName": {
+              "default": "Tage"
+            },
+            "lastName": {
+              "default": "Thompson"
+            },
+            "name": {
+              "default": "T. Thompson"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479420.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-buf-thompson-scores-goal-against-charlie-lindgren-6384407376112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-buf-thompson-marque-un-but-contre-charlie-lindgren-6384407278112",
+            "highlightClip": 6384407376112,
+            "highlightClipFr": 6384407278112,
+            "discreteClip": 6384406497112,
+            "discreteClipFr": 6384405625112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "02:30",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475722,
+                "firstName": {
+                  "default": "Jason"
+                },
+                "lastName": {
+                  "default": "Zucker"
+                },
+                "name": {
+                  "default": "J. Zucker"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8478413,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Greenway"
+                },
+                "name": {
+                  "default": "J. Greenway"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 12
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020186/ev88.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 247,
+            "strength": "ev",
+            "playerId": 8477949,
+            "firstName": {
+              "default": "Alex"
+            },
+            "lastName": {
+              "default": "Tuch"
+            },
+            "name": {
+              "default": "A. Tuch"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8477949.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-buf-tuch-scores-goal-against-charlie-lindgren-6384406705112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-buf-tuch-marque-un-but-contre-charlie-lindgren-6384408367112",
+            "highlightClip": 6384406705112,
+            "highlightClipFr": 6384408367112,
+            "discreteClip": 6384406317112,
+            "discreteClipFr": 6384407106112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "10:02",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482659,
+                "firstName": {
+                  "default": "Josh"
+                },
+                "lastName": {
+                  "default": "Doan"
+                },
+                "name": {
+                  "default": "J. Doan"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8482671,
+                "firstName": {
+                  "default": "Owen"
+                },
+                "lastName": {
+                  "default": "Power"
+                },
+                "name": {
+                  "default": "O. Power"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 25
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020186/ev247.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 556,
+            "strength": "ev",
+            "playerId": 8482765,
+            "firstName": {
+              "default": "Isak"
+            },
+            "lastName": {
+              "default": "Rosen"
+            },
+            "name": {
+              "default": "I. Rosen"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482765.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-buf-rosen-scores-goal-against-charlie-lindgren-6384407606112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-buf-rosen-marque-un-but-contre-charlie-lindgren-6384406721112",
+            "highlightClip": 6384407606112,
+            "highlightClipFr": 6384406721112,
+            "discreteClip": 6384407226112,
+            "discreteClipFr": 6384407326112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "18:45",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482097,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Quinn"
+                },
+                "name": {
+                  "default": "J. Quinn"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8479982,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Timmins"
+                },
+                "name": {
+                  "default": "C. Timmins"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020186/ev556.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 108,
+            "strength": "ev",
+            "playerId": 8477947,
+            "firstName": {
+              "default": "Sonny"
+            },
+            "lastName": {
+              "default": "Milano"
+            },
+            "name": {
+              "default": "S. Milano"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8477947.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-buf-milano-scores-goal-against-ukko-pekka-luukkonen-6384409233112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-buf-milano-marque-un-but-contre-ukko-pekka-luukkonen-6384410890112",
+            "highlightClip": 6384409233112,
+            "highlightClipFr": 6384410890112,
+            "discreteClip": 6384409232112,
+            "discreteClipFr": 6384408658112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "19:17",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478911,
+                "firstName": {
+                  "default": "Matt"
+                },
+                "lastName": {
+                  "default": "Roy"
+                },
+                "name": {
+                  "default": "M. Roy"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8480796,
+                "firstName": {
+                  "default": "Martin"
+                },
+                "lastName": {
+                  "default": "Fehérváry"
+                },
+                "name": {
+                  "default": "M. Fehérváry"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 42
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020186/ev108.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 5,
+          "periodType": "SO",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1010",
+            "eventId": 317,
+            "strength": "ev",
+            "playerId": 8481524,
+            "firstName": {
+              "default": "Bowen"
+            },
+            "lastName": {
+              "default": "Byram"
+            },
+            "name": {
+              "default": "B. Byram"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8481524.png",
+            "discreteClip": 6384412157112,
+            "discreteClipFr": 6384411865112,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "00:00",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [
+      {
+        "sequence": 1,
+        "playerId": 8482097,
+        "teamAbbrev": {
+          "default": "BUF"
+        },
+        "firstName": {
+          "default": "Jack"
+        },
+        "lastName": {
+          "default": "Quinn"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482097.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 2,
+        "playerId": 8478440,
+        "teamAbbrev": {
+          "default": "WSH"
+        },
+        "firstName": {
+          "default": "Dylan"
+        },
+        "lastName": {
+          "default": "Strome"
+        },
+        "shotType": "backhand",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8478440.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 3,
+        "playerId": 8479420,
+        "teamAbbrev": {
+          "default": "BUF"
+        },
+        "firstName": {
+          "default": "Tage"
+        },
+        "lastName": {
+          "default": "Thompson"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479420.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 4,
+        "playerId": 8478463,
+        "teamAbbrev": {
+          "default": "WSH"
+        },
+        "firstName": {
+          "default": "Anthony"
+        },
+        "lastName": {
+          "default": "Beauvillier"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8478463.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 5,
+        "playerId": 8477949,
+        "teamAbbrev": {
+          "default": "BUF"
+        },
+        "firstName": {
+          "default": "Alex"
+        },
+        "lastName": {
+          "default": "Tuch"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8477949.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 6,
+        "playerId": 8481580,
+        "teamAbbrev": {
+          "default": "WSH"
+        },
+        "firstName": {
+          "default": "Connor"
+        },
+        "lastName": {
+          "default": "McMichael"
+        },
+        "shotType": "backhand",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8481580.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 7,
+        "playerId": 8480839,
+        "teamAbbrev": {
+          "default": "BUF"
+        },
+        "firstName": {
+          "default": "Rasmus"
+        },
+        "lastName": {
+          "default": "Dahlin"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480839.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 8,
+        "playerId": 8471214,
+        "teamAbbrev": {
+          "default": "WSH"
+        },
+        "firstName": {
+          "default": "Alex",
+          "cs": "Alexandr",
+          "fi": "Aleksandr",
+          "sk": "Alexander"
+        },
+        "lastName": {
+          "default": "Ovechkin",
+          "cs": "Ovečkin",
+          "fi": "Ovetshkin",
+          "sk": "Ovečkin"
+        },
+        "shotType": "backhand",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8471214.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 9,
+        "playerId": 8481524,
+        "teamAbbrev": {
+          "default": "BUF"
+        },
+        "firstName": {
+          "default": "Bowen"
+        },
+        "lastName": {
+          "default": "Byram"
+        },
+        "shotType": "wrist",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8481524.png",
+        "gameWinner": true,
+        "discreteClip": 6384412157112,
+        "discreteClipFr": 6384411865112
+      },
+      {
+        "sequence": 10,
+        "playerId": 8484186,
+        "teamAbbrev": {
+          "default": "WSH"
+        },
+        "firstName": {
+          "default": "Ryan"
+        },
+        "lastName": {
+          "default": "Leonard"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8484186.png",
+        "gameWinner": false
+      }
+    ],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480045,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480045.png",
+        "name": {
+          "default": "U. Luukkonen"
+        },
+        "sweaterNo": 1,
+        "position": "G",
+        "goalsAgainstAverage": 2.79,
+        "savePctg": 0.912
+      },
+      {
+        "star": 2,
+        "playerId": 8482765,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482765.png",
+        "name": {
+          "default": "I. Rosen"
+        },
+        "sweaterNo": 63,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8481524,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8481524.png",
+        "name": {
+          "default": "B. Byram"
+        },
+        "sweaterNo": 4,
+        "position": "D",
+        "goals": 0,
+        "assists": 0,
+        "points": 0
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tom"
+              },
+              "lastName": {
+                "default": "Wilson"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Beck"
+              },
+              "lastName": {
+                "default": "Malenstyn"
+              },
+              "sweaterNumber": 29
+            },
+            "descKey": "unsportsmanlike-conduct"
+          },
+          {
+            "timeInPeriod": "07:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Greenway"
+              },
+              "sweaterNumber": 12
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Declan"
+              },
+              "lastName": {
+                "default": "Chisholm"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "illegal-check-to-head"
+          },
+          {
+            "timeInPeriod": "07:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tom"
+              },
+              "lastName": {
+                "default": "Wilson"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Greenway"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "instigator"
+          },
+          {
+            "timeInPeriod": "07:04",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Greenway"
+              },
+              "sweaterNumber": 12
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tom"
+              },
+              "lastName": {
+                "default": "Wilson"
+              },
+              "sweaterNumber": 43
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "07:04",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tom"
+              },
+              "lastName": {
+                "default": "Wilson"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Greenway"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "07:04",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tom"
+              },
+              "lastName": {
+                "default": "Wilson"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "descKey": "instigator-misconduct"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Martin"
+              },
+              "lastName": {
+                "default": "Fehérváry"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "14:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Leonard"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Peyton"
+              },
+              "lastName": {
+                "default": "Krebs"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "19:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Bowen"
+              },
+              "lastName": {
+                "default": "Byram"
+              },
+              "sweaterNumber": 4
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Leonard"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "19:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Leonard"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "descKey": "embellishment"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:11",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Declan"
+              },
+              "lastName": {
+                "default": "Chisholm"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Dunne"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "06:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Peyton"
+              },
+              "lastName": {
+                "default": "Krebs"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tom"
+              },
+              "lastName": {
+                "default": "Wilson"
+              },
+              "sweaterNumber": 43
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "08:26",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Beck"
+              },
+              "lastName": {
+                "default": "Malenstyn"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sonny"
+              },
+              "lastName": {
+                "default": "Milano"
+              },
+              "sweaterNumber": 15
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "16:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Duhaime"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

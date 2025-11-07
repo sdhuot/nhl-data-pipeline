@@ -1,0 +1,953 @@
+{
+  "id": 2025020008,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-09",
+  "venue": {
+    "default": "TD Garden"
+  },
+  "venueLocation": {
+    "default": "Boston"
+  },
+  "startTimeUTC": "2025-10-09T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 282,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN",
+      "sequenceNumber": 21
+    },
+    {
+      "id": 551,
+      "market": "A",
+      "countryCode": "US",
+      "network": "CHSN",
+      "sequenceNumber": 243
+    },
+    {
+      "id": 31,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NESN",
+      "sequenceNumber": 396
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 16,
+    "commonName": {
+      "default": "Blackhawks"
+    },
+    "abbrev": "CHI",
+    "placeName": {
+      "default": "Chicago"
+    },
+    "placeNameWithPreposition": {
+      "default": "Chicago",
+      "fr": "de Chicago"
+    },
+    "score": 3,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 6,
+    "commonName": {
+      "default": "Bruins"
+    },
+    "abbrev": "BOS",
+    "placeName": {
+      "default": "Boston"
+    },
+    "placeNameWithPreposition": {
+      "default": "Boston",
+      "fr": "de Boston"
+    },
+    "score": 4,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 112,
+            "strength": "ev",
+            "playerId": 8479999,
+            "firstName": {
+              "default": "Casey"
+            },
+            "lastName": {
+              "default": "Mittelstadt"
+            },
+            "name": {
+              "default": "C. Mittelstadt"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8479999.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-bos-mittelstadt-scores-goal-against-arvid-soderblom-6382527678112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-bos-mittelstadt-marque-un-but-contre-arvid-soderblom-6382527290112",
+            "highlightClip": 6382527678112,
+            "highlightClipFr": 6382527290112,
+            "discreteClip": 6382527762112,
+            "discreteClipFr": 6382526195112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "03:53",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020008/ev112.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 170,
+            "strength": "ev",
+            "playerId": 8484144,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "Bedard"
+            },
+            "name": {
+              "default": "C. Bedard"
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8484144.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-bos-bedard-scores-goal-against-joonas-korpisalo-6382527396112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-bos-bedard-marque-un-but-contre-joonas-korpisalo-6382527514112",
+            "highlightClip": 6382527396112,
+            "highlightClipFr": 6382527514112,
+            "discreteClip": 6382527099112,
+            "discreteClipFr": 6382527513112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "08:19",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477444,
+                "firstName": {
+                  "default": "Andre",
+                  "cs": "André",
+                  "sk": "André",
+                  "sv": "André"
+                },
+                "lastName": {
+                  "default": "Burakovsky"
+                },
+                "name": {
+                  "default": "A. Burakovsky"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8482703,
+                "firstName": {
+                  "default": "Colton"
+                },
+                "lastName": {
+                  "default": "Dach"
+                },
+                "name": {
+                  "default": "C. Dach"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 34
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020008/ev170.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 517,
+            "strength": "ev",
+            "playerId": 8481806,
+            "firstName": {
+              "default": "Louis"
+            },
+            "lastName": {
+              "default": "Crevier"
+            },
+            "name": {
+              "default": "L. Crevier"
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8481806.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-bos-crevier-scores-goal-against-joonas-korpisalo-6382529016112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-bos-crevier-marque-un-but-contre-joonas-korpisalo-6382529592112",
+            "highlightClip": 6382529016112,
+            "highlightClipFr": 6382529592112,
+            "discreteClip": 6382529014112,
+            "discreteClipFr": 6382528420112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CHI"
+            },
+            "timeInPeriod": "02:22",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484144,
+                "firstName": {
+                  "default": "Connor"
+                },
+                "lastName": {
+                  "default": "Bedard"
+                },
+                "name": {
+                  "default": "C. Bedard"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 98
+              },
+              {
+                "playerId": 8473422,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Foligno"
+                },
+                "name": {
+                  "default": "N. Foligno"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020008/ev517.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 601,
+            "strength": "ev",
+            "playerId": 8479661,
+            "firstName": {
+              "default": "Tanner"
+            },
+            "lastName": {
+              "default": "Jeannot"
+            },
+            "name": {
+              "default": "T. Jeannot"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8479661.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-bos-jeannot-scores-goal-against-arvid-soderblom-6382529504112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-bos-jeannot-marque-un-but-contre-arvid-soderblom-6382529503112",
+            "highlightClip": 6382529504112,
+            "highlightClipFr": 6382529503112,
+            "discreteClip": 6382531188112,
+            "discreteClipFr": 6382529221112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "09:10",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479591,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Eyssimont"
+                },
+                "name": {
+                  "default": "M. Eyssimont"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 81
+              },
+              {
+                "playerId": 8480035,
+                "firstName": {
+                  "default": "Henri"
+                },
+                "lastName": {
+                  "default": "Jokiharju"
+                },
+                "name": {
+                  "default": "H. Jokiharju"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020008/ev601.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1351",
+            "eventId": 761,
+            "strength": "pp",
+            "playerId": 8477496,
+            "firstName": {
+              "default": "Elias"
+            },
+            "lastName": {
+              "default": "Lindholm"
+            },
+            "name": {
+              "default": "E. Lindholm"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8477496.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/elias-lindholm-with-a-powerplay-goal-vs-chicago-blackhawks-6382531713112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/elias-lindholm-with-a-powerplay-goal-vs-les-blackhawks-de-chicago-6382530448112",
+            "highlightClip": 6382531713112,
+            "highlightClipFr": 6382530448112,
+            "discreteClip": 6382531798112,
+            "discreteClipFr": 6382530056112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "00:15",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478401,
+                "firstName": {
+                  "default": "Pavel"
+                },
+                "lastName": {
+                  "default": "Zacha"
+                },
+                "name": {
+                  "default": "P. Zacha"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8477956,
+                "firstName": {
+                  "default": "David"
+                },
+                "lastName": {
+                  "default": "Pastrnak",
+                  "cs": "Pastrňák",
+                  "sk": "Pastrňák"
+                },
+                "name": {
+                  "default": "D. Pastrnak",
+                  "cs": "D. Pastrňák",
+                  "sk": "D. Pastrňák"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020008/ev761.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 789,
+            "strength": "ev",
+            "playerId": 8477444,
+            "firstName": {
+              "default": "Andre",
+              "cs": "André",
+              "sk": "André",
+              "sv": "André"
+            },
+            "lastName": {
+              "default": "Burakovsky"
+            },
+            "name": {
+              "default": "A. Burakovsky"
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8477444.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/andre-burakovsky-with-a-goal-vs-boston-bruins-6382530062112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-bos-burakovsky-marque-un-but-contre-joonas-korpisalo-6382532694112",
+            "highlightClip": 6382530062112,
+            "highlightClipFr": 6382532694112,
+            "discreteClip": 6382530064112,
+            "discreteClipFr": 6382530449112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "02:22",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484783,
+                "firstName": {
+                  "default": "Artyom"
+                },
+                "lastName": {
+                  "default": "Levshunov"
+                },
+                "name": {
+                  "default": "A. Levshunov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 55
+              },
+              {
+                "playerId": 8483493,
+                "firstName": {
+                  "default": "Frank"
+                },
+                "lastName": {
+                  "default": "Nazar"
+                },
+                "name": {
+                  "default": "F. Nazar"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020008/ev789.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 1072,
+            "strength": "ev",
+            "playerId": 8483489,
+            "firstName": {
+              "default": "Fraser"
+            },
+            "lastName": {
+              "default": "Minten"
+            },
+            "name": {
+              "default": "F. Minten"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8483489.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-bos-minten-scores-goal-against-arvid-soderblom-6382533064112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-bos-minten-marque-un-but-contre-arvid-soderblom-6382533856112",
+            "highlightClip": 6382533064112,
+            "highlightClipFr": 6382533856112,
+            "discreteClip": 6382533754112,
+            "discreteClipFr": 6382533373112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "02:12",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020008/ev1072.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8483489,
+        "teamAbbrev": "BOS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8483489.png",
+        "name": {
+          "default": "F. Minten"
+        },
+        "sweaterNo": 93,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8477496,
+        "teamAbbrev": "BOS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8477496.png",
+        "name": {
+          "default": "E. Lindholm"
+        },
+        "sweaterNo": 28,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8477444,
+        "teamAbbrev": "CHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8477444.png",
+        "name": {
+          "default": "A. Burakovsky"
+        },
+        "sweaterNo": 28,
+        "position": "L",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "13:01",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jason"
+              },
+              "lastName": {
+                "default": "Dickinson"
+              },
+              "sweaterNumber": 16
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mark"
+              },
+              "lastName": {
+                "default": "Kastelic"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "14:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Pastrnak",
+                "cs": "Pastrňák",
+                "sk": "Pastrňák"
+              },
+              "sweaterNumber": 88
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Murphy"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "13:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Marat"
+              },
+              "lastName": {
+                "default": "Khusnutdinov",
+                "cs": "Chusnutdinov",
+                "fi": "Husnutdinov",
+                "sk": "Chusnutdinov"
+              },
+              "sweaterNumber": 92
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Nazar"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "18:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Greene"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Marat"
+              },
+              "lastName": {
+                "default": "Khusnutdinov",
+                "cs": "Chusnutdinov",
+                "fi": "Husnutdinov",
+                "sk": "Chusnutdinov"
+              },
+              "sweaterNumber": 92
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "18:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Foligno"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "descKey": "delaying-game-face-off-violation"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Nazar"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Pastrnak",
+                "cs": "Pastrňák",
+                "sk": "Pastrňák"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "09:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "McAvoy"
+              },
+              "sweaterNumber": 73
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Bedard"
+              },
+              "sweaterNumber": 98
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "11:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Zadorov"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Nazar"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "11:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Kuraly"
+              },
+              "sweaterNumber": 52
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Artyom"
+              },
+              "lastName": {
+                "default": "Levshunov"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "11:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Nazar"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Zadorov"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "11:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Artyom"
+              },
+              "lastName": {
+                "default": "Levshunov"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Kuraly"
+              },
+              "sweaterNumber": 52
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "17:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Artyom"
+              },
+              "lastName": {
+                "default": "Levshunov"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Morgan"
+              },
+              "lastName": {
+                "default": "Geekie"
+              },
+              "sweaterNumber": 39
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "02:48",
+    "secondsRemaining": 168,
+    "running": false,
+    "inIntermission": false
+  }
+}

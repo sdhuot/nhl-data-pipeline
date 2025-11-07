@@ -1,0 +1,853 @@
+{
+  "id": 2025010088,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-10-03",
+  "venue": {
+    "default": "T-Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Paradise"
+  },
+  "startTimeUTC": "2025-10-04T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 521,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 28,
+    "commonName": {
+      "default": "Sharks"
+    },
+    "abbrev": "SJS",
+    "placeName": {
+      "default": "San Jose"
+    },
+    "placeNameWithPreposition": {
+      "default": "San Jose",
+      "fr": "de San Jose"
+    },
+    "score": 4,
+    "sog": 20,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+  },
+  "homeTeam": {
+    "id": 54,
+    "commonName": {
+      "default": "Golden Knights"
+    },
+    "abbrev": "VGK",
+    "placeName": {
+      "default": "Vegas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vegas",
+      "fr": "de Vegas"
+    },
+    "score": 1,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 67,
+            "strength": "ev",
+            "playerId": 8482206,
+            "firstName": {
+              "default": "Ethan"
+            },
+            "lastName": {
+              "default": "Cardwell"
+            },
+            "name": {
+              "default": "E. Cardwell"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8482206.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sjs-vgk-cardwell-scores-goal-against-adin-hill-6381812358112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sjs-vgk-cardwell-marque-un-but-contre-adin-hill-6381811843112",
+            "highlightClip": 6381812358112,
+            "highlightClipFr": 6381811843112,
+            "discreteClip": 6381811919112,
+            "discreteClipFr": 6381812408112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "01:18",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483630,
+                "firstName": {
+                  "default": "Pavol"
+                },
+                "lastName": {
+                  "default": "Regenda"
+                },
+                "name": {
+                  "default": "P. Regenda"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 84
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010088/ev67.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 726,
+            "strength": "pp",
+            "playerId": 8481585,
+            "firstName": {
+              "default": "Egor"
+            },
+            "lastName": {
+              "default": "Afanasyev"
+            },
+            "name": {
+              "default": "E. Afanasyev"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8481585.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sjs-vgk-afanasyev-scores-ppg-against-adin-hill-6381859168112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sjs-vgk-afanasyev-marque-un-but-en-a-n-contre-adin-hill-6381858306112",
+            "highlightClip": 6381859168112,
+            "highlightClipFr": 6381858306112,
+            "discreteClip": 6381857697112,
+            "discreteClipFr": 6381858464112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "16:21",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483630,
+                "firstName": {
+                  "default": "Pavol"
+                },
+                "lastName": {
+                  "default": "Regenda"
+                },
+                "name": {
+                  "default": "P. Regenda"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 84
+              },
+              {
+                "playerId": 8482206,
+                "firstName": {
+                  "default": "Ethan"
+                },
+                "lastName": {
+                  "default": "Cardwell"
+                },
+                "name": {
+                  "default": "E. Cardwell"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 56
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010088/ev726.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 210,
+            "strength": "ev",
+            "playerId": 8482206,
+            "firstName": {
+              "default": "Ethan"
+            },
+            "lastName": {
+              "default": "Cardwell"
+            },
+            "name": {
+              "default": "E. Cardwell"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8482206.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sjs-vgk-cardwell-scores-goal-against-adin-hill-6381880569112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sjs-vgk-cardwell-marque-un-but-contre-adin-hill-6381881158112",
+            "highlightClip": 6381880569112,
+            "highlightClipFr": 6381881158112,
+            "discreteClip": 6381877905112,
+            "discreteClipFr": 6381881256112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "06:48",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483630,
+                "firstName": {
+                  "default": "Pavol"
+                },
+                "lastName": {
+                  "default": "Regenda"
+                },
+                "name": {
+                  "default": "P. Regenda"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 84
+              },
+              {
+                "playerId": 8482859,
+                "firstName": {
+                  "default": "Zack"
+                },
+                "lastName": {
+                  "default": "Ostapchuk"
+                },
+                "name": {
+                  "default": "Z. Ostapchuk"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010088/ev210.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 878,
+            "strength": "ev",
+            "playerId": 8482125,
+            "firstName": {
+              "default": "Alexander"
+            },
+            "lastName": {
+              "default": "Holtz"
+            },
+            "name": {
+              "default": "A. Holtz"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8482125.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sjs-vgk-holtz-scores-goal-against-alex-nedeljkovic-6381880736112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sjs-vgk-holtz-marque-un-but-contre-alex-nedeljkovic-6381882256112",
+            "highlightClip": 6381880736112,
+            "highlightClipFr": 6381882256112,
+            "discreteClip": 6381880007112,
+            "discreteClipFr": 6381880601112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "07:11",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481527,
+                "firstName": {
+                  "default": "Kaedan"
+                },
+                "lastName": {
+                  "default": "Korczak"
+                },
+                "name": {
+                  "default": "K. Korczak"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8476438,
+                "firstName": {
+                  "default": "Brandon"
+                },
+                "lastName": {
+                  "default": "Saad"
+                },
+                "name": {
+                  "default": "B. Saad"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010088/ev878.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 1013,
+            "strength": "ev",
+            "playerId": 8482206,
+            "firstName": {
+              "default": "Ethan"
+            },
+            "lastName": {
+              "default": "Cardwell"
+            },
+            "name": {
+              "default": "E. Cardwell"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8482206.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ethan-cardwell-with-a-goal-vs-vegas-golden-knights-6381892939112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ethan-cardwell-with-a-goal-vs-les-go-lden-knights-de-vegas-6381894598112",
+            "highlightClip": 6381892939112,
+            "highlightClipFr": 6381894598112,
+            "discreteClip": 6381894113112,
+            "discreteClipFr": 6381892205112,
+            "goalsToDate": 3,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "17:52",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8483630,
+                "firstName": {
+                  "default": "Pavol"
+                },
+                "lastName": {
+                  "default": "Regenda"
+                },
+                "name": {
+                  "default": "P. Regenda"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 84
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010088/ev1013.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482206,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8482206.png",
+        "name": {
+          "default": "E. Cardwell"
+        },
+        "sweaterNo": 56,
+        "position": "R",
+        "goals": 3,
+        "assists": 1,
+        "points": 4
+      },
+      {
+        "star": 2,
+        "playerId": 8483630,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8483630.png",
+        "name": {
+          "default": "P. Regenda"
+        },
+        "sweaterNo": 84,
+        "position": "L",
+        "goals": 0,
+        "assists": 4,
+        "points": 4
+      },
+      {
+        "star": 3,
+        "playerId": 8482125,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8482125.png",
+        "name": {
+          "default": "A. Holtz"
+        },
+        "sweaterNo": 26,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:49",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zack"
+              },
+              "lastName": {
+                "default": "Ostapchuk"
+              },
+              "sweaterNumber": 63
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "10:49",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Zack"
+              },
+              "lastName": {
+                "default": "Ostapchuk"
+              },
+              "sweaterNumber": 63
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "11:29",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tomas",
+                "cs": "Tomáš",
+                "sk": "Tomáš"
+              },
+              "lastName": {
+                "default": "Hertl"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Nedeljkovic"
+              },
+              "sweaterNumber": 33
+            },
+            "descKey": "interference-goalkeeper"
+          },
+          {
+            "timeInPeriod": "14:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carl"
+              },
+              "lastName": {
+                "default": "Grundstrom",
+                "cs": "Grundström",
+                "fi": "Grundström",
+                "sk": "Grundström",
+                "sv": "Grundström"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Holtz"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "15:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Shane"
+              },
+              "lastName": {
+                "default": "Bowers"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Holtz"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "11:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Will"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Shea"
+              },
+              "lastName": {
+                "default": "Theodore"
+              },
+              "sweaterNumber": 27
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "14:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Howden"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Nedeljkovic"
+              },
+              "sweaterNumber": 33
+            },
+            "descKey": "interference-goalkeeper"
+          },
+          {
+            "timeInPeriod": "16:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ty"
+              },
+              "lastName": {
+                "default": "Dellandrea"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Vincent"
+              },
+              "lastName": {
+                "default": "Desharnais"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "roughing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carl"
+              },
+              "lastName": {
+                "default": "Grundstrom",
+                "cs": "Grundström",
+                "fi": "Grundström",
+                "sk": "Grundström",
+                "sv": "Grundström"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Whitecloud"
+              },
+              "sweaterNumber": 2
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "05:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Egor"
+              },
+              "lastName": {
+                "default": "Afanasyev"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Sissons"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "05:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Keegan"
+              },
+              "lastName": {
+                "default": "Kolesar"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Dickinson"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "05:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Sissons"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Egor"
+              },
+              "lastName": {
+                "default": "Afanasyev"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "roughing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

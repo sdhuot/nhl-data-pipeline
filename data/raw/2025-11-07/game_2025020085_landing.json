@@ -1,0 +1,683 @@
+{
+  "id": 2025020085,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-18",
+  "venue": {
+    "default": "Ball Arena"
+  },
+  "venueLocation": {
+    "default": "Denver"
+  },
+  "startTimeUTC": "2025-10-19T01:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "America/Denver",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 2,
+      "market": "H",
+      "countryCode": "US",
+      "network": "ALT",
+      "sequenceNumber": 376
+    },
+    {
+      "id": 31,
+      "market": "A",
+      "countryCode": "US",
+      "network": "NESN",
+      "sequenceNumber": 396
+    },
+    {
+      "id": 336,
+      "market": "H",
+      "countryCode": "US",
+      "network": "KTVD",
+      "sequenceNumber": 623
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 6,
+    "commonName": {
+      "default": "Bruins"
+    },
+    "abbrev": "BOS",
+    "placeName": {
+      "default": "Boston"
+    },
+    "placeNameWithPreposition": {
+      "default": "Boston",
+      "fr": "de Boston"
+    },
+    "score": 1,
+    "sog": 14,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 21,
+    "commonName": {
+      "default": "Avalanche"
+    },
+    "abbrev": "COL",
+    "placeName": {
+      "default": "Colorado"
+    },
+    "placeNameWithPreposition": {
+      "default": "Colorado",
+      "fr": "du Colorado"
+    },
+    "score": 4,
+    "sog": 38,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 97,
+            "strength": "ev",
+            "playerId": 8481556,
+            "firstName": {
+              "default": "John"
+            },
+            "lastName": {
+              "default": "Beecher"
+            },
+            "name": {
+              "default": "J. Beecher"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8481556.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-col-beecher-scores-goal-against-scott-wedgewood-6383057458112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-col-beecher-marque-un-but-contre-scott-wedgewood-6383057643112",
+            "highlightClip": 6383057458112,
+            "highlightClipFr": 6383057643112,
+            "discreteClip": 6383057928112,
+            "discreteClipFr": 6383058122112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "03:11",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479325,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "McAvoy"
+                },
+                "name": {
+                  "default": "C. McAvoy"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 73
+              },
+              {
+                "playerId": 8482511,
+                "firstName": {
+                  "default": "Mason"
+                },
+                "lastName": {
+                  "default": "Lohrei"
+                },
+                "name": {
+                  "default": "M. Lohrei"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020085/ev97.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 146,
+            "strength": "ev",
+            "playerId": 8477492,
+            "firstName": {
+              "default": "Nathan"
+            },
+            "lastName": {
+              "default": "MacKinnon"
+            },
+            "name": {
+              "default": "N. MacKinnon"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477492.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-col-mackinnon-scores-goal-against-jeremy-swayman-6383058430112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-col-mackinnon-marque-un-but-contre-jeremy-swayman-6383058635112",
+            "highlightClip": 6383058430112,
+            "highlightClipFr": 6383058635112,
+            "discreteClip": 6383057377112,
+            "discreteClipFr": 6383059308112,
+            "goalsToDate": 5,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "07:08",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477476,
+                "firstName": {
+                  "default": "Artturi"
+                },
+                "lastName": {
+                  "default": "Lehkonen"
+                },
+                "name": {
+                  "default": "A. Lehkonen"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 62
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020085/ev146.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 301,
+            "strength": "ev",
+            "playerId": 8476312,
+            "firstName": {
+              "default": "Josh"
+            },
+            "lastName": {
+              "default": "Manson"
+            },
+            "name": {
+              "default": "J. Manson"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8476312.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-col-manson-scores-goal-against-jeremy-swayman-6383058341112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-col-manson-marque-un-but-contre-jeremy-swayman-6383057857112",
+            "highlightClip": 6383058341112,
+            "highlightClipFr": 6383057857112,
+            "discreteClip": 6383058746112,
+            "discreteClipFr": 6383058546112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "10:22",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8470613,
+                "firstName": {
+                  "default": "Brent"
+                },
+                "lastName": {
+                  "default": "Burns"
+                },
+                "name": {
+                  "default": "B. Burns"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 84
+              },
+              {
+                "playerId": 8476455,
+                "firstName": {
+                  "default": "Gabriel"
+                },
+                "lastName": {
+                  "default": "Landeskog"
+                },
+                "name": {
+                  "default": "G. Landeskog"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 92
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020085/ev301.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 846,
+            "strength": "ev",
+            "playerId": 8477492,
+            "firstName": {
+              "default": "Nathan"
+            },
+            "lastName": {
+              "default": "MacKinnon"
+            },
+            "name": {
+              "default": "N. MacKinnon"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477492.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/bos-col-mackinnon-scores-goal-against-jeremy-swayman-6383061639112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/bos-col-mackinnon-marque-un-but-contre-jeremy-swayman-6383060474112",
+            "highlightClip": 6383061639112,
+            "highlightClipFr": 6383060474112,
+            "discreteClip": 6383060279112,
+            "discreteClipFr": 6383060082112,
+            "goalsToDate": 6,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "04:14",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477476,
+                "firstName": {
+                  "default": "Artturi"
+                },
+                "lastName": {
+                  "default": "Lehkonen"
+                },
+                "name": {
+                  "default": "A. Lehkonen"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 62
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020085/ev846.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "0651",
+            "eventId": 1070,
+            "strength": "ev",
+            "playerId": 8480039,
+            "firstName": {
+              "default": "Martin"
+            },
+            "lastName": {
+              "default": "Necas",
+              "cs": "Nečas",
+              "sk": "Nečas"
+            },
+            "name": {
+              "default": "M. Necas",
+              "cs": "M. Nečas",
+              "sk": "M. Nečas"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480039.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/martin-necas-with-a-goal-vs-boston-bruins-6383061653112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/martin-necas-with-a-goal-vs-les-bruins-de-boston-6383061652112",
+            "highlightClip": 6383061653112,
+            "highlightClipFr": 6383061652112,
+            "discreteClip": 6383059805112,
+            "discreteClipFr": 6383059991112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "17:23",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8477476,
+                "firstName": {
+                  "default": "Artturi"
+                },
+                "lastName": {
+                  "default": "Lehkonen"
+                },
+                "name": {
+                  "default": "A. Lehkonen"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 62
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020085/ev1070.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477492,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477492.png",
+        "name": {
+          "default": "N. MacKinnon"
+        },
+        "sweaterNo": 29,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8477476,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477476.png",
+        "name": {
+          "default": "A. Lehkonen"
+        },
+        "sweaterNo": 62,
+        "position": "L",
+        "goals": 0,
+        "assists": 3,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8476312,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8476312.png",
+        "name": {
+          "default": "J. Manson"
+        },
+        "sweaterNo": 42,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "13:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nathan"
+              },
+              "lastName": {
+                "default": "MacKinnon"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Fraser"
+              },
+              "lastName": {
+                "default": "Minten"
+              },
+              "sweaterNumber": 93
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "17:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Fraser"
+              },
+              "lastName": {
+                "default": "Minten"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brock"
+              },
+              "lastName": {
+                "default": "Nelson"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Hampus"
+              },
+              "lastName": {
+                "default": "Lindholm"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Martin"
+              },
+              "lastName": {
+                "default": "Necas",
+                "cs": "Nečas",
+                "sk": "Nečas"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "11:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "McAvoy"
+              },
+              "sweaterNumber": 73
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gavin"
+              },
+              "lastName": {
+                "default": "Brindley"
+              },
+              "sweaterNumber": 54
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "17:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Fraser"
+              },
+              "lastName": {
+                "default": "Minten"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ross"
+              },
+              "lastName": {
+                "default": "Colton"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Manson"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tanner"
+              },
+              "lastName": {
+                "default": "Jeannot"
+              },
+              "sweaterNumber": 84
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "12:30",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Zadorov"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Scott"
+              },
+              "lastName": {
+                "default": "Wedgewood"
+              },
+              "sweaterNumber": 41
+            },
+            "descKey": "interference-goalkeeper"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

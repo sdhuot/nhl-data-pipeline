@@ -1,0 +1,806 @@
+{
+  "id": 2025020019,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-09",
+  "venue": {
+    "default": "Rogers Arena"
+  },
+  "venueLocation": {
+    "default": "Vancouver"
+  },
+  "startTimeUTC": "2025-10-10T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "America/Vancouver",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 290,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "SNP",
+      "sequenceNumber": 33
+    },
+    {
+      "id": 289,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "SNW",
+      "sequenceNumber": 34
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 20,
+    "commonName": {
+      "default": "Flames"
+    },
+    "abbrev": "CGY",
+    "placeName": {
+      "default": "Calgary"
+    },
+    "placeNameWithPreposition": {
+      "default": "Calgary",
+      "fr": "de Calgary"
+    },
+    "score": 1,
+    "sog": 18,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg"
+  },
+  "homeTeam": {
+    "id": 23,
+    "commonName": {
+      "default": "Canucks"
+    },
+    "abbrev": "VAN",
+    "placeName": {
+      "default": "Vancouver"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vancouver",
+      "fr": "de Vancouver"
+    },
+    "score": 5,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 369,
+            "strength": "ev",
+            "playerId": 8480748,
+            "firstName": {
+              "default": "Kiefer"
+            },
+            "lastName": {
+              "default": "Sherwood"
+            },
+            "name": {
+              "default": "K. Sherwood"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8480748.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-van-sherwood-scores-goal-against-dustin-wolf-6382534202112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-van-sherwood-marque-un-but-contre-dustin-wolf-6382534809112",
+            "highlightClip": 6382534202112,
+            "highlightClipFr": 6382534809112,
+            "discreteClip": 6382537249112,
+            "discreteClipFr": 6382537441112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "14:53",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482055,
+                "firstName": {
+                  "default": "Drew"
+                },
+                "lastName": {
+                  "default": "O'Connor"
+                },
+                "name": {
+                  "default": "D. O'Connor"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020019/ev369.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 901,
+            "strength": "ev",
+            "playerId": 8480078,
+            "firstName": {
+              "default": "Filip"
+            },
+            "lastName": {
+              "default": "Chytil"
+            },
+            "name": {
+              "default": "F. Chytil"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8480078.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-van-chytil-scores-goal-against-dustin-wolf-6382538726112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-van-chytil-marque-un-but-contre-dustin-wolf-6382539791112",
+            "highlightClip": 6382538726112,
+            "highlightClipFr": 6382539791112,
+            "discreteClip": 6382537721112,
+            "discreteClipFr": 6382538235112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "02:54",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020019/ev901.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 970,
+            "strength": "ev",
+            "playerId": 8480078,
+            "firstName": {
+              "default": "Filip"
+            },
+            "lastName": {
+              "default": "Chytil"
+            },
+            "name": {
+              "default": "F. Chytil"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8480078.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-van-chytil-scores-goal-against-dustin-wolf-6382539699112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-van-chytil-marque-un-but-contre-dustin-wolf-6382540676112",
+            "highlightClip": 6382539699112,
+            "highlightClipFr": 6382540676112,
+            "discreteClip": 6382537725112,
+            "discreteClipFr": 6382537919112,
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "08:53",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483395,
+                "firstName": {
+                  "default": "Arshdeep"
+                },
+                "lastName": {
+                  "default": "Bains"
+                },
+                "name": {
+                  "default": "A. Bains"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020019/ev970.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1011,
+            "strength": "ev",
+            "playerId": 8483476,
+            "firstName": {
+              "default": "Jonathan"
+            },
+            "lastName": {
+              "default": "Lekkerimäki"
+            },
+            "name": {
+              "default": "J. Lekkerimäki"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8483476.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-van-lekkerimaki-scores-goal-against-dustin-wolf-6382540583112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-van-lekkerimaki-marque-un-but-contre-dustin-wolf-6382539998112",
+            "highlightClip": 6382540583112,
+            "highlightClipFr": 6382539998112,
+            "discreteClip": 6382540587112,
+            "discreteClipFr": 6382539501112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "11:43",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475169,
+                "firstName": {
+                  "default": "Evander"
+                },
+                "lastName": {
+                  "default": "Kane"
+                },
+                "name": {
+                  "default": "E. Kane"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8478856,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Garland"
+                },
+                "name": {
+                  "default": "C. Garland"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020019/ev1011.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1031,
+            "strength": "ev",
+            "playerId": 8480028,
+            "firstName": {
+              "default": "Morgan"
+            },
+            "lastName": {
+              "default": "Frost"
+            },
+            "name": {
+              "default": "M. Frost"
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8480028.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-van-frost-scores-goal-against-thatcher-demko-6382539505112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-van-frost-marque-un-but-contre-thatcher-demko-6382539507112",
+            "highlightClip": 6382539505112,
+            "highlightClipFr": 6382539507112,
+            "discreteClip": 6382539300112,
+            "discreteClipFr": 6382540106112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "13:06",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481068,
+                "firstName": {
+                  "default": "Yegor",
+                  "cs": "Jegor",
+                  "fi": "Jahor",
+                  "sk": "Jegor"
+                },
+                "lastName": {
+                  "default": "Sharangovich",
+                  "cs": "Šarangovič",
+                  "fi": "Sharanhovitsh",
+                  "sk": "Šarangovič"
+                },
+                "name": {
+                  "default": "Y. Sharangovich",
+                  "cs": "J. Šarangovič",
+                  "fi": "J. Sharanhovitsh",
+                  "sk": "J. Šarangovič"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8480797,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Farabee"
+                },
+                "name": {
+                  "default": "J. Farabee"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 86
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020019/ev1031.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1094,
+            "strength": "ev",
+            "playerId": 8478444,
+            "firstName": {
+              "default": "Brock"
+            },
+            "lastName": {
+              "default": "Boeser"
+            },
+            "name": {
+              "default": "B. Boeser"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8478444.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cgy-van-boeser-scores-goal-against-dustin-wolf-6382538742112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cgy-van-boeser-marque-un-but-contre-dustin-wolf-6382539021112",
+            "highlightClip": 6382538742112,
+            "highlightClipFr": 6382539021112,
+            "discreteClip": 6382539209112,
+            "discreteClipFr": 6382539302112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "17:06",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480012,
+                "firstName": {
+                  "default": "Elias"
+                },
+                "lastName": {
+                  "default": "Pettersson"
+                },
+                "name": {
+                  "default": "E. Pettersson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 40
+              },
+              {
+                "playerId": 8478498,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "DeBrusk"
+                },
+                "name": {
+                  "default": "J. DeBrusk"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 74
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020019/ev1094.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480078,
+        "teamAbbrev": "VAN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8480078.png",
+        "name": {
+          "default": "F. Chytil"
+        },
+        "sweaterNo": 72,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8477967,
+        "teamAbbrev": "VAN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8477967.png",
+        "name": {
+          "default": "T. Demko"
+        },
+        "sweaterNo": 35,
+        "position": "G",
+        "goalsAgainstAverage": 1.01,
+        "savePctg": 0.944
+      },
+      {
+        "star": 3,
+        "playerId": 8480748,
+        "teamAbbrev": "VAN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8480748.png",
+        "name": {
+          "default": "K. Sherwood"
+        },
+        "sweaterNo": 44,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:25",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "J. Lekkerimäki"
+            }
+          },
+          {
+            "timeInPeriod": "15:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jake"
+              },
+              "lastName": {
+                "default": "Bean"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jonathan"
+              },
+              "lastName": {
+                "default": "Lekkerimäki"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "MacKenzie"
+              },
+              "lastName": {
+                "default": "Weegar"
+              },
+              "sweaterNumber": 52
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Elias"
+              },
+              "lastName": {
+                "default": "Pettersson"
+              },
+              "sweaterNumber": 40
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "04:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Elias"
+              },
+              "lastName": {
+                "default": "Pettersson"
+              },
+              "sweaterNumber": 25
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Zary"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "11:01",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "Pachal"
+              },
+              "sweaterNumber": 94
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Drew"
+              },
+              "lastName": {
+                "default": "O'Connor"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "17:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Drew"
+              },
+              "lastName": {
+                "default": "O'Connor"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Andersson"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "holding-the-stick"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Filip"
+              },
+              "lastName": {
+                "default": "Chytil"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Zary"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "05:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Matt"
+              },
+              "lastName": {
+                "default": "Coronato"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jonathan"
+              },
+              "lastName": {
+                "default": "Lekkerimäki"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "09:24",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kiefer"
+              },
+              "lastName": {
+                "default": "Sherwood"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "MacKenzie"
+              },
+              "lastName": {
+                "default": "Weegar"
+              },
+              "sweaterNumber": 52
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "09:24",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "MacKenzie"
+              },
+              "lastName": {
+                "default": "Weegar"
+              },
+              "sweaterNumber": 52
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kiefer"
+              },
+              "lastName": {
+                "default": "Sherwood"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "roughing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

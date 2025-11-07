@@ -1,0 +1,640 @@
+{
+  "id": 2025010091,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-10-04",
+  "venue": {
+    "default": "Bridgestone Arena"
+  },
+  "venueLocation": {
+    "default": "Nashville"
+  },
+  "startTimeUTC": "2025-10-04T20:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 12,
+    "commonName": {
+      "default": "Hurricanes"
+    },
+    "abbrev": "CAR",
+    "placeName": {
+      "default": "Carolina",
+      "fr": "Caroline"
+    },
+    "placeNameWithPreposition": {
+      "default": "Carolina",
+      "fr": "de la Caroline"
+    },
+    "score": 2,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg"
+  },
+  "homeTeam": {
+    "id": 18,
+    "commonName": {
+      "default": "Predators"
+    },
+    "abbrev": "NSH",
+    "placeName": {
+      "default": "Nashville"
+    },
+    "placeNameWithPreposition": {
+      "default": "Nashville",
+      "fr": "de Nashville"
+    },
+    "score": 3,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 251,
+            "strength": "ev",
+            "playerId": 8476921,
+            "firstName": {
+              "default": "Jordan"
+            },
+            "lastName": {
+              "default": "Martinook"
+            },
+            "name": {
+              "default": "J. Martinook"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476921.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-nsh-martinook-scores-goal-against-juuse-saros-6382045782112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-nsh-martinook-marque-un-but-contre-juuse-saros-6382043536112",
+            "highlightClip": 6382045782112,
+            "highlightClipFr": 6382043536112,
+            "discreteClip": 6382045683112,
+            "discreteClipFr": 6382044417112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "09:38",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8473533,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Staal"
+                },
+                "name": {
+                  "default": "J. Staal"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8481611,
+                "firstName": {
+                  "default": "Pyotr",
+                  "cs": "Pjotr",
+                  "fi": "Pjotr",
+                  "sk": "Pjotr"
+                },
+                "lastName": {
+                  "default": "Kochetkov",
+                  "fi": "Kotshetkov"
+                },
+                "name": {
+                  "default": "P. Kochetkov",
+                  "fi": "P. Kotshetkov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 52
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010091/ev251.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1351",
+            "eventId": 240,
+            "strength": "pp",
+            "playerId": 8476539,
+            "firstName": {
+              "default": "Jonathan"
+            },
+            "lastName": {
+              "default": "Marchessault"
+            },
+            "name": {
+              "default": "J. Marchessault"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8476539.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-nsh-marchessault-scores-ppg-against-pyotr-kochetkov-6382045800112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-nsh-marchessault-marque-un-but-en-a-n-contre-pyotr-kochetkov-6382045991112",
+            "highlightClip": 6382045800112,
+            "highlightClipFr": 6382045991112,
+            "discreteClip": 6382046279112,
+            "discreteClipFr": 6382045503112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "13:28",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476887,
+                "firstName": {
+                  "default": "Filip"
+                },
+                "lastName": {
+                  "default": "Forsberg"
+                },
+                "name": {
+                  "default": "F. Forsberg"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 9
+              },
+              {
+                "playerId": 8474600,
+                "firstName": {
+                  "default": "Roman"
+                },
+                "lastName": {
+                  "default": "Josi"
+                },
+                "name": {
+                  "default": "R. Josi"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 59
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010091/ev240.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 403,
+            "strength": "ev",
+            "playerId": 8479370,
+            "firstName": {
+              "default": "Tyson"
+            },
+            "lastName": {
+              "default": "Jost"
+            },
+            "name": {
+              "default": "T. Jost"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8479370.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-nsh-jost-scores-goal-against-pyotr-kochetkov-6382045955112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-nsh-jost-marque-un-but-contre-pyotr-kochetkov-6382045954112",
+            "highlightClip": 6382045955112,
+            "highlightClipFr": 6382045954112,
+            "discreteClip": 6382046038112,
+            "discreteClipFr": 6382046143112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "04:59",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482111,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Barron"
+                },
+                "name": {
+                  "default": "J. Barron"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              },
+              {
+                "playerId": 8483465,
+                "firstName": {
+                  "default": "Joakim"
+                },
+                "lastName": {
+                  "default": "Kemell"
+                },
+                "name": {
+                  "default": "J. Kemell"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 25
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010091/ev403.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 966,
+            "strength": "ev",
+            "playerId": 8482093,
+            "firstName": {
+              "default": "Seth"
+            },
+            "lastName": {
+              "default": "Jarvis"
+            },
+            "name": {
+              "default": "S. Jarvis"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482093.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-nsh-jarvis-scores-goal-against-juuse-saros-6382048748112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-nsh-jarvis-marque-un-but-contre-juuse-saros-6382049310112",
+            "highlightClip": 6382048748112,
+            "highlightClipFr": 6382049310112,
+            "discreteClip": 6382048557112,
+            "discreteClipFr": 6382048161112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "14:57",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478427,
+                "firstName": {
+                  "default": "Sebastian"
+                },
+                "lastName": {
+                  "default": "Aho"
+                },
+                "name": {
+                  "default": "S. Aho"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010091/ev966.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1341",
+            "eventId": 1126,
+            "strength": "pp",
+            "playerId": 8483465,
+            "firstName": {
+              "default": "Joakim"
+            },
+            "lastName": {
+              "default": "Kemell"
+            },
+            "name": {
+              "default": "J. Kemell"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8483465.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/car-nsh-kemell-scores-ppg-against-pyotr-kochetkov-6382049429112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/car-nsh-kemell-marque-un-but-en-a-n-contre-pyotr-kochetkov-6382048471112",
+            "highlightClip": 6382049429112,
+            "highlightClipFr": 6382048471112,
+            "discreteClip": 6382049837112,
+            "discreteClipFr": 6382048656112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "04:44",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476869,
+                "firstName": {
+                  "default": "Brady"
+                },
+                "lastName": {
+                  "default": "Skjei"
+                },
+                "name": {
+                  "default": "B. Skjei"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 76
+              },
+              {
+                "playerId": 8482768,
+                "firstName": {
+                  "default": "Fedor"
+                },
+                "lastName": {
+                  "default": "Svechkov"
+                },
+                "name": {
+                  "default": "F. Svechkov"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 40
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010091/ev1126.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8483465,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8483465.png",
+        "name": {
+          "default": "J. Kemell"
+        },
+        "sweaterNo": 25,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8479370,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8479370.png",
+        "name": {
+          "default": "T. Jost"
+        },
+        "sweaterNo": 17,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8477424,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8477424.png",
+        "name": {
+          "default": "J. Saros"
+        },
+        "sweaterNo": 74,
+        "position": "G",
+        "goalsAgainstAverage": 1.88,
+        "savePctg": 0.92
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "12:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Charles Alexis"
+              },
+              "lastName": {
+                "default": "Legault"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brady"
+              },
+              "lastName": {
+                "default": "Martin"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "13:15",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sebastian"
+              },
+              "lastName": {
+                "default": "Aho"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          },
+          {
+            "timeInPeriod": "17:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brady"
+              },
+              "lastName": {
+                "default": "Skjei"
+              },
+              "sweaterNumber": 76
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jackson"
+              },
+              "lastName": {
+                "default": "Blake"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:15",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Roman"
+              },
+              "lastName": {
+                "default": "Josi"
+              },
+              "sweaterNumber": 59
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jackson"
+              },
+              "lastName": {
+                "default": "Blake"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:02",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sebastian"
+              },
+              "lastName": {
+                "default": "Aho"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Joakim"
+              },
+              "lastName": {
+                "default": "Kemell"
+              },
+              "sweaterNumber": 25
+            },
+            "descKey": "unsportsmanlike-conduct"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:16",
+    "secondsRemaining": 16,
+    "running": false,
+    "inIntermission": false
+  }
+}

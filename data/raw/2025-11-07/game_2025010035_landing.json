@@ -1,0 +1,931 @@
+{
+  "id": 2025010035,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-25",
+  "venue": {
+    "default": "Madison Square Garden"
+  },
+  "venueLocation": {
+    "default": "New York"
+  },
+  "startTimeUTC": "2025-09-25T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 409,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSGSN",
+      "sequenceNumber": 402
+    },
+    {
+      "id": 27,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSG",
+      "sequenceNumber": 408
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 2,
+    "commonName": {
+      "default": "Islanders"
+    },
+    "abbrev": "NYI",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 5,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg"
+  },
+  "homeTeam": {
+    "id": 3,
+    "commonName": {
+      "default": "Rangers"
+    },
+    "abbrev": "NYR",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 4,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 452,
+            "strength": "ev",
+            "playerId": 8485462,
+            "firstName": {
+              "default": "Gleb"
+            },
+            "lastName": {
+              "default": "Veremyev"
+            },
+            "name": {
+              "default": "G. Veremyev"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8485462.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/gleb-veremyev-with-a-goal-vs-new-york-rangers-6380119893112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/veremyev-with-a-goal-vs-les-rangers-de-new-york-6380120198112",
+            "highlightClip": 6380119893112,
+            "highlightClipFr": 6380120198112,
+            "discreteClip": 6380121647112,
+            "discreteClipFr": 6380119287112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NYI"
+            },
+            "timeInPeriod": "14:23",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479413,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Day"
+                },
+                "name": {
+                  "default": "S. Day"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 47
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev452.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 453,
+            "strength": "ev",
+            "playerId": 8474052,
+            "firstName": {
+              "default": "Chris"
+            },
+            "lastName": {
+              "default": "Terry"
+            },
+            "name": {
+              "default": "C. Terry"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8474052.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-nyr-terry-scores-goal-against-jonathan-quick-6380123987112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-nyr-terry-marque-un-but-contre-jonathan-quick-6380119694112",
+            "highlightClip": 6380123987112,
+            "highlightClipFr": 6380119694112,
+            "discreteClip": 6380120001112,
+            "discreteClipFr": 6380120282112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NYI"
+            },
+            "timeInPeriod": "14:46",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476917,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Pelech"
+                },
+                "name": {
+                  "default": "A. Pelech"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8482154,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Jefferies"
+                },
+                "name": {
+                  "default": "A. Jefferies"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 45
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev453.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 421,
+            "strength": "ev",
+            "playerId": 8476389,
+            "firstName": {
+              "default": "Vincent"
+            },
+            "lastName": {
+              "default": "Trocheck"
+            },
+            "name": {
+              "default": "V. Trocheck"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8476389.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-nyr-trocheck-scores-goal-against-david-rittich-6380121554112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-nyr-trocheck-marque-un-but-contre-david-rittich-6380121940112",
+            "highlightClip": 6380121554112,
+            "highlightClipFr": 6380121940112,
+            "discreteClip": 6380122330112,
+            "discreteClipFr": 6380121934112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NYI"
+            },
+            "timeInPeriod": "15:02",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479323,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Fox"
+                },
+                "name": {
+                  "default": "A. Fox"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8482109,
+                "firstName": {
+                  "default": "Alexis"
+                },
+                "lastName": {
+                  "default": "Lafrenière"
+                },
+                "name": {
+                  "default": "A. Lafrenière"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev421.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 506,
+            "strength": "pp",
+            "playerId": 8482747,
+            "firstName": {
+              "default": "Brennan"
+            },
+            "lastName": {
+              "default": "Othmann"
+            },
+            "name": {
+              "default": "B. Othmann"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8482747.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-nyr-othmann-scores-ppg-against-david-rittich-6380121559112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-nyr-othmann-marque-un-but-en-a-n-contre-david-rittich-6380122132112",
+            "highlightClip": 6380121559112,
+            "highlightClipFr": 6380122132112,
+            "discreteClip": 6380121657112,
+            "discreteClipFr": 6380119296112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "17:21",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482666,
+                "firstName": {
+                  "default": "Scott"
+                },
+                "lastName": {
+                  "default": "Morrow"
+                },
+                "name": {
+                  "default": "S. Morrow"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 60
+              },
+              {
+                "playerId": 8477839,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Sheary"
+                },
+                "name": {
+                  "default": "C. Sheary"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev506.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 204,
+            "strength": "ev",
+            "playerId": 8482132,
+            "firstName": {
+              "default": "Brett"
+            },
+            "lastName": {
+              "default": "Berard"
+            },
+            "name": {
+              "default": "B. Berard"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8482132.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-nyr-berard-scores-goal-against-david-rittich-6380122535112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-nyr-berard-marque-un-but-contre-david-rittich-6380119701112",
+            "highlightClip": 6380122535112,
+            "highlightClipFr": 6380119701112,
+            "discreteClip": 6380120593112,
+            "discreteClipFr": 6380122633112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "NYR"
+            },
+            "timeInPeriod": "17:33",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483690,
+                "firstName": {
+                  "default": "Noah"
+                },
+                "lastName": {
+                  "default": "Laba"
+                },
+                "name": {
+                  "default": "N. Laba"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 42
+              },
+              {
+                "playerId": 8477839,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Sheary"
+                },
+                "name": {
+                  "default": "C. Sheary"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev204.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 787,
+            "strength": "pp",
+            "playerId": 8476468,
+            "firstName": {
+              "default": "J.T."
+            },
+            "lastName": {
+              "default": "Miller"
+            },
+            "name": {
+              "default": "J. Miller"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8476468.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-nyr-miller-scores-ppg-against-david-rittich-6380122964112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-nyr-miller-marque-un-but-en-a-n-contre-david-rittich-6380122569112",
+            "highlightClip": 6380122964112,
+            "highlightClipFr": 6380122569112,
+            "discreteClip": 6380123551112,
+            "discreteClipFr": 6380122266112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "NYR"
+            },
+            "timeInPeriod": "10:17",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476389,
+                "firstName": {
+                  "default": "Vincent"
+                },
+                "lastName": {
+                  "default": "Trocheck"
+                },
+                "name": {
+                  "default": "V. Trocheck"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 16
+              },
+              {
+                "playerId": 8476459,
+                "firstName": {
+                  "default": "Mika"
+                },
+                "lastName": {
+                  "default": "Zibanejad"
+                },
+                "name": {
+                  "default": "M. Zibanejad"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev787.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 1052,
+            "strength": "ev",
+            "playerId": 8482932,
+            "firstName": {
+              "default": "Cameron"
+            },
+            "lastName": {
+              "default": "Berg"
+            },
+            "name": {
+              "default": "C. Berg"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8482932.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cameron-berg-with-a-goal-vs-new-york-rangers-6380125731112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-nyr-berg-marque-un-but-contre-dylan-garand-6380125832112",
+            "highlightClip": 6380125731112,
+            "highlightClipFr": 6380125832112,
+            "discreteClip": 6380125628112,
+            "discreteClipFr": 6380124940112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "NYR"
+            },
+            "timeInPeriod": "06:59",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482154,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Jefferies"
+                },
+                "name": {
+                  "default": "A. Jefferies"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 45
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev1052.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 460,
+            "strength": "ev",
+            "playerId": 8485462,
+            "firstName": {
+              "default": "Gleb"
+            },
+            "lastName": {
+              "default": "Veremyev"
+            },
+            "name": {
+              "default": "G. Veremyev"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8485462.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-nyr-veremyev-scores-goal-against-dylan-garand-6380127893112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nyi-nyr-veremyev-marque-un-but-contre-dylan-garand-6380125847112",
+            "highlightClip": 6380127893112,
+            "highlightClipFr": 6380125847112,
+            "discreteClip": 6380128291112,
+            "discreteClipFr": 6380127986112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 4,
+            "timeInPeriod": "15:17",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482932,
+                "firstName": {
+                  "default": "Cameron"
+                },
+                "lastName": {
+                  "default": "Berg"
+                },
+                "name": {
+                  "default": "C. Berg"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 55
+              },
+              {
+                "playerId": 8483062,
+                "firstName": {
+                  "default": "Matthew"
+                },
+                "lastName": {
+                  "default": "Maggio"
+                },
+                "name": {
+                  "default": "M. Maggio"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev460.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1179,
+            "strength": "ev",
+            "playerId": 8475151,
+            "firstName": {
+              "default": "Kyle"
+            },
+            "lastName": {
+              "default": "Palmieri"
+            },
+            "name": {
+              "default": "K. Palmieri"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8475151.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nyi-nyr-palmieri-scores-goal-against-dylan-garand-6380126922112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/kyle-palmieri-with-a-goal-vs-les-rangers-de-new-york-6380127297112",
+            "highlightClip": 6380126922112,
+            "highlightClipFr": 6380127297112,
+            "discreteClip": 6380128295112,
+            "discreteClipFr": 6380126560112,
+            "goalsToDate": 2,
+            "awayScore": 5,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "NYI"
+            },
+            "timeInPeriod": "16:14",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476917,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Pelech"
+                },
+                "name": {
+                  "default": "A. Pelech"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 3
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010035/ev1179.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8475151,
+        "teamAbbrev": "NYI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8475151.png",
+        "name": {
+          "default": "K. Palmieri"
+        },
+        "sweaterNo": 21,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8485462,
+        "teamAbbrev": "NYI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8485462.png",
+        "name": {
+          "default": "G. Veremyev"
+        },
+        "sweaterNo": 67,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8476389,
+        "teamAbbrev": "NYR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8476389.png",
+        "name": {
+          "default": "V. Trocheck"
+        },
+        "sweaterNo": 16,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Berard"
+              },
+              "sweaterNumber": 65
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Mitchell"
+              },
+              "sweaterNumber": 38
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "16:06",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cameron"
+              },
+              "lastName": {
+                "default": "Berg"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Will",
+                "cs": "William",
+                "de": "William",
+                "es": "William",
+                "fi": "William",
+                "sk": "William",
+                "sv": "William"
+              },
+              "lastName": {
+                "default": "Borgen"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "09:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Jefferies"
+              },
+              "sweaterNumber": 45
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "descKey": "delaying-game"
+          },
+          {
+            "timeInPeriod": "16:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Soucy"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jean-Gabriel"
+              },
+              "lastName": {
+                "default": "Pageau"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Mitchell"
+              },
+              "sweaterNumber": 38
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Berard"
+              },
+              "sweaterNumber": 65
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "04:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cameron"
+              },
+              "lastName": {
+                "default": "Berg"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "descKey": "delaying-game-face-off-violation"
+          },
+          {
+            "timeInPeriod": "09:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Laba"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Day"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

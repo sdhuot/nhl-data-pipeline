@@ -1,0 +1,849 @@
+{
+  "id": 2025020098,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-21",
+  "venue": {
+    "default": "Scotiabank Arena"
+  },
+  "venueLocation": {
+    "default": "Toronto"
+  },
+  "startTimeUTC": "2025-10-21T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Toronto",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 293,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN4",
+      "sequenceNumber": 137
+    },
+    {
+      "id": 27,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSG",
+      "sequenceNumber": 408
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 1,
+    "commonName": {
+      "default": "Devils"
+    },
+    "abbrev": "NJD",
+    "placeName": {
+      "default": "New Jersey"
+    },
+    "placeNameWithPreposition": {
+      "default": "New Jersey",
+      "fr": "du New Jersey"
+    },
+    "score": 5,
+    "sog": 35,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+  },
+  "homeTeam": {
+    "id": 10,
+    "commonName": {
+      "default": "Maple Leafs"
+    },
+    "abbrev": "TOR",
+    "placeName": {
+      "default": "Toronto"
+    },
+    "placeNameWithPreposition": {
+      "default": "Toronto",
+      "fr": "de Toronto"
+    },
+    "score": 2,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 201,
+            "strength": "ev",
+            "playerId": 8475166,
+            "firstName": {
+              "default": "John"
+            },
+            "lastName": {
+              "default": "Tavares"
+            },
+            "name": {
+              "default": "J. Tavares"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8475166.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-tor-tavares-scores-goal-against-jake-allen-6383486048112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-tor-tavares-marque-un-but-contre-jake-allen-6383485547112",
+            "highlightClip": 6383486048112,
+            "highlightClipFr": 6383485547112,
+            "discreteClip": 6383485946112,
+            "discreteClipFr": 6383484899112,
+            "goalsToDate": 4,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "TOR"
+            },
+            "timeInPeriod": "06:36",
+            "shotType": "bat",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475171,
+                "firstName": {
+                  "default": "Oliver"
+                },
+                "lastName": {
+                  "default": "Ekman-Larsson"
+                },
+                "name": {
+                  "default": "O. Ekman-Larsson"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 95
+              },
+              {
+                "playerId": 8477939,
+                "firstName": {
+                  "default": "William"
+                },
+                "lastName": {
+                  "default": "Nylander"
+                },
+                "name": {
+                  "default": "W. Nylander"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020098/ev201.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 499,
+            "strength": "ev",
+            "playerId": 8481559,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Hughes"
+            },
+            "name": {
+              "default": "J. Hughes"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481559.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/jack-hughes-with-a-goal-vs-toronto-maple-leafs-6383486132112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/jack-hughes-with-a-goal-vs-les-maple-leafs-de-toronto-6383485714112",
+            "highlightClip": 6383486132112,
+            "highlightClipFr": 6383485714112,
+            "discreteClip": 6383485815112,
+            "discreteClipFr": 6383486911112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "01:27",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479407,
+                "firstName": {
+                  "default": "Jesper"
+                },
+                "lastName": {
+                  "default": "Bratt"
+                },
+                "name": {
+                  "default": "J. Bratt"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 63
+              },
+              {
+                "playerId": 8477488,
+                "firstName": {
+                  "default": "Brett"
+                },
+                "lastName": {
+                  "default": "Pesce"
+                },
+                "name": {
+                  "default": "B. Pesce"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 22
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020098/ev499.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 533,
+            "strength": "pp",
+            "playerId": 8479996,
+            "firstName": {
+              "default": "Cody"
+            },
+            "lastName": {
+              "default": "Glass"
+            },
+            "name": {
+              "default": "C. Glass"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8479996.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-tor-glass-scores-ppg-against-anthony-stolarz-6383485623112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-tor-glass-marque-un-but-en-a-n-contre-anthony-stolarz-6383487411112",
+            "highlightClip": 6383485623112,
+            "highlightClipFr": 6383487411112,
+            "discreteClip": 6383487477112,
+            "discreteClipFr": 6383486311112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "03:20",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478414,
+                "firstName": {
+                  "default": "Timo"
+                },
+                "lastName": {
+                  "default": "Meier"
+                },
+                "name": {
+                  "default": "T. Meier"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8482684,
+                "firstName": {
+                  "default": "Luke"
+                },
+                "lastName": {
+                  "default": "Hughes"
+                },
+                "name": {
+                  "default": "L. Hughes"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020098/ev533.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 653,
+            "strength": "ev",
+            "playerId": 8475455,
+            "firstName": {
+              "default": "Brenden"
+            },
+            "lastName": {
+              "default": "Dillon"
+            },
+            "name": {
+              "default": "B. Dillon"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8475455.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-tor-dillon-scores-goal-against-anthony-stolarz-6383489669112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-tor-dillon-marque-un-but-contre-anthony-stolarz-6383486837112",
+            "highlightClip": 6383489669112,
+            "highlightClipFr": 6383486837112,
+            "discreteClip": 6383487604112,
+            "discreteClipFr": 6383487665112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "04:54",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476822,
+                "firstName": {
+                  "default": "Luke"
+                },
+                "lastName": {
+                  "default": "Glendening"
+                },
+                "name": {
+                  "default": "L. Glendening"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8481721,
+                "firstName": {
+                  "default": "Arseny"
+                },
+                "lastName": {
+                  "default": "Gritsyuk"
+                },
+                "name": {
+                  "default": "A. Gritsyuk"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 81
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020098/ev653.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 685,
+            "strength": "ev",
+            "playerId": 8481711,
+            "firstName": {
+              "default": "Matias"
+            },
+            "lastName": {
+              "default": "Maccelli"
+            },
+            "name": {
+              "default": "M. Maccelli"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8481711.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-tor-maccelli-scores-goal-against-jake-allen-6383487243112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-tor-maccelli-marque-un-but-contre-jake-allen-6383488468112",
+            "highlightClip": 6383487243112,
+            "highlightClipFr": 6383488468112,
+            "discreteClip": 6383487879112,
+            "discreteClipFr": 6383489469112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "07:03",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477939,
+                "firstName": {
+                  "default": "William"
+                },
+                "lastName": {
+                  "default": "Nylander"
+                },
+                "name": {
+                  "default": "W. Nylander"
+                },
+                "assistsToDate": 11,
+                "sweaterNumber": 88
+              },
+              {
+                "playerId": 8475166,
+                "firstName": {
+                  "default": "John"
+                },
+                "lastName": {
+                  "default": "Tavares"
+                },
+                "name": {
+                  "default": "J. Tavares"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020098/ev685.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 817,
+            "strength": "ev",
+            "playerId": 8481559,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Hughes"
+            },
+            "name": {
+              "default": "J. Hughes"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481559.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-tor-hughes-scores-goal-against-anthony-stolarz-6383489287112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-tor-hughes-marque-un-but-contre-anthony-stolarz-6383491190112",
+            "highlightClip": 6383489287112,
+            "highlightClipFr": 6383491190112,
+            "discreteClip": 6383491293112,
+            "discreteClipFr": 6383489588112,
+            "goalsToDate": 5,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "16:17",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479407,
+                "firstName": {
+                  "default": "Jesper"
+                },
+                "lastName": {
+                  "default": "Bratt"
+                },
+                "name": {
+                  "default": "J. Bratt"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 63
+              },
+              {
+                "playerId": 8483495,
+                "firstName": {
+                  "default": "Simon",
+                  "cs": "Šimon",
+                  "sk": "Šimon"
+                },
+                "lastName": {
+                  "default": "Nemec"
+                },
+                "name": {
+                  "default": "S. Nemec",
+                  "cs": "Š. Nemec",
+                  "sk": "Š. Nemec"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020098/ev817.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1560",
+            "eventId": 1136,
+            "strength": "ev",
+            "playerId": 8481559,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Hughes"
+            },
+            "name": {
+              "default": "J. Hughes"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481559.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-tor-hughes-scores-empty-net-goal-6383492863112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-tor-hughes-njd-marque-un-but-dans-un-filet-desert-6383492966112",
+            "highlightClip": 6383492863112,
+            "highlightClipFr": 6383492966112,
+            "discreteClip": 6383494474112,
+            "discreteClipFr": 6383495673112,
+            "goalsToDate": 6,
+            "awayScore": 5,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "19:30",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8479407,
+                "firstName": {
+                  "default": "Jesper"
+                },
+                "lastName": {
+                  "default": "Bratt"
+                },
+                "name": {
+                  "default": "J. Bratt"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020098/ev1136.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481559,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481559.png",
+        "name": {
+          "default": "J. Hughes"
+        },
+        "sweaterNo": 86,
+        "position": "C",
+        "goals": 3,
+        "assists": 0,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8475166,
+        "teamAbbrev": "TOR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8475166.png",
+        "name": {
+          "default": "J. Tavares"
+        },
+        "sweaterNo": 91,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8479407,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8479407.png",
+        "name": {
+          "default": "J. Bratt"
+        },
+        "sweaterNo": 63,
+        "position": "L",
+        "goals": 0,
+        "assists": 3,
+        "points": 3
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dawson"
+              },
+              "lastName": {
+                "default": "Mercer"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dakota"
+              },
+              "lastName": {
+                "default": "Joshua"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "16:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cody"
+              },
+              "lastName": {
+                "default": "Glass"
+              },
+              "sweaterNumber": 12
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Max"
+              },
+              "lastName": {
+                "default": "Domi"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "16:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Max"
+              },
+              "lastName": {
+                "default": "Domi"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cody"
+              },
+              "lastName": {
+                "default": "Glass"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "roughing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:27",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "descKey": "delaying-game-unsuccessful-challenge",
+            "servedBy": {
+              "default": "J. Tavares"
+            }
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:24",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Auston"
+              },
+              "lastName": {
+                "default": "Matthews"
+              },
+              "sweaterNumber": 34
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Pesce"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "15:44",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonas"
+              },
+              "lastName": {
+                "default": "Siegenthaler"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dakota"
+              },
+              "lastName": {
+                "default": "Joshua"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "19:43",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Simon"
+              },
+              "lastName": {
+                "default": "Benoit"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brian"
+              },
+              "lastName": {
+                "default": "Halonen"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "19:43",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brian"
+              },
+              "lastName": {
+                "default": "Halonen"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Simon"
+              },
+              "lastName": {
+                "default": "Benoit"
+              },
+              "sweaterNumber": 2
+            },
+            "descKey": "fighting"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

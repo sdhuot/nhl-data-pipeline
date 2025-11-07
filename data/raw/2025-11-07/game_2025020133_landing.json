@@ -1,0 +1,958 @@
+{
+  "id": 2025020133,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-25",
+  "venue": {
+    "default": "Little Caesars Arena"
+  },
+  "venueLocation": {
+    "default": "Detroit"
+  },
+  "startTimeUTC": "2025-10-25T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Detroit",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 562,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNDET",
+      "sequenceNumber": 271
+    },
+    {
+      "id": 566,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNMW",
+      "sequenceNumber": 273
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 19,
+    "commonName": {
+      "default": "Blues"
+    },
+    "abbrev": "STL",
+    "placeName": {
+      "default": "St. Louis"
+    },
+    "placeNameWithPreposition": {
+      "default": "St. Louis",
+      "fr": "de St. Louis"
+    },
+    "score": 4,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 17,
+    "commonName": {
+      "default": "Red Wings"
+    },
+    "abbrev": "DET",
+    "placeName": {
+      "default": "Detroit"
+    },
+    "placeNameWithPreposition": {
+      "default": "Detroit",
+      "fr": "de Detroit"
+    },
+    "score": 6,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 210,
+            "strength": "pp",
+            "playerId": 8479385,
+            "firstName": {
+              "default": "Jordan"
+            },
+            "lastName": {
+              "default": "Kyrou"
+            },
+            "name": {
+              "default": "J. Kyrou"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8479385.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-kyrou-scores-ppg-against-john-gibson-6384067139112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-kyrou-marque-un-but-en-a-n-contre-john-gibson-6384068733112",
+            "highlightClip": 6384067139112,
+            "highlightClipFr": 6384068733112,
+            "discreteClip": 6384069014112,
+            "discreteClipFr": 6384069209112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "07:43",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475764,
+                "firstName": {
+                  "default": "Cam"
+                },
+                "lastName": {
+                  "default": "Fowler"
+                },
+                "name": {
+                  "default": "C. Fowler"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8483516,
+                "firstName": {
+                  "default": "Jimmy"
+                },
+                "lastName": {
+                  "default": "Snuggerud"
+                },
+                "name": {
+                  "default": "J. Snuggerud"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev210.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 328,
+            "strength": "ev",
+            "playerId": 8482089,
+            "firstName": {
+              "default": "Jake"
+            },
+            "lastName": {
+              "default": "Neighbours"
+            },
+            "name": {
+              "default": "J. Neighbours"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482089.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-neighbours-scores-goal-against-john-gibson-6384065973112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-neighbours-marque-un-but-contre-john-gibson-6384067283112",
+            "highlightClip": 6384065973112,
+            "highlightClipFr": 6384067283112,
+            "discreteClip": 6384069620112,
+            "discreteClipFr": 6384068327112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "12:54",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475753,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Faulk"
+                },
+                "name": {
+                  "default": "J. Faulk"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 72
+              },
+              {
+                "playerId": 8480023,
+                "firstName": {
+                  "default": "Robert"
+                },
+                "lastName": {
+                  "default": "Thomas"
+                },
+                "name": {
+                  "default": "R. Thomas"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev328.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 448,
+            "strength": "pp",
+            "playerId": 8477402,
+            "firstName": {
+              "default": "Pavel"
+            },
+            "lastName": {
+              "default": "Buchnevich",
+              "cs": "Bučněvič",
+              "fi": "Butshnevitsh",
+              "sk": "Bučněvič"
+            },
+            "name": {
+              "default": "P. Buchnevich",
+              "cs": "P. Bučněvič",
+              "fi": "P. Butshnevitsh",
+              "sk": "P. Bučněvič"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8477402.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-buchnevich-scores-ppg-against-john-gibson-6384069002112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-buchnevich-marque-un-but-en-a-n-contre-john-gibson-6384071044112",
+            "highlightClip": 6384069002112,
+            "highlightClipFr": 6384071044112,
+            "discreteClip": 6384070638112,
+            "discreteClipFr": 6384070346112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "00:59",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482077,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Holloway"
+                },
+                "name": {
+                  "default": "D. Holloway"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 81
+              },
+              {
+                "playerId": 8475753,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Faulk"
+                },
+                "name": {
+                  "default": "J. Faulk"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 72
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev448.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 521,
+            "strength": "ev",
+            "playerId": 8482089,
+            "firstName": {
+              "default": "Jake"
+            },
+            "lastName": {
+              "default": "Neighbours"
+            },
+            "name": {
+              "default": "J. Neighbours"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482089.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-neighbours-scores-goal-against-john-gibson-6384069467112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-neighbours-marque-un-but-contre-john-gibson-6384068490112",
+            "highlightClip": 6384069467112,
+            "highlightClipFr": 6384068490112,
+            "discreteClip": 6384071244112,
+            "discreteClipFr": 6384070840112,
+            "goalsToDate": 6,
+            "awayScore": 4,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "03:12",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480023,
+                "firstName": {
+                  "default": "Robert"
+                },
+                "lastName": {
+                  "default": "Thomas"
+                },
+                "name": {
+                  "default": "R. Thomas"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8483516,
+                "firstName": {
+                  "default": "Jimmy"
+                },
+                "lastName": {
+                  "default": "Snuggerud"
+                },
+                "name": {
+                  "default": "J. Snuggerud"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev521.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 644,
+            "strength": "pp",
+            "playerId": 8481013,
+            "firstName": {
+              "default": "Jonatan"
+            },
+            "lastName": {
+              "default": "Berggren"
+            },
+            "name": {
+              "default": "J. Berggren"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8481013.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-berggren-scores-ppg-against-jordan-binnington-6384070559112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-berggren-marque-un-but-en-a-n-contre-jordan-binnington-6384069574112",
+            "highlightClip": 6384070559112,
+            "highlightClipFr": 6384069574112,
+            "discreteClip": 6384072442112,
+            "discreteClipFr": 6384071941112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "07:52",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477429,
+                "firstName": {
+                  "default": "Andrew"
+                },
+                "lastName": {
+                  "default": "Copp"
+                },
+                "name": {
+                  "default": "A. Copp"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8484223,
+                "firstName": {
+                  "default": "Axel"
+                },
+                "lastName": {
+                  "default": "Sandin-Pellikka"
+                },
+                "name": {
+                  "default": "A. Sandin-Pellikka"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev644.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 255,
+            "strength": "ev",
+            "playerId": 8484471,
+            "firstName": {
+              "default": "Emmitt"
+            },
+            "lastName": {
+              "default": "Finnie"
+            },
+            "name": {
+              "default": "E. Finnie"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8484471.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-finnie-scores-goal-against-jordan-binnington-6384070783112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-finnie-marque-un-but-contre-jordan-binnington-6384072084112",
+            "highlightClip": 6384070783112,
+            "highlightClipFr": 6384072084112,
+            "discreteClip": 6384069597112,
+            "discreteClipFr": 6384071302112,
+            "goalsToDate": 4,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "18:34",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev255.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 795,
+            "strength": "ev",
+            "playerId": 8477456,
+            "firstName": {
+              "default": "J.T."
+            },
+            "lastName": {
+              "default": "Compher"
+            },
+            "name": {
+              "default": "J. Compher"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8477456.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-compher-scores-goal-against-jordan-binnington-6384073055112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-compher-marque-un-but-contre-jordan-binnington-6384070614112",
+            "highlightClip": 6384073055112,
+            "highlightClipFr": 6384070614112,
+            "discreteClip": 6384072666112,
+            "discreteClipFr": 6384073246112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "19:01",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474612,
+                "firstName": {
+                  "default": "Travis"
+                },
+                "lastName": {
+                  "default": "Hamonic"
+                },
+                "name": {
+                  "default": "T. Hamonic"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 52
+              },
+              {
+                "playerId": 8477429,
+                "firstName": {
+                  "default": "Andrew"
+                },
+                "lastName": {
+                  "default": "Copp"
+                },
+                "name": {
+                  "default": "A. Copp"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev795.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 947,
+            "strength": "ev",
+            "playerId": 8479337,
+            "firstName": {
+              "default": "Alex"
+            },
+            "lastName": {
+              "default": "DeBrincat"
+            },
+            "name": {
+              "default": "A. DeBrincat"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8479337.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-debrincat-scores-goal-against-jordan-binnington-6384072520112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-debrincat-marque-un-but-contre-jordan-binnington-6384072715112",
+            "highlightClip": 6384072520112,
+            "highlightClipFr": 6384072715112,
+            "discreteClip": 6384072224112,
+            "discreteClipFr": 6384072325112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 4,
+            "timeInPeriod": "10:01",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev947.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 959,
+            "strength": "ev",
+            "playerId": 8482762,
+            "firstName": {
+              "default": "Simon"
+            },
+            "lastName": {
+              "default": "Edvinsson"
+            },
+            "name": {
+              "default": "S. Edvinsson"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8482762.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-edvinsson-scores-goal-against-jordan-binnington-6384072636112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-edvinsson-marque-un-but-contre-jordan-binnington-6384073391112",
+            "highlightClip": 6384072636112,
+            "highlightClipFr": 6384073391112,
+            "discreteClip": 6384072335112,
+            "discreteClipFr": 6384073206112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "10:48",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477456,
+                "firstName": {
+                  "default": "J.T."
+                },
+                "lastName": {
+                  "default": "Compher"
+                },
+                "name": {
+                  "default": "J. Compher"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 37
+              },
+              {
+                "playerId": 8481013,
+                "firstName": {
+                  "default": "Jonatan"
+                },
+                "lastName": {
+                  "default": "Berggren"
+                },
+                "name": {
+                  "default": "J. Berggren"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev959.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "0651",
+            "eventId": 258,
+            "strength": "ev",
+            "playerId": 8482762,
+            "firstName": {
+              "default": "Simon"
+            },
+            "lastName": {
+              "default": "Edvinsson"
+            },
+            "name": {
+              "default": "S. Edvinsson"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8482762.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-det-edvinsson-scores-goal-against-jordan-binnington-6384074208112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-det-edvinsson-marque-un-but-contre-jordan-binnington-6384074878112",
+            "highlightClip": 6384074208112,
+            "highlightClipFr": 6384074878112,
+            "discreteClip": 6384074112112,
+            "discreteClipFr": 6384073810112,
+            "goalsToDate": 3,
+            "awayScore": 4,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "18:47",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020133/ev258.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477456,
+        "teamAbbrev": "DET",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8477456.png",
+        "name": {
+          "default": "J. Compher"
+        },
+        "sweaterNo": 37,
+        "position": "L",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8482089,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482089.png",
+        "name": {
+          "default": "J. Neighbours"
+        },
+        "sweaterNo": 63,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8481013,
+        "teamAbbrev": "DET",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8481013.png",
+        "name": {
+          "default": "J. Berggren"
+        },
+        "sweaterNo": 48,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "James"
+              },
+              "lastName": {
+                "default": "van Riemsdyk"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Parayko"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "15:32",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cam"
+              },
+              "lastName": {
+                "default": "Fowler"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lucas"
+              },
+              "lastName": {
+                "default": "Raymond"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:27",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Simon"
+              },
+              "lastName": {
+                "default": "Edvinsson"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Bjugstad"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "06:25",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Kessel"
+              },
+              "sweaterNumber": 51
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lucas"
+              },
+              "lastName": {
+                "default": "Raymond"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "08:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "J.T."
+              },
+              "lastName": {
+                "default": "Compher"
+              },
+              "sweaterNumber": 37
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Holloway"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Bjugstad"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Larkin"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "16:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Marco"
+              },
+              "lastName": {
+                "default": "Kasper"
+              },
+              "sweaterNumber": 92
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

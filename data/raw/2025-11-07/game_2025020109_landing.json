@@ -1,0 +1,793 @@
+{
+  "id": 2025020109,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-22",
+  "venue": {
+    "default": "KeyBank Center"
+  },
+  "venueLocation": {
+    "default": "Buffalo"
+  },
+  "startTimeUTC": "2025-10-22T23:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 385,
+      "market": "N",
+      "countryCode": "US",
+      "network": "TNT",
+      "sequenceNumber": 11
+    },
+    {
+      "id": 501,
+      "market": "N",
+      "countryCode": "US",
+      "network": "truTV",
+      "sequenceNumber": 14
+    },
+    {
+      "id": 578,
+      "market": "N",
+      "countryCode": "US",
+      "network": "HBO MAX",
+      "sequenceNumber": 19
+    },
+    {
+      "id": 563,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNDETX",
+      "sequenceNumber": 272
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 17,
+    "commonName": {
+      "default": "Red Wings"
+    },
+    "abbrev": "DET",
+    "placeName": {
+      "default": "Detroit"
+    },
+    "placeNameWithPreposition": {
+      "default": "Detroit",
+      "fr": "de Detroit"
+    },
+    "score": 2,
+    "sog": 31,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 4,
+    "sog": 31,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 566,
+            "strength": "ev",
+            "playerId": 8477456,
+            "firstName": {
+              "default": "J.T."
+            },
+            "lastName": {
+              "default": "Compher"
+            },
+            "name": {
+              "default": "J. Compher"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8477456.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-compher-scores-goal-against-colten-ellis-6383541428112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-compher-marque-un-but-contre-colten-ellis-6383541917112",
+            "highlightClip": 6383541428112,
+            "highlightClipFr": 6383541917112,
+            "discreteClip": 6383542300112,
+            "discreteClipFr": 6383540260112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "03:00",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481607,
+                "firstName": {
+                  "default": "Albert"
+                },
+                "lastName": {
+                  "default": "Johansson"
+                },
+                "name": {
+                  "default": "A. Johansson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 20
+              },
+              {
+                "playerId": 8481013,
+                "firstName": {
+                  "default": "Jonatan"
+                },
+                "lastName": {
+                  "default": "Berggren"
+                },
+                "name": {
+                  "default": "J. Berggren"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020109/ev566.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 503,
+            "strength": "ev",
+            "playerId": 8475722,
+            "firstName": {
+              "default": "Jason"
+            },
+            "lastName": {
+              "default": "Zucker"
+            },
+            "name": {
+              "default": "J. Zucker"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8475722.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-zucker-scores-goal-against-john-gibson-6383542905112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-zucker-marque-un-but-contre-john-gibson-6383541831112",
+            "highlightClip": 6383542905112,
+            "highlightClipFr": 6383541831112,
+            "discreteClip": 6383541936112,
+            "discreteClipFr": 6383542610112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "11:37",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482097,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Quinn"
+                },
+                "name": {
+                  "default": "J. Quinn"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8479982,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Timmins"
+                },
+                "name": {
+                  "default": "C. Timmins"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020109/ev503.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 753,
+            "strength": "ev",
+            "playerId": 8482896,
+            "firstName": {
+              "default": "Tyson"
+            },
+            "lastName": {
+              "default": "Kozak"
+            },
+            "name": {
+              "default": "T. Kozak"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482896.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-kozak-scores-goal-against-john-gibson-6383543721112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-kozak-marque-un-but-contre-john-gibson-6383543909112",
+            "highlightClip": 6383543721112,
+            "highlightClipFr": 6383543909112,
+            "discreteClip": 6383544111112,
+            "discreteClipFr": 6383544006112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "16:28",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482097,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Quinn"
+                },
+                "name": {
+                  "default": "J. Quinn"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8480807,
+                "firstName": {
+                  "default": "Mattias"
+                },
+                "lastName": {
+                  "default": "Samuelsson"
+                },
+                "name": {
+                  "default": "M. Samuelsson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 23
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020109/ev753.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 783,
+            "strength": "ev",
+            "playerId": 8484471,
+            "firstName": {
+              "default": "Emmitt"
+            },
+            "lastName": {
+              "default": "Finnie"
+            },
+            "name": {
+              "default": "E. Finnie"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8484471.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-finnie-scores-goal-against-colten-ellis-6383541958112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-finnie-marque-un-but-contre-colten-ellis-6383541558112",
+            "highlightClip": 6383541958112,
+            "highlightClipFr": 6383541558112,
+            "discreteClip": 6383541562112,
+            "discreteClipFr": 6383543220112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "18:20",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477946,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Larkin"
+                },
+                "name": {
+                  "default": "D. Larkin"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8482078,
+                "firstName": {
+                  "default": "Lucas"
+                },
+                "lastName": {
+                  "default": "Raymond"
+                },
+                "name": {
+                  "default": "L. Raymond"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 23
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020109/ev783.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 865,
+            "strength": "pp",
+            "playerId": 8482097,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Quinn"
+            },
+            "name": {
+              "default": "J. Quinn"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482097.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-quinn-scores-ppg-against-john-gibson-6383543944112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-quinn-marque-un-but-en-a-n-contre-john-gibson-6383543650112",
+            "highlightClip": 6383543944112,
+            "highlightClipFr": 6383543650112,
+            "discreteClip": 6383543145112,
+            "discreteClipFr": 6383543646112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "04:15",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480802,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "McLeod"
+                },
+                "name": {
+                  "default": "R. McLeod"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8481524,
+                "firstName": {
+                  "default": "Bowen"
+                },
+                "lastName": {
+                  "default": "Byram"
+                },
+                "name": {
+                  "default": "B. Byram"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 4
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020109/ev865.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 915,
+            "strength": "ev",
+            "playerId": 8477949,
+            "firstName": {
+              "default": "Alex"
+            },
+            "lastName": {
+              "default": "Tuch"
+            },
+            "name": {
+              "default": "A. Tuch"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8477949.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-buf-doan-scores-goal-against-john-gibson-6383541884112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-buf-doan-marque-un-but-contre-john-gibson-6383542864112",
+            "highlightClip": 6383541884112,
+            "highlightClipFr": 6383542864112,
+            "discreteClip": 6383542659112,
+            "discreteClipFr": 6383543860112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "08:10",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482659,
+                "firstName": {
+                  "default": "Josh"
+                },
+                "lastName": {
+                  "default": "Doan"
+                },
+                "name": {
+                  "default": "J. Doan"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8480802,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "McLeod"
+                },
+                "name": {
+                  "default": "R. McLeod"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020109/ev915.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481551,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8481551.png",
+        "name": {
+          "default": "C. Ellis"
+        },
+        "sweaterNo": 92,
+        "position": "G",
+        "goalsAgainstAverage": 2.0,
+        "savePctg": 0.935
+      },
+      {
+        "star": 2,
+        "playerId": 8482097,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482097.png",
+        "name": {
+          "default": "J. Quinn"
+        },
+        "sweaterNo": 22,
+        "position": "R",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8482896,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8482896.png",
+        "name": {
+          "default": "T. Kozak"
+        },
+        "sweaterNo": 48,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Simon"
+              },
+              "lastName": {
+                "default": "Edvinsson"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Beck"
+              },
+              "lastName": {
+                "default": "Malenstyn"
+              },
+              "sweaterNumber": 29
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "03:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "James"
+              },
+              "lastName": {
+                "default": "van Riemsdyk"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jiri",
+                "cs": "Jiří",
+                "sk": "Jiří"
+              },
+              "lastName": {
+                "default": "Kulich"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "19:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Benson"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lucas"
+              },
+              "lastName": {
+                "default": "Raymond"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Larkin"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mattias"
+              },
+              "lastName": {
+                "default": "Samuelsson"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "Rasmussen"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tyson"
+              },
+              "lastName": {
+                "default": "Kozak"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "09:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Moritz"
+              },
+              "lastName": {
+                "default": "Seider"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Benson"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "12:49",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jiri",
+                "cs": "Jiří",
+                "sk": "Jiří"
+              },
+              "lastName": {
+                "default": "Kulich"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jacob"
+              },
+              "lastName": {
+                "default": "Bernard-Docker"
+              },
+              "sweaterNumber": 25
+            },
+            "descKey": "holding"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

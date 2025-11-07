@@ -1,0 +1,882 @@
+{
+  "id": 2025020089,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-19",
+  "venue": {
+    "default": "Capital One Arena"
+  },
+  "venueLocation": {
+    "default": "Washington"
+  },
+  "startTimeUTC": "2025-10-19T16:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 282,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN",
+      "sequenceNumber": 21
+    },
+    {
+      "id": 517,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MNMT",
+      "sequenceNumber": 387
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 23,
+    "commonName": {
+      "default": "Canucks"
+    },
+    "abbrev": "VAN",
+    "placeName": {
+      "default": "Vancouver"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vancouver",
+      "fr": "de Vancouver"
+    },
+    "score": 4,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+  },
+  "homeTeam": {
+    "id": 15,
+    "commonName": {
+      "default": "Capitals"
+    },
+    "abbrev": "WSH",
+    "placeName": {
+      "default": "Washington"
+    },
+    "placeNameWithPreposition": {
+      "default": "Washington",
+      "fr": "de Washington"
+    },
+    "score": 3,
+    "sog": 31,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 60,
+            "strength": "ev",
+            "playerId": 8480012,
+            "firstName": {
+              "default": "Elias"
+            },
+            "lastName": {
+              "default": "Pettersson"
+            },
+            "name": {
+              "default": "E. Pettersson"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8480012.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-wsh-pettersson-scores-goal-against-charlie-lindgren-6383073448112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-wsh-pettersson-marque-un-but-contre-charlie-lindgren-6383071977112",
+            "highlightClip": 6383073448112,
+            "highlightClipFr": 6383071977112,
+            "discreteClip": 6383072573112,
+            "discreteClipFr": 6383071883112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "00:59",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478856,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Garland"
+                },
+                "name": {
+                  "default": "C. Garland"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020089/ev60.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 590,
+            "strength": "ev",
+            "playerId": 8474574,
+            "firstName": {
+              "default": "Tyler"
+            },
+            "lastName": {
+              "default": "Myers"
+            },
+            "name": {
+              "default": "T. Myers"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8474574.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-wsh-myers-scores-goal-against-charlie-lindgren-6383073467112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-wsh-myers-marque-un-but-contre-charlie-lindgren-6383072293112",
+            "highlightClip": 6383073467112,
+            "highlightClipFr": 6383072293112,
+            "discreteClip": 6383072504112,
+            "discreteClipFr": 6383073379112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "17:11",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020089/ev590.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 154,
+            "strength": "pp",
+            "playerId": 8480748,
+            "firstName": {
+              "default": "Kiefer"
+            },
+            "lastName": {
+              "default": "Sherwood"
+            },
+            "name": {
+              "default": "K. Sherwood"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8480748.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-wsh-sherwood-scores-ppg-against-charlie-lindgren-6383072404112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-wsh-sherwood-marque-un-but-en-a-n-contre-charlie-lindgren-6383071318112",
+            "highlightClip": 6383072404112,
+            "highlightClipFr": 6383071318112,
+            "discreteClip": 6383072098112,
+            "discreteClipFr": 6383072298112,
+            "goalsToDate": 4,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "17:52",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478856,
+                "firstName": {
+                  "default": "Conor"
+                },
+                "lastName": {
+                  "default": "Garland"
+                },
+                "name": {
+                  "default": "C. Garland"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8480800,
+                "firstName": {
+                  "default": "Quinn"
+                },
+                "lastName": {
+                  "default": "Hughes"
+                },
+                "name": {
+                  "default": "Q. Hughes"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020089/ev154.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 808,
+            "strength": "ev",
+            "playerId": 8476927,
+            "firstName": {
+              "default": "Teddy",
+              "cs": "Theodors",
+              "sk": "Theodors"
+            },
+            "lastName": {
+              "default": "Blueger",
+              "cs": "Blugers",
+              "sk": "Blugers"
+            },
+            "name": {
+              "default": "T. Blueger",
+              "cs": "T. Blugers",
+              "sk": "T. Blugers"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8476927.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-wsh-blueger-scores-goal-against-charlie-lindgren-6383074855112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-wsh-blueger-marque-un-but-contre-charlie-lindgren-6383076809112",
+            "highlightClip": 6383074855112,
+            "highlightClipFr": 6383076809112,
+            "discreteClip": 6383075043112,
+            "discreteClipFr": 6383076684112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "04:54",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475169,
+                "firstName": {
+                  "default": "Evander"
+                },
+                "lastName": {
+                  "default": "Kane"
+                },
+                "name": {
+                  "default": "E. Kane"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8474574,
+                "firstName": {
+                  "default": "Tyler"
+                },
+                "lastName": {
+                  "default": "Myers"
+                },
+                "name": {
+                  "default": "T. Myers"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 57
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020089/ev808.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 934,
+            "strength": "pp",
+            "playerId": 8484186,
+            "firstName": {
+              "default": "Ryan"
+            },
+            "lastName": {
+              "default": "Leonard"
+            },
+            "name": {
+              "default": "R. Leonard"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8484186.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-wsh-leonard-scores-ppg-against-thatcher-demko-6383080119112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-wsh-leonard-marque-un-but-en-a-n-contre-thatcher-demko-6383078369112",
+            "highlightClip": 6383080119112,
+            "highlightClipFr": 6383078369112,
+            "discreteClip": 6383077576112,
+            "discreteClipFr": 6383079052112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "13:42",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476880,
+                "firstName": {
+                  "default": "Tom"
+                },
+                "lastName": {
+                  "default": "Wilson"
+                },
+                "name": {
+                  "default": "T. Wilson"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 43
+              },
+              {
+                "playerId": 8478440,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Strome"
+                },
+                "name": {
+                  "default": "D. Strome"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020089/ev934.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 1166,
+            "strength": "ev",
+            "playerId": 8479345,
+            "firstName": {
+              "default": "Jakob"
+            },
+            "lastName": {
+              "default": "Chychrun"
+            },
+            "name": {
+              "default": "J. Chychrun"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8479345.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-wsh-chychrun-scores-goal-against-thatcher-demko-6383084259112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-wsh-chychrun-marque-un-but-contre-thatcher-demko-6383084363112",
+            "highlightClip": 6383084259112,
+            "highlightClipFr": 6383084363112,
+            "discreteClip": 6383084059112,
+            "discreteClipFr": 6383081726112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "09:01",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482148,
+                "firstName": {
+                  "default": "Hendrix"
+                },
+                "lastName": {
+                  "default": "Lapierre"
+                },
+                "name": {
+                  "default": "H. Lapierre"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8480873,
+                "firstName": {
+                  "default": "Rasmus"
+                },
+                "lastName": {
+                  "default": "Sandin"
+                },
+                "name": {
+                  "default": "R. Sandin"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 38
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020089/ev1166.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 1338,
+            "strength": "ev",
+            "playerId": 8474590,
+            "firstName": {
+              "default": "John"
+            },
+            "lastName": {
+              "default": "Carlson"
+            },
+            "name": {
+              "default": "J. Carlson"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8474590.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-wsh-carlson-scores-goal-against-thatcher-demko-6383085195112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-wsh-carlson-marque-un-but-contre-thatcher-demko-6383083334112",
+            "highlightClip": 6383085195112,
+            "highlightClipFr": 6383083334112,
+            "discreteClip": 6383083920112,
+            "discreteClipFr": 6383083419112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "17:46",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478440,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Strome"
+                },
+                "name": {
+                  "default": "D. Strome"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8476880,
+                "firstName": {
+                  "default": "Tom"
+                },
+                "lastName": {
+                  "default": "Wilson"
+                },
+                "name": {
+                  "default": "T. Wilson"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020089/ev1338.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8474574,
+        "teamAbbrev": "VAN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8474574.png",
+        "name": {
+          "default": "T. Myers"
+        },
+        "sweaterNo": 57,
+        "position": "D",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8478856,
+        "teamAbbrev": "VAN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8478856.png",
+        "name": {
+          "default": "C. Garland"
+        },
+        "sweaterNo": 8,
+        "position": "R",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8479345,
+        "teamAbbrev": "WSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8479345.png",
+        "name": {
+          "default": "J. Chychrun"
+        },
+        "sweaterNo": 6,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Filip"
+              },
+              "lastName": {
+                "default": "Chytil"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Duhaime"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "17:11",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "descKey": "delaying-game-unsuccessful-challenge",
+            "servedBy": {
+              "default": "A. Ovechkin",
+              "cs": "A. Ovečkin",
+              "fi": "A. Ovetshkin",
+              "sk": "A. Ovečkin"
+            }
+          },
+          {
+            "timeInPeriod": "19:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Strome"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kiefer"
+              },
+              "lastName": {
+                "default": "Sherwood"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:13",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Duhaime"
+              },
+              "sweaterNumber": 22
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Victor"
+              },
+              "lastName": {
+                "default": "Mancini"
+              },
+              "sweaterNumber": 90
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "06:13",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Victor"
+              },
+              "lastName": {
+                "default": "Mancini"
+              },
+              "sweaterNumber": 90
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Duhaime"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "09:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Evander"
+              },
+              "lastName": {
+                "default": "Kane"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Justin"
+              },
+              "lastName": {
+                "default": "Sourdif"
+              },
+              "sweaterNumber": 34
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "12:13",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Arshdeep"
+              },
+              "lastName": {
+                "default": "Bains"
+              },
+              "sweaterNumber": 13
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "Lindgren"
+              },
+              "sweaterNumber": 79
+            },
+            "descKey": "interference-goalkeeper"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nic"
+              },
+              "lastName": {
+                "default": "Dowd"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Elias"
+              },
+              "lastName": {
+                "default": "Pettersson"
+              },
+              "sweaterNumber": 25
+            },
+            "descKey": "unsportsmanlike-conduct"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Filip"
+              },
+              "lastName": {
+                "default": "Hronek"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Leonard"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "14:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Justin"
+              },
+              "lastName": {
+                "default": "Sourdif"
+              },
+              "sweaterNumber": 34
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Linus"
+              },
+              "lastName": {
+                "default": "Karlsson"
+              },
+              "sweaterNumber": 94
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": true,
+    "inIntermission": false
+  }
+}

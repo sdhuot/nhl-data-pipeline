@@ -1,0 +1,87 @@
+{
+  "id": 2025020248,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-09",
+  "venue": {
+    "default": "American Airlines Center"
+  },
+  "venueLocation": {
+    "default": "Dallas"
+  },
+  "startTimeUTC": "2025-11-10T00:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-06:00",
+  "tvBroadcasts": [
+    {
+      "id": 290,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SNP",
+      "sequenceNumber": 33
+    },
+    {
+      "id": 554,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KHN",
+      "sequenceNumber": 339
+    },
+    {
+      "id": 553,
+      "market": "H",
+      "countryCode": "US",
+      "network": "Victory+",
+      "sequenceNumber": 373
+    },
+    {
+      "id": 388,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KONG",
+      "sequenceNumber": 654
+    }
+  ],
+  "gameState": "FUT",
+  "gameScheduleState": "OK",
+  "regPeriods": 3,
+  "awayTeam": {
+    "id": 55,
+    "commonName": {
+      "default": "Kraken"
+    },
+    "abbrev": "SEA",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg",
+    "placeName": {
+      "default": "Seattle"
+    },
+    "placeNameWithPreposition": {
+      "default": "Seattle",
+      "fr": "de Seattle"
+    }
+  },
+  "homeTeam": {
+    "id": 25,
+    "commonName": {
+      "default": "Stars"
+    },
+    "abbrev": "DAL",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+    "placeName": {
+      "default": "Dallas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Dallas",
+      "fr": "de Dallas"
+    }
+  },
+  "clock": {
+    "timeRemaining": "20:00",
+    "secondsRemaining": 1200,
+    "running": false,
+    "inIntermission": false
+  }
+}

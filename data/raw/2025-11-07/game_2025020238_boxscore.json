@@ -1,0 +1,74 @@
+{
+  "id": 2025020238,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-08",
+  "venue": {
+    "default": "Lenovo Center"
+  },
+  "venueLocation": {
+    "default": "Raleigh"
+  },
+  "startTimeUTC": "2025-11-09T00:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-05:00",
+  "tvBroadcasts": [
+    {
+      "id": 561,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNSO",
+      "sequenceNumber": 277
+    },
+    {
+      "id": 28,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSG-B",
+      "sequenceNumber": 383
+    }
+  ],
+  "gameState": "FUT",
+  "gameScheduleState": "OK",
+  "regPeriods": 3,
+  "awayTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    }
+  },
+  "homeTeam": {
+    "id": 12,
+    "commonName": {
+      "default": "Hurricanes"
+    },
+    "abbrev": "CAR",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg",
+    "placeName": {
+      "default": "Carolina",
+      "fr": "Caroline"
+    },
+    "placeNameWithPreposition": {
+      "default": "Carolina",
+      "fr": "de la Caroline"
+    }
+  },
+  "clock": {
+    "timeRemaining": "20:00",
+    "secondsRemaining": 1200,
+    "running": false,
+    "inIntermission": false
+  }
+}

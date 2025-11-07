@@ -1,0 +1,653 @@
+{
+  "id": 2025020024,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-11",
+  "venue": {
+    "default": "TD Garden"
+  },
+  "venueLocation": {
+    "default": "Boston"
+  },
+  "startTimeUTC": "2025-10-11T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 28,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSG-B",
+      "sequenceNumber": 383
+    },
+    {
+      "id": 31,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NESN",
+      "sequenceNumber": 396
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 1,
+    "sog": 22,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "homeTeam": {
+    "id": 6,
+    "commonName": {
+      "default": "Bruins"
+    },
+    "abbrev": "BOS",
+    "placeName": {
+      "default": "Boston"
+    },
+    "placeNameWithPreposition": {
+      "default": "Boston",
+      "fr": "de Boston"
+    },
+    "score": 3,
+    "sog": 31,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 323,
+            "strength": "ev",
+            "playerId": 8478401,
+            "firstName": {
+              "default": "Pavel"
+            },
+            "lastName": {
+              "default": "Zacha"
+            },
+            "name": {
+              "default": "P. Zacha"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8478401.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pavel-zacha-with-a-goal-vs-buffalo-sabres-6382633254112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pavel-zacha-with-a-goal-vs-les-sabres-de-buffalo-6382631368112",
+            "highlightClip": 6382633254112,
+            "highlightClipFr": 6382631368112,
+            "discreteClip": 6382631367112,
+            "discreteClipFr": 6382632072112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "15:48",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480887,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Harris"
+                },
+                "name": {
+                  "default": "J. Harris"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 43
+              },
+              {
+                "playerId": 8479369,
+                "firstName": {
+                  "default": "Andrew"
+                },
+                "lastName": {
+                  "default": "Peeke"
+                },
+                "name": {
+                  "default": "A. Peeke"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 26
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020024/ev323.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 628,
+            "strength": "ev",
+            "playerId": 8480355,
+            "firstName": {
+              "default": "Mark"
+            },
+            "lastName": {
+              "default": "Kastelic"
+            },
+            "name": {
+              "default": "M. Kastelic"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8480355.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/buf-bos-kastelic-scores-goal-against-alex-lyon-6382633873112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/buf-bos-kastelic-marque-un-but-contre-alex-lyon-6382636221112",
+            "highlightClip": 6382633873112,
+            "highlightClipFr": 6382636221112,
+            "discreteClip": 6382634378112,
+            "discreteClipFr": 6382635642112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "10:21",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479325,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "McAvoy"
+                },
+                "name": {
+                  "default": "C. McAvoy"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 73
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020024/ev628.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 896,
+            "strength": "ev",
+            "playerId": 8475722,
+            "firstName": {
+              "default": "Jason"
+            },
+            "lastName": {
+              "default": "Zucker"
+            },
+            "name": {
+              "default": "J. Zucker"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8475722.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/buf-bos-zucker-scores-goal-against-jeremy-swayman-6382634597112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/buf-bos-zucker-marque-un-but-contre-jeremy-swayman-6382635702112",
+            "highlightClip": 6382634597112,
+            "highlightClipFr": 6382635702112,
+            "discreteClip": 6382636470112,
+            "discreteClipFr": 6382637345112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "09:46",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480807,
+                "firstName": {
+                  "default": "Mattias"
+                },
+                "lastName": {
+                  "default": "Samuelsson"
+                },
+                "name": {
+                  "default": "M. Samuelsson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 23
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020024/ev896.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "0651",
+            "eventId": 1042,
+            "strength": "ev",
+            "playerId": 8476374,
+            "firstName": {
+              "default": "Sean"
+            },
+            "lastName": {
+              "default": "Kuraly"
+            },
+            "name": {
+              "default": "S. Kuraly"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8476374.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sean-kuraly-with-a-goal-vs-buffalo-sabres-6382637373112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sean-kuraly-with-a-goal-vs-les-sabres-de-buffalo-6382637183112",
+            "highlightClip": 6382637373112,
+            "highlightClipFr": 6382637183112,
+            "discreteClip": 6382638444112,
+            "discreteClipFr": 6382635801112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "19:57",
+            "shotType": "tip-in",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8477496,
+                "firstName": {
+                  "default": "Elias"
+                },
+                "lastName": {
+                  "default": "Lindholm"
+                },
+                "name": {
+                  "default": "E. Lindholm"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8480355,
+                "firstName": {
+                  "default": "Mark"
+                },
+                "lastName": {
+                  "default": "Kastelic"
+                },
+                "name": {
+                  "default": "M. Kastelic"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 47
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020024/ev1042.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480280,
+        "teamAbbrev": "BOS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8480280.png",
+        "name": {
+          "default": "J. Swayman"
+        },
+        "sweaterNo": 1,
+        "position": "G",
+        "goalsAgainstAverage": 1.0,
+        "savePctg": 0.955
+      },
+      {
+        "star": 2,
+        "playerId": 8478401,
+        "teamAbbrev": "BOS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8478401.png",
+        "name": {
+          "default": "P. Zacha"
+        },
+        "sweaterNo": 18,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8480355,
+        "teamAbbrev": "BOS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8480355.png",
+        "name": {
+          "default": "M. Kastelic"
+        },
+        "sweaterNo": 47,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Conor"
+              },
+              "lastName": {
+                "default": "Timmins"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Pastrnak",
+                "cs": "Pastrňák",
+                "sk": "Pastrňák"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "16:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jiri",
+                "cs": "Jiří",
+                "sk": "Jiří"
+              },
+              "lastName": {
+                "default": "Kulich"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "McAvoy"
+              },
+              "sweaterNumber": 73
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:43",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Morgan"
+              },
+              "lastName": {
+                "default": "Geekie"
+              },
+              "sweaterNumber": 39
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Dahlin"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "05:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Fraser"
+              },
+              "lastName": {
+                "default": "Minten"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tage"
+              },
+              "lastName": {
+                "default": "Thompson"
+              },
+              "sweaterNumber": 72
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "07:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Owen"
+              },
+              "lastName": {
+                "default": "Power"
+              },
+              "sweaterNumber": 25
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mark"
+              },
+              "lastName": {
+                "default": "Kastelic"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "17:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tage"
+              },
+              "lastName": {
+                "default": "Thompson"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Henri"
+              },
+              "lastName": {
+                "default": "Jokiharju"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "18:46",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Pastrnak",
+                "cs": "Pastrňák",
+                "sk": "Pastrňák"
+              },
+              "sweaterNumber": 88
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "McAvoy"
+              },
+              "sweaterNumber": 73
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Doan"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

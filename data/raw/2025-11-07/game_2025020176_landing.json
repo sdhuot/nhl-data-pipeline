@@ -1,0 +1,754 @@
+{
+  "id": 2025020176,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-30",
+  "venue": {
+    "default": "SAP Center at San Jose"
+  },
+  "venueLocation": {
+    "default": "San Jose"
+  },
+  "startTimeUTC": "2025-10-31T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 314,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NBCSCA",
+      "sequenceNumber": 384
+    },
+    {
+      "id": 409,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSGSN",
+      "sequenceNumber": 402
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 1,
+    "commonName": {
+      "default": "Devils"
+    },
+    "abbrev": "NJD",
+    "placeName": {
+      "default": "New Jersey"
+    },
+    "placeNameWithPreposition": {
+      "default": "New Jersey",
+      "fr": "du New Jersey"
+    },
+    "score": 2,
+    "sog": 31,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+  },
+  "homeTeam": {
+    "id": 28,
+    "commonName": {
+      "default": "Sharks"
+    },
+    "abbrev": "SJS",
+    "placeName": {
+      "default": "San Jose"
+    },
+    "placeNameWithPreposition": {
+      "default": "San Jose",
+      "fr": "de San Jose"
+    },
+    "score": 5,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 101,
+            "strength": "ev",
+            "playerId": 8482667,
+            "firstName": {
+              "default": "William"
+            },
+            "lastName": {
+              "default": "Eklund"
+            },
+            "name": {
+              "default": "W. Eklund"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8482667.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-sjs-eklund-scores-goal-against-jake-allen-6384322473112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-sjs-eklund-marque-un-but-contre-jake-allen-6384321494112",
+            "highlightClip": 6384322473112,
+            "highlightClipFr": 6384321494112,
+            "discreteClip": 6384321175112,
+            "discreteClipFr": 6384321173112,
+            "goalsToDate": 5,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "00:42",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480798,
+                "firstName": {
+                  "default": "Philipp"
+                },
+                "lastName": {
+                  "default": "Kurashev"
+                },
+                "name": {
+                  "default": "P. Kurashev"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 96
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020176/ev101.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 102,
+            "strength": "ev",
+            "playerId": 8480798,
+            "firstName": {
+              "default": "Philipp"
+            },
+            "lastName": {
+              "default": "Kurashev"
+            },
+            "name": {
+              "default": "P. Kurashev"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8480798.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-sjs-kurashev-scores-goal-against-jake-allen-6384324364112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-sjs-kurashev-marque-un-but-contre-jake-allen-6384322096112",
+            "highlightClip": 6384324364112,
+            "highlightClipFr": 6384322096112,
+            "discreteClip": 6384323864112,
+            "discreteClipFr": 6384325049112,
+            "goalsToDate": 3,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "12:12",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477505,
+                "firstName": {
+                  "default": "Alexander"
+                },
+                "lastName": {
+                  "default": "Wennberg"
+                },
+                "name": {
+                  "default": "A. Wennberg"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 21
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020176/ev102.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 363,
+            "strength": "ev",
+            "playerId": 8477505,
+            "firstName": {
+              "default": "Alexander"
+            },
+            "lastName": {
+              "default": "Wennberg"
+            },
+            "name": {
+              "default": "A. Wennberg"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8477505.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-sjs-wennberg-scores-goal-against-jake-allen-6384323396112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-sjs-wennberg-marque-un-but-contre-jake-allen-6384324270112",
+            "highlightClip": 6384323396112,
+            "highlightClipFr": 6384324270112,
+            "discreteClip": 6384325549112,
+            "discreteClipFr": 6384323097112,
+            "goalsToDate": 3,
+            "awayScore": 0,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "15:47",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479983,
+                "firstName": {
+                  "default": "Mario"
+                },
+                "lastName": {
+                  "default": "Ferraro"
+                },
+                "name": {
+                  "default": "M. Ferraro"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 38
+              },
+              {
+                "playerId": 8480043,
+                "firstName": {
+                  "default": "Timothy"
+                },
+                "lastName": {
+                  "default": "Liljegren"
+                },
+                "name": {
+                  "default": "T. Liljegren"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 37
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020176/ev363.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 404,
+            "strength": "pp",
+            "playerId": 8482110,
+            "firstName": {
+              "default": "Dawson"
+            },
+            "lastName": {
+              "default": "Mercer"
+            },
+            "name": {
+              "default": "D. Mercer"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8482110.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-sjs-mercer-scores-ppg-against-alex-nedeljkovic-6384325367112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-sjs-mercer-marque-un-but-en-a-n-contre-alex-nedeljkovic-6384325072112",
+            "highlightClip": 6384325367112,
+            "highlightClipFr": 6384325072112,
+            "discreteClip": 6384322811112,
+            "discreteClipFr": 6384324480112,
+            "goalsToDate": 5,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "19:00",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481559,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Hughes"
+                },
+                "name": {
+                  "default": "J. Hughes"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 86
+              },
+              {
+                "playerId": 8476462,
+                "firstName": {
+                  "default": "Dougie"
+                },
+                "lastName": {
+                  "default": "Hamilton"
+                },
+                "name": {
+                  "default": "D. Hamilton"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 7
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020176/ev404.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 104,
+            "strength": "ev",
+            "playerId": 8484227,
+            "firstName": {
+              "default": "Will"
+            },
+            "lastName": {
+              "default": "Smith"
+            },
+            "name": {
+              "default": "W. Smith"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8484227.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-sjs-smith-scores-goal-against-jake-allen-6384328173112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-sjs-smith-marque-un-but-contre-jake-allen-6384327578112",
+            "highlightClip": 6384328173112,
+            "highlightClipFr": 6384327578112,
+            "discreteClip": 6384327087112,
+            "discreteClipFr": 6384327579112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "16:50",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484801,
+                "firstName": {
+                  "default": "Macklin"
+                },
+                "lastName": {
+                  "default": "Celebrini"
+                },
+                "name": {
+                  "default": "M. Celebrini"
+                },
+                "assistsToDate": 11,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020176/ev104.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 105,
+            "strength": "ev",
+            "playerId": 8475726,
+            "firstName": {
+              "default": "Tyler"
+            },
+            "lastName": {
+              "default": "Toffoli"
+            },
+            "name": {
+              "default": "T. Toffoli"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8475726.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-sjs-toffoli-scores-goal-against-jake-allen-6384325838112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-sjs-toffoli-marque-un-but-contre-jake-allen-6384328787112",
+            "highlightClip": 6384325838112,
+            "highlightClipFr": 6384328787112,
+            "discreteClip": 6384328103112,
+            "discreteClipFr": 6384326928112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "18:30",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475200,
+                "firstName": {
+                  "default": "Dmitry",
+                  "cs": "Dmitrij",
+                  "fi": "Dmitri",
+                  "sk": "Dmitrij"
+                },
+                "lastName": {
+                  "default": "Orlov"
+                },
+                "name": {
+                  "default": "D. Orlov"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 9
+              },
+              {
+                "playerId": 8480043,
+                "firstName": {
+                  "default": "Timothy"
+                },
+                "lastName": {
+                  "default": "Liljegren"
+                },
+                "name": {
+                  "default": "T. Liljegren"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 37
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020176/ev105.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 892,
+            "strength": "pp",
+            "playerId": 8482110,
+            "firstName": {
+              "default": "Dawson"
+            },
+            "lastName": {
+              "default": "Mercer"
+            },
+            "name": {
+              "default": "D. Mercer"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8482110.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-sjs-mercer-scores-ppg-against-alex-nedeljkovic-6384326727112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-sjs-mercer-marque-un-but-en-a-n-contre-alex-nedeljkovic-6384328609112",
+            "highlightClip": 6384326727112,
+            "highlightClipFr": 6384328609112,
+            "discreteClip": 6384328996112,
+            "discreteClipFr": 6384327822112,
+            "goalsToDate": 6,
+            "awayScore": 2,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "04:19",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476462,
+                "firstName": {
+                  "default": "Dougie"
+                },
+                "lastName": {
+                  "default": "Hamilton"
+                },
+                "name": {
+                  "default": "D. Hamilton"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 7
+              },
+              {
+                "playerId": 8479407,
+                "firstName": {
+                  "default": "Jesper"
+                },
+                "lastName": {
+                  "default": "Bratt"
+                },
+                "name": {
+                  "default": "J. Bratt"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020176/ev892.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477505,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8477505.png",
+        "name": {
+          "default": "A. Wennberg"
+        },
+        "sweaterNo": 21,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8480798,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8480798.png",
+        "name": {
+          "default": "P. Kurashev"
+        },
+        "sweaterNo": 96,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8477968,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8477968.png",
+        "name": {
+          "default": "A. Nedeljkovic"
+        },
+        "sweaterNo": 33,
+        "position": "G",
+        "goalsAgainstAverage": 2.0,
+        "savePctg": 0.935
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:26",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "P. Cotter"
+            }
+          },
+          {
+            "timeInPeriod": "08:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Will"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jesper"
+              },
+              "lastName": {
+                "default": "Bratt"
+              },
+              "sweaterNumber": 63
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "12:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonas"
+              },
+              "lastName": {
+                "default": "Siegenthaler"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dmitry",
+                "cs": "Dmitrij",
+                "fi": "Dmitri",
+                "sk": "Dmitrij"
+              },
+              "lastName": {
+                "default": "Orlov"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "17:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dmitry",
+                "cs": "Dmitrij",
+                "fi": "Dmitri",
+                "sk": "Dmitrij"
+              },
+              "lastName": {
+                "default": "Orlov"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ondrej",
+                "cs": "Ondřej",
+                "sk": "Ondřej"
+              },
+              "lastName": {
+                "default": "Palat",
+                "cs": "Palát",
+                "sk": "Palát"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "elbowing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "William"
+              },
+              "lastName": {
+                "default": "Eklund"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ondrej",
+                "cs": "Ondřej",
+                "sk": "Ondřej"
+              },
+              "lastName": {
+                "default": "Palat",
+                "cs": "Palát",
+                "sk": "Palát"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "holding"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

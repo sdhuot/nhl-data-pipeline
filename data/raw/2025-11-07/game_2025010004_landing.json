@@ -1,0 +1,716 @@
+{
+  "id": 2025010004,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-21",
+  "venue": {
+    "default": "Bridgestone Arena"
+  },
+  "venueLocation": {
+    "default": "Nashville"
+  },
+  "startTimeUTC": "2025-09-21T19:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 13,
+    "commonName": {
+      "default": "Panthers"
+    },
+    "abbrev": "FLA",
+    "placeName": {
+      "default": "Florida",
+      "fr": "Floride"
+    },
+    "placeNameWithPreposition": {
+      "default": "Florida",
+      "fr": "de la Floride"
+    },
+    "score": 0,
+    "sog": 21,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 18,
+    "commonName": {
+      "default": "Predators"
+    },
+    "abbrev": "NSH",
+    "placeName": {
+      "default": "Nashville"
+    },
+    "placeNameWithPreposition": {
+      "default": "Nashville",
+      "fr": "de Nashville"
+    },
+    "score": 5,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 153,
+            "strength": "ev",
+            "playerId": 8482082,
+            "firstName": {
+              "default": "Ryder"
+            },
+            "lastName": {
+              "default": "Rolston"
+            },
+            "name": {
+              "default": "R. Rolston"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8482082.png",
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "05:24",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010004/ev153.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 257,
+            "strength": "pp",
+            "playerId": 8475287,
+            "firstName": {
+              "default": "Erik"
+            },
+            "lastName": {
+              "default": "Haula"
+            },
+            "name": {
+              "default": "E. Haula"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8475287.png",
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "03:41",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476539,
+                "firstName": {
+                  "default": "Jonathan"
+                },
+                "lastName": {
+                  "default": "Marchessault"
+                },
+                "name": {
+                  "default": "J. Marchessault"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 81
+              },
+              {
+                "playerId": 8476869,
+                "firstName": {
+                  "default": "Brady"
+                },
+                "lastName": {
+                  "default": "Skjei"
+                },
+                "name": {
+                  "default": "B. Skjei"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 76
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010004/ev257.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 260,
+            "strength": "ev",
+            "playerId": 8483513,
+            "firstName": {
+              "default": "Reid"
+            },
+            "lastName": {
+              "default": "Schaefer"
+            },
+            "name": {
+              "default": "R. Schaefer"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8483513.png",
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "12:19",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475857,
+                "firstName": {
+                  "default": "Kevin"
+                },
+                "lastName": {
+                  "default": "Gravel"
+                },
+                "name": {
+                  "default": "K. Gravel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 5
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010004/ev260.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 264,
+            "strength": "ev",
+            "playerId": 8475287,
+            "firstName": {
+              "default": "Erik"
+            },
+            "lastName": {
+              "default": "Haula"
+            },
+            "name": {
+              "default": "E. Haula"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8475287.png",
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "07:11",
+            "shotType": "wrap-around",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476539,
+                "firstName": {
+                  "default": "Jonathan"
+                },
+                "lastName": {
+                  "default": "Marchessault"
+                },
+                "name": {
+                  "default": "J. Marchessault"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 81
+              },
+              {
+                "playerId": 8478047,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Bunting"
+                },
+                "name": {
+                  "default": "M. Bunting"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 58
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010004/ev264.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 265,
+            "strength": "ev",
+            "playerId": 8484165,
+            "firstName": {
+              "default": "David"
+            },
+            "lastName": {
+              "default": "Edstrom"
+            },
+            "name": {
+              "default": "D. Edstrom"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8484165.png",
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "15:44",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476869,
+                "firstName": {
+                  "default": "Brady"
+                },
+                "lastName": {
+                  "default": "Skjei"
+                },
+                "name": {
+                  "default": "B. Skjei"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 76
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010004/ev265.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8475287,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8475287.png",
+        "name": {
+          "default": "E. Haula"
+        },
+        "sweaterNo": 56,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8476539,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8476539.png",
+        "name": {
+          "default": "J. Marchessault"
+        },
+        "sweaterNo": 81,
+        "position": "R",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8482082,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8482082.png",
+        "name": {
+          "default": "R. Rolston"
+        },
+        "sweaterNo": 78,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Riley"
+              },
+              "lastName": {
+                "default": "Hughes"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jake"
+              },
+              "lastName": {
+                "default": "Lucchini"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "14:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Viktor"
+              },
+              "lastName": {
+                "default": "Norringer"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Waugh"
+              },
+              "sweaterNumber": 36
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Edstrom"
+              },
+              "sweaterNumber": 60
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Eamon"
+              },
+              "lastName": {
+                "default": "Powell"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Lopina"
+              },
+              "sweaterNumber": 67
+            },
+            "descKey": "unsportsmanlike-conduct",
+            "servedBy": {
+              "default": "Viktor Norringer"
+            }
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Lopina"
+              },
+              "sweaterNumber": 67
+            },
+            "descKey": "instigator"
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Lopina"
+              },
+              "sweaterNumber": 67
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Wilsby"
+              },
+              "sweaterNumber": 83
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Lopina"
+              },
+              "sweaterNumber": 67
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Lopina"
+              },
+              "sweaterNumber": 67
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "descKey": "instigator-misconduct"
+          },
+          {
+            "timeInPeriod": "15:50",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Navrin"
+              },
+              "lastName": {
+                "default": "Mutter"
+              },
+              "sweaterNumber": 75
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Waugh"
+              },
+              "sweaterNumber": 36
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "15:50",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Waugh"
+              },
+              "sweaterNumber": 36
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Navrin"
+              },
+              "lastName": {
+                "default": "Mutter"
+              },
+              "sweaterNumber": 75
+            },
+            "descKey": "fighting"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

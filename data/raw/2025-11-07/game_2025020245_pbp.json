@@ -1,0 +1,95 @@
+{
+  "id": 2025020245,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-09",
+  "venue": {
+    "default": "PPG Paints Arena"
+  },
+  "venueLocation": {
+    "default": "Pittsburgh"
+  },
+  "startTimeUTC": "2025-11-09T19:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-05:00",
+  "tvBroadcasts": [
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    },
+    {
+      "id": 564,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNW",
+      "sequenceNumber": 279
+    },
+    {
+      "id": 528,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SN-PIT",
+      "sequenceNumber": 375
+    }
+  ],
+  "gameState": "FUT",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 26,
+    "commonName": {
+      "default": "Kings"
+    },
+    "abbrev": "LAK",
+    "score": 0,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg",
+    "placeName": {
+      "default": "Los Angeles"
+    },
+    "placeNameWithPreposition": {
+      "default": "Los Angeles",
+      "fr": "de Los Angeles"
+    }
+  },
+  "homeTeam": {
+    "id": 5,
+    "commonName": {
+      "default": "Penguins"
+    },
+    "abbrev": "PIT",
+    "score": 0,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg",
+    "placeName": {
+      "default": "Pittsburgh"
+    },
+    "placeNameWithPreposition": {
+      "default": "Pittsburgh",
+      "fr": "de Pittsburgh"
+    }
+  },
+  "shootoutInUse": true,
+  "otInUse": true,
+  "clock": {
+    "timeRemaining": "20:00",
+    "secondsRemaining": 1200,
+    "running": false,
+    "inIntermission": false
+  },
+  "displayPeriod": 1,
+  "maxPeriods": 5,
+  "plays": [],
+  "rosterSpots": [],
+  "regPeriods": 3
+}

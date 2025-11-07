@@ -1,0 +1,541 @@
+{
+  "id": 2025020219,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-06",
+  "venue": {
+    "default": "KeyBank Center"
+  },
+  "venueLocation": {
+    "default": "Buffalo"
+  },
+  "startTimeUTC": "2025-11-07T00:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 566,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNMW",
+      "sequenceNumber": 273
+    },
+    {
+      "id": 28,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSG-B",
+      "sequenceNumber": 383
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 19,
+    "commonName": {
+      "default": "Blues"
+    },
+    "abbrev": "STL",
+    "placeName": {
+      "default": "St. Louis"
+    },
+    "placeNameWithPreposition": {
+      "default": "St. Louis",
+      "fr": "de St. Louis"
+    },
+    "score": 3,
+    "sog": 17,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 0,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 394,
+            "strength": "sh",
+            "playerId": 8478472,
+            "firstName": {
+              "default": "Mathieu"
+            },
+            "lastName": {
+              "default": "Joseph"
+            },
+            "name": {
+              "default": "M. Joseph"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8478472.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-buf-joseph-scores-shg-against-ukko-pekka-luukkonen-6384766627112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-buf-joseph-marque-un-but-en-i-n-contre-ukko-pekka-luukkonen-6384765056112",
+            "highlightClip": 6384766627112,
+            "highlightClipFr": 6384765056112,
+            "discreteClip": 6384765826112,
+            "discreteClipFr": 6384764566112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "12:38",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020219/ev394.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 582,
+            "strength": "ev",
+            "playerId": 8475760,
+            "firstName": {
+              "default": "Nick"
+            },
+            "lastName": {
+              "default": "Bjugstad"
+            },
+            "name": {
+              "default": "N. Bjugstad"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8475760.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-buf-bjugstad-scores-goal-against-ukko-pekka-luukkonen-6384766295112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-buf-bjugstad-marque-un-but-contre-ukko-pekka-luukkonen-6384766890112",
+            "highlightClip": 6384766295112,
+            "highlightClipFr": 6384766890112,
+            "discreteClip": 6384766885112,
+            "discreteClipFr": 6384765786112,
+            "goalsToDate": 4,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "02:42",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475753,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Faulk"
+                },
+                "name": {
+                  "default": "J. Faulk"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 72
+              },
+              {
+                "playerId": 8478472,
+                "firstName": {
+                  "default": "Mathieu"
+                },
+                "lastName": {
+                  "default": "Joseph"
+                },
+                "name": {
+                  "default": "M. Joseph"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020219/ev582.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1560",
+            "eventId": 1060,
+            "strength": "ev",
+            "playerId": 8475753,
+            "firstName": {
+              "default": "Justin"
+            },
+            "lastName": {
+              "default": "Faulk"
+            },
+            "name": {
+              "default": "J. Faulk"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8475753.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-buf-faulk-scores-empty-net-goal-6384770671112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-buf-faulk-stl-marque-un-but-dans-un-filet-desert-6384771370112",
+            "highlightClip": 6384770671112,
+            "highlightClipFr": 6384771370112,
+            "discreteClip": 6384768931112,
+            "discreteClipFr": 6384770005112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "18:58",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8478472,
+                "firstName": {
+                  "default": "Mathieu"
+                },
+                "lastName": {
+                  "default": "Joseph"
+                },
+                "name": {
+                  "default": "M. Joseph"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020219/ev1060.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480981,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480981.png",
+        "name": {
+          "default": "J. Hofer"
+        },
+        "sweaterNo": 30,
+        "position": "G",
+        "goalsAgainstAverage": 0.0,
+        "savePctg": 1.0
+      },
+      {
+        "star": 2,
+        "playerId": 8478472,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8478472.png",
+        "name": {
+          "default": "M. Joseph"
+        },
+        "sweaterNo": 71,
+        "position": "R",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8475760,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8475760.png",
+        "name": {
+          "default": "N. Bjugstad"
+        },
+        "sweaterNo": 77,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:32",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Dunne"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Tucker"
+              },
+              "sweaterNumber": 75
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "06:32",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Tucker"
+              },
+              "sweaterNumber": 75
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Dunne"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "11:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cam"
+              },
+              "lastName": {
+                "default": "Fowler"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Doan"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Broberg"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "13:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jimmy"
+              },
+              "lastName": {
+                "default": "Snuggerud"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Conor"
+              },
+              "lastName": {
+                "default": "Timmins"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alexandre"
+              },
+              "lastName": {
+                "default": "Texier"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Bowen"
+              },
+              "lastName": {
+                "default": "Byram"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "16:43",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ukko-Pekka"
+              },
+              "lastName": {
+                "default": "Luukkonen"
+              },
+              "sweaterNumber": 1
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Holloway"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "tripping",
+            "servedBy": {
+              "default": "J. Doan"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

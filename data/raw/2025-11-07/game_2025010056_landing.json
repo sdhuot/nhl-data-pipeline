@@ -1,0 +1,397 @@
+{
+  "id": 2025010056,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": true,
+  "gameDate": "2025-09-28",
+  "venue": {
+    "default": "Centre Videotron"
+  },
+  "venueLocation": {
+    "default": "Quebec City",
+    "fr": "Québec"
+  },
+  "startTimeUTC": "2025-09-28T19:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Toronto",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 291,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS2",
+      "sequenceNumber": 110
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 1,
+    "commonName": {
+      "default": "Devils"
+    },
+    "abbrev": "NJD",
+    "placeName": {
+      "default": "New Jersey"
+    },
+    "placeNameWithPreposition": {
+      "default": "New Jersey",
+      "fr": "du New Jersey"
+    },
+    "score": 0,
+    "sog": 14,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+  },
+  "homeTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    },
+    "score": 2,
+    "sog": 32,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 9020,
+            "strength": "pp",
+            "playerId": 8483676,
+            "firstName": {
+              "default": "Stephen"
+            },
+            "lastName": {
+              "default": "Halliday"
+            },
+            "name": {
+              "default": "S. Halliday"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8483676.png",
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "15:34",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482116,
+                "firstName": {
+                  "default": "Tim"
+                },
+                "lastName": {
+                  "default": "Stützle"
+                },
+                "name": {
+                  "default": "T. Stützle"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8481528,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Cozens"
+                },
+                "name": {
+                  "default": "D. Cozens"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 24
+              }
+            ],
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 9023,
+            "strength": "ev",
+            "playerId": 8480245,
+            "firstName": {
+              "default": "Olle"
+            },
+            "lastName": {
+              "default": "Lycksell"
+            },
+            "name": {
+              "default": "O. Lycksell"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480245.png",
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "18:59",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8483676,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8483676.png",
+        "name": {
+          "default": "S. Halliday"
+        },
+        "sweaterNo": 83,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8484312,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8484312.png",
+        "name": {
+          "default": "G. Romanov"
+        },
+        "sweaterNo": 35,
+        "position": "G",
+        "goalsAgainstAverage": 1.02,
+        "savePctg": 0.968
+      },
+      {
+        "star": 3,
+        "playerId": 8482116,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+        "name": {
+          "default": "T. Stützle"
+        },
+        "sweaterNo": 18,
+        "position": "C",
+        "goals": 0,
+        "assists": 1,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "12:25",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dennis"
+              },
+              "lastName": {
+                "default": "Cholowski"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Claude"
+              },
+              "lastName": {
+                "default": "Giroux"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "04:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Cozens"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "08:44",
+            "type": "PS",
+            "duration": 0,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tim"
+              },
+              "lastName": {
+                "default": "Stützle"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "descKey": "penalty-shot"
+          },
+          {
+            "timeInPeriod": "12:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Spence"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:12",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Austin"
+              },
+              "lastName": {
+                "default": "Strand"
+              },
+              "sweaterNumber": 82
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "14:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Brown"
+              },
+              "sweaterNumber": 16
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

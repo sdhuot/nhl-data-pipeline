@@ -1,0 +1,1112 @@
+{
+  "id": 2025020031,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-11",
+  "venue": {
+    "default": "United Center"
+  },
+  "venueLocation": {
+    "default": "Chicago"
+  },
+  "startTimeUTC": "2025-10-11T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "America/Chicago",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 286,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "CITY",
+      "sequenceNumber": 26
+    },
+    {
+      "id": 287,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SNE",
+      "sequenceNumber": 30
+    },
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    },
+    {
+      "id": 551,
+      "market": "H",
+      "countryCode": "US",
+      "network": "CHSN",
+      "sequenceNumber": 243
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 8,
+    "commonName": {
+      "default": "Canadiens"
+    },
+    "abbrev": "MTL",
+    "placeName": {
+      "default": "Montréal"
+    },
+    "placeNameWithPreposition": {
+      "default": "Montréal",
+      "fr": "de Montréal"
+    },
+    "score": 3,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 16,
+    "commonName": {
+      "default": "Blackhawks"
+    },
+    "abbrev": "CHI",
+    "placeName": {
+      "default": "Chicago"
+    },
+    "placeNameWithPreposition": {
+      "default": "Chicago",
+      "fr": "de Chicago"
+    },
+    "score": 2,
+    "sog": 22,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 519,
+            "strength": "pp",
+            "playerId": 8481540,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Caufield"
+            },
+            "name": {
+              "default": "C. Caufield"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481540.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-chi-caufield-scores-ppg-against-spencer-knight-6382633768112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-chi-caufield-marque-un-but-en-a-n-contre-spencer-knight-6382633773112",
+            "highlightClip": 6382633768112,
+            "highlightClipFr": 6382633773112,
+            "discreteClip": 6382635626112,
+            "discreteClipFr": 6382635823112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "02:45",
+            "shotType": "bat",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482737,
+                "firstName": {
+                  "default": "Zack"
+                },
+                "lastName": {
+                  "default": "Bolduc"
+                },
+                "name": {
+                  "default": "Z. Bolduc"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 76
+              },
+              {
+                "playerId": 8480018,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Suzuki"
+                },
+                "name": {
+                  "default": "N. Suzuki"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020031/ev519.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 542,
+            "strength": "ev",
+            "playerId": 8483506,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Rinzel"
+            },
+            "name": {
+              "default": "S. Rinzel"
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8483506.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-chi-rinzel-scores-goal-against-samuel-montembeault-6382635636112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-chi-rinzel-marque-un-but-contre-samuel-montembeault-6382633980112",
+            "highlightClip": 6382635636112,
+            "highlightClipFr": 6382633980112,
+            "discreteClip": 6382633672112,
+            "discreteClipFr": 6382634745112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "04:34",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476882,
+                "firstName": {
+                  "default": "Teuvo"
+                },
+                "lastName": {
+                  "default": "Teravainen",
+                  "cs": "Teräväinen",
+                  "fi": "Teräväinen",
+                  "sk": "Teräväinen",
+                  "sv": "Teräväinen"
+                },
+                "name": {
+                  "default": "T. Teravainen",
+                  "cs": "T. Teräväinen",
+                  "fi": "T. Teräväinen",
+                  "sk": "T. Teräväinen",
+                  "sv": "T. Teräväinen"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 86
+              },
+              {
+                "playerId": 8483493,
+                "firstName": {
+                  "default": "Frank"
+                },
+                "lastName": {
+                  "default": "Nazar"
+                },
+                "name": {
+                  "default": "F. Nazar"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020031/ev542.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 633,
+            "strength": "pp",
+            "playerId": 8482737,
+            "firstName": {
+              "default": "Zack"
+            },
+            "lastName": {
+              "default": "Bolduc"
+            },
+            "name": {
+              "default": "Z. Bolduc"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482737.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-chi-bolduc-scores-ppg-against-spencer-knight-6382634273112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-chi-bolduc-marque-un-but-en-a-n-contre-spencer-knight-6382635653112",
+            "highlightClip": 6382634273112,
+            "highlightClipFr": 6382635653112,
+            "discreteClip": 6382633573112,
+            "discreteClipFr": 6382633877112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "05:45",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481540,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Caufield"
+                },
+                "name": {
+                  "default": "C. Caufield"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 13
+              },
+              {
+                "playerId": 8480018,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Suzuki"
+                },
+                "name": {
+                  "default": "N. Suzuki"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020031/ev633.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 682,
+            "strength": "pp",
+            "playerId": 8484144,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "Bedard"
+            },
+            "name": {
+              "default": "C. Bedard"
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8484144.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-chi-bedard-scores-ppg-against-samuel-montembeault-6382636430112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-chi-bedard-marque-un-but-en-a-n-contre-samuel-montembeault-6382635852112",
+            "highlightClip": 6382636430112,
+            "highlightClipFr": 6382635852112,
+            "discreteClip": 6382636428112,
+            "discreteClipFr": 6382633686112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "09:15",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483493,
+                "firstName": {
+                  "default": "Frank"
+                },
+                "lastName": {
+                  "default": "Nazar"
+                },
+                "name": {
+                  "default": "F. Nazar"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8476882,
+                "firstName": {
+                  "default": "Teuvo"
+                },
+                "lastName": {
+                  "default": "Teravainen",
+                  "cs": "Teräväinen",
+                  "fi": "Teräväinen",
+                  "sk": "Teräväinen",
+                  "sv": "Teräväinen"
+                },
+                "name": {
+                  "default": "T. Teravainen",
+                  "cs": "T. Teräväinen",
+                  "fi": "T. Teräväinen",
+                  "sk": "T. Teräväinen",
+                  "sv": "T. Teräväinen"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 86
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020031/ev682.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 1108,
+            "strength": "ev",
+            "playerId": 8482087,
+            "firstName": {
+              "default": "Kaiden"
+            },
+            "lastName": {
+              "default": "Guhle"
+            },
+            "name": {
+              "default": "K. Guhle"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482087.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-chi-guhle-scores-goal-against-spencer-knight-6382636407112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-chi-slafkovsky-marque-un-but-contre-spencer-knight-6382636897112",
+            "highlightClip": 6382636407112,
+            "highlightClipFr": 6382636897112,
+            "discreteClip": 6382636586112,
+            "discreteClipFr": 6382636299112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "19:45",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480018,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Suzuki"
+                },
+                "name": {
+                  "default": "N. Suzuki"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8483457,
+                "firstName": {
+                  "default": "Lane"
+                },
+                "lastName": {
+                  "default": "Hutson"
+                },
+                "name": {
+                  "default": "L. Hutson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020031/ev1108.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482087,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482087.png",
+        "name": {
+          "default": "K. Guhle"
+        },
+        "sweaterNo": 21,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8481540,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481540.png",
+        "name": {
+          "default": "C. Caufield"
+        },
+        "sweaterNo": 13,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8483493,
+        "teamAbbrev": "CHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8483493.png",
+        "name": {
+          "default": "F. Nazar"
+        },
+        "sweaterNo": 91,
+        "position": "C",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Donato"
+              },
+              "sweaterNumber": 8
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          },
+          {
+            "timeInPeriod": "04:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Suzuki"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Murphy"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "09:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Matt"
+              },
+              "lastName": {
+                "default": "Grzelcyk"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jake"
+              },
+              "lastName": {
+                "default": "Evans"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "10:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Murphy"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zack"
+              },
+              "lastName": {
+                "default": "Bolduc"
+              },
+              "sweaterNumber": 76
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "15:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Lafferty"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Dobson"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:46",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Wyatt"
+              },
+              "lastName": {
+                "default": "Kaiser"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zack"
+              },
+              "lastName": {
+                "default": "Bolduc"
+              },
+              "sweaterNumber": 76
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "04:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Louis"
+              },
+              "lastName": {
+                "default": "Crevier"
+              },
+              "sweaterNumber": 46
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kaiden"
+              },
+              "lastName": {
+                "default": "Guhle"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "instigator",
+            "servedBy": {
+              "default": "S. Lafferty"
+            }
+          },
+          {
+            "timeInPeriod": "04:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Wyatt"
+              },
+              "lastName": {
+                "default": "Kaiser"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Newhook"
+              },
+              "sweaterNumber": 15
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "04:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Newhook"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Wyatt"
+              },
+              "lastName": {
+                "default": "Kaiser"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "04:58",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kaiden"
+              },
+              "lastName": {
+                "default": "Guhle"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Louis"
+              },
+              "lastName": {
+                "default": "Crevier"
+              },
+              "sweaterNumber": 46
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "04:58",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Louis"
+              },
+              "lastName": {
+                "default": "Crevier"
+              },
+              "sweaterNumber": 46
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kaiden"
+              },
+              "lastName": {
+                "default": "Guhle"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "04:58",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Louis"
+              },
+              "lastName": {
+                "default": "Crevier"
+              },
+              "sweaterNumber": 46
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "descKey": "instigator-misconduct"
+          },
+          {
+            "timeInPeriod": "08:29",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Arber"
+              },
+              "lastName": {
+                "default": "Xhekaj"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Dach"
+              },
+              "sweaterNumber": 34
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "09:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Lafferty"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lane"
+              },
+              "lastName": {
+                "default": "Hutson"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "12:12",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Bedard"
+              },
+              "sweaterNumber": 98
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexandre"
+              },
+              "lastName": {
+                "default": "Carrier"
+              },
+              "sweaterNumber": 45
+            },
+            "descKey": "unsportsmanlike-conduct",
+            "servedBy": {
+              "default": "L. Reichel"
+            }
+          },
+          {
+            "timeInPeriod": "12:12",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Bedard"
+              },
+              "sweaterNumber": 98
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexandre"
+              },
+              "lastName": {
+                "default": "Carrier"
+              },
+              "sweaterNumber": 45
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "12:12",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alexandre"
+              },
+              "lastName": {
+                "default": "Carrier"
+              },
+              "sweaterNumber": 45
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Bedard"
+              },
+              "sweaterNumber": 98
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "18:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Dach"
+              },
+              "sweaterNumber": 34
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Murphy"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "05:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kaiden"
+              },
+              "lastName": {
+                "default": "Guhle"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Nazar"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "13:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Dobson"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Nazar"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

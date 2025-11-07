@@ -1,0 +1,949 @@
+{
+  "id": 2025020040,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-13",
+  "venue": {
+    "default": "TD Garden"
+  },
+  "venueLocation": {
+    "default": "Boston"
+  },
+  "startTimeUTC": "2025-10-13T17:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 581,
+      "market": "A",
+      "countryCode": "US",
+      "network": "The Spot",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    },
+    {
+      "id": 31,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NESN",
+      "sequenceNumber": 396
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 14,
+    "commonName": {
+      "default": "Lightning"
+    },
+    "abbrev": "TBL",
+    "placeName": {
+      "default": "Tampa Bay"
+    },
+    "placeNameWithPreposition": {
+      "default": "Tampa Bay",
+      "fr": "de Tampa Bay"
+    },
+    "score": 4,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 6,
+    "commonName": {
+      "default": "Bruins"
+    },
+    "abbrev": "BOS",
+    "placeName": {
+      "default": "Boston"
+    },
+    "placeNameWithPreposition": {
+      "default": "Boston",
+      "fr": "de Boston"
+    },
+    "score": 3,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 64,
+            "strength": "ev",
+            "playerId": 8478519,
+            "firstName": {
+              "default": "Anthony"
+            },
+            "lastName": {
+              "default": "Cirelli"
+            },
+            "name": {
+              "default": "A. Cirelli"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8478519.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-bos-cirelli-scores-goal-against-joonas-korpisalo-6382692713112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-bos-cirelli-marque-un-but-contre-joonas-korpisalo-6382690849112",
+            "highlightClip": 6382692713112,
+            "highlightClipFr": 6382690849112,
+            "discreteClip": 6382691103112,
+            "discreteClipFr": 6382693195112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "01:09",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477404,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Guentzel"
+                },
+                "name": {
+                  "default": "J. Guentzel"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 59
+              },
+              {
+                "playerId": 8482201,
+                "firstName": {
+                  "default": "Gage"
+                },
+                "lastName": {
+                  "default": "Goncalves"
+                },
+                "name": {
+                  "default": "G. Goncalves"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020040/ev64.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 235,
+            "strength": "ev",
+            "playerId": 8478519,
+            "firstName": {
+              "default": "Anthony"
+            },
+            "lastName": {
+              "default": "Cirelli"
+            },
+            "name": {
+              "default": "A. Cirelli"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8478519.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-bos-cirelli-scores-goal-against-joonas-korpisalo-6382692364112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-bos-cirelli-marque-un-but-contre-joonas-korpisalo-6382692744112",
+            "highlightClip": 6382692364112,
+            "highlightClipFr": 6382692744112,
+            "discreteClip": 6382692842112,
+            "discreteClipFr": 6382692160112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "13:16",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477404,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Guentzel"
+                },
+                "name": {
+                  "default": "J. Guentzel"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 59
+              },
+              {
+                "playerId": 8482201,
+                "firstName": {
+                  "default": "Gage"
+                },
+                "lastName": {
+                  "default": "Goncalves"
+                },
+                "name": {
+                  "default": "G. Goncalves"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020040/ev235.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 492,
+            "strength": "ev",
+            "playerId": 8476826,
+            "firstName": {
+              "default": "Yanni"
+            },
+            "lastName": {
+              "default": "Gourde"
+            },
+            "name": {
+              "default": "Y. Gourde"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8476826.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-bos-gourde-scores-goal-against-joonas-korpisalo-6382694036112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-bos-gourde-marque-un-but-contre-joonas-korpisalo-6382694126112",
+            "highlightClip": 6382694036112,
+            "highlightClipFr": 6382694126112,
+            "discreteClip": 6382696225112,
+            "discreteClipFr": 6382694713112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "00:39",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480995,
+                "firstName": {
+                  "default": "Pontus"
+                },
+                "lastName": {
+                  "default": "Holmberg"
+                },
+                "name": {
+                  "default": "P. Holmberg"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8482655,
+                "firstName": {
+                  "default": "J.J."
+                },
+                "lastName": {
+                  "default": "Moser"
+                },
+                "name": {
+                  "default": "J. Moser"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 90
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020040/ev492.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 498,
+            "strength": "ev",
+            "playerId": 8479999,
+            "firstName": {
+              "default": "Casey"
+            },
+            "lastName": {
+              "default": "Mittelstadt"
+            },
+            "name": {
+              "default": "C. Mittelstadt"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8479999.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-bos-mittelstadt-scores-goal-against-jonas-johansson-6382695527112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-bos-mittelstadt-marque-un-but-contre-jonas-johansson-6382695016112",
+            "highlightClip": 6382695527112,
+            "highlightClipFr": 6382695016112,
+            "discreteClip": 6382694628112,
+            "discreteClipFr": 6382694131112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "01:09",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478042,
+                "firstName": {
+                  "default": "Viktor"
+                },
+                "lastName": {
+                  "default": "Arvidsson"
+                },
+                "name": {
+                  "default": "V. Arvidsson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8478401,
+                "firstName": {
+                  "default": "Pavel"
+                },
+                "lastName": {
+                  "default": "Zacha"
+                },
+                "name": {
+                  "default": "P. Zacha"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020040/ev498.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 701,
+            "strength": "ev",
+            "playerId": 8480995,
+            "firstName": {
+              "default": "Pontus"
+            },
+            "lastName": {
+              "default": "Holmberg"
+            },
+            "name": {
+              "default": "P. Holmberg"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8480995.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-bos-holmberg-scores-goal-against-joonas-korpisalo-6382695909112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-bos-holmberg-marque-un-but-contre-joonas-korpisalo-6382696218112",
+            "highlightClip": 6382695909112,
+            "highlightClipFr": 6382696218112,
+            "discreteClip": 6382695912112,
+            "discreteClipFr": 6382693676112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "03:37",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477416,
+                "firstName": {
+                  "default": "Oliver"
+                },
+                "lastName": {
+                  "default": "Bjorkstrand"
+                },
+                "name": {
+                  "default": "O. Bjorkstrand"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8481719,
+                "firstName": {
+                  "default": "Max"
+                },
+                "lastName": {
+                  "default": "Crozier"
+                },
+                "name": {
+                  "default": "M. Crozier"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020040/ev701.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 654,
+            "strength": "ev",
+            "playerId": 8480887,
+            "firstName": {
+              "default": "Jordan"
+            },
+            "lastName": {
+              "default": "Harris"
+            },
+            "name": {
+              "default": "J. Harris"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8480887.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-bos-harris-scores-goal-against-jonas-johansson-6382693680112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-bos-harris-marque-un-but-contre-jonas-johansson-6382693871112",
+            "highlightClip": 6382693680112,
+            "highlightClipFr": 6382693871112,
+            "discreteClip": 6382695628112,
+            "discreteClipFr": 6382693483112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "05:31",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477956,
+                "firstName": {
+                  "default": "David"
+                },
+                "lastName": {
+                  "default": "Pastrnak",
+                  "cs": "Pastrňák",
+                  "sk": "Pastrňák"
+                },
+                "name": {
+                  "default": "D. Pastrnak",
+                  "cs": "D. Pastrňák",
+                  "sk": "D. Pastrňák"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020040/ev654.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1441",
+            "eventId": 702,
+            "strength": "ev",
+            "playerId": 8479987,
+            "firstName": {
+              "default": "Morgan"
+            },
+            "lastName": {
+              "default": "Geekie"
+            },
+            "name": {
+              "default": "M. Geekie"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8479987.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-bos-geekie-scores-goal-against-jonas-johansson-6382694937112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-bos-geekie-marque-un-but-contre-jonas-johansson-6382695448112",
+            "highlightClip": 6382694937112,
+            "highlightClipFr": 6382695448112,
+            "discreteClip": 6382695154112,
+            "discreteClipFr": 6382695336112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "11:35",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478401,
+                "firstName": {
+                  "default": "Pavel"
+                },
+                "lastName": {
+                  "default": "Zacha"
+                },
+                "name": {
+                  "default": "P. Zacha"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020040/ev702.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8478519,
+        "teamAbbrev": "TBL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8478519.png",
+        "name": {
+          "default": "A. Cirelli"
+        },
+        "sweaterNo": 71,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8478401,
+        "teamAbbrev": "BOS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8478401.png",
+        "name": {
+          "default": "P. Zacha"
+        },
+        "sweaterNo": 18,
+        "position": "C",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8480995,
+        "teamAbbrev": "TBL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8480995.png",
+        "name": {
+          "default": "P. Holmberg"
+        },
+        "sweaterNo": 29,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Emil"
+              },
+              "lastName": {
+                "default": "Lilleberg"
+              },
+              "sweaterNumber": 78
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Casey"
+              },
+              "lastName": {
+                "default": "Mittelstadt"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "03:46",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Viktor"
+              },
+              "lastName": {
+                "default": "Arvidsson"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Victor"
+              },
+              "lastName": {
+                "default": "Hedman"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pontus"
+              },
+              "lastName": {
+                "default": "Holmberg"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mark"
+              },
+              "lastName": {
+                "default": "Kastelic"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "10:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Emil"
+              },
+              "lastName": {
+                "default": "Lilleberg"
+              },
+              "sweaterNumber": 78
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "Eyssimont"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "10:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "Eyssimont"
+              },
+              "sweaterNumber": 81
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Emil"
+              },
+              "lastName": {
+                "default": "Lilleberg"
+              },
+              "sweaterNumber": 78
+            },
+            "descKey": "roughing-removing-opponents-helmet"
+          },
+          {
+            "timeInPeriod": "14:24",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pontus"
+              },
+              "lastName": {
+                "default": "Holmberg"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mason"
+              },
+              "lastName": {
+                "default": "Lohrei"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gage"
+              },
+              "lastName": {
+                "default": "Goncalves"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Viktor"
+              },
+              "lastName": {
+                "default": "Arvidsson"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "10:03",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tanner"
+              },
+              "lastName": {
+                "default": "Jeannot"
+              },
+              "sweaterNumber": 84
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "J.J."
+              },
+              "lastName": {
+                "default": "Moser"
+              },
+              "sweaterNumber": 90
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "19:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "Point"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Viktor"
+              },
+              "lastName": {
+                "default": "Arvidsson"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "19:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Viktor"
+              },
+              "lastName": {
+                "default": "Arvidsson"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "Point"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "19:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Erik"
+              },
+              "lastName": {
+                "default": "Cernak",
+                "cs": "Černák",
+                "sk": "Černák"
+              },
+              "sweaterNumber": 81
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Morgan"
+              },
+              "lastName": {
+                "default": "Geekie"
+              },
+              "sweaterNumber": 39
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

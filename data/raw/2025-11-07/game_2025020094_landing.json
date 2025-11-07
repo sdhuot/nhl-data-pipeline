@@ -1,0 +1,1112 @@
+{
+  "id": 2025020094,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-20",
+  "venue": {
+    "default": "Xfinity Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Philadelphia",
+    "fr": "Philadelphie"
+  },
+  "startTimeUTC": "2025-10-20T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 554,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KHN",
+      "sequenceNumber": 339
+    },
+    {
+      "id": 322,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NBCSP",
+      "sequenceNumber": 380
+    },
+    {
+      "id": 388,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KONG",
+      "sequenceNumber": 654
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 55,
+    "commonName": {
+      "default": "Kraken"
+    },
+    "abbrev": "SEA",
+    "placeName": {
+      "default": "Seattle"
+    },
+    "placeNameWithPreposition": {
+      "default": "Seattle",
+      "fr": "de Seattle"
+    },
+    "score": 2,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 4,
+    "commonName": {
+      "default": "Flyers"
+    },
+    "abbrev": "PHI",
+    "placeName": {
+      "default": "Philadelphia",
+      "fr": "Philadelphie"
+    },
+    "placeNameWithPreposition": {
+      "default": "Philadelphia",
+      "fr": "de Philadelphie"
+    },
+    "score": 5,
+    "sog": 27,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 252,
+            "strength": "ev",
+            "playerId": 8474586,
+            "firstName": {
+              "default": "Jordan"
+            },
+            "lastName": {
+              "default": "Eberle"
+            },
+            "name": {
+              "default": "J. Eberle"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8474586.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/eberle-strikes-first-6383431877112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-phi-eberle-marque-un-but-contre-dan-vladar-6383434426112",
+            "highlightClip": 6383431877112,
+            "highlightClipFr": 6383434426112,
+            "discreteClip": 6383432753112,
+            "discreteClipFr": 6383434525112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "07:16",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479985,
+                "firstName": {
+                  "default": "Cale"
+                },
+                "lastName": {
+                  "default": "Fleury"
+                },
+                "name": {
+                  "default": "C. Fleury"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8484800,
+                "firstName": {
+                  "default": "Berkly"
+                },
+                "lastName": {
+                  "default": "Catton"
+                },
+                "name": {
+                  "default": "B. Catton"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020094/ev252.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 204,
+            "strength": "ev",
+            "playerId": 8480015,
+            "firstName": {
+              "default": "Owen"
+            },
+            "lastName": {
+              "default": "Tippett"
+            },
+            "name": {
+              "default": "O. Tippett"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480015.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-phi-tippett-scores-goal-against-joey-daccord-6383433933112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-phi-tippett-marque-un-but-contre-joey-daccord-6383432645112",
+            "highlightClip": 6383433933112,
+            "highlightClipFr": 6383432645112,
+            "discreteClip": 6383434428112,
+            "discreteClipFr": 6383432752112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "09:56",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476372,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Seeler"
+                },
+                "name": {
+                  "default": "N. Seeler"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8476461,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Couturier"
+                },
+                "name": {
+                  "default": "S. Couturier"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020094/ev204.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 332,
+            "strength": "pp",
+            "playerId": 8482159,
+            "firstName": {
+              "default": "Tyson"
+            },
+            "lastName": {
+              "default": "Foerster"
+            },
+            "name": {
+              "default": "T. Foerster"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8482159.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-phi-foerster-scores-ppg-against-joey-daccord-6383433260112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-phi-foerster-marque-un-but-en-a-n-contre-joey-daccord-6383432476112",
+            "highlightClip": 6383433260112,
+            "highlightClipFr": 6383432476112,
+            "discreteClip": 6383434237112,
+            "discreteClipFr": 6383432948112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "13:19",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481553,
+                "firstName": {
+                  "default": "Bobby"
+                },
+                "lastName": {
+                  "default": "Brink"
+                },
+                "name": {
+                  "default": "B. Brink"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 10
+              },
+              {
+                "playerId": 8481546,
+                "firstName": {
+                  "default": "Cam"
+                },
+                "lastName": {
+                  "default": "York"
+                },
+                "name": {
+                  "default": "C. York"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020094/ev332.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 554,
+            "strength": "ev",
+            "playerId": 8478439,
+            "firstName": {
+              "default": "Travis"
+            },
+            "lastName": {
+              "default": "Konecny"
+            },
+            "name": {
+              "default": "T. Konecny"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8478439.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-phi-konecny-scores-goal-against-joey-daccord-6383435250112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-phi-konecny-marque-un-but-contre-joey-daccord-6383432679112",
+            "highlightClip": 6383435250112,
+            "highlightClipFr": 6383432679112,
+            "discreteClip": 6383434170112,
+            "discreteClipFr": 6383434564112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "04:59",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481178,
+                "firstName": {
+                  "default": "Egor",
+                  "cs": "Jegor",
+                  "de": "Yegor",
+                  "es": "Yegor",
+                  "fi": "Jegor",
+                  "sk": "Jegor",
+                  "sv": "Yegor"
+                },
+                "lastName": {
+                  "default": "Zamula"
+                },
+                "name": {
+                  "default": "E. Zamula",
+                  "cs": "J. Zamula",
+                  "de": "Y. Zamula",
+                  "es": "Y. Zamula",
+                  "fi": "J. Zamula",
+                  "sk": "J. Zamula",
+                  "sv": "Y. Zamula"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 5
+              },
+              {
+                "playerId": 8484387,
+                "firstName": {
+                  "default": "Matvei",
+                  "cs": "Matvej",
+                  "sk": "Matvej"
+                },
+                "lastName": {
+                  "default": "Michkov",
+                  "cs": "Mičkov",
+                  "fi": "Mitshkov",
+                  "sk": "Mičkov"
+                },
+                "name": {
+                  "default": "M. Michkov",
+                  "cs": "M. Mičkov",
+                  "fi": "M. Mitshkov",
+                  "sk": "M. Mičkov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 39
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020094/ev554.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 568,
+            "strength": "pp",
+            "playerId": 8480220,
+            "firstName": {
+              "default": "Noah"
+            },
+            "lastName": {
+              "default": "Cates"
+            },
+            "name": {
+              "default": "N. Cates"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480220.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-phi-cates-scores-ppg-against-joey-daccord-6383434179112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-phi-foerster-marque-un-but-en-a-n-contre-joey-daccord-6383436570112",
+            "highlightClip": 6383434179112,
+            "highlightClipFr": 6383436570112,
+            "discreteClip": 6383435302112,
+            "discreteClipFr": 6383434706112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "05:32",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481546,
+                "firstName": {
+                  "default": "Cam"
+                },
+                "lastName": {
+                  "default": "York"
+                },
+                "name": {
+                  "default": "C. York"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8481533,
+                "firstName": {
+                  "default": "Trevor"
+                },
+                "lastName": {
+                  "default": "Zegras"
+                },
+                "name": {
+                  "default": "T. Zegras"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 46
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020094/ev568.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 608,
+            "strength": "pp",
+            "playerId": 8483497,
+            "firstName": {
+              "default": "Jani"
+            },
+            "lastName": {
+              "default": "Nyman"
+            },
+            "name": {
+              "default": "J. Nyman"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483497.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-phi-nyman-scores-ppg-against-dan-vladar-6383433488112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-phi-nyman-marque-un-but-en-a-n-contre-dan-vladar-6383436055112",
+            "highlightClip": 6383433488112,
+            "highlightClipFr": 6383436055112,
+            "discreteClip": 6383434679112,
+            "discreteClipFr": 6383435953112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "08:33",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482665,
+                "firstName": {
+                  "default": "Matty"
+                },
+                "lastName": {
+                  "default": "Beniers"
+                },
+                "name": {
+                  "default": "M. Beniers"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 10
+              },
+              {
+                "playerId": 8476905,
+                "firstName": {
+                  "default": "Chandler"
+                },
+                "lastName": {
+                  "default": "Stephenson"
+                },
+                "name": {
+                  "default": "C. Stephenson"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020094/ev608.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 711,
+            "strength": "ev",
+            "playerId": 8480015,
+            "firstName": {
+              "default": "Owen"
+            },
+            "lastName": {
+              "default": "Tippett"
+            },
+            "name": {
+              "default": "O. Tippett"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480015.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-phi-tippett-scores-goal-against-joey-daccord-6383433006112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-phi-tippett-marque-un-but-contre-joey-daccord-6383435691112",
+            "highlightClip": 6383433006112,
+            "highlightClipFr": 6383435691112,
+            "discreteClip": 6383436661112,
+            "discreteClipFr": 6383436458112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "15:40",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476461,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Couturier"
+                },
+                "name": {
+                  "default": "S. Couturier"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8481546,
+                "firstName": {
+                  "default": "Cam"
+                },
+                "lastName": {
+                  "default": "York"
+                },
+                "name": {
+                  "default": "C. York"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020094/ev711.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480015,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480015.png",
+        "name": {
+          "default": "O. Tippett"
+        },
+        "sweaterNo": 74,
+        "position": "R",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8481546,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8481546.png",
+        "name": {
+          "default": "C. York"
+        },
+        "sweaterNo": 8,
+        "position": "D",
+        "goals": 0,
+        "assists": 3,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8482159,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8482159.png",
+        "name": {
+          "default": "T. Foerster"
+        },
+        "sweaterNo": 71,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Larsson"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Konecny"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "05:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cam"
+              },
+              "lastName": {
+                "default": "York"
+              },
+              "sweaterNumber": 8
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Winterton"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "11:26",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joshua",
+                "cs": "Josh",
+                "de": "Josh",
+                "es": "Josh",
+                "fi": "Josh",
+                "sk": "Josh",
+                "sv": "Josh"
+              },
+              "lastName": {
+                "default": "Mahura"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Christian"
+              },
+              "lastName": {
+                "default": "Dvorak"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "13:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Grebenkin"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cale"
+              },
+              "lastName": {
+                "default": "Fleury"
+              },
+              "sweaterNumber": 8
+            },
+            "descKey": "instigator",
+            "servedBy": {
+              "default": "Jett Luchanko"
+            }
+          },
+          {
+            "timeInPeriod": "13:50",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cale"
+              },
+              "lastName": {
+                "default": "Fleury"
+              },
+              "sweaterNumber": 8
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Grebenkin"
+              },
+              "sweaterNumber": 29
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "13:50",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Grebenkin"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cale"
+              },
+              "lastName": {
+                "default": "Fleury"
+              },
+              "sweaterNumber": 8
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "13:50",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Grebenkin"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "descKey": "instigator-misconduct"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:13",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Hayden"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Juulsen"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "07:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jamie"
+              },
+              "lastName": {
+                "default": "Drysdale"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Shane"
+              },
+              "lastName": {
+                "default": "Wright"
+              },
+              "sweaterNumber": 51
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "18:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Sanheim"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Winterton"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lindgren"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Konecny"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "instigator",
+            "servedBy": {
+              "default": "Berkly Catton"
+            }
+          },
+          {
+            "timeInPeriod": "10:50",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lindgren"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Konecny"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "10:50",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Konecny"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lindgren"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "10:50",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lindgren"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "descKey": "instigator-misconduct"
+          },
+          {
+            "timeInPeriod": "10:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Couturier"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jamie"
+              },
+              "lastName": {
+                "default": "Oleksiak"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "14:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jett"
+              },
+              "lastName": {
+                "default": "Luchanko"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Eberle"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "holding"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

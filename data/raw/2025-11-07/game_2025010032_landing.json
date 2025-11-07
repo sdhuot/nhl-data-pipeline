@@ -1,0 +1,828 @@
+{
+  "id": 2025010032,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-24",
+  "venue": {
+    "default": "Nationwide Arena"
+  },
+  "venueLocation": {
+    "default": "Columbus"
+  },
+  "startTimeUTC": "2025-09-24T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 5,
+    "commonName": {
+      "default": "Penguins"
+    },
+    "abbrev": "PIT",
+    "placeName": {
+      "default": "Pittsburgh"
+    },
+    "placeNameWithPreposition": {
+      "default": "Pittsburgh",
+      "fr": "de Pittsburgh"
+    },
+    "score": 1,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg"
+  },
+  "homeTeam": {
+    "id": 29,
+    "commonName": {
+      "default": "Blue Jackets"
+    },
+    "abbrev": "CBJ",
+    "placeName": {
+      "default": "Columbus"
+    },
+    "placeNameWithPreposition": {
+      "default": "Columbus",
+      "fr": "de Columbus"
+    },
+    "score": 4,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 286,
+            "strength": "ev",
+            "playerId": 8480016,
+            "firstName": {
+              "default": "Zach"
+            },
+            "lastName": {
+              "default": "Gallant"
+            },
+            "name": {
+              "default": "Z. Gallant"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8480016.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-cbj-gallant-scores-goal-against-jet-greaves-6380068618112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-cbj-gallant-marque-un-but-contre-jet-greaves-6380065247112",
+            "highlightClip": 6380068618112,
+            "highlightClipFr": 6380065247112,
+            "discreteClip": 6380067825112,
+            "discreteClipFr": 6380066637112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "09:45",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482758,
+                "firstName": {
+                  "default": "Ville"
+                },
+                "lastName": {
+                  "default": "Koivunen"
+                },
+                "name": {
+                  "default": "V. Koivunen"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 41
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010032/ev286.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 375,
+            "strength": "ev",
+            "playerId": 8482475,
+            "firstName": {
+              "default": "Yegor",
+              "cs": "Jegor",
+              "fi": "Jegor",
+              "sk": "Jegor"
+            },
+            "lastName": {
+              "default": "Chinakhov",
+              "cs": "Činachov",
+              "fi": "Tshinahov",
+              "sk": "Činachov"
+            },
+            "name": {
+              "default": "Y. Chinakhov",
+              "cs": "J. Činachov",
+              "fi": "J. Tshinahov",
+              "sk": "J. Činachov"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482475.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-cbj-chinakhov-scores-goal-against-arturs-silovs-6380066427112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-cbj-chinakhov-marque-un-but-contre-arturs-silovs-6380068623112",
+            "highlightClip": 6380066427112,
+            "highlightClipFr": 6380068623112,
+            "discreteClip": 6380068624112,
+            "discreteClipFr": 6380066153112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "17:24",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478460,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Werenski"
+                },
+                "name": {
+                  "default": "Z. Werenski"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8479371,
+                "firstName": {
+                  "default": "Dante"
+                },
+                "lastName": {
+                  "default": "Fabbro"
+                },
+                "name": {
+                  "default": "D. Fabbro"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010032/ev375.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 521,
+            "strength": "pp",
+            "playerId": 8481161,
+            "firstName": {
+              "default": "Jake",
+              "sv": "v"
+            },
+            "lastName": {
+              "default": "Christiansen"
+            },
+            "name": {
+              "default": "J. Christiansen"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8481161.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-cbj-christiansen-scores-ppg-against-arturs-silovs-6380066423112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-cbj-christiansen-marque-un-but-en-a-n-contre-arturs-silovs-6380067832112",
+            "highlightClip": 6380066423112,
+            "highlightClipFr": 6380067832112,
+            "discreteClip": 6380066641112,
+            "discreteClipFr": 6380066639112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "04:53",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475745,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "Coyle"
+                },
+                "name": {
+                  "default": "C. Coyle"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8482475,
+                "firstName": {
+                  "default": "Yegor",
+                  "cs": "Jegor",
+                  "fi": "Jegor",
+                  "sk": "Jegor"
+                },
+                "lastName": {
+                  "default": "Chinakhov",
+                  "cs": "Činachov",
+                  "fi": "Tshinahov",
+                  "sk": "Činachov"
+                },
+                "name": {
+                  "default": "Y. Chinakhov",
+                  "cs": "J. Činachov",
+                  "fi": "J. Tshinahov",
+                  "sk": "J. Činachov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 59
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010032/ev521.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1351",
+            "eventId": 219,
+            "strength": "pp",
+            "playerId": 8482660,
+            "firstName": {
+              "default": "Kent"
+            },
+            "lastName": {
+              "default": "Johnson"
+            },
+            "name": {
+              "default": "K. Johnson"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482660.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-cbj-johnson-scores-ppg-against-filip-larsson-6380068655112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-cbj-johnson-marque-un-but-en-a-n-contre-filip-larsson-6380066459112",
+            "highlightClip": 6380068655112,
+            "highlightClipFr": 6380066459112,
+            "discreteClip": 6380069832112,
+            "discreteClipFr": 6380070419112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "11:12",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478460,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Werenski"
+                },
+                "name": {
+                  "default": "Z. Werenski"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8480893,
+                "firstName": {
+                  "default": "Kirill"
+                },
+                "lastName": {
+                  "default": "Marchenko",
+                  "cs": "Marčenko",
+                  "fi": "Martshenko",
+                  "sk": "Marčenko"
+                },
+                "name": {
+                  "default": "K. Marchenko",
+                  "cs": "K. Marčenko",
+                  "fi": "K. Martshenko",
+                  "sk": "K. Marčenko"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 86
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010032/ev219.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "0641",
+            "eventId": 221,
+            "strength": "sh",
+            "playerId": 8479371,
+            "firstName": {
+              "default": "Dante"
+            },
+            "lastName": {
+              "default": "Fabbro"
+            },
+            "name": {
+              "default": "D. Fabbro"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8479371.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-cbj-fabbro-scores-empty-net-goal-6380069556112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-cbj-fabbro-cbj-marque-un-but-dans-un-filet-desert-6380069167112",
+            "highlightClip": 6380069556112,
+            "highlightClipFr": 6380069167112,
+            "discreteClip": 6380068486112,
+            "discreteClipFr": 6380070826112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "16:56",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010032/ev221.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482475,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482475.png",
+        "name": {
+          "default": "Y. Chinakhov",
+          "cs": "J. Činachov",
+          "fi": "J. Tshinahov",
+          "sk": "J. Činachov"
+        },
+        "sweaterNo": 59,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8481161,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8481161.png",
+        "name": {
+          "default": "J. Christiansen"
+        },
+        "sweaterNo": 2,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482982,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482982.png",
+        "name": {
+          "default": "J. Greaves"
+        },
+        "sweaterNo": 73,
+        "position": "G",
+        "goalsAgainstAverage": 1.0,
+        "savePctg": 0.96
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sebastian"
+              },
+              "lastName": {
+                "default": "Aho"
+              },
+              "sweaterNumber": 25
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kirill"
+              },
+              "lastName": {
+                "default": "Marchenko",
+                "cs": "Marčenko",
+                "fi": "Martshenko",
+                "sk": "Marčenko"
+              },
+              "sweaterNumber": 86
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "12:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kent"
+              },
+              "lastName": {
+                "default": "Johnson"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Justin"
+              },
+              "lastName": {
+                "default": "Brazeau"
+              },
+              "sweaterNumber": 16
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "18:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alexander",
+                "cs": "Alexandr",
+                "fi": "Aleksandr",
+                "sk": "Alexandr"
+              },
+              "lastName": {
+                "default": "Alexeyev",
+                "cs": "Alexejev",
+                "fi": "Aleksejev",
+                "sk": "Alexejev"
+              },
+              "sweaterNumber": 56
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Fantilli"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:21",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Gallant"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "Coyle"
+              },
+              "sweaterNumber": 3
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "05:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Aidan"
+              },
+              "lastName": {
+                "default": "McDonough"
+              },
+              "sweaterNumber": 8
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Hunter"
+              },
+              "lastName": {
+                "default": "McKown"
+              },
+              "sweaterNumber": 41
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "09:42",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "James"
+              },
+              "lastName": {
+                "default": "Malatesta"
+              },
+              "sweaterNumber": 67
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Blake"
+              },
+              "lastName": {
+                "default": "Lizotte"
+              },
+              "sweaterNumber": 46
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "18:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dante"
+              },
+              "lastName": {
+                "default": "Fabbro"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "Kindel"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ville"
+              },
+              "lastName": {
+                "default": "Koivunen"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Charlie"
+              },
+              "lastName": {
+                "default": "Coyle"
+              },
+              "sweaterNumber": 3
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "09:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Clifton"
+              },
+              "sweaterNumber": 75
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dmitri",
+                "cs": "Dmitrij",
+                "sk": "Dmitrij"
+              },
+              "lastName": {
+                "default": "Voronkov"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "10:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Dewar"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kent"
+              },
+              "lastName": {
+                "default": "Johnson"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "16:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "James"
+              },
+              "lastName": {
+                "default": "Malatesta"
+              },
+              "sweaterNumber": 67
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Blake"
+              },
+              "lastName": {
+                "default": "Lizotte"
+              },
+              "sweaterNumber": 46
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "18:55",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ole Julian"
+              },
+              "lastName": {
+                "default": "Bjorgvik-Holm"
+              },
+              "sweaterNumber": 58
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Tomasino"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

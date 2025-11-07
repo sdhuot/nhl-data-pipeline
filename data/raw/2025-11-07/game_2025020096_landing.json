@@ -1,0 +1,632 @@
+{
+  "id": 2025020096,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-20",
+  "venue": {
+    "default": "Scotiabank Saddledome"
+  },
+  "venueLocation": {
+    "default": "Calgary"
+  },
+  "startTimeUTC": "2025-10-21T01:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "US/Mountain",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 295,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "SNF",
+      "sequenceNumber": 94
+    },
+    {
+      "id": 292,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "TSN3",
+      "sequenceNumber": 134
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 52,
+    "commonName": {
+      "default": "Jets"
+    },
+    "abbrev": "WPG",
+    "placeName": {
+      "default": "Winnipeg"
+    },
+    "placeNameWithPreposition": {
+      "default": "Winnipeg",
+      "fr": "de Winnipeg"
+    },
+    "score": 2,
+    "sog": 27,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+  },
+  "homeTeam": {
+    "id": 20,
+    "commonName": {
+      "default": "Flames"
+    },
+    "abbrev": "CGY",
+    "placeName": {
+      "default": "Calgary"
+    },
+    "placeNameWithPreposition": {
+      "default": "Calgary",
+      "fr": "de Calgary"
+    },
+    "score": 1,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 735,
+            "strength": "ev",
+            "playerId": 8478397,
+            "firstName": {
+              "default": "Rasmus"
+            },
+            "lastName": {
+              "default": "Andersson"
+            },
+            "name": {
+              "default": "R. Andersson"
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8478397.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-cgy-andersson-scores-goal-against-connor-hellebuyck-6383442594112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-cgy-andersson-marque-un-but-contre-connor-hellebuyck-6383442962112",
+            "highlightClip": 6383442594112,
+            "highlightClipFr": 6383442962112,
+            "discreteClip": 6383443074112,
+            "discreteClipFr": 6383444046112,
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CGY"
+            },
+            "timeInPeriod": "13:22",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483609,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Klapka"
+                },
+                "name": {
+                  "default": "A. Klapka"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 43
+              },
+              {
+                "playerId": 8479066,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Lomberg"
+                },
+                "name": {
+                  "default": "R. Lomberg"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 70
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020096/ev735.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 870,
+            "strength": "pp",
+            "playerId": 8473604,
+            "firstName": {
+              "default": "Jonathan"
+            },
+            "lastName": {
+              "default": "Toews"
+            },
+            "name": {
+              "default": "J. Toews"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8473604.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-cgy-toews-scores-ppg-against-dustin-wolf-6383444867112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-cgy-toews-marque-un-but-en-a-n-contre-dustin-wolf-6383443503112",
+            "highlightClip": 6383444867112,
+            "highlightClipFr": 6383443503112,
+            "discreteClip": 6383444084112,
+            "discreteClipFr": 6383443879112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "02:41",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480145,
+                "firstName": {
+                  "default": "Neal"
+                },
+                "lastName": {
+                  "default": "Pionk"
+                },
+                "name": {
+                  "default": "N. Pionk",
+                  "cs": "N.Pionk",
+                  "de": "N.Pionk",
+                  "fi": "N.Pionk",
+                  "sk": "N.Pionk",
+                  "sv": "N.Pionk"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 4
+              },
+              {
+                "playerId": 8475799,
+                "firstName": {
+                  "default": "Nino"
+                },
+                "lastName": {
+                  "default": "Niederreiter"
+                },
+                "name": {
+                  "default": "N. Niederreiter"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 62
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020096/ev870.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1060,
+            "strength": "ev",
+            "playerId": 8476460,
+            "firstName": {
+              "default": "Mark"
+            },
+            "lastName": {
+              "default": "Scheifele"
+            },
+            "name": {
+              "default": "M. Scheifele"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476460.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mark-scheifele-with-a-goal-vs-calgary-flames-6383446048112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-cgy-scheifele-marque-un-but-contre-dustin-wolf-6383445954112",
+            "highlightClip": 6383446048112,
+            "highlightClipFr": 6383445954112,
+            "discreteClip": 6383445571112,
+            "discreteClipFr": 6383445090112,
+            "goalsToDate": 7,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "15:06",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478398,
+                "firstName": {
+                  "default": "Kyle"
+                },
+                "lastName": {
+                  "default": "Connor"
+                },
+                "name": {
+                  "default": "K. Connor"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 81
+              },
+              {
+                "playerId": 8477504,
+                "firstName": {
+                  "default": "Josh"
+                },
+                "lastName": {
+                  "default": "Morrissey"
+                },
+                "name": {
+                  "default": "J. Morrissey"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020096/ev1060.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8476945,
+        "teamAbbrev": "WPG",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476945.png",
+        "name": {
+          "default": "C. Hellebuyck"
+        },
+        "sweaterNo": 37,
+        "position": "G",
+        "goalsAgainstAverage": 1.0,
+        "savePctg": 0.97
+      },
+      {
+        "star": 2,
+        "playerId": 8481692,
+        "teamAbbrev": "CGY",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8481692.png",
+        "name": {
+          "default": "D. Wolf"
+        },
+        "sweaterNo": 32,
+        "position": "G",
+        "goalsAgainstAverage": 2.05,
+        "savePctg": 0.926
+      },
+      {
+        "star": 3,
+        "playerId": 8476460,
+        "teamAbbrev": "WPG",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476460.png",
+        "name": {
+          "default": "M. Scheifele"
+        },
+        "sweaterNo": 55,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gabriel"
+              },
+              "lastName": {
+                "default": "Vilardi"
+              },
+              "sweaterNumber": 13
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Andersson"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "04:06",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Zary"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Iafallo"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "holding-the-stick"
+          },
+          {
+            "timeInPeriod": "13:24",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tanner"
+              },
+              "lastName": {
+                "default": "Pearson"
+              },
+              "sweaterNumber": 70
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kevin"
+              },
+              "lastName": {
+                "default": "Bahl"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "18:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Logan"
+              },
+              "lastName": {
+                "default": "Stanley"
+              },
+              "sweaterNumber": 64
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jonathan"
+              },
+              "lastName": {
+                "default": "Huberdeau"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nino"
+              },
+              "lastName": {
+                "default": "Niederreiter"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zayne"
+              },
+              "lastName": {
+                "default": "Parekh"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "05:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kevin"
+              },
+              "lastName": {
+                "default": "Bahl"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Iafallo"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "08:59",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "C. Zary"
+            }
+          },
+          {
+            "timeInPeriod": "15:02",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "C. Zary"
+            }
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nazem"
+              },
+              "lastName": {
+                "default": "Kadri"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Neal"
+              },
+              "lastName": {
+                "default": "Pionk"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "19:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonathan"
+              },
+              "lastName": {
+                "default": "Toews"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Andersson"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "slashing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

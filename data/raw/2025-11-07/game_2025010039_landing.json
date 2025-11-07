@@ -1,0 +1,757 @@
+{
+  "id": 2025010039,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-25",
+  "venue": {
+    "default": "T-Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Paradise"
+  },
+  "startTimeUTC": "2025-09-26T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    },
+    {
+      "id": 558,
+      "market": "A",
+      "countryCode": "US",
+      "network": "Utah16",
+      "sequenceNumber": 372
+    },
+    {
+      "id": 521,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 68,
+    "commonName": {
+      "default": "Mammoth"
+    },
+    "abbrev": "UTA",
+    "placeName": {
+      "default": "Utah"
+    },
+    "placeNameWithPreposition": {
+      "default": "Utah",
+      "fr": "de l'Utah"
+    },
+    "score": 2,
+    "sog": 15,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 54,
+    "commonName": {
+      "default": "Golden Knights"
+    },
+    "abbrev": "VGK",
+    "placeName": {
+      "default": "Vegas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vegas",
+      "fr": "de Vegas"
+    },
+    "score": 3,
+    "sog": 20,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 204,
+            "strength": "ev",
+            "playerId": 8482699,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Guenther"
+            },
+            "name": {
+              "default": "D. Guenther"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482699.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dylan-guenther-with-a-goal-vs-vegas-golden-knights-6380129610112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-vgk-guenther-marque-un-but-contre-adin-hill-6380129703112",
+            "highlightClip": 6380129610112,
+            "highlightClipFr": 6380129703112,
+            "discreteClip": 6380128634112,
+            "discreteClipFr": 6380127558112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "15:21",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482175,
+                "firstName": {
+                  "default": "JJ"
+                },
+                "lastName": {
+                  "default": "Peterka"
+                },
+                "name": {
+                  "default": "J. Peterka"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 77
+              },
+              {
+                "playerId": 8474013,
+                "firstName": {
+                  "default": "Ian"
+                },
+                "lastName": {
+                  "default": "Cole"
+                },
+                "name": {
+                  "default": "I. Cole"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 28
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010039/ev204.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 519,
+            "strength": "ev",
+            "playerId": 8482699,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Guenther"
+            },
+            "name": {
+              "default": "D. Guenther"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482699.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-vgk-guenther-scores-goal-against-adin-hill-6380127262112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-vgk-guenther-marque-un-but-contre-adin-hill-6380128479112",
+            "highlightClip": 6380127262112,
+            "highlightClipFr": 6380128479112,
+            "discreteClip": 6380128577112,
+            "discreteClipFr": 6380128476112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "01:06",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480849,
+                "firstName": {
+                  "default": "Barrett"
+                },
+                "lastName": {
+                  "default": "Hayton"
+                },
+                "name": {
+                  "default": "B. Hayton"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 27
+              },
+              {
+                "playerId": 8484386,
+                "firstName": {
+                  "default": "Dmitri"
+                },
+                "lastName": {
+                  "default": "Simashev"
+                },
+                "name": {
+                  "default": "D. Simashev"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 26
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010039/ev519.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 1009,
+            "strength": "ev",
+            "playerId": 8478403,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Eichel"
+            },
+            "name": {
+              "default": "J. Eichel"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-vgk-eichel-scores-goal-against-vitek-vanecek-6380131826112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-vgk-eichel-marque-un-but-contre-vitek-vanecek-6380131430112",
+            "highlightClip": 6380131826112,
+            "highlightClipFr": 6380131430112,
+            "discreteClip": 6380130841112,
+            "discreteClipFr": 6380131047112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "10:18",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478483,
+                "firstName": {
+                  "default": "Mitch",
+                  "cs": "Mitchell",
+                  "de": "Mitchell",
+                  "es": "Mitchell",
+                  "fi": "Mitchell",
+                  "sk": "Mitchell",
+                  "sv": "Mitchell"
+                },
+                "lastName": {
+                  "default": "Marner"
+                },
+                "name": {
+                  "default": "M. Marner"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 93
+              },
+              {
+                "playerId": 8477964,
+                "firstName": {
+                  "default": "Ivan"
+                },
+                "lastName": {
+                  "default": "Barbashev",
+                  "cs": "Barbašev",
+                  "fi": "Barbashov",
+                  "sk": "Barbašev"
+                },
+                "name": {
+                  "default": "I. Barbashev",
+                  "cs": "I. Barbašev",
+                  "fi": "I. Barbashov",
+                  "sk": "I. Barbašev"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 49
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010039/ev1009.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 268,
+            "strength": "pp",
+            "playerId": 8478403,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Eichel"
+            },
+            "name": {
+              "default": "J. Eichel"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-vgk-eichel-scores-ppg-against-vitek-vanecek-6380129870112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/jack-eichel-with-a-powerplay-goal-vs-les-mammoth-de-utah-6380131838112",
+            "highlightClip": 6380129870112,
+            "highlightClipFr": 6380131838112,
+            "discreteClip": 6380132230112,
+            "discreteClipFr": 6380130981112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "16:16",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477964,
+                "firstName": {
+                  "default": "Ivan"
+                },
+                "lastName": {
+                  "default": "Barbashev",
+                  "cs": "Barbašev",
+                  "fi": "Barbashov",
+                  "sk": "Barbašev"
+                },
+                "name": {
+                  "default": "I. Barbashev",
+                  "cs": "I. Barbašev",
+                  "fi": "I. Barbashov",
+                  "sk": "I. Barbašev"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 49
+              },
+              {
+                "playerId": 8477447,
+                "firstName": {
+                  "default": "Shea"
+                },
+                "lastName": {
+                  "default": "Theodore"
+                },
+                "name": {
+                  "default": "S. Theodore"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010039/ev268.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 269,
+            "strength": "ev",
+            "playerId": 8477447,
+            "firstName": {
+              "default": "Shea"
+            },
+            "lastName": {
+              "default": "Theodore"
+            },
+            "name": {
+              "default": "S. Theodore"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8477447.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-vgk-theodore-scores-goal-against-vitek-vanecek-6380132143112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-vgk-theodore-marque-un-but-contre-vitek-vanecek-6380132428112",
+            "highlightClip": 6380132143112,
+            "highlightClipFr": 6380132428112,
+            "discreteClip": 6380129779112,
+            "discreteClipFr": 6380131080112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "03:04",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478403,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Eichel"
+                },
+                "name": {
+                  "default": "J. Eichel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010039/ev269.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477447,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8477447.png",
+        "name": {
+          "default": "S. Theodore"
+        },
+        "sweaterNo": 27,
+        "position": "D",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8478403,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+        "name": {
+          "default": "J. Eichel"
+        },
+        "sweaterNo": 9,
+        "position": "C",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8477964,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8477964.png",
+        "name": {
+          "default": "I. Barbashev",
+          "cs": "I. Barbašev",
+          "fi": "I. Barbashov",
+          "sk": "I. Barbašev"
+        },
+        "sweaterNo": 49,
+        "position": "L",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:11",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Curtis"
+              },
+              "lastName": {
+                "default": "Douglas"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Davies"
+              },
+              "sweaterNumber": 84
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "11:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ian"
+              },
+              "lastName": {
+                "default": "Cole"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ivan"
+              },
+              "lastName": {
+                "default": "Barbashev",
+                "cs": "Barbašev",
+                "fi": "Barbashov",
+                "sk": "Barbašev"
+              },
+              "sweaterNumber": 49
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "13:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "McNabb"
+              },
+              "sweaterNumber": 3
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Barrett"
+              },
+              "lastName": {
+                "default": "Hayton"
+              },
+              "sweaterNumber": 27
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "16:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gabe"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Reinhardt"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "roughing",
+            "servedBy": {
+              "default": "M. Carcone"
+            }
+          },
+          {
+            "timeInPeriod": "16:04",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gabe"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Reinhardt"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "16:04",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Reinhardt"
+              },
+              "sweaterNumber": 23
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gabe"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 93
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "16:27",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dmitri"
+              },
+              "lastName": {
+                "default": "Simashev"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Eichel"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "01:56",
+    "secondsRemaining": 116,
+    "running": false,
+    "inIntermission": false
+  }
+}

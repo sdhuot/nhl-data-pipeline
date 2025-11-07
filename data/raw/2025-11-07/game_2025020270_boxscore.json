@@ -1,0 +1,81 @@
+{
+  "id": 2025020270,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-13",
+  "venue": {
+    "default": "Centre Bell"
+  },
+  "venueLocation": {
+    "default": "Montreal",
+    "fr": "Montréal"
+  },
+  "startTimeUTC": "2025-11-14T00:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-05:00",
+  "tvBroadcasts": [
+    {
+      "id": 131,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN2",
+      "sequenceNumber": 112
+    },
+    {
+      "id": 33,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "RDS",
+      "sequenceNumber": 132
+    },
+    {
+      "id": 553,
+      "market": "A",
+      "countryCode": "US",
+      "network": "Victory+",
+      "sequenceNumber": 373
+    }
+  ],
+  "gameState": "FUT",
+  "gameScheduleState": "OK",
+  "regPeriods": 3,
+  "awayTeam": {
+    "id": 25,
+    "commonName": {
+      "default": "Stars"
+    },
+    "abbrev": "DAL",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg",
+    "placeName": {
+      "default": "Dallas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Dallas",
+      "fr": "de Dallas"
+    }
+  },
+  "homeTeam": {
+    "id": 8,
+    "commonName": {
+      "default": "Canadiens"
+    },
+    "abbrev": "MTL",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg",
+    "placeName": {
+      "default": "Montréal"
+    },
+    "placeNameWithPreposition": {
+      "default": "Montréal",
+      "fr": "de Montréal"
+    }
+  },
+  "clock": {
+    "timeRemaining": "20:00",
+    "secondsRemaining": 1200,
+    "running": false,
+    "inIntermission": false
+  }
+}

@@ -1,0 +1,751 @@
+{
+  "id": 2025010030,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-24",
+  "venue": {
+    "default": "Lenovo Center"
+  },
+  "venueLocation": {
+    "default": "Raleigh"
+  },
+  "startTimeUTC": "2025-09-24T22:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 291,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS2",
+      "sequenceNumber": 110
+    },
+    {
+      "id": 521,
+      "market": "A",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 13,
+    "commonName": {
+      "default": "Panthers"
+    },
+    "abbrev": "FLA",
+    "placeName": {
+      "default": "Florida",
+      "fr": "Floride"
+    },
+    "placeNameWithPreposition": {
+      "default": "Florida",
+      "fr": "de la Floride"
+    },
+    "score": 4,
+    "sog": 16,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 12,
+    "commonName": {
+      "default": "Hurricanes"
+    },
+    "abbrev": "CAR",
+    "placeName": {
+      "default": "Carolina",
+      "fr": "Caroline"
+    },
+    "placeNameWithPreposition": {
+      "default": "Carolina",
+      "fr": "de la Caroline"
+    },
+    "score": 2,
+    "sog": 49,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 242,
+            "strength": "ev",
+            "playerId": 8481576,
+            "firstName": {
+              "default": "Ryan"
+            },
+            "lastName": {
+              "default": "Suzuki"
+            },
+            "name": {
+              "default": "R. Suzuki"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8481576.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-car-suzuki-scores-goal-against-daniil-tarasov-6380063397112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-car-suzuki-marque-un-but-contre-daniil-tarasov-6380063696112",
+            "highlightClip": 6380063397112,
+            "highlightClipFr": 6380063696112,
+            "discreteClip": 6380063788112,
+            "discreteClipFr": 6380064379112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "10:07",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476422,
+                "firstName": {
+                  "default": "Mike"
+                },
+                "lastName": {
+                  "default": "Reilly"
+                },
+                "name": {
+                  "default": "M. Reilly"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8478099,
+                "firstName": {
+                  "default": "Kevin"
+                },
+                "lastName": {
+                  "default": "Labanc"
+                },
+                "name": {
+                  "default": "K. Labanc"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 61
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010030/ev242.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 391,
+            "strength": "ev",
+            "playerId": 8480829,
+            "firstName": {
+              "default": "Jesperi"
+            },
+            "lastName": {
+              "default": "Kotkaniemi"
+            },
+            "name": {
+              "default": "J. Kotkaniemi"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8480829.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-car-kotkaniemi-scores-goal-against-daniil-tarasov-6380062516112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/jesperi-kotkaniemi-with-a-goal-vs-les-panthers-de-la-floride-6380063614112",
+            "highlightClip": 6380062516112,
+            "highlightClipFr": 6380063614112,
+            "discreteClip": 6380063014112,
+            "discreteClipFr": 6380062623112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "16:20",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480830,
+                "firstName": {
+                  "default": "Andrei",
+                  "cs": "Andrej",
+                  "sk": "Andrej"
+                },
+                "lastName": {
+                  "default": "Svechnikov",
+                  "cs": "Svečnikov",
+                  "fi": "Svetshnikov",
+                  "sk": "Svečnikov"
+                },
+                "name": {
+                  "default": "A. Svechnikov",
+                  "cs": "A. Svečnikov",
+                  "fi": "A. Svetshnikov",
+                  "sk": "A. Svečnikov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 37
+              },
+              {
+                "playerId": 8480762,
+                "firstName": {
+                  "default": "Eric"
+                },
+                "lastName": {
+                  "default": "Robinson"
+                },
+                "name": {
+                  "default": "E. Robinson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 50
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010030/ev391.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 856,
+            "strength": "ev",
+            "playerId": 8477433,
+            "firstName": {
+              "default": "Ben"
+            },
+            "lastName": {
+              "default": "Harpur"
+            },
+            "name": {
+              "default": "B. Harpur"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477433.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-car-harpur-scores-goal-against-amir-miftakhov-6380066205112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-car-harpur-marque-un-but-contre-amir-miftakhov-6380066609112",
+            "highlightClip": 6380066205112,
+            "highlightClipFr": 6380066609112,
+            "discreteClip": 6380067302112,
+            "discreteClipFr": 6380064551112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "03:56",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482107,
+                "firstName": {
+                  "default": "Mike"
+                },
+                "lastName": {
+                  "default": "Benning"
+                },
+                "name": {
+                  "default": "M. Benning"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010030/ev856.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1057,
+            "strength": "ev",
+            "playerId": 8479393,
+            "firstName": {
+              "default": "Noah"
+            },
+            "lastName": {
+              "default": "Gregor"
+            },
+            "name": {
+              "default": "N. Gregor"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8479393.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/noah-gregor-with-a-goal-vs-carolina-hurricanes-6380067511112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-car-gregor-marque-un-but-contre-amir-miftakhov-6380064951112",
+            "highlightClip": 6380067511112,
+            "highlightClipFr": 6380064951112,
+            "discreteClip": 6380067128112,
+            "discreteClipFr": 6380066032112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "16:03",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484224,
+                "firstName": {
+                  "default": "Gracyn"
+                },
+                "lastName": {
+                  "default": "Sawchyn"
+                },
+                "name": {
+                  "default": "G. Sawchyn"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 59
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010030/ev1057.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 460,
+            "strength": "ev",
+            "playerId": 8482107,
+            "firstName": {
+              "default": "Mike"
+            },
+            "lastName": {
+              "default": "Benning"
+            },
+            "name": {
+              "default": "M. Benning"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8482107.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-car-benning-scores-goal-against-amir-miftakhov-6380066417112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-car-benning-marque-un-but-contre-amir-miftakhov-6380065240112",
+            "highlightClip": 6380066417112,
+            "highlightClipFr": 6380065240112,
+            "discreteClip": 6380067334112,
+            "discreteClipFr": 6380066034112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "17:17",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010030/ev460.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 461,
+            "strength": "ev",
+            "playerId": 8480021,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Studnicka"
+            },
+            "name": {
+              "default": "J. Studnicka"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8480021.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/jack-studnicka-with-a-goal-vs-carolina-hurricanes-6380067921112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/jack-studnicka-with-a-goal-vs-les-hurricanes-de-la-caroline-6380068507112",
+            "highlightClip": 6380067921112,
+            "highlightClipFr": 6380068507112,
+            "discreteClip": 6380065456112,
+            "discreteClipFr": 6380066415112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "19:22",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8477433,
+                "firstName": {
+                  "default": "Ben"
+                },
+                "lastName": {
+                  "default": "Harpur"
+                },
+                "name": {
+                  "default": "B. Harpur"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 4
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010030/ev461.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480193,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8480193.png",
+        "name": {
+          "default": "D. Tarasov"
+        },
+        "sweaterNo": 40,
+        "position": "G",
+        "goalsAgainstAverage": 2.01,
+        "savePctg": 0.959
+      },
+      {
+        "star": 2,
+        "playerId": 8480829,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8480829.png",
+        "name": {
+          "default": "J. Kotkaniemi"
+        },
+        "sweaterNo": 82,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482107,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8482107.png",
+        "name": {
+          "default": "M. Benning"
+        },
+        "sweaterNo": 20,
+        "position": "D",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Anton"
+              },
+              "lastName": {
+                "default": "Lundmark"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Suzuki"
+              },
+              "sweaterNumber": 16
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "06:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Trevor"
+              },
+              "lastName": {
+                "default": "Carrick"
+              },
+              "sweaterNumber": 88
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Seth"
+              },
+              "lastName": {
+                "default": "Jarvis"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "10:07",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "Harpur"
+              },
+              "sweaterNumber": 4
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Givani"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "10:07",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Givani"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "Harpur"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "fighting"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:15",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Eric"
+              },
+              "lastName": {
+                "default": "Robinson"
+              },
+              "sweaterNumber": 50
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "McAllister"
+              },
+              "sweaterNumber": 76
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "06:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Aleksi"
+              },
+              "lastName": {
+                "default": "Heimosalmi"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Devine"
+              },
+              "sweaterNumber": 38
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "14:16",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mike"
+              },
+              "lastName": {
+                "default": "Benning"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Seth"
+              },
+              "lastName": {
+                "default": "Jarvis"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mike"
+              },
+              "lastName": {
+                "default": "Benning"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nikolaj"
+              },
+              "lastName": {
+                "default": "Ehlers"
+              },
+              "sweaterNumber": 27
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}
