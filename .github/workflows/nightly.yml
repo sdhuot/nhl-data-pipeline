@@ -39,6 +39,15 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
+          
+      - name: Skip if data already exists today
+        run: |
+          export TZ=America/Anchorage
+          TODAY=$(date +%Y-%m-%d)
+          if [ -d "data/raw/$TODAY" ]; then
+            echo "Data for $TODAY already exists — skipping second run."
+            exit 0
+          fi
 
       - name: Run NHL scraper
         run: |
