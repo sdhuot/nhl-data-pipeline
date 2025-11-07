@@ -1,0 +1,935 @@
+{
+  "id": 2025020207,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-04",
+  "venue": {
+    "default": "American Airlines Center"
+  },
+  "venueLocation": {
+    "default": "Dallas"
+  },
+  "startTimeUTC": "2025-11-05T01:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 5,
+    "periodType": "SO",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 329,
+      "market": "N",
+      "countryCode": "US",
+      "network": "ESPN+",
+      "sequenceNumber": 16
+    },
+    {
+      "id": 391,
+      "market": "N",
+      "countryCode": "US",
+      "network": "HULU",
+      "sequenceNumber": 17
+    },
+    {
+      "id": 282,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN",
+      "sequenceNumber": 101
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 22,
+    "commonName": {
+      "default": "Oilers"
+    },
+    "abbrev": "EDM",
+    "placeName": {
+      "default": "Edmonton"
+    },
+    "placeNameWithPreposition": {
+      "default": "Edmonton",
+      "fr": "d'Edmonton"
+    },
+    "score": 3,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+  },
+  "homeTeam": {
+    "id": 25,
+    "commonName": {
+      "default": "Stars"
+    },
+    "abbrev": "DAL",
+    "placeName": {
+      "default": "Dallas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Dallas",
+      "fr": "de Dallas"
+    },
+    "score": 4,
+    "sog": 27,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 155,
+            "strength": "ev",
+            "playerId": 8481617,
+            "firstName": {
+              "default": "Vasily",
+              "cs": "Vasilij",
+              "fi": "Vasili",
+              "sk": "Vasilij"
+            },
+            "lastName": {
+              "default": "Podkolzin"
+            },
+            "name": {
+              "default": "V. Podkolzin"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8481617.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-dal-podkolzin-scores-goal-against-casey-desmith-6384529330112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-dal-podkolzin-marque-un-but-contre-casey-desmith-6384530784112",
+            "highlightClip": 6384529330112,
+            "highlightClipFr": 6384530784112,
+            "discreteClip": 6384530878112,
+            "discreteClipFr": 6384528643112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "03:40",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478458,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Roslovic"
+                },
+                "name": {
+                  "default": "J. Roslovic"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8480803,
+                "firstName": {
+                  "default": "Evan"
+                },
+                "lastName": {
+                  "default": "Bouchard"
+                },
+                "name": {
+                  "default": "E. Bouchard"
+                },
+                "assistsToDate": 8,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020207/ev155.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 211,
+            "strength": "pp",
+            "playerId": 8477934,
+            "firstName": {
+              "default": "Leon"
+            },
+            "lastName": {
+              "default": "Draisaitl"
+            },
+            "name": {
+              "default": "L. Draisaitl"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8477934.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/leon-draisaitl-with-a-powerplay-goal-vs-dallas-stars-6384530310112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-dal-draisaitl-marque-un-but-en-a-n-contre-casey-desmith-6384529451112",
+            "highlightClip": 6384530310112,
+            "highlightClipFr": 6384529451112,
+            "discreteClip": 6384529029112,
+            "discreteClipFr": 6384530687112,
+            "goalsToDate": 10,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "07:07",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478458,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Roslovic"
+                },
+                "name": {
+                  "default": "J. Roslovic"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8478402,
+                "firstName": {
+                  "default": "Connor"
+                },
+                "lastName": {
+                  "default": "McDavid"
+                },
+                "name": {
+                  "default": "C. McDavid"
+                },
+                "assistsToDate": 17,
+                "sweaterNumber": 97
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020207/ev211.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 105,
+            "strength": "pp",
+            "playerId": 8478420,
+            "firstName": {
+              "default": "Mikko"
+            },
+            "lastName": {
+              "default": "Rantanen"
+            },
+            "name": {
+              "default": "M. Rantanen"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8478420.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-dal-rantanen-scores-ppg-against-stuart-skinner-6384532916112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-dal-rantanen-marque-un-but-en-a-n-contre-stuart-skinner-6384532425112",
+            "highlightClip": 6384532916112,
+            "highlightClipFr": 6384532425112,
+            "discreteClip": 6384532521112,
+            "discreteClipFr": 6384531753112,
+            "goalsToDate": 6,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "09:10",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482740,
+                "firstName": {
+                  "default": "Wyatt"
+                },
+                "lastName": {
+                  "default": "Johnston"
+                },
+                "name": {
+                  "default": "W. Johnston"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 53
+              },
+              {
+                "playerId": 8480027,
+                "firstName": {
+                  "default": "Jason"
+                },
+                "lastName": {
+                  "default": "Robertson"
+                },
+                "name": {
+                  "default": "J. Robertson"
+                },
+                "assistsToDate": 8,
+                "sweaterNumber": 21
+              }
+            ],
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 844,
+            "strength": "ev",
+            "playerId": 8478402,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "McDavid"
+            },
+            "name": {
+              "default": "C. McDavid"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478402.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-dal-mcdavid-scores-goal-against-casey-desmith-6384533480112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-dal-mcdavid-marque-un-but-contre-casey-desmith-6384533767112",
+            "highlightClip": 6384533480112,
+            "highlightClipFr": 6384533767112,
+            "discreteClip": 6384533667112,
+            "discreteClipFr": 6384533858112,
+            "goalsToDate": 4,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "07:51",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476454,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Nugent-Hopkins"
+                },
+                "name": {
+                  "default": "R. Nugent-Hopkins"
+                },
+                "assistsToDate": 11,
+                "sweaterNumber": 93
+              },
+              {
+                "playerId": 8478233,
+                "firstName": {
+                  "default": "Andrew"
+                },
+                "lastName": {
+                  "default": "Mangiapane"
+                },
+                "name": {
+                  "default": "A. Mangiapane"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020207/ev844.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 853,
+            "strength": "ev",
+            "playerId": 8478420,
+            "firstName": {
+              "default": "Mikko"
+            },
+            "lastName": {
+              "default": "Rantanen"
+            },
+            "name": {
+              "default": "M. Rantanen"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8478420.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-dal-rantanen-scores-goal-against-stuart-skinner-6384534156112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-dal-rantanen-marque-un-but-contre-stuart-skinner-6384533770112",
+            "highlightClip": 6384534156112,
+            "highlightClipFr": 6384533770112,
+            "discreteClip": 6384533579112,
+            "discreteClipFr": 6384533384112,
+            "goalsToDate": 7,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "08:37",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482740,
+                "firstName": {
+                  "default": "Wyatt"
+                },
+                "lastName": {
+                  "default": "Johnston"
+                },
+                "name": {
+                  "default": "W. Johnston"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 53
+              },
+              {
+                "playerId": 8475755,
+                "firstName": {
+                  "default": "Alexander",
+                  "es": "Alex"
+                },
+                "lastName": {
+                  "default": "Petrovic"
+                },
+                "name": {
+                  "default": "A. Petrovic"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 28
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020207/ev853.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 909,
+            "strength": "ev",
+            "playerId": 8480036,
+            "firstName": {
+              "default": "Miro"
+            },
+            "lastName": {
+              "default": "Heiskanen"
+            },
+            "name": {
+              "default": "M. Heiskanen"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8480036.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/edm-dal-heiskanen-scores-goal-against-stuart-skinner-6384534550112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/edm-dal-heiskanen-marque-un-but-contre-stuart-skinner-6384535432112",
+            "highlightClip": 6384534550112,
+            "highlightClipFr": 6384535432112,
+            "discreteClip": 6384535034112,
+            "discreteClipFr": 6384534548112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "12:20",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478420,
+                "firstName": {
+                  "default": "Mikko"
+                },
+                "lastName": {
+                  "default": "Rantanen"
+                },
+                "name": {
+                  "default": "M. Rantanen"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 96
+              },
+              {
+                "playerId": 8482740,
+                "firstName": {
+                  "default": "Wyatt"
+                },
+                "lastName": {
+                  "default": "Johnston"
+                },
+                "name": {
+                  "default": "W. Johnston"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 53
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020207/ev909.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 5,
+          "periodType": "SO",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1010",
+            "eventId": 113,
+            "strength": "ev",
+            "playerId": 8482740,
+            "firstName": {
+              "default": "Wyatt"
+            },
+            "lastName": {
+              "default": "Johnston"
+            },
+            "name": {
+              "default": "W. Johnston"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8482740.png",
+            "discreteClip": 6384534593112,
+            "discreteClipFr": 6384534209112,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "00:00",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [
+      {
+        "sequence": 1,
+        "playerId": 8478402,
+        "teamAbbrev": {
+          "default": "EDM"
+        },
+        "firstName": {
+          "default": "Connor"
+        },
+        "lastName": {
+          "default": "McDavid"
+        },
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478402.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 2,
+        "playerId": 8480027,
+        "teamAbbrev": {
+          "default": "DAL"
+        },
+        "firstName": {
+          "default": "Jason"
+        },
+        "lastName": {
+          "default": "Robertson"
+        },
+        "shotType": "wrist",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8480027.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 3,
+        "playerId": 8477934,
+        "teamAbbrev": {
+          "default": "EDM"
+        },
+        "firstName": {
+          "default": "Leon"
+        },
+        "lastName": {
+          "default": "Draisaitl"
+        },
+        "shotType": "backhand",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8477934.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 4,
+        "playerId": 8478420,
+        "teamAbbrev": {
+          "default": "DAL"
+        },
+        "firstName": {
+          "default": "Mikko"
+        },
+        "lastName": {
+          "default": "Rantanen"
+        },
+        "shotType": "snap",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8478420.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 5,
+        "playerId": 8476454,
+        "teamAbbrev": {
+          "default": "EDM"
+        },
+        "firstName": {
+          "default": "Ryan"
+        },
+        "lastName": {
+          "default": "Nugent-Hopkins"
+        },
+        "shotType": "snap",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8476454.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 6,
+        "playerId": 8482740,
+        "teamAbbrev": {
+          "default": "DAL"
+        },
+        "firstName": {
+          "default": "Wyatt"
+        },
+        "lastName": {
+          "default": "Johnston"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8482740.png",
+        "gameWinner": true,
+        "discreteClip": 6384534593112,
+        "discreteClipFr": 6384534209112
+      }
+    ],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8478420,
+        "teamAbbrev": "DAL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8478420.png",
+        "name": {
+          "default": "M. Rantanen"
+        },
+        "sweaterNo": 96,
+        "position": "R",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8482740,
+        "teamAbbrev": "DAL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8482740.png",
+        "name": {
+          "default": "W. Johnston"
+        },
+        "sweaterNo": 53,
+        "position": "C",
+        "goals": 0,
+        "assists": 3,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8478402,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478402.png",
+        "name": {
+          "default": "C. McDavid"
+        },
+        "sweaterNo": 97,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Esa"
+              },
+              "lastName": {
+                "default": "Lindell"
+              },
+              "sweaterNumber": 23
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "McDavid"
+              },
+              "sweaterNumber": 97
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "07:49",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Darnell"
+              },
+              "lastName": {
+                "default": "Nurse"
+              },
+              "sweaterNumber": 25
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikko"
+              },
+              "lastName": {
+                "default": "Rantanen"
+              },
+              "sweaterNumber": 96
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "09:33",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "A. Erne"
+            }
+          },
+          {
+            "timeInPeriod": "10:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Roslovic"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Casey"
+              },
+              "lastName": {
+                "default": "DeSmith"
+              },
+              "sweaterNumber": 1
+            },
+            "descKey": "interference-goalkeeper"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Lian"
+              },
+              "lastName": {
+                "default": "Bichsel"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matt"
+              },
+              "lastName": {
+                "default": "Savoie"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "08:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Leon"
+              },
+              "lastName": {
+                "default": "Draisaitl"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikko"
+              },
+              "lastName": {
+                "default": "Rantanen"
+              },
+              "sweaterNumber": 96
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "15:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alec"
+              },
+              "lastName": {
+                "default": "Regula"
+              },
+              "sweaterNumber": 75
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Erne"
+              },
+              "sweaterNumber": 73
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

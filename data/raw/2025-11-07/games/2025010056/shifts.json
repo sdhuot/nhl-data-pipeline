@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": 15505029,
+      "detailCode": null,
+      "duration": null,
+      "endTime": "18:59",
+      "eventDescription": "EN",
+      "eventDetails": "",
+      "eventNumber": 9023,
+      "firstName": "Olle",
+      "gameId": 2025010056,
+      "hexValue": "#C8102E",
+      "lastName": "Lycksell",
+      "period": 3,
+      "playerId": 8480245,
+      "shiftNumber": 0,
+      "startTime": "18:59",
+      "teamAbbrev": "OTT",
+      "teamId": 9,
+      "teamName": "Ottawa Senators",
+      "typeCode": 505
+    },
+    {
+      "id": 15505030,
+      "detailCode": null,
+      "duration": null,
+      "endTime": "15:34",
+      "eventDescription": "PPG",
+      "eventDetails": "Tim StÃ¼tzle, Dylan Cozens",
+      "eventNumber": 9020,
+      "firstName": "Stephen",
+      "gameId": 2025010056,
+      "hexValue": "#C8102E",
+      "lastName": "Halliday",
+      "period": 3,
+      "playerId": 8483676,
+      "shiftNumber": 0,
+      "startTime": "15:34",
+      "teamAbbrev": "OTT",
+      "teamId": 9,
+      "teamName": "Ottawa Senators",
+      "typeCode": 505
+    }
+  ],
+  "total": 2
+}

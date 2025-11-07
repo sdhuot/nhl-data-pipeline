@@ -1,0 +1,1231 @@
+{
+  "id": 2025020007,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-08",
+  "venue": {
+    "default": "T-Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Paradise"
+  },
+  "startTimeUTC": "2025-10-09T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 5,
+    "periodType": "SO",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 385,
+      "market": "N",
+      "countryCode": "US",
+      "network": "TNT",
+      "sequenceNumber": 11
+    },
+    {
+      "id": 578,
+      "market": "N",
+      "countryCode": "US",
+      "network": "HBO MAX",
+      "sequenceNumber": 19
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 26,
+    "commonName": {
+      "default": "Kings"
+    },
+    "abbrev": "LAK",
+    "placeName": {
+      "default": "Los Angeles"
+    },
+    "placeNameWithPreposition": {
+      "default": "Los Angeles",
+      "fr": "de Los Angeles"
+    },
+    "score": 6,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+  },
+  "homeTeam": {
+    "id": 54,
+    "commonName": {
+      "default": "Golden Knights"
+    },
+    "abbrev": "VGK",
+    "placeName": {
+      "default": "Vegas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vegas",
+      "fr": "de Vegas"
+    },
+    "score": 5,
+    "sog": 35,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 124,
+            "strength": "pp",
+            "playerId": 8483808,
+            "firstName": {
+              "default": "Andrei",
+              "cs": "Andrej",
+              "sk": "Andrej"
+            },
+            "lastName": {
+              "default": "Kuzmenko"
+            },
+            "name": {
+              "default": "A. Kuzmenko"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8483808.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/andrei-kuzmenko-with-a-powerplay-goal-vs-vegas-golden-knights-6382428369112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/andrei-kuzmenko-with-a-powerplay-goal-vs-les-go-lden-knights-de-vegas-6382426803112",
+            "highlightClip": 6382428369112,
+            "highlightClipFr": 6382426803112,
+            "discreteClip": 6382427993112,
+            "discreteClipFr": 6382428470112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "04:41",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8471685,
+                "firstName": {
+                  "default": "Anze",
+                  "cs": "Anže",
+                  "sk": "Anže"
+                },
+                "lastName": {
+                  "default": "Kopitar"
+                },
+                "name": {
+                  "default": "A. Kopitar"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8477942,
+                "firstName": {
+                  "default": "Kevin"
+                },
+                "lastName": {
+                  "default": "Fiala"
+                },
+                "name": {
+                  "default": "K. Fiala"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 22
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev124.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 351,
+            "strength": "ev",
+            "playerId": 8482124,
+            "firstName": {
+              "default": "Quinton"
+            },
+            "lastName": {
+              "default": "Byfield"
+            },
+            "name": {
+              "default": "Q. Byfield"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8482124.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-byfield-scores-goal-against-adin-hill-6382429036112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-byfield-marque-un-but-contre-adin-hill-6382427843112",
+            "highlightClip": 6382429036112,
+            "highlightClipFr": 6382427843112,
+            "discreteClip": 6382429907112,
+            "discreteClipFr": 6382430697112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "11:57",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev351.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 514,
+            "strength": "ev",
+            "playerId": 8481604,
+            "firstName": {
+              "default": "Pavel"
+            },
+            "lastName": {
+              "default": "Dorofeyev",
+              "cs": "Dorofejev",
+              "fi": "Dorofejev",
+              "sk": "Dorofejev"
+            },
+            "name": {
+              "default": "P. Dorofeyev",
+              "cs": "P. Dorofejev",
+              "fi": "P. Dorofejev",
+              "sk": "P. Dorofejev"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-dorofeyev-scores-goal-against-anton-forsberg-6382436879112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-dorofeyev-marque-un-but-contre-anton-forsberg-6382435106112",
+            "highlightClip": 6382436879112,
+            "highlightClipFr": 6382435106112,
+            "discreteClip": 6382436958112,
+            "discreteClipFr": 6382435980112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "02:10",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev514.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 673,
+            "strength": "ev",
+            "playerId": 8482408,
+            "firstName": {
+              "default": "Jeff"
+            },
+            "lastName": {
+              "default": "Malott",
+              "cs": "Malottt",
+              "de": "Malottt",
+              "es": "Malottt",
+              "fi": "Malottt",
+              "sk": "Malottt",
+              "sv": "Malottt"
+            },
+            "name": {
+              "default": "J. Malott"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8482408.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-malott-scores-goal-against-adin-hill-6382444084112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-malott-marque-un-but-contre-adin-hill-6382446541112",
+            "highlightClip": 6382444084112,
+            "highlightClipFr": 6382446541112,
+            "discreteClip": 6382444285112,
+            "discreteClipFr": 6382444076112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "13:41",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476469,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Armia"
+                },
+                "name": {
+                  "default": "J. Armia"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 40
+              },
+              {
+                "playerId": 8481532,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Turcotte"
+                },
+                "name": {
+                  "default": "A. Turcotte"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev673.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 727,
+            "strength": "pp",
+            "playerId": 8481604,
+            "firstName": {
+              "default": "Pavel"
+            },
+            "lastName": {
+              "default": "Dorofeyev",
+              "cs": "Dorofejev",
+              "fi": "Dorofejev",
+              "sk": "Dorofejev"
+            },
+            "name": {
+              "default": "P. Dorofeyev",
+              "cs": "P. Dorofejev",
+              "fi": "P. Dorofejev",
+              "sk": "P. Dorofejev"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-dorofeyev-scores-ppg-against-anton-forsberg-6382441443112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-dorofeyev-marque-un-but-en-a-n-contre-anton-forsberg-6382443020112",
+            "highlightClip": 6382441443112,
+            "highlightClipFr": 6382443020112,
+            "discreteClip": 6382442513112,
+            "discreteClipFr": 6382443120112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "17:32",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475913,
+                "firstName": {
+                  "default": "Mark"
+                },
+                "lastName": {
+                  "default": "Stone"
+                },
+                "name": {
+                  "default": "M. Stone"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 61
+              },
+              {
+                "playerId": 8478403,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Eichel"
+                },
+                "name": {
+                  "default": "J. Eichel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev727.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1351",
+            "eventId": 751,
+            "strength": "pp",
+            "playerId": 8481604,
+            "firstName": {
+              "default": "Pavel"
+            },
+            "lastName": {
+              "default": "Dorofeyev",
+              "cs": "Dorofejev",
+              "fi": "Dorofejev",
+              "sk": "Dorofejev"
+            },
+            "name": {
+              "default": "P. Dorofeyev",
+              "cs": "P. Dorofejev",
+              "fi": "P. Dorofejev",
+              "sk": "P. Dorofejev"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-dorofeyev-scores-ppg-against-anton-forsberg-6382442948112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-dorofeyev-marque-un-but-en-a-n-contre-anton-forsberg-6382443041112",
+            "highlightClip": 6382442948112,
+            "highlightClipFr": 6382443041112,
+            "discreteClip": 6382443817112,
+            "discreteClipFr": 6382441976112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "19:14",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475913,
+                "firstName": {
+                  "default": "Mark"
+                },
+                "lastName": {
+                  "default": "Stone"
+                },
+                "name": {
+                  "default": "M. Stone"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 61
+              },
+              {
+                "playerId": 8478403,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Eichel"
+                },
+                "name": {
+                  "default": "J. Eichel"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev751.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 839,
+            "strength": "ev",
+            "playerId": 8478403,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Eichel"
+            },
+            "name": {
+              "default": "J. Eichel"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-eichel-scores-goal-against-anton-forsberg-6382446905112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-eichel-marque-un-but-contre-anton-forsberg-6382446999112",
+            "highlightClip": 6382446905112,
+            "highlightClipFr": 6382446999112,
+            "discreteClip": 6382447861112,
+            "discreteClipFr": 6382445524112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "05:06",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478483,
+                "firstName": {
+                  "default": "Mitch",
+                  "cs": "Mitchell",
+                  "de": "Mitchell",
+                  "es": "Mitchell",
+                  "fi": "Mitchell",
+                  "sk": "Mitchell",
+                  "sv": "Mitchell"
+                },
+                "lastName": {
+                  "default": "Marner"
+                },
+                "name": {
+                  "default": "M. Marner"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 93
+              },
+              {
+                "playerId": 8477964,
+                "firstName": {
+                  "default": "Ivan"
+                },
+                "lastName": {
+                  "default": "Barbashev",
+                  "cs": "Barbašev",
+                  "fi": "Barbashov",
+                  "sk": "Barbašev"
+                },
+                "name": {
+                  "default": "I. Barbashev",
+                  "cs": "I. Barbašev",
+                  "fi": "I. Barbashov",
+                  "sk": "I. Barbašev"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 49
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev839.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 896,
+            "strength": "ev",
+            "playerId": 8477964,
+            "firstName": {
+              "default": "Ivan"
+            },
+            "lastName": {
+              "default": "Barbashev",
+              "cs": "Barbašev",
+              "fi": "Barbashov",
+              "sk": "Barbašev"
+            },
+            "name": {
+              "default": "I. Barbashev",
+              "cs": "I. Barbašev",
+              "fi": "I. Barbashov",
+              "sk": "I. Barbašev"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8477964.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-barbashev-scores-goal-against-anton-forsberg-6382448126112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-barbashev-marque-un-but-contre-anton-forsberg-6382448524112",
+            "highlightClip": 6382448126112,
+            "highlightClipFr": 6382448524112,
+            "discreteClip": 6382449479112,
+            "discreteClipFr": 6382449302112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "08:43",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478403,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Eichel"
+                },
+                "name": {
+                  "default": "J. Eichel"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 9
+              },
+              {
+                "playerId": 8478483,
+                "firstName": {
+                  "default": "Mitch",
+                  "cs": "Mitchell",
+                  "de": "Mitchell",
+                  "es": "Mitchell",
+                  "fi": "Mitchell",
+                  "sk": "Mitchell",
+                  "sv": "Mitchell"
+                },
+                "lastName": {
+                  "default": "Marner"
+                },
+                "name": {
+                  "default": "M. Marner"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev896.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 940,
+            "strength": "sh",
+            "playerId": 8479675,
+            "firstName": {
+              "default": "Trevor"
+            },
+            "lastName": {
+              "default": "Moore"
+            },
+            "name": {
+              "default": "T. Moore"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8479675.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-moore-scores-shg-against-adin-hill-6382450309112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-moore-marque-un-but-en-i-n-contre-adin-hill-6382450891112",
+            "highlightClip": 6382450309112,
+            "highlightClipFr": 6382450891112,
+            "discreteClip": 6382450992112,
+            "discreteClipFr": 6382450007112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "11:39",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476479,
+                "firstName": {
+                  "default": "Phillip"
+                },
+                "lastName": {
+                  "default": "Danault"
+                },
+                "name": {
+                  "default": "P. Danault"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8474563,
+                "firstName": {
+                  "default": "Drew"
+                },
+                "lastName": {
+                  "default": "Doughty"
+                },
+                "name": {
+                  "default": "D. Doughty"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev940.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 353,
+            "strength": "ev",
+            "playerId": 8482730,
+            "firstName": {
+              "default": "Brandt"
+            },
+            "lastName": {
+              "default": "Clarke"
+            },
+            "name": {
+              "default": "B. Clarke"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8482730.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-vgk-clarke-scores-goal-against-adin-hill-6382451301112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-vgk-clarke-marque-un-but-contre-adin-hill-6382450617112",
+            "highlightClip": 6382451301112,
+            "highlightClipFr": 6382450617112,
+            "discreteClip": 6382450899112,
+            "discreteClipFr": 6382449908112,
+            "goalsToDate": 1,
+            "awayScore": 5,
+            "homeScore": 5,
+            "timeInPeriod": "14:00",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482124,
+                "firstName": {
+                  "default": "Quinton"
+                },
+                "lastName": {
+                  "default": "Byfield"
+                },
+                "name": {
+                  "default": "Q. Byfield"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 55
+              },
+              {
+                "playerId": 8483808,
+                "firstName": {
+                  "default": "Andrei",
+                  "cs": "Andrej",
+                  "sk": "Andrej"
+                },
+                "lastName": {
+                  "default": "Kuzmenko"
+                },
+                "name": {
+                  "default": "A. Kuzmenko"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 96
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020007/ev353.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 5,
+          "periodType": "SO",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "0101",
+            "eventId": 478,
+            "strength": "ev",
+            "playerId": 8479675,
+            "firstName": {
+              "default": "Trevor"
+            },
+            "lastName": {
+              "default": "Moore"
+            },
+            "name": {
+              "default": "T. Moore"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8479675.png",
+            "awayScore": 6,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "00:00",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [
+      {
+        "sequence": 1,
+        "playerId": 8477960,
+        "teamAbbrev": {
+          "default": "LAK"
+        },
+        "firstName": {
+          "default": "Adrian"
+        },
+        "lastName": {
+          "default": "Kempe"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8477960.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 2,
+        "playerId": 8478403,
+        "teamAbbrev": {
+          "default": "VGK"
+        },
+        "firstName": {
+          "default": "Jack"
+        },
+        "lastName": {
+          "default": "Eichel"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 3,
+        "playerId": 8479675,
+        "teamAbbrev": {
+          "default": "LAK"
+        },
+        "firstName": {
+          "default": "Trevor"
+        },
+        "lastName": {
+          "default": "Moore"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8479675.png",
+        "gameWinner": true
+      },
+      {
+        "sequence": 4,
+        "playerId": 8481604,
+        "teamAbbrev": {
+          "default": "VGK"
+        },
+        "firstName": {
+          "default": "Pavel"
+        },
+        "lastName": {
+          "default": "Dorofeyev",
+          "cs": "Dorofejev",
+          "fi": "Dorofejev",
+          "sk": "Dorofejev"
+        },
+        "shotType": "backhand",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 5,
+        "playerId": 8477942,
+        "teamAbbrev": {
+          "default": "LAK"
+        },
+        "firstName": {
+          "default": "Kevin"
+        },
+        "lastName": {
+          "default": "Fiala"
+        },
+        "shotType": "snap",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8477942.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 6,
+        "playerId": 8478483,
+        "teamAbbrev": {
+          "default": "VGK"
+        },
+        "firstName": {
+          "default": "Mitch",
+          "cs": "Mitchell",
+          "de": "Mitchell",
+          "es": "Mitchell",
+          "fi": "Mitchell",
+          "sk": "Mitchell",
+          "sv": "Mitchell"
+        },
+        "lastName": {
+          "default": "Marner"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478483.png",
+        "gameWinner": false
+      }
+    ],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481604,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+        "name": {
+          "default": "P. Dorofeyev",
+          "cs": "P. Dorofejev",
+          "fi": "P. Dorofejev",
+          "sk": "P. Dorofejev"
+        },
+        "sweaterNo": 16,
+        "position": "R",
+        "goals": 3,
+        "assists": 0,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8478403,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+        "name": {
+          "default": "J. Eichel"
+        },
+        "sweaterNo": 9,
+        "position": "C",
+        "goals": 1,
+        "assists": 3,
+        "points": 4
+      },
+      {
+        "star": 3,
+        "playerId": 8479675,
+        "teamAbbrev": "LAK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8479675.png",
+        "name": {
+          "default": "T. Moore"
+        },
+        "sweaterNo": 12,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "William"
+              },
+              "lastName": {
+                "default": "Karlsson"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anze",
+                "cs": "Anže",
+                "sk": "Anže"
+              },
+              "lastName": {
+                "default": "Kopitar"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "09:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Sissons"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Quinton"
+              },
+              "lastName": {
+                "default": "Byfield"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "09:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Quinton"
+              },
+              "lastName": {
+                "default": "Byfield"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "descKey": "embellishment"
+          },
+          {
+            "timeInPeriod": "14:21",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Drew"
+              },
+              "lastName": {
+                "default": "Doughty"
+              },
+              "sweaterNumber": 8
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "William"
+              },
+              "lastName": {
+                "default": "Karlsson"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "14:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kaedan"
+              },
+              "lastName": {
+                "default": "Korczak"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Turcotte"
+              },
+              "sweaterNumber": 15
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "14:20",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Turcotte"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "18:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Laferriere"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Eichel"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:15",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joel"
+              },
+              "lastName": {
+                "default": "Edmundson"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mark"
+              },
+              "lastName": {
+                "default": "Stone"
+              },
+              "sweaterNumber": 61
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

@@ -1,0 +1,921 @@
+{
+  "id": 2025020023,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-11",
+  "venue": {
+    "default": "Scotiabank Saddledome"
+  },
+  "venueLocation": {
+    "default": "Calgary"
+  },
+  "startTimeUTC": "2025-10-11T20:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "US/Mountain",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 282,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN",
+      "sequenceNumber": 101
+    },
+    {
+      "id": 566,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNMW",
+      "sequenceNumber": 273
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 19,
+    "commonName": {
+      "default": "Blues"
+    },
+    "abbrev": "STL",
+    "placeName": {
+      "default": "St. Louis"
+    },
+    "placeNameWithPreposition": {
+      "default": "St. Louis",
+      "fr": "de St. Louis"
+    },
+    "score": 4,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 20,
+    "commonName": {
+      "default": "Flames"
+    },
+    "abbrev": "CGY",
+    "placeName": {
+      "default": "Calgary"
+    },
+    "placeNameWithPreposition": {
+      "default": "Calgary",
+      "fr": "de Calgary"
+    },
+    "score": 2,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CGY_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CGY_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 369,
+            "strength": "pp",
+            "playerId": 8482679,
+            "firstName": {
+              "default": "Matt"
+            },
+            "lastName": {
+              "default": "Coronato"
+            },
+            "name": {
+              "default": "M. Coronato"
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8482679.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-cgy-coronato-scores-ppg-against-joel-hofer-6382628698112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-cgy-coronato-marque-un-but-en-a-n-contre-joel-hofer-6382629483112",
+            "highlightClip": 6382628698112,
+            "highlightClipFr": 6382629483112,
+            "discreteClip": 6382630364112,
+            "discreteClipFr": 6382629577112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CGY"
+            },
+            "timeInPeriod": "14:49",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480797,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Farabee"
+                },
+                "name": {
+                  "default": "J. Farabee"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 86
+              },
+              {
+                "playerId": 8475172,
+                "firstName": {
+                  "default": "Nazem"
+                },
+                "lastName": {
+                  "default": "Kadri"
+                },
+                "name": {
+                  "default": "N. Kadri"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020023/ev369.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 709,
+            "strength": "ev",
+            "playerId": 8482089,
+            "firstName": {
+              "default": "Jake"
+            },
+            "lastName": {
+              "default": "Neighbours"
+            },
+            "name": {
+              "default": "J. Neighbours"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482089.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-cgy-neighbours-scores-goal-against-dustin-wolf-6382629037112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-cgy-neighbours-marque-un-but-contre-dustin-wolf-6382629905112",
+            "highlightClip": 6382629037112,
+            "highlightClipFr": 6382629905112,
+            "discreteClip": 6382631275112,
+            "discreteClipFr": 6382631674112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "12:41",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480023,
+                "firstName": {
+                  "default": "Robert"
+                },
+                "lastName": {
+                  "default": "Thomas"
+                },
+                "name": {
+                  "default": "R. Thomas"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8477402,
+                "firstName": {
+                  "default": "Pavel"
+                },
+                "lastName": {
+                  "default": "Buchnevich",
+                  "cs": "Bučněvič",
+                  "fi": "Butshnevitsh",
+                  "sk": "Bučněvič"
+                },
+                "name": {
+                  "default": "P. Buchnevich",
+                  "cs": "P. Bučněvič",
+                  "fi": "P. Butshnevitsh",
+                  "sk": "P. Bučněvič"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 89
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020023/ev709.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 744,
+            "strength": "pp",
+            "playerId": 8480023,
+            "firstName": {
+              "default": "Robert"
+            },
+            "lastName": {
+              "default": "Thomas"
+            },
+            "name": {
+              "default": "R. Thomas"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480023.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-cgy-thomas-scores-ppg-against-dustin-wolf-6382629524112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-cgy-thomas-marque-un-but-en-a-n-contre-dustin-wolf-6382630024112",
+            "highlightClip": 6382629524112,
+            "highlightClipFr": 6382630024112,
+            "discreteClip": 6382630020112,
+            "discreteClipFr": 6382629628112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "14:25",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483516,
+                "firstName": {
+                  "default": "Jimmy"
+                },
+                "lastName": {
+                  "default": "Snuggerud"
+                },
+                "name": {
+                  "default": "J. Snuggerud"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 21
+              },
+              {
+                "playerId": 8475753,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Faulk"
+                },
+                "name": {
+                  "default": "J. Faulk"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 72
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020023/ev744.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 759,
+            "strength": "ev",
+            "playerId": 8482679,
+            "firstName": {
+              "default": "Matt"
+            },
+            "lastName": {
+              "default": "Coronato"
+            },
+            "name": {
+              "default": "M. Coronato"
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8482679.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-cgy-coronato-scores-goal-against-joel-hofer-6382631888112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-cgy-coronato-marque-un-but-contre-joel-hofer-6382630409112",
+            "highlightClip": 6382631888112,
+            "highlightClipFr": 6382630409112,
+            "discreteClip": 6382630026112,
+            "discreteClipFr": 6382630525112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "14:57",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480860,
+                "firstName": {
+                  "default": "Kevin"
+                },
+                "lastName": {
+                  "default": "Bahl"
+                },
+                "name": {
+                  "default": "K. Bahl"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 7
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020023/ev759.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 1051,
+            "strength": "ev",
+            "playerId": 8482089,
+            "firstName": {
+              "default": "Jake"
+            },
+            "lastName": {
+              "default": "Neighbours"
+            },
+            "name": {
+              "default": "J. Neighbours"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482089.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-cgy-neighbours-scores-goal-against-dustin-wolf-6382629953112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-cgy-neighbours-marque-un-but-contre-dustin-wolf-6382632226112",
+            "highlightClip": 6382629953112,
+            "highlightClipFr": 6382632226112,
+            "discreteClip": 6382631118112,
+            "discreteClipFr": 6382630358112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "11:07",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476892,
+                "firstName": {
+                  "default": "Colton"
+                },
+                "lastName": {
+                  "default": "Parayko"
+                },
+                "name": {
+                  "default": "C. Parayko"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 55
+              },
+              {
+                "playerId": 8475764,
+                "firstName": {
+                  "default": "Cam"
+                },
+                "lastName": {
+                  "default": "Fowler"
+                },
+                "name": {
+                  "default": "C. Fowler"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020023/ev1051.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1081,
+            "strength": "ev",
+            "playerId": 8480459,
+            "firstName": {
+              "default": "Pius"
+            },
+            "lastName": {
+              "default": "Suter"
+            },
+            "name": {
+              "default": "P. Suter"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480459.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/stl-cgy-suter-scores-goal-against-dustin-wolf-6382631522112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/stl-cgy-suter-marque-un-but-contre-dustin-wolf-6382633303112",
+            "highlightClip": 6382631522112,
+            "highlightClipFr": 6382633303112,
+            "discreteClip": 6382632215112,
+            "discreteClipFr": 6382630940112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "STL"
+            },
+            "timeInPeriod": "13:33",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481006,
+                "firstName": {
+                  "default": "Tyler"
+                },
+                "lastName": {
+                  "default": "Tucker"
+                },
+                "name": {
+                  "default": "T. Tucker"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 75
+              },
+              {
+                "playerId": 8477573,
+                "firstName": {
+                  "default": "Nathan"
+                },
+                "lastName": {
+                  "default": "Walker"
+                },
+                "name": {
+                  "default": "N. Walker"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 26
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020023/ev1081.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482089,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482089.png",
+        "name": {
+          "default": "J. Neighbours"
+        },
+        "sweaterNo": 63,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8480981,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8480981.png",
+        "name": {
+          "default": "J. Hofer"
+        },
+        "sweaterNo": 30,
+        "position": "G",
+        "goalsAgainstAverage": 2.0,
+        "savePctg": 0.931
+      },
+      {
+        "star": 3,
+        "playerId": 8482679,
+        "teamAbbrev": "CGY",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CGY/8482679.png",
+        "name": {
+          "default": "M. Coronato"
+        },
+        "sweaterNo": 27,
+        "position": "R",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:29",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick"
+              },
+              "lastName": {
+                "default": "Bjugstad"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lomberg"
+              },
+              "sweaterNumber": 70
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "04:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Blake"
+              },
+              "lastName": {
+                "default": "Coleman"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "Schenn"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "10:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Zary"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cam"
+              },
+              "lastName": {
+                "default": "Fowler"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "13:59",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Broberg"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "Pachal"
+              },
+              "sweaterNumber": 94
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "17:13",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pavel"
+              },
+              "lastName": {
+                "default": "Buchnevich",
+                "cs": "Bučněvič",
+                "fi": "Butshnevitsh",
+                "sk": "Bučněvič"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Yegor",
+                "cs": "Jegor",
+                "fi": "Jahor",
+                "sk": "Jegor"
+              },
+              "lastName": {
+                "default": "Sharangovich",
+                "cs": "Šarangovič",
+                "fi": "Sharanhovitsh",
+                "sk": "Šarangovič"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:24",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Tucker"
+              },
+              "sweaterNumber": 75
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lomberg"
+              },
+              "sweaterNumber": 70
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "03:24",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lomberg"
+              },
+              "sweaterNumber": 70
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Tucker"
+              },
+              "sweaterNumber": 75
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "03:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Robert"
+              },
+              "lastName": {
+                "default": "Thomas"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Samuel"
+              },
+              "lastName": {
+                "default": "Honzek"
+              },
+              "sweaterNumber": 29
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "05:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Parayko"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Yegor",
+                "cs": "Jegor",
+                "fi": "Jahor",
+                "sk": "Jegor"
+              },
+              "lastName": {
+                "default": "Sharangovich",
+                "cs": "Šarangovič",
+                "fi": "Sharanhovitsh",
+                "sk": "Šarangovič"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "13:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mikael"
+              },
+              "lastName": {
+                "default": "Backlund"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Robert"
+              },
+              "lastName": {
+                "default": "Thomas"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pius"
+              },
+              "lastName": {
+                "default": "Suter"
+              },
+              "sweaterNumber": 22
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Blake"
+              },
+              "lastName": {
+                "default": "Coleman"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "04:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nazem"
+              },
+              "lastName": {
+                "default": "Kadri"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "CGY"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Pavel"
+              },
+              "lastName": {
+                "default": "Buchnevich",
+                "cs": "Bučněvič",
+                "fi": "Butshnevitsh",
+                "sk": "Bučněvič"
+              },
+              "sweaterNumber": 89
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

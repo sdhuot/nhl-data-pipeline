@@ -1,0 +1,1165 @@
+{
+  "id": 2025020033,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-11",
+  "venue": {
+    "default": "Grand Casino Arena"
+  },
+  "venueLocation": {
+    "default": "St. Paul"
+  },
+  "startTimeUTC": "2025-10-12T00:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 567,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNNO",
+      "sequenceNumber": 274
+    },
+    {
+      "id": 565,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNOH",
+      "sequenceNumber": 276
+    },
+    {
+      "id": 569,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNWI",
+      "sequenceNumber": 410
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 29,
+    "commonName": {
+      "default": "Blue Jackets"
+    },
+    "abbrev": "CBJ",
+    "placeName": {
+      "default": "Columbus"
+    },
+    "placeNameWithPreposition": {
+      "default": "Columbus",
+      "fr": "de Columbus"
+    },
+    "score": 7,
+    "sog": 32,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg"
+  },
+  "homeTeam": {
+    "id": 30,
+    "commonName": {
+      "default": "Wild"
+    },
+    "abbrev": "MIN",
+    "placeName": {
+      "default": "Minnesota"
+    },
+    "placeNameWithPreposition": {
+      "default": "Minnesota",
+      "fr": "du Minnesota"
+    },
+    "score": 4,
+    "sog": 52,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 201,
+            "strength": "ev",
+            "playerId": 8477425,
+            "firstName": {
+              "default": "Miles"
+            },
+            "lastName": {
+              "default": "Wood"
+            },
+            "name": {
+              "default": "M. Wood"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8477425.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-wood-scores-goal-against-filip-gustavsson-6382633769112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-wood-marque-un-but-contre-filip-gustavsson-6382635627112",
+            "highlightClip": 6382633769112,
+            "highlightClipFr": 6382635627112,
+            "discreteClip": 6382635726112,
+            "discreteClipFr": 6382633861112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "02:29",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479944,
+                "firstName": {
+                  "default": "Zachary"
+                },
+                "lastName": {
+                  "default": "Aston-Reese"
+                },
+                "name": {
+                  "default": "Z. Aston-Reese"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev201.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 504,
+            "strength": "ev",
+            "playerId": 8480893,
+            "firstName": {
+              "default": "Kirill"
+            },
+            "lastName": {
+              "default": "Marchenko",
+              "cs": "Marčenko",
+              "fi": "Martshenko",
+              "sk": "Marčenko"
+            },
+            "name": {
+              "default": "K. Marchenko",
+              "cs": "K. Marčenko",
+              "fi": "K. Martshenko",
+              "sk": "K. Marčenko"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8480893.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-marchenko-scores-goal-against-filip-gustavsson-6382637536112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-marchenko-marque-un-but-contre-filip-gustavsson-6382636744112",
+            "highlightClip": 6382637536112,
+            "highlightClipFr": 6382636744112,
+            "discreteClip": 6382636360112,
+            "discreteClipFr": 6382637045112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "00:07",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481716,
+                "firstName": {
+                  "default": "Dmitri",
+                  "cs": "Dmitrij",
+                  "sk": "Dmitrij"
+                },
+                "lastName": {
+                  "default": "Voronkov"
+                },
+                "name": {
+                  "default": "D. Voronkov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 10
+              },
+              {
+                "playerId": 8478500,
+                "firstName": {
+                  "default": "Ivan"
+                },
+                "lastName": {
+                  "default": "Provorov"
+                },
+                "name": {
+                  "default": "I. Provorov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev504.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 112,
+            "strength": "pp",
+            "playerId": 8481557,
+            "firstName": {
+              "default": "Matt"
+            },
+            "lastName": {
+              "default": "Boldy"
+            },
+            "name": {
+              "default": "M. Boldy"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8481557.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-boldy-scores-ppg-against-elvis-merzlikins-6382637452112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-boldy-marque-un-but-en-a-n-contre-elvis-merzlikins-6382636085112",
+            "highlightClip": 6382637452112,
+            "highlightClipFr": 6382636085112,
+            "discreteClip": 6382637348112,
+            "discreteClipFr": 6382637056112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "06:18",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478493,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Eriksson Ek"
+                },
+                "name": {
+                  "default": "J. Eriksson Ek"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8478864,
+                "firstName": {
+                  "default": "Kirill"
+                },
+                "lastName": {
+                  "default": "Kaprizov"
+                },
+                "name": {
+                  "default": "K. Kaprizov"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 97
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev112.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 616,
+            "strength": "pp",
+            "playerId": 8478864,
+            "firstName": {
+              "default": "Kirill"
+            },
+            "lastName": {
+              "default": "Kaprizov"
+            },
+            "name": {
+              "default": "K. Kaprizov"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8478864.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-kaprizov-scores-ppg-against-elvis-merzlikins-6382636486112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-kaprizov-marque-un-but-en-a-n-contre-elvis-merzlikins-6382636487112",
+            "highlightClip": 6382636486112,
+            "highlightClipFr": 6382636487112,
+            "discreteClip": 6382636277112,
+            "discreteClipFr": 6382638238112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "08:24",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481557,
+                "firstName": {
+                  "default": "Matt"
+                },
+                "lastName": {
+                  "default": "Boldy"
+                },
+                "name": {
+                  "default": "M. Boldy"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 12
+              },
+              {
+                "playerId": 8475765,
+                "firstName": {
+                  "default": "Vladimir"
+                },
+                "lastName": {
+                  "default": "Tarasenko"
+                },
+                "name": {
+                  "default": "V. Tarasenko"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev616.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 205,
+            "strength": "ev",
+            "playerId": 8480893,
+            "firstName": {
+              "default": "Kirill"
+            },
+            "lastName": {
+              "default": "Marchenko",
+              "cs": "Marčenko",
+              "fi": "Martshenko",
+              "sk": "Marčenko"
+            },
+            "name": {
+              "default": "K. Marchenko",
+              "cs": "K. Marčenko",
+              "fi": "K. Martshenko",
+              "sk": "K. Marčenko"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8480893.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-marchenko-scores-goal-against-filip-gustavsson-6382636895112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-marchenko-marque-un-but-contre-filip-gustavsson-6382638355112",
+            "highlightClip": 6382636895112,
+            "highlightClipFr": 6382638355112,
+            "discreteClip": 6382636682112,
+            "discreteClipFr": 6382638748112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "18:48",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481716,
+                "firstName": {
+                  "default": "Dmitri",
+                  "cs": "Dmitrij",
+                  "sk": "Dmitrij"
+                },
+                "lastName": {
+                  "default": "Voronkov"
+                },
+                "name": {
+                  "default": "D. Voronkov"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 10
+              },
+              {
+                "playerId": 8478460,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Werenski"
+                },
+                "name": {
+                  "default": "Z. Werenski"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev205.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 830,
+            "strength": "ev",
+            "playerId": 8478460,
+            "firstName": {
+              "default": "Zach"
+            },
+            "lastName": {
+              "default": "Werenski"
+            },
+            "name": {
+              "default": "Z. Werenski"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8478460.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-werenski-scores-goal-against-filip-gustavsson-6382638572112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-werenski-marque-un-but-contre-filip-gustavsson-6382637008112",
+            "highlightClip": 6382638572112,
+            "highlightClipFr": 6382637008112,
+            "discreteClip": 6382637103112,
+            "discreteClipFr": 6382637993112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "01:11",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484166,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Fantilli"
+                },
+                "name": {
+                  "default": "A. Fantilli"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8482705,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Sillinger"
+                },
+                "name": {
+                  "default": "C. Sillinger"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 4
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev830.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1531",
+            "eventId": 867,
+            "strength": "pp",
+            "playerId": 8480893,
+            "firstName": {
+              "default": "Kirill"
+            },
+            "lastName": {
+              "default": "Marchenko",
+              "cs": "Marčenko",
+              "fi": "Martshenko",
+              "sk": "Marčenko"
+            },
+            "name": {
+              "default": "K. Marchenko",
+              "cs": "K. Marčenko",
+              "fi": "K. Martshenko",
+              "sk": "K. Marčenko"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8480893.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-marchenko-scores-ppg-against-filip-gustavsson-6382637216112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-marchenko-marque-un-but-en-a-n-contre-filip-gustavsson-6382638576112",
+            "highlightClip": 6382637216112,
+            "highlightClipFr": 6382638576112,
+            "discreteClip": 6382637322112,
+            "discreteClipFr": 6382637500112,
+            "goalsToDate": 3,
+            "awayScore": 5,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "03:01",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478460,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Werenski"
+                },
+                "name": {
+                  "default": "Z. Werenski"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8476432,
+                "firstName": {
+                  "default": "Boone"
+                },
+                "lastName": {
+                  "default": "Jenner"
+                },
+                "name": {
+                  "default": "B. Jenner"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 38
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev867.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 959,
+            "strength": "pp",
+            "playerId": 8484798,
+            "firstName": {
+              "default": "Zeev"
+            },
+            "lastName": {
+              "default": "Buium"
+            },
+            "name": {
+              "default": "Z. Buium"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8484798.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-buium-scores-ppg-against-elvis-merzlikins-6382639367112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-buium-marque-un-but-en-a-n-contre-elvis-merzlikins-6382637421112",
+            "highlightClip": 6382639367112,
+            "highlightClipFr": 6382637421112,
+            "discreteClip": 6382638686112,
+            "discreteClipFr": 6382638499112,
+            "goalsToDate": 1,
+            "awayScore": 5,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "09:54",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478493,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Eriksson Ek"
+                },
+                "name": {
+                  "default": "J. Eriksson Ek"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8481557,
+                "firstName": {
+                  "default": "Matt"
+                },
+                "lastName": {
+                  "default": "Boldy"
+                },
+                "name": {
+                  "default": "M. Boldy"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 12
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev959.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 978,
+            "strength": "ev",
+            "playerId": 8484166,
+            "firstName": {
+              "default": "Adam"
+            },
+            "lastName": {
+              "default": "Fantilli"
+            },
+            "name": {
+              "default": "A. Fantilli"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8484166.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-fantilli-scores-goal-against-filip-gustavsson-6382637710112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-fantilli-marque-un-but-contre-filip-gustavsson-6382639776112",
+            "highlightClip": 6382637710112,
+            "highlightClipFr": 6382639776112,
+            "discreteClip": 6382638391112,
+            "discreteClipFr": 6382638893112,
+            "goalsToDate": 1,
+            "awayScore": 6,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "10:47",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476432,
+                "firstName": {
+                  "default": "Boone"
+                },
+                "lastName": {
+                  "default": "Jenner"
+                },
+                "name": {
+                  "default": "B. Jenner"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 38
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev978.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 1018,
+            "strength": "pp",
+            "playerId": 8478864,
+            "firstName": {
+              "default": "Kirill"
+            },
+            "lastName": {
+              "default": "Kaprizov"
+            },
+            "name": {
+              "default": "K. Kaprizov"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8478864.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-kaprizov-scores-ppg-against-elvis-merzlikins-6382638522112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-kaprizov-marque-un-but-en-a-n-contre-elvis-merzlikins-6382638124112",
+            "highlightClip": 6382638522112,
+            "highlightClipFr": 6382638124112,
+            "discreteClip": 6382640280112,
+            "discreteClipFr": 6382639306112,
+            "goalsToDate": 2,
+            "awayScore": 6,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "15:49",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482079,
+                "firstName": {
+                  "default": "Marco"
+                },
+                "lastName": {
+                  "default": "Rossi"
+                },
+                "name": {
+                  "default": "M. Rossi"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8484798,
+                "firstName": {
+                  "default": "Zeev"
+                },
+                "lastName": {
+                  "default": "Buium"
+                },
+                "name": {
+                  "default": "Z. Buium"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev1018.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 1049,
+            "strength": "ev",
+            "playerId": 8476432,
+            "firstName": {
+              "default": "Boone"
+            },
+            "lastName": {
+              "default": "Jenner"
+            },
+            "name": {
+              "default": "B. Jenner"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8476432.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cbj-min-jenner-scores-empty-net-goal-6382640465112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cbj-min-jenner-cbj-marque-un-but-dans-un-filet-desert-6382638529112",
+            "highlightClip": 6382640465112,
+            "highlightClipFr": 6382638529112,
+            "discreteClip": 6382637820112,
+            "discreteClipFr": 6382639398112,
+            "goalsToDate": 1,
+            "awayScore": 7,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "18:34",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8475745,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "Coyle"
+                },
+                "name": {
+                  "default": "C. Coyle"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 3
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020033/ev1049.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480893,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8480893.png",
+        "name": {
+          "default": "K. Marchenko",
+          "cs": "K. Marčenko",
+          "fi": "K. Martshenko",
+          "sk": "K. Marčenko"
+        },
+        "sweaterNo": 86,
+        "position": "R",
+        "goals": 3,
+        "assists": 0,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8478007,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8478007.png",
+        "name": {
+          "default": "E. Merzlikins"
+        },
+        "sweaterNo": 90,
+        "position": "G",
+        "goalsAgainstAverage": 4.0,
+        "savePctg": 0.923
+      },
+      {
+        "star": 3,
+        "playerId": 8481557,
+        "teamAbbrev": "MIN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8481557.png",
+        "name": {
+          "default": "M. Boldy"
+        },
+        "sweaterNo": 12,
+        "position": "L",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "09:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dmitri",
+                "cs": "Dmitrij",
+                "sk": "Dmitrij"
+              },
+              "lastName": {
+                "default": "Voronkov"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Bogosian"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "10:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Miles"
+              },
+              "lastName": {
+                "default": "Wood"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Erik"
+              },
+              "lastName": {
+                "default": "Gudbranson"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Marcus"
+              },
+              "lastName": {
+                "default": "Foligno"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "06:18",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "descKey": "delaying-game-unsuccessful-challenge",
+            "servedBy": {
+              "default": "K. Johnson"
+            }
+          },
+          {
+            "timeInPeriod": "07:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Erik"
+              },
+              "lastName": {
+                "default": "Gudbranson"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          },
+          {
+            "timeInPeriod": "12:37",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jake",
+                "cs": "Jacob",
+                "de": "Jacob",
+                "es": "Jacob",
+                "fi": "Jacob",
+                "sk": "Jacob",
+                "sv": "Jacob"
+              },
+              "lastName": {
+                "default": "Middleton"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mathieu"
+              },
+              "lastName": {
+                "default": "Olivier"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "holding-the-stick"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joel"
+              },
+              "lastName": {
+                "default": "Eriksson Ek"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mathieu"
+              },
+              "lastName": {
+                "default": "Olivier"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "02:13",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jake",
+                "cs": "Jacob",
+                "de": "Jacob",
+                "es": "Jacob",
+                "fi": "Jacob",
+                "sk": "Jacob",
+                "sv": "Jacob"
+              },
+              "lastName": {
+                "default": "Middleton"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Monahan"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "06:13",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kirill"
+              },
+              "lastName": {
+                "default": "Marchenko",
+                "cs": "Marčenko",
+                "fi": "Martshenko",
+                "sk": "Marčenko"
+              },
+              "sweaterNumber": 86
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "descKey": "closing-hand-on-puck"
+          },
+          {
+            "timeInPeriod": "09:11",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "K. Johnson"
+            }
+          },
+          {
+            "timeInPeriod": "14:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dmitri",
+                "cs": "Dmitrij",
+                "sk": "Dmitrij"
+              },
+              "lastName": {
+                "default": "Voronkov"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

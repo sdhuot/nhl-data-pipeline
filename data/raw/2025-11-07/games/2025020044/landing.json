@@ -1,0 +1,906 @@
+{
+  "id": 2025020044,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-13",
+  "venue": {
+    "default": "Xfinity Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Philadelphia",
+    "fr": "Philadelphie"
+  },
+  "startTimeUTC": "2025-10-13T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    },
+    {
+      "id": 322,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NBCSP",
+      "sequenceNumber": 380
+    },
+    {
+      "id": 521,
+      "market": "A",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 13,
+    "commonName": {
+      "default": "Panthers"
+    },
+    "abbrev": "FLA",
+    "placeName": {
+      "default": "Florida",
+      "fr": "Floride"
+    },
+    "placeNameWithPreposition": {
+      "default": "Florida",
+      "fr": "de la Floride"
+    },
+    "score": 2,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 4,
+    "commonName": {
+      "default": "Flyers"
+    },
+    "abbrev": "PHI",
+    "placeName": {
+      "default": "Philadelphia",
+      "fr": "Philadelphie"
+    },
+    "placeNameWithPreposition": {
+      "default": "Philadelphia",
+      "fr": "de Philadelphie"
+    },
+    "score": 5,
+    "sog": 22,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 174,
+            "strength": "ev",
+            "playerId": 8482159,
+            "firstName": {
+              "default": "Tyson"
+            },
+            "lastName": {
+              "default": "Foerster"
+            },
+            "name": {
+              "default": "T. Foerster"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8482159.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-phi-foerster-scores-goal-against-daniil-tarasov-6382705839112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-phi-foerster-marque-un-but-contre-daniil-tarasov-6382705641112",
+            "highlightClip": 6382705839112,
+            "highlightClipFr": 6382705641112,
+            "discreteClip": 6382705838112,
+            "discreteClipFr": 6382705158112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "08:54",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476461,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Couturier"
+                },
+                "name": {
+                  "default": "S. Couturier"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020044/ev174.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 739,
+            "strength": "ev",
+            "playerId": 8476461,
+            "firstName": {
+              "default": "Sean"
+            },
+            "lastName": {
+              "default": "Couturier"
+            },
+            "name": {
+              "default": "S. Couturier"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8476461.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-phi-couturier-scores-goal-against-daniil-tarasov-6382706182112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-phi-couturier-marque-un-but-contre-daniil-tarasov-6382708476112",
+            "highlightClip": 6382706182112,
+            "highlightClipFr": 6382708476112,
+            "discreteClip": 6382707542112,
+            "discreteClipFr": 6382709476112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "15:47",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478439,
+                "firstName": {
+                  "default": "Travis"
+                },
+                "lastName": {
+                  "default": "Konecny"
+                },
+                "name": {
+                  "default": "T. Konecny"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8477948,
+                "firstName": {
+                  "default": "Travis"
+                },
+                "lastName": {
+                  "default": "Sanheim"
+                },
+                "name": {
+                  "default": "T. Sanheim"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020044/ev739.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 257,
+            "strength": "sh",
+            "playerId": 8477933,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Reinhart"
+            },
+            "name": {
+              "default": "S. Reinhart"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477933.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-phi-reinhart-scores-shg-against-dan-vladar-6382708054112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-phi-reinhart-marque-un-but-en-i-n-contre-dan-vladar-6382710165112",
+            "highlightClip": 6382708054112,
+            "highlightClipFr": 6382710165112,
+            "discreteClip": 6382708539112,
+            "discreteClipFr": 6382708988112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "19:22",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482113,
+                "firstName": {
+                  "default": "Anton"
+                },
+                "lastName": {
+                  "default": "Lundell"
+                },
+                "name": {
+                  "default": "A. Lundell"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020044/ev257.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 920,
+            "strength": "pp",
+            "playerId": 8477935,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Bennett"
+            },
+            "name": {
+              "default": "S. Bennett"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477935.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-phi-bennett-scores-ppg-against-dan-vladar-6382709454112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sam-bennett-with-a-powerplay-goal-vs-les-flyers-de-philadelphie-6382707400112",
+            "highlightClip": 6382709454112,
+            "highlightClipFr": 6382707400112,
+            "discreteClip": 6382709653112,
+            "discreteClipFr": 6382707291112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "10:15",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477933,
+                "firstName": {
+                  "default": "Sam"
+                },
+                "lastName": {
+                  "default": "Reinhart"
+                },
+                "name": {
+                  "default": "S. Reinhart"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 13
+              },
+              {
+                "playerId": 8473419,
+                "firstName": {
+                  "default": "Brad"
+                },
+                "lastName": {
+                  "default": "Marchand"
+                },
+                "name": {
+                  "default": "B. Marchand"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020044/ev920.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 989,
+            "strength": "ev",
+            "playerId": 8476461,
+            "firstName": {
+              "default": "Sean"
+            },
+            "lastName": {
+              "default": "Couturier"
+            },
+            "name": {
+              "default": "S. Couturier"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8476461.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-phi-couturier-scores-goal-against-daniil-tarasov-6382709662112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-phi-couturier-marque-un-but-contre-daniil-tarasov-6382710051112",
+            "highlightClip": 6382709662112,
+            "highlightClipFr": 6382710051112,
+            "discreteClip": 6382706602112,
+            "discreteClipFr": 6382709165112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "15:50",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481533,
+                "firstName": {
+                  "default": "Trevor"
+                },
+                "lastName": {
+                  "default": "Zegras"
+                },
+                "name": {
+                  "default": "T. Zegras"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 46
+              },
+              {
+                "playerId": 8482142,
+                "firstName": {
+                  "default": "Jamie"
+                },
+                "lastName": {
+                  "default": "Drysdale"
+                },
+                "name": {
+                  "default": "J. Drysdale"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020044/ev989.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "0651",
+            "eventId": 1013,
+            "strength": "ev",
+            "playerId": 8481553,
+            "firstName": {
+              "default": "Bobby"
+            },
+            "lastName": {
+              "default": "Brink"
+            },
+            "name": {
+              "default": "B. Brink"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8481553.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/fla-phi-brink-scores-empty-net-goal-6382706607112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/fla-phi-brink-phi-marque-un-but-dans-un-filet-desert-6382708188112",
+            "highlightClip": 6382706607112,
+            "highlightClipFr": 6382708188112,
+            "discreteClip": 6382708095112,
+            "discreteClipFr": 6382707305112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "17:43",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8480220,
+                "firstName": {
+                  "default": "Noah"
+                },
+                "lastName": {
+                  "default": "Cates"
+                },
+                "name": {
+                  "default": "N. Cates"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 27
+              },
+              {
+                "playerId": 8476372,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Seeler"
+                },
+                "name": {
+                  "default": "N. Seeler"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020044/ev1013.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "0651",
+            "eventId": 1024,
+            "strength": "ev",
+            "playerId": 8477989,
+            "firstName": {
+              "default": "Christian"
+            },
+            "lastName": {
+              "default": "Dvorak"
+            },
+            "name": {
+              "default": "C. Dvorak"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8477989.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/christian-dvorak-with-a-goal-vs-florida-panthers-6382710359112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/christian-dvorak-with-a-goal-vs-les-panthers-de-la-floride-6382707311112",
+            "highlightClip": 6382710359112,
+            "highlightClipFr": 6382707311112,
+            "discreteClip": 6382709373112,
+            "discreteClipFr": 6382708994112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "PHI"
+            },
+            "timeInPeriod": "18:33",
+            "shotType": "tip-in",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8477948,
+                "firstName": {
+                  "default": "Travis"
+                },
+                "lastName": {
+                  "default": "Sanheim"
+                },
+                "name": {
+                  "default": "T. Sanheim"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8476461,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Couturier"
+                },
+                "name": {
+                  "default": "S. Couturier"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020044/ev1024.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8476461,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8476461.png",
+        "name": {
+          "default": "S. Couturier"
+        },
+        "sweaterNo": 14,
+        "position": "C",
+        "goals": 2,
+        "assists": 2,
+        "points": 4
+      },
+      {
+        "star": 2,
+        "playerId": 8481533,
+        "teamAbbrev": "PHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8481533.png",
+        "name": {
+          "default": "T. Zegras"
+        },
+        "sweaterNo": 46,
+        "position": "C",
+        "goals": 0,
+        "assists": 1,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8477933,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477933.png",
+        "name": {
+          "default": "S. Reinhart"
+        },
+        "sweaterNo": 13,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Aaron"
+              },
+              "lastName": {
+                "default": "Ekblad"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Christian"
+              },
+              "lastName": {
+                "default": "Dvorak"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "04:30",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Owen"
+              },
+              "lastName": {
+                "default": "Tippett"
+              },
+              "sweaterNumber": 74
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gustav"
+              },
+              "lastName": {
+                "default": "Forsling"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Couturier"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Uvis"
+              },
+              "lastName": {
+                "default": "Balinskis"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "06:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Bennett"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jett"
+              },
+              "lastName": {
+                "default": "Luchanko"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "12:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jesper"
+              },
+              "lastName": {
+                "default": "Boqvist"
+              },
+              "sweaterNumber": 70
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jamie"
+              },
+              "lastName": {
+                "default": "Drysdale"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "18:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Seth"
+              },
+              "lastName": {
+                "default": "Jones"
+              },
+              "sweaterNumber": 3
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:01",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Matvei",
+                "cs": "Matvej",
+                "sk": "Matvej"
+              },
+              "lastName": {
+                "default": "Michkov",
+                "cs": "Mičkov",
+                "fi": "Mitshkov",
+                "sk": "Mičkov"
+              },
+              "sweaterNumber": 39
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gustav"
+              },
+              "lastName": {
+                "default": "Forsling"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "09:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Owen"
+              },
+              "lastName": {
+                "default": "Tippett"
+              },
+              "sweaterNumber": 74
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brad"
+              },
+              "lastName": {
+                "default": "Marchand"
+              },
+              "sweaterNumber": 63
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "12:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Garnet"
+              },
+              "lastName": {
+                "default": "Hathaway"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Daniil"
+              },
+              "lastName": {
+                "default": "Tarasov"
+              },
+              "sweaterNumber": 40
+            },
+            "descKey": "interference-goalkeeper"
+          },
+          {
+            "timeInPeriod": "13:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Bennett"
+              },
+              "sweaterNumber": 9
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Noah"
+              },
+              "lastName": {
+                "default": "Juulsen"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "slashing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

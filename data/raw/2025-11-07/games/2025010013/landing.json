@@ -1,0 +1,633 @@
+{
+  "id": 2025010013,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-21",
+  "venue": {
+    "default": "TD Garden"
+  },
+  "venueLocation": {
+    "default": "Boston"
+  },
+  "startTimeUTC": "2025-09-21T21:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 128,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NESNplus",
+      "sequenceNumber": 381
+    },
+    {
+      "id": 517,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MNMT",
+      "sequenceNumber": 387
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 15,
+    "commonName": {
+      "default": "Capitals"
+    },
+    "abbrev": "WSH",
+    "placeName": {
+      "default": "Washington"
+    },
+    "placeNameWithPreposition": {
+      "default": "Washington",
+      "fr": "de Washington"
+    },
+    "score": 5,
+    "sog": 27,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WSH_secondary_dark.svg"
+  },
+  "homeTeam": {
+    "id": 6,
+    "commonName": {
+      "default": "Bruins"
+    },
+    "abbrev": "BOS",
+    "placeName": {
+      "default": "Boston"
+    },
+    "placeNameWithPreposition": {
+      "default": "Boston",
+      "fr": "de Boston"
+    },
+    "score": 2,
+    "sog": 31,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BOS_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BOS_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 182,
+            "strength": "ev",
+            "playerId": 8479987,
+            "firstName": {
+              "default": "Morgan"
+            },
+            "lastName": {
+              "default": "Geekie"
+            },
+            "name": {
+              "default": "M. Geekie"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8479987.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-bos-geekie-scores-goal-against-logan-thompson-6379892740112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-bos-geekie-marque-un-but-contre-logan-thompson-6379895187112",
+            "highlightClip": 6379892740112,
+            "highlightClipFr": 6379895187112,
+            "discreteClip": 6379894797112,
+            "discreteClipFr": 6379893122112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "BOS"
+            },
+            "timeInPeriod": "06:17",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477496,
+                "firstName": {
+                  "default": "Elias"
+                },
+                "lastName": {
+                  "default": "Lindholm"
+                },
+                "name": {
+                  "default": "E. Lindholm"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 28
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010013/ev182.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 190,
+            "strength": "ev",
+            "playerId": 8477947,
+            "firstName": {
+              "default": "Sonny"
+            },
+            "lastName": {
+              "default": "Milano"
+            },
+            "name": {
+              "default": "S. Milano"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8477947.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-bos-milano-scores-goal-against-michael-dipietro-6379892742112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-bos-milano-marque-un-but-contre-michael-dipietro-6379892925112",
+            "highlightClip": 6379892742112,
+            "highlightClipFr": 6379892925112,
+            "discreteClip": 6379893906112,
+            "discreteClipFr": 6379893515112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "06:48",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482148,
+                "firstName": {
+                  "default": "Hendrix"
+                },
+                "lastName": {
+                  "default": "Lapierre"
+                },
+                "name": {
+                  "default": "H. Lapierre"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 29
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010013/ev190.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 358,
+            "strength": "ev",
+            "playerId": 8482148,
+            "firstName": {
+              "default": "Hendrix"
+            },
+            "lastName": {
+              "default": "Lapierre"
+            },
+            "name": {
+              "default": "H. Lapierre"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8482148.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-bos-lapierre-scores-goal-against-michael-dipietro-6379895327112",
+            "highlightClip": 6379895327112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "11:33",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478463,
+                "firstName": {
+                  "default": "Anthony"
+                },
+                "lastName": {
+                  "default": "Beauvillier"
+                },
+                "name": {
+                  "default": "A. Beauvillier"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 72
+              },
+              {
+                "playerId": 8477947,
+                "firstName": {
+                  "default": "Sonny"
+                },
+                "lastName": {
+                  "default": "Milano"
+                },
+                "name": {
+                  "default": "S. Milano"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010013/ev358.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 509,
+            "strength": "ev",
+            "playerId": 8477947,
+            "firstName": {
+              "default": "Sonny"
+            },
+            "lastName": {
+              "default": "Milano"
+            },
+            "name": {
+              "default": "S. Milano"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8477947.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-bos-milano-scores-goal-against-michael-dipietro-6379894723112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-bos-milano-marque-un-but-contre-michael-dipietro-6379895307112",
+            "highlightClip": 6379894723112,
+            "highlightClipFr": 6379895307112,
+            "discreteClip": 6379894817112,
+            "discreteClipFr": 6379895894112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "15:31",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483573,
+                "firstName": {
+                  "default": "Ethen"
+                },
+                "lastName": {
+                  "default": "Frank"
+                },
+                "name": {
+                  "default": "E. Frank"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 53
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010013/ev509.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 525,
+            "strength": "ev",
+            "playerId": 8482167,
+            "firstName": {
+              "default": "Bogdan"
+            },
+            "lastName": {
+              "default": "Trineyev"
+            },
+            "name": {
+              "default": "B. Trineyev"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8482167.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-bos-trineyev-scores-goal-against-michael-dipietro-6379894820112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-bos-trineyev-marque-un-but-contre-michael-dipietro-6379896300112",
+            "highlightClip": 6379894820112,
+            "highlightClipFr": 6379896300112,
+            "discreteClip": 6379896096112,
+            "discreteClipFr": 6379895400112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "16:18",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483491,
+                "firstName": {
+                  "default": "Ivan"
+                },
+                "lastName": {
+                  "default": "Miroshnichenko"
+                },
+                "name": {
+                  "default": "I. Miroshnichenko"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010013/ev525.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 603,
+            "strength": "ev",
+            "playerId": 8477887,
+            "firstName": {
+              "default": "Patrick"
+            },
+            "lastName": {
+              "default": "Brown"
+            },
+            "name": {
+              "default": "P. Brown"
+            },
+            "teamAbbrev": {
+              "default": "BOS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BOS/8477887.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-bos-brown-scores-goal-against-logan-thompson-6379895825112",
+            "highlightClip": 6379895825112,
+            "discreteClip": 6379895336112,
+            "discreteClipFr": 6379895148112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "03:35",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482213,
+                "firstName": {
+                  "default": "Riley"
+                },
+                "lastName": {
+                  "default": "Duran"
+                },
+                "name": {
+                  "default": "R. Duran"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 62
+              },
+              {
+                "playerId": 8479705,
+                "firstName": {
+                  "default": "Jeffrey"
+                },
+                "lastName": {
+                  "default": "Viel"
+                },
+                "name": {
+                  "default": "J. Viel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010013/ev603.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 663,
+            "strength": "ev",
+            "playerId": 8483430,
+            "firstName": {
+              "default": "Ryan"
+            },
+            "lastName": {
+              "default": "Chesley"
+            },
+            "name": {
+              "default": "R. Chesley"
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WSH/8483430.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wsh-bos-chesley-scores-goal-against-michael-dipietro-6379893954112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wsh-bos-chesley-marque-un-but-contre-michael-dipietro-6379897107112",
+            "highlightClip": 6379893954112,
+            "highlightClipFr": 6379897107112,
+            "discreteClip": 6379897106112,
+            "discreteClipFr": 6379895425112,
+            "goalsToDate": 1,
+            "awayScore": 5,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "WSH"
+            },
+            "timeInPeriod": "08:45",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482148,
+                "firstName": {
+                  "default": "Hendrix"
+                },
+                "lastName": {
+                  "default": "Lapierre"
+                },
+                "name": {
+                  "default": "H. Lapierre"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8477947,
+                "firstName": {
+                  "default": "Sonny"
+                },
+                "lastName": {
+                  "default": "Milano"
+                },
+                "name": {
+                  "default": "S. Milano"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010013/ev663.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      }
+    ],
+    "shootout": [],
+    "threeStars": [],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "12:55",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Chesley"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Poitras"
+              },
+              "sweaterNumber": 51
+            },
+            "descKey": "kneeing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "17:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Eriks"
+              },
+              "lastName": {
+                "default": "Mateiko"
+              },
+              "sweaterNumber": 73
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Poitras"
+              },
+              "sweaterNumber": 51
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "09:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Henrik"
+              },
+              "lastName": {
+                "default": "Rybinski"
+              },
+              "sweaterNumber": 58
+            },
+            "teamAbbrev": {
+              "default": "WSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Poitras"
+              },
+              "sweaterNumber": 51
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

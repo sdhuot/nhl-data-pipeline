@@ -1,0 +1,822 @@
+{
+  "id": 2025020042,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-13",
+  "venue": {
+    "default": "UBS Arena"
+  },
+  "venueLocation": {
+    "default": "Elmont"
+  },
+  "startTimeUTC": "2025-10-13T17:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 292,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "TSN3",
+      "sequenceNumber": 134
+    },
+    {
+      "id": 409,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSGSN",
+      "sequenceNumber": 402
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 52,
+    "commonName": {
+      "default": "Jets"
+    },
+    "abbrev": "WPG",
+    "placeName": {
+      "default": "Winnipeg"
+    },
+    "placeNameWithPreposition": {
+      "default": "Winnipeg",
+      "fr": "de Winnipeg"
+    },
+    "score": 5,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+  },
+  "homeTeam": {
+    "id": 2,
+    "commonName": {
+      "default": "Islanders"
+    },
+    "abbrev": "NYI",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 2,
+    "sog": 35,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYI_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 203,
+            "strength": "ev",
+            "playerId": 8480289,
+            "firstName": {
+              "default": "Morgan"
+            },
+            "lastName": {
+              "default": "Barron"
+            },
+            "name": {
+              "default": "M. Barron"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8480289.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-barron-scores-goal-against-ilya-sorokin-6382696569112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-barron-marque-un-but-contre-ilya-sorokin-6382692935112",
+            "highlightClip": 6382696569112,
+            "highlightClipFr": 6382692935112,
+            "discreteClip": 6382692753112,
+            "discreteClipFr": 6382692930112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "07:35",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481043,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Koepke"
+                },
+                "name": {
+                  "default": "C. Koepke"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 45
+              },
+              {
+                "playerId": 8479378,
+                "firstName": {
+                  "default": "Logan"
+                },
+                "lastName": {
+                  "default": "Stanley"
+                },
+                "name": {
+                  "default": "L. Stanley"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 64
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020042/ev203.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 351,
+            "strength": "pp",
+            "playerId": 8475799,
+            "firstName": {
+              "default": "Nino"
+            },
+            "lastName": {
+              "default": "Niederreiter"
+            },
+            "name": {
+              "default": "N. Niederreiter"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8475799.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-niederreiter-scores-ppg-against-ilya-sorokin-6382694885112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-niederreiter-marque-un-but-en-a-n-contre-ilya-sorokin-6382692834112",
+            "highlightClip": 6382694885112,
+            "highlightClipFr": 6382692834112,
+            "discreteClip": 6382693613112,
+            "discreteClipFr": 6382692040112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "11:48",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474679,
+                "firstName": {
+                  "default": "Gustav"
+                },
+                "lastName": {
+                  "default": "Nyquist"
+                },
+                "name": {
+                  "default": "G. Nyquist"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8473604,
+                "firstName": {
+                  "default": "Jonathan"
+                },
+                "lastName": {
+                  "default": "Toews"
+                },
+                "name": {
+                  "default": "J. Toews"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 19
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020042/ev351.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 486,
+            "strength": "ev",
+            "playerId": 8476419,
+            "firstName": {
+              "default": "Jean-Gabriel"
+            },
+            "lastName": {
+              "default": "Pageau"
+            },
+            "name": {
+              "default": "J. Pageau"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8476419.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-pageau-scores-goal-against-eric-comrie-6382696016112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-pageau-marque-un-but-contre-eric-comrie-6382695223112",
+            "highlightClip": 6382696016112,
+            "highlightClipFr": 6382695223112,
+            "discreteClip": 6382693180112,
+            "discreteClipFr": 6382694518112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "02:05",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477950,
+                "firstName": {
+                  "default": "Tony"
+                },
+                "lastName": {
+                  "default": "DeAngelo"
+                },
+                "name": {
+                  "default": "T. DeAngelo"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020042/ev486.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 491,
+            "strength": "ev",
+            "playerId": 8479378,
+            "firstName": {
+              "default": "Logan"
+            },
+            "lastName": {
+              "default": "Stanley"
+            },
+            "name": {
+              "default": "L. Stanley"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8479378.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-stanley-scores-goal-against-ilya-sorokin-6382695920112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-stanley-marque-un-but-contre-ilya-sorokin-6382695441112",
+            "highlightClip": 6382695920112,
+            "highlightClipFr": 6382695441112,
+            "discreteClip": 6382694138112,
+            "discreteClipFr": 6382694422112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "02:19",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476871,
+                "firstName": {
+                  "default": "Tanner"
+                },
+                "lastName": {
+                  "default": "Pearson"
+                },
+                "name": {
+                  "default": "T. Pearson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 70
+              },
+              {
+                "playerId": 8480289,
+                "firstName": {
+                  "default": "Morgan"
+                },
+                "lastName": {
+                  "default": "Barron"
+                },
+                "name": {
+                  "default": "M. Barron"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 36
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020042/ev491.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 675,
+            "strength": "ev",
+            "playerId": 8476871,
+            "firstName": {
+              "default": "Tanner"
+            },
+            "lastName": {
+              "default": "Pearson"
+            },
+            "name": {
+              "default": "T. Pearson"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476871.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-pearson-scores-goal-against-ilya-sorokin-6382696624112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-pearson-marque-un-but-contre-ilya-sorokin-6382695456112",
+            "highlightClip": 6382696624112,
+            "highlightClipFr": 6382695456112,
+            "discreteClip": 6382694751112,
+            "discreteClipFr": 6382695039112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "12:39",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475799,
+                "firstName": {
+                  "default": "Nino"
+                },
+                "lastName": {
+                  "default": "Niederreiter"
+                },
+                "name": {
+                  "default": "N. Niederreiter"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 62
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020042/ev675.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 699,
+            "strength": "ev",
+            "playerId": 8482476,
+            "firstName": {
+              "default": "Emil"
+            },
+            "lastName": {
+              "default": "Heineman"
+            },
+            "name": {
+              "default": "E. Heineman"
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYI/8482476.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-heineman-scores-goal-against-eric-comrie-6382694756112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-heineman-marque-un-but-contre-eric-comrie-6382696152112",
+            "highlightClip": 6382694756112,
+            "highlightClipFr": 6382696152112,
+            "discreteClip": 6382693885112,
+            "discreteClipFr": 6382694856112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "14:45",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477494,
+                "firstName": {
+                  "default": "Jonathan"
+                },
+                "lastName": {
+                  "default": "Drouin"
+                },
+                "name": {
+                  "default": "J. Drouin"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8485366,
+                "firstName": {
+                  "default": "Matthew"
+                },
+                "lastName": {
+                  "default": "Schaefer"
+                },
+                "name": {
+                  "default": "M. Schaefer"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020042/ev699.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1560",
+            "eventId": 974,
+            "strength": "ev",
+            "playerId": 8476460,
+            "firstName": {
+              "default": "Mark"
+            },
+            "lastName": {
+              "default": "Scheifele"
+            },
+            "name": {
+              "default": "M. Scheifele"
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476460.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-nyi-scheifele-scores-empty-net-goal-6382697957112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-nyi-scheifele-wpg-marque-un-but-dans-un-filet-desert-6382697554112",
+            "highlightClip": 6382697957112,
+            "highlightClipFr": 6382697554112,
+            "discreteClip": 6382697553112,
+            "discreteClipFr": 6382697350112,
+            "goalsToDate": 3,
+            "awayScore": 5,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "WPG"
+            },
+            "timeInPeriod": "17:35",
+            "shotType": "backhand",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8478398,
+                "firstName": {
+                  "default": "Kyle"
+                },
+                "lastName": {
+                  "default": "Connor"
+                },
+                "name": {
+                  "default": "K. Connor"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 81
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020042/ev974.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8479378,
+        "teamAbbrev": "WPG",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8479378.png",
+        "name": {
+          "default": "L. Stanley"
+        },
+        "sweaterNo": 64,
+        "position": "D",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8480289,
+        "teamAbbrev": "WPG",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8480289.png",
+        "name": {
+          "default": "M. Barron"
+        },
+        "sweaterNo": 36,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8475799,
+        "teamAbbrev": "WPG",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8475799.png",
+        "name": {
+          "default": "N. Niederreiter"
+        },
+        "sweaterNo": 62,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:52",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Anders"
+              },
+              "lastName": {
+                "default": "Lee"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Neal"
+              },
+              "lastName": {
+                "default": "Pionk"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "09:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Casey"
+              },
+              "lastName": {
+                "default": "Cizikas"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gustav"
+              },
+              "lastName": {
+                "default": "Nyquist"
+              },
+              "sweaterNumber": 14
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "12:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Koepke"
+              },
+              "sweaterNumber": 45
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Maxim",
+                "fi": "Maksim"
+              },
+              "lastName": {
+                "default": "Tsyplakov",
+                "cs": "Cyplakov",
+                "sk": "Cyplakov"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "15:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Colin"
+              },
+              "lastName": {
+                "default": "Miller"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Bo"
+              },
+              "lastName": {
+                "default": "Horvat"
+              },
+              "sweaterNumber": 14
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Logan"
+              },
+              "lastName": {
+                "default": "Stanley"
+              },
+              "sweaterNumber": 64
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Max"
+              },
+              "lastName": {
+                "default": "Shabanov"
+              },
+              "sweaterNumber": 49
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "10:29",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "N. Niederreiter"
+            }
+          },
+          {
+            "timeInPeriod": "17:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Scott"
+              },
+              "lastName": {
+                "default": "Mayfield"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "NYI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gabriel"
+              },
+              "lastName": {
+                "default": "Vilardi"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "19:55",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mark"
+              },
+              "lastName": {
+                "default": "Scheifele"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Schaefer"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

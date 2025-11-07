@@ -1,0 +1,801 @@
+{
+  "id": 2025020198,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-02",
+  "venue": {
+    "default": "SAP Center at San Jose"
+  },
+  "venueLocation": {
+    "default": "San Jose"
+  },
+  "startTimeUTC": "2025-11-03T01:00:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-08:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 5,
+    "periodType": "SO",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 562,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNDET",
+      "sequenceNumber": 271
+    },
+    {
+      "id": 314,
+      "market": "H",
+      "countryCode": "US",
+      "network": "NBCSCA",
+      "sequenceNumber": 384
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 17,
+    "commonName": {
+      "default": "Red Wings"
+    },
+    "abbrev": "DET",
+    "placeName": {
+      "default": "Detroit"
+    },
+    "placeNameWithPreposition": {
+      "default": "Detroit",
+      "fr": "de Detroit"
+    },
+    "score": 3,
+    "sog": 32,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 28,
+    "commonName": {
+      "default": "Sharks"
+    },
+    "abbrev": "SJS",
+    "placeName": {
+      "default": "San Jose"
+    },
+    "placeNameWithPreposition": {
+      "default": "San Jose",
+      "fr": "de San Jose"
+    },
+    "score": 2,
+    "sog": 18,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 760,
+            "strength": "ev",
+            "playerId": 8482078,
+            "firstName": {
+              "default": "Lucas"
+            },
+            "lastName": {
+              "default": "Raymond"
+            },
+            "name": {
+              "default": "L. Raymond"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8482078.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-sjs-raymond-scores-goal-against-alex-nedeljkovic-6384441614112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-sjs-raymond-marque-un-but-contre-alex-nedeljkovic-6384441424112",
+            "highlightClip": 6384441614112,
+            "highlightClipFr": 6384441424112,
+            "discreteClip": 6384440255112,
+            "discreteClipFr": 6384441328112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "18:05",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484223,
+                "firstName": {
+                  "default": "Axel"
+                },
+                "lastName": {
+                  "default": "Sandin-Pellikka"
+                },
+                "name": {
+                  "default": "A. Sandin-Pellikka"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 44
+              },
+              {
+                "playerId": 8477946,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Larkin"
+                },
+                "name": {
+                  "default": "D. Larkin"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020198/ev760.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 507,
+            "strength": "ev",
+            "playerId": 8475784,
+            "firstName": {
+              "default": "Jeff"
+            },
+            "lastName": {
+              "default": "Skinner"
+            },
+            "name": {
+              "default": "J. Skinner"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8475784.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-sjs-skinner-scores-goal-against-cam-talbot-6384440278112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-sjs-skinner-marque-un-but-contre-cam-talbot-6384442101112",
+            "highlightClip": 6384440278112,
+            "highlightClipFr": 6384442101112,
+            "discreteClip": 6384442006112,
+            "discreteClipFr": 6384440067112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "00:49",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480798,
+                "firstName": {
+                  "default": "Philipp"
+                },
+                "lastName": {
+                  "default": "Kurashev"
+                },
+                "name": {
+                  "default": "P. Kurashev"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 96
+              },
+              {
+                "playerId": 8475200,
+                "firstName": {
+                  "default": "Dmitry",
+                  "cs": "Dmitrij",
+                  "fi": "Dmitri",
+                  "sk": "Dmitrij"
+                },
+                "lastName": {
+                  "default": "Orlov"
+                },
+                "name": {
+                  "default": "D. Orlov"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020198/ev507.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 921,
+            "strength": "ev",
+            "playerId": 8481542,
+            "firstName": {
+              "default": "Moritz"
+            },
+            "lastName": {
+              "default": "Seider"
+            },
+            "name": {
+              "default": "M. Seider"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8481542.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-sjs-seider-scores-goal-against-alex-nedeljkovic-6384442021112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-sjs-seider-marque-un-but-contre-alex-nedeljkovic-6384442411112",
+            "highlightClip": 6384442021112,
+            "highlightClipFr": 6384442411112,
+            "discreteClip": 6384440957112,
+            "discreteClipFr": 6384440674112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "10:16",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482762,
+                "firstName": {
+                  "default": "Simon"
+                },
+                "lastName": {
+                  "default": "Edvinsson"
+                },
+                "name": {
+                  "default": "S. Edvinsson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 77
+              },
+              {
+                "playerId": 8479337,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "DeBrincat"
+                },
+                "name": {
+                  "default": "A. DeBrincat"
+                },
+                "assistsToDate": 11,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020198/ev921.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 509,
+            "strength": "ev",
+            "playerId": 8484806,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Dickinson"
+            },
+            "name": {
+              "default": "S. Dickinson"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8484806.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-sjs-dickinson-scores-ppg-against-cam-talbot-6384442910112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-sjs-dickinson-marque-un-but-en-a-n-contre-cam-talbot-6384443008112",
+            "highlightClip": 6384442910112,
+            "highlightClipFr": 6384443008112,
+            "discreteClip": 6384442431112,
+            "discreteClipFr": 6384442811112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "16:55",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484227,
+                "firstName": {
+                  "default": "Will"
+                },
+                "lastName": {
+                  "default": "Smith"
+                },
+                "name": {
+                  "default": "W. Smith"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 2
+              },
+              {
+                "playerId": 8480825,
+                "firstName": {
+                  "default": "Patrick"
+                },
+                "lastName": {
+                  "default": "Giles"
+                },
+                "name": {
+                  "default": "P. Giles"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 54
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020198/ev509.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 5,
+          "periodType": "SO",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "0101",
+            "eventId": 485,
+            "strength": "ev",
+            "playerId": 8474037,
+            "firstName": {
+              "default": "James"
+            },
+            "lastName": {
+              "default": "van Riemsdyk"
+            },
+            "name": {
+              "default": "J. van Riemsdyk"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8474037.png",
+            "discreteClip": 6384443720112,
+            "discreteClipFr": 6384442645112,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "00:00",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [
+      {
+        "sequence": 1,
+        "playerId": 8482078,
+        "teamAbbrev": {
+          "default": "DET"
+        },
+        "firstName": {
+          "default": "Lucas"
+        },
+        "lastName": {
+          "default": "Raymond"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8482078.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 2,
+        "playerId": 8484801,
+        "teamAbbrev": {
+          "default": "SJS"
+        },
+        "firstName": {
+          "default": "Macklin"
+        },
+        "lastName": {
+          "default": "Celebrini"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8484801.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 3,
+        "playerId": 8479337,
+        "teamAbbrev": {
+          "default": "DET"
+        },
+        "firstName": {
+          "default": "Alex"
+        },
+        "lastName": {
+          "default": "DeBrincat"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8479337.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 4,
+        "playerId": 8484227,
+        "teamAbbrev": {
+          "default": "SJS"
+        },
+        "firstName": {
+          "default": "Will"
+        },
+        "lastName": {
+          "default": "Smith"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8484227.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 5,
+        "playerId": 8477946,
+        "teamAbbrev": {
+          "default": "DET"
+        },
+        "firstName": {
+          "default": "Dylan"
+        },
+        "lastName": {
+          "default": "Larkin"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8477946.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 6,
+        "playerId": 8480798,
+        "teamAbbrev": {
+          "default": "SJS"
+        },
+        "firstName": {
+          "default": "Philipp"
+        },
+        "lastName": {
+          "default": "Kurashev"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8480798.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 7,
+        "playerId": 8474037,
+        "teamAbbrev": {
+          "default": "DET"
+        },
+        "firstName": {
+          "default": "James"
+        },
+        "lastName": {
+          "default": "van Riemsdyk"
+        },
+        "shotType": "wrist",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8474037.png",
+        "gameWinner": true,
+        "discreteClip": 6384443720112,
+        "discreteClipFr": 6384442645112
+      },
+      {
+        "sequence": 8,
+        "playerId": 8475726,
+        "teamAbbrev": {
+          "default": "SJS"
+        },
+        "firstName": {
+          "default": "Tyler"
+        },
+        "lastName": {
+          "default": "Toffoli"
+        },
+        "shotType": "backhand",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8475726.png",
+        "gameWinner": false
+      }
+    ],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481542,
+        "teamAbbrev": "DET",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8481542.png",
+        "name": {
+          "default": "M. Seider"
+        },
+        "sweaterNo": 53,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8484806,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8484806.png",
+        "name": {
+          "default": "S. Dickinson"
+        },
+        "sweaterNo": 6,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8477968,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8477968.png",
+        "name": {
+          "default": "A. Nedeljkovic"
+        },
+        "sweaterNo": 33,
+        "position": "G",
+        "goalsAgainstAverage": 1.85,
+        "savePctg": 0.938
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Philipp"
+              },
+              "lastName": {
+                "default": "Kurashev"
+              },
+              "sweaterNumber": 96
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lucas"
+              },
+              "lastName": {
+                "default": "Raymond"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "12:12",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "descKey": "unsportsmanlike-conduct-bench",
+            "servedBy": {
+              "default": "Will Smith"
+            }
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Travis"
+              },
+              "lastName": {
+                "default": "Hamonic"
+              },
+              "sweaterNumber": 52
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Wennberg"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "13:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Moritz"
+              },
+              "lastName": {
+                "default": "Seider"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Macklin"
+              },
+              "lastName": {
+                "default": "Celebrini"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "roughing",
+            "servedBy": {
+              "default": "Jonatan Berggren"
+            }
+          },
+          {
+            "timeInPeriod": "13:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Moritz"
+              },
+              "lastName": {
+                "default": "Seider"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Macklin"
+              },
+              "lastName": {
+                "default": "Celebrini"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "13:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Macklin"
+              },
+              "lastName": {
+                "default": "Celebrini"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Moritz"
+              },
+              "lastName": {
+                "default": "Seider"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "roughing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

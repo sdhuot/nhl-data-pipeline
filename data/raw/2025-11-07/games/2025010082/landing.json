@@ -1,0 +1,534 @@
+{
+  "id": 2025010082,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-10-02",
+  "venue": {
+    "default": "Madison Square Garden"
+  },
+  "venueLocation": {
+    "default": "New York"
+  },
+  "startTimeUTC": "2025-10-02T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 409,
+      "market": "A",
+      "countryCode": "US",
+      "network": "MSGSN",
+      "sequenceNumber": 402
+    },
+    {
+      "id": 27,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSG",
+      "sequenceNumber": 408
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 1,
+    "commonName": {
+      "default": "Devils"
+    },
+    "abbrev": "NJD",
+    "placeName": {
+      "default": "New Jersey"
+    },
+    "placeNameWithPreposition": {
+      "default": "New Jersey",
+      "fr": "du New Jersey"
+    },
+    "score": 3,
+    "sog": 13,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NJD_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NJD_dark.svg"
+  },
+  "homeTeam": {
+    "id": 3,
+    "commonName": {
+      "default": "Rangers"
+    },
+    "abbrev": "NYR",
+    "placeName": {
+      "default": "New York"
+    },
+    "placeNameWithPreposition": {
+      "default": "New York",
+      "fr": "de New York"
+    },
+    "score": 1,
+    "sog": 20,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NYR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 414,
+            "strength": "ev",
+            "playerId": 8481032,
+            "firstName": {
+              "default": "Paul"
+            },
+            "lastName": {
+              "default": "Cotter"
+            },
+            "name": {
+              "default": "P. Cotter"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481032.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyr-cotter-scores-goal-against-jonathan-quick-6380961670112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyr-cotter-marque-un-but-contre-jonathan-quick-6380960672112",
+            "highlightClip": 6380961670112,
+            "highlightClipFr": 6380960672112,
+            "discreteClip": 6380959366112,
+            "discreteClipFr": 6380960149112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "16:58",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481721,
+                "firstName": {
+                  "default": "Arseny"
+                },
+                "lastName": {
+                  "default": "Gritsyuk"
+                },
+                "name": {
+                  "default": "A. Gritsyuk"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 81
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010082/ev414.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 207,
+            "strength": "ev",
+            "playerId": 8481726,
+            "firstName": {
+              "default": "Adam"
+            },
+            "lastName": {
+              "default": "Edstrom",
+              "cs": "Edström",
+              "fi": "Edström",
+              "sk": "Edström",
+              "sv": "Edström"
+            },
+            "name": {
+              "default": "A. Edstrom",
+              "cs": "A. Edström",
+              "fi": "A. Edström",
+              "sk": "A. Edström",
+              "sv": "A. Edström"
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8481726.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyr-edstrom-scores-goal-against-jacob-markstrom-6380987616112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyr-edstrom-marque-un-but-contre-jacob-markstrom-6380990470112",
+            "highlightClip": 6380987616112,
+            "highlightClipFr": 6380990470112,
+            "discreteClip": 6380988843112,
+            "discreteClipFr": 6380987434112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "13:30",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010082/ev207.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 790,
+            "strength": "pp",
+            "playerId": 8476292,
+            "firstName": {
+              "default": "Ondrej",
+              "cs": "Ondřej",
+              "sk": "Ondřej"
+            },
+            "lastName": {
+              "default": "Palat",
+              "cs": "Palát",
+              "sk": "Palát"
+            },
+            "name": {
+              "default": "O. Palat",
+              "cs": "O. Palát",
+              "sk": "O. Palát"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8476292.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/njd-nyr-palat-scores-ppg-against-jonathan-quick-6381006771112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/njd-nyr-palat-marque-un-but-en-a-n-contre-jonathan-quick-6381008730112",
+            "highlightClip": 6381006771112,
+            "highlightClipFr": 6381008730112,
+            "discreteClip": 6381008217112,
+            "discreteClipFr": 6381006262112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "02:44",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476462,
+                "firstName": {
+                  "default": "Dougie"
+                },
+                "lastName": {
+                  "default": "Hamilton"
+                },
+                "name": {
+                  "default": "D. Hamilton"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 7
+              },
+              {
+                "playerId": 8483495,
+                "firstName": {
+                  "default": "Simon",
+                  "cs": "Šimon",
+                  "sk": "Šimon"
+                },
+                "lastName": {
+                  "default": "Nemec"
+                },
+                "name": {
+                  "default": "S. Nemec",
+                  "cs": "Š. Nemec",
+                  "sk": "Š. Nemec"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010082/ev790.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1450",
+            "eventId": 1032,
+            "strength": "ev",
+            "playerId": 8482110,
+            "firstName": {
+              "default": "Dawson"
+            },
+            "lastName": {
+              "default": "Mercer"
+            },
+            "name": {
+              "default": "D. Mercer"
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8482110.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dawson-mercer-with-a-goal-vs-new-york-rangers-6381022194112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dawson-mercer-with-a-goal-vs-les-rangers-de-new-york-6381022518112",
+            "highlightClip": 6381022194112,
+            "highlightClipFr": 6381022518112,
+            "discreteClip": 6381024317112,
+            "discreteClipFr": 6381023504112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NJD"
+            },
+            "timeInPeriod": "18:37",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8480002,
+                "firstName": {
+                  "default": "Nico"
+                },
+                "lastName": {
+                  "default": "Hischier"
+                },
+                "name": {
+                  "default": "N. Hischier"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010082/ev1032.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8476292,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8476292.png",
+        "name": {
+          "default": "O. Palat",
+          "cs": "O. Palát",
+          "sk": "O. Palát"
+        },
+        "sweaterNo": 18,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8481032,
+        "teamAbbrev": "NJD",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NJD/8481032.png",
+        "name": {
+          "default": "P. Cotter"
+        },
+        "sweaterNo": 47,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8481726,
+        "teamAbbrev": "NYR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NYR/8481726.png",
+        "name": {
+          "default": "A. Edstrom",
+          "cs": "A. Edström",
+          "fi": "A. Edström",
+          "sk": "A. Edström",
+          "sv": "A. Edström"
+        },
+        "sweaterNo": 84,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "14:37",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonas"
+              },
+              "lastName": {
+                "default": "Siegenthaler"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Vincent"
+              },
+              "lastName": {
+                "default": "Trocheck"
+              },
+              "sweaterNumber": 16
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:12",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Braden"
+              },
+              "lastName": {
+                "default": "Schneider"
+              },
+              "sweaterNumber": 4
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Evgenii",
+                "cs": "Jevgenij",
+                "fi": "Jevgeni",
+                "sk": "Jevgenij"
+              },
+              "lastName": {
+                "default": "Dadonov"
+              },
+              "sweaterNumber": 33
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "17:49",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Vincent"
+              },
+              "lastName": {
+                "default": "Trocheck"
+              },
+              "sweaterNumber": 16
+            },
+            "teamAbbrev": {
+              "default": "NYR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jonas"
+              },
+              "lastName": {
+                "default": "Siegenthaler"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "17:49",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonas"
+              },
+              "lastName": {
+                "default": "Siegenthaler"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "NJD"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Vincent"
+              },
+              "lastName": {
+                "default": "Trocheck"
+              },
+              "sweaterNumber": 16
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

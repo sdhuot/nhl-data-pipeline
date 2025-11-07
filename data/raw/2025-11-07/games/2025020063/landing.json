@@ -1,0 +1,861 @@
+{
+  "id": 2025020063,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-16",
+  "venue": {
+    "default": "Canadian Tire Centre"
+  },
+  "venueLocation": {
+    "default": "Ottawa"
+  },
+  "startTimeUTC": "2025-10-16T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 5,
+    "periodType": "SO",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 294,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN5",
+      "sequenceNumber": 135
+    },
+    {
+      "id": 242,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "RDSI",
+      "sequenceNumber": 136
+    },
+    {
+      "id": 554,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KHN",
+      "sequenceNumber": 339
+    },
+    {
+      "id": 388,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KONG",
+      "sequenceNumber": 654
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 55,
+    "commonName": {
+      "default": "Kraken"
+    },
+    "abbrev": "SEA",
+    "placeName": {
+      "default": "Seattle"
+    },
+    "placeNameWithPreposition": {
+      "default": "Seattle",
+      "fr": "de Seattle"
+    },
+    "score": 3,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 9,
+    "commonName": {
+      "default": "Senators",
+      "fr": "Sénateurs"
+    },
+    "abbrev": "OTT",
+    "placeName": {
+      "default": "Ottawa"
+    },
+    "placeNameWithPreposition": {
+      "default": "Ottawa",
+      "fr": "d'Ottawa"
+    },
+    "score": 4,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/OTT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/OTT_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 165,
+            "strength": "ev",
+            "playerId": 8483524,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Wright"
+            },
+            "name": {
+              "default": "S. Wright"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483524.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-ott-wright-scores-goal-against-linus-ullmark-6382866338112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-ott-wright-marque-un-but-contre-linus-ullmark-6382865152112",
+            "highlightClip": 6382866338112,
+            "highlightClipFr": 6382865152112,
+            "discreteClip": 6382866341112,
+            "discreteClipFr": 6382866630112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "04:57",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477986,
+                "firstName": {
+                  "default": "Brandon"
+                },
+                "lastName": {
+                  "default": "Montour"
+                },
+                "name": {
+                  "default": "B. Montour"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 62
+              },
+              {
+                "playerId": 8478975,
+                "firstName": {
+                  "default": "Mason"
+                },
+                "lastName": {
+                  "default": "Marchment"
+                },
+                "name": {
+                  "default": "M. Marchment"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020063/ev165.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 264,
+            "strength": "ev",
+            "playerId": 8481596,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Pinto"
+            },
+            "name": {
+              "default": "S. Pinto"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-ott-pinto-scores-goal-against-philipp-grubauer-6382866433112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-ott-pinto-marque-un-but-contre-philipp-grubauer-6382866534112",
+            "highlightClip": 6382866433112,
+            "highlightClipFr": 6382866534112,
+            "discreteClip": 6382866067112,
+            "discreteClipFr": 6382866731112,
+            "goalsToDate": 6,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "07:42",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474189,
+                "firstName": {
+                  "default": "Lars"
+                },
+                "lastName": {
+                  "default": "Eller"
+                },
+                "name": {
+                  "default": "L. Eller"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 89
+              },
+              {
+                "playerId": 8473512,
+                "firstName": {
+                  "default": "Claude"
+                },
+                "lastName": {
+                  "default": "Giroux"
+                },
+                "name": {
+                  "default": "C. Giroux"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 28
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020063/ev264.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 292,
+            "strength": "pp",
+            "playerId": 8474102,
+            "firstName": {
+              "default": "David"
+            },
+            "lastName": {
+              "default": "Perron"
+            },
+            "name": {
+              "default": "D. Perron"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8474102.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-ott-perron-scores-ppg-against-philipp-grubauer-6382865678112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-ott-perron-marque-un-but-en-a-n-contre-philipp-grubauer-6382866248112",
+            "highlightClip": 6382865678112,
+            "highlightClipFr": 6382866248112,
+            "discreteClip": 6382866647112,
+            "discreteClipFr": 6382864871112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "09:35",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8473512,
+                "firstName": {
+                  "default": "Claude"
+                },
+                "lastName": {
+                  "default": "Giroux"
+                },
+                "name": {
+                  "default": "C. Giroux"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8478469,
+                "firstName": {
+                  "default": "Thomas"
+                },
+                "lastName": {
+                  "default": "Chabot"
+                },
+                "name": {
+                  "default": "T. Chabot"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 72
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020063/ev292.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 593,
+            "strength": "ev",
+            "playerId": 8476905,
+            "firstName": {
+              "default": "Chandler"
+            },
+            "lastName": {
+              "default": "Stephenson"
+            },
+            "name": {
+              "default": "C. Stephenson"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8476905.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-ott-stephenson-scores-goal-against-linus-ullmark-6382867749112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-ott-stephenson-marque-un-but-contre-linus-ullmark-6382867647112",
+            "highlightClip": 6382867749112,
+            "highlightClipFr": 6382867647112,
+            "discreteClip": 6382867645112,
+            "discreteClipFr": 6382868923112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "04:40",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475768,
+                "firstName": {
+                  "default": "Jaden"
+                },
+                "lastName": {
+                  "default": "Schwartz"
+                },
+                "name": {
+                  "default": "J. Schwartz"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020063/ev593.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 825,
+            "strength": "pp",
+            "playerId": 8476905,
+            "firstName": {
+              "default": "Chandler"
+            },
+            "lastName": {
+              "default": "Stephenson"
+            },
+            "name": {
+              "default": "C. Stephenson"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8476905.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-ott-stephenson-scores-ppg-against-linus-ullmark-6382869649112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-ott-stephenson-marque-un-but-en-a-n-contre-linus-ullmark-6382868690112",
+            "highlightClip": 6382869649112,
+            "highlightClipFr": 6382868690112,
+            "discreteClip": 6382869552112,
+            "discreteClipFr": 6382869164112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "02:15",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474586,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Eberle"
+                },
+                "name": {
+                  "default": "J. Eberle"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 7
+              },
+              {
+                "playerId": 8477986,
+                "firstName": {
+                  "default": "Brandon"
+                },
+                "lastName": {
+                  "default": "Montour"
+                },
+                "name": {
+                  "default": "B. Montour"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 62
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020063/ev825.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 1036,
+            "strength": "ev",
+            "playerId": 8481528,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Cozens"
+            },
+            "name": {
+              "default": "D. Cozens"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481528.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-ott-cozens-scores-goal-against-philipp-grubauer-6382870964112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-ott-cozens-marque-un-but-contre-philipp-grubauer-6382869198112",
+            "highlightClip": 6382870964112,
+            "highlightClipFr": 6382869198112,
+            "discreteClip": 6382870963112,
+            "discreteClipFr": 6382868916112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "18:14",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480208,
+                "firstName": {
+                  "default": "Drake"
+                },
+                "lastName": {
+                  "default": "Batherson"
+                },
+                "name": {
+                  "default": "D. Batherson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8481606,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Spence"
+                },
+                "name": {
+                  "default": "J. Spence"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 10
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020063/ev1036.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 5,
+          "periodType": "SO",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1010",
+            "eventId": 531,
+            "strength": "ev",
+            "playerId": 8482116,
+            "firstName": {
+              "default": "Tim"
+            },
+            "lastName": {
+              "default": "Stützle"
+            },
+            "name": {
+              "default": "T. Stützle"
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "OTT"
+            },
+            "timeInPeriod": "00:00",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [
+      {
+        "sequence": 1,
+        "playerId": 8480208,
+        "teamAbbrev": {
+          "default": "OTT"
+        },
+        "firstName": {
+          "default": "Drake"
+        },
+        "lastName": {
+          "default": "Batherson"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8480208.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 2,
+        "playerId": 8474586,
+        "teamAbbrev": {
+          "default": "SEA"
+        },
+        "firstName": {
+          "default": "Jordan"
+        },
+        "lastName": {
+          "default": "Eberle"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8474586.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 3,
+        "playerId": 8482116,
+        "teamAbbrev": {
+          "default": "OTT"
+        },
+        "firstName": {
+          "default": "Tim"
+        },
+        "lastName": {
+          "default": "Stützle"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8482116.png",
+        "gameWinner": true
+      },
+      {
+        "sequence": 4,
+        "playerId": 8477955,
+        "teamAbbrev": {
+          "default": "SEA"
+        },
+        "firstName": {
+          "default": "Jared"
+        },
+        "lastName": {
+          "default": "McCann"
+        },
+        "shotType": "backhand",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8477955.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 5,
+        "playerId": 8481596,
+        "teamAbbrev": {
+          "default": "OTT"
+        },
+        "firstName": {
+          "default": "Shane"
+        },
+        "lastName": {
+          "default": "Pinto"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+        "gameWinner": false
+      }
+    ],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481596,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8481596.png",
+        "name": {
+          "default": "S. Pinto"
+        },
+        "sweaterNo": 12,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8476999,
+        "teamAbbrev": "OTT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/OTT/8476999.png",
+        "name": {
+          "default": "L. Ullmark"
+        },
+        "sweaterNo": 35,
+        "position": "G",
+        "goalsAgainstAverage": 2.78,
+        "savePctg": 0.909
+      },
+      {
+        "star": 3,
+        "playerId": 8476905,
+        "teamAbbrev": "SEA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8476905.png",
+        "name": {
+          "default": "C. Stephenson"
+        },
+        "sweaterNo": 9,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Larsson"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Drake"
+              },
+              "lastName": {
+                "default": "Batherson"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "08:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Winterton"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lars"
+              },
+              "lastName": {
+                "default": "Eller"
+              },
+              "sweaterNumber": 89
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Kleven"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Winterton"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Fabian"
+              },
+              "lastName": {
+                "default": "Zetterlund"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lindgren"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "08:31",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Thomas"
+              },
+              "lastName": {
+                "default": "Chabot"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "OTT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jared"
+              },
+              "lastName": {
+                "default": "McCann"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

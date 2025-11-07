@@ -1,0 +1,840 @@
+{
+  "id": 2025010026,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-23",
+  "venue": {
+    "default": "Centre Bell"
+  },
+  "venueLocation": {
+    "default": "Montreal",
+    "fr": "Montréal"
+  },
+  "startTimeUTC": "2025-09-23T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Montreal",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 131,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN2",
+      "sequenceNumber": 112
+    },
+    {
+      "id": 33,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "RDS",
+      "sequenceNumber": 132
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 4,
+    "commonName": {
+      "default": "Flyers"
+    },
+    "abbrev": "PHI",
+    "placeName": {
+      "default": "Philadelphia",
+      "fr": "Philadelphie"
+    },
+    "placeNameWithPreposition": {
+      "default": "Philadelphia",
+      "fr": "de Philadelphie"
+    },
+    "score": 2,
+    "sog": 21,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PHI_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PHI_dark.svg"
+  },
+  "homeTeam": {
+    "id": 8,
+    "commonName": {
+      "default": "Canadiens"
+    },
+    "abbrev": "MTL",
+    "placeName": {
+      "default": "Montréal"
+    },
+    "placeNameWithPreposition": {
+      "default": "Montréal",
+      "fr": "de Montréal"
+    },
+    "score": 4,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 64,
+            "strength": "ev",
+            "playerId": 8481540,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Caufield"
+            },
+            "name": {
+              "default": "C. Caufield"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481540.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/phi-mtl-caufield-scores-goal-against-samuel-ersson-6380013492112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/phi-mtl-caufield-marque-un-but-contre-samuel-ersson-6380014469112",
+            "highlightClip": 6380013492112,
+            "highlightClipFr": 6380014469112,
+            "discreteClip": 6380013671112,
+            "discreteClipFr": 6380013881112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "00:53",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483457,
+                "firstName": {
+                  "default": "Lane"
+                },
+                "lastName": {
+                  "default": "Hutson"
+                },
+                "name": {
+                  "default": "L. Hutson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 48
+              },
+              {
+                "playerId": 8480018,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Suzuki"
+                },
+                "name": {
+                  "default": "N. Suzuki"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010026/ev64.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 245,
+            "strength": "ev",
+            "playerId": 8484403,
+            "firstName": {
+              "default": "Florian"
+            },
+            "lastName": {
+              "default": "Xhekaj"
+            },
+            "name": {
+              "default": "F. Xhekaj"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8484403.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/phi-mtl-xhekaj-scores-goal-against-samuel-ersson-6380013903112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/phi-mtl-xhekaj-marque-un-but-contre-samuel-ersson-6380012834112",
+            "highlightClip": 6380013903112,
+            "highlightClipFr": 6380012834112,
+            "discreteClip": 6380013028112,
+            "discreteClipFr": 6380014685112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "09:58",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484533,
+                "firstName": {
+                  "default": "Tyler"
+                },
+                "lastName": {
+                  "default": "Thorpe"
+                },
+                "name": {
+                  "default": "T. Thorpe"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8482134,
+                "firstName": {
+                  "default": "Luke"
+                },
+                "lastName": {
+                  "default": "Tuch"
+                },
+                "name": {
+                  "default": "L. Tuch"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010026/ev245.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 625,
+            "strength": "ev",
+            "playerId": 8478409,
+            "firstName": {
+              "default": "Anthony"
+            },
+            "lastName": {
+              "default": "Richard"
+            },
+            "name": {
+              "default": "A. Richard"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8478409.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/phi-mtl-richard-scores-goal-against-kaapo-kahkonen-6380015809112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/phi-mtl-richard-marque-un-but-contre-kaapo-kahkonen-6380016199112",
+            "highlightClip": 6380015809112,
+            "highlightClipFr": 6380016199112,
+            "discreteClip": 6380016305112,
+            "discreteClipFr": 6380016602112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "11:11",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478502,
+                "firstName": {
+                  "default": "Dennis"
+                },
+                "lastName": {
+                  "default": "Gilbert"
+                },
+                "name": {
+                  "default": "D. Gilbert"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010026/ev625.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 680,
+            "strength": "ev",
+            "playerId": 8480018,
+            "firstName": {
+              "default": "Nick"
+            },
+            "lastName": {
+              "default": "Suzuki"
+            },
+            "name": {
+              "default": "N. Suzuki"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8480018.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/phi-mtl-suzuki-scores-goal-against-aleksei-kolosov-6380017392112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/phi-mtl-suzuki-marque-un-but-contre-aleksei-kolosov-6380016807112",
+            "highlightClip": 6380017392112,
+            "highlightClipFr": 6380016807112,
+            "discreteClip": 6380017491112,
+            "discreteClipFr": 6380015819112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "16:05",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483515,
+                "firstName": {
+                  "default": "Juraj"
+                },
+                "lastName": {
+                  "default": "Slafkovský"
+                },
+                "name": {
+                  "default": "J. Slafkovský"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              },
+              {
+                "playerId": 8481540,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Caufield"
+                },
+                "name": {
+                  "default": "C. Caufield"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010026/ev680.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 708,
+            "strength": "pp",
+            "playerId": 8480015,
+            "firstName": {
+              "default": "Owen"
+            },
+            "lastName": {
+              "default": "Tippett"
+            },
+            "name": {
+              "default": "O. Tippett"
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PHI/8480015.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/phi-mtl-tippett-scores-ppg-against-kaapo-kahkonen-6380016021112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/phi-mtl-tippett-marque-un-but-en-a-n-contre-kaapo-kahkonen-6380016717112",
+            "highlightClip": 6380016021112,
+            "highlightClipFr": 6380016717112,
+            "discreteClip": 6380016513112,
+            "discreteClipFr": 6380016622112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "17:35",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477989,
+                "firstName": {
+                  "default": "Christian"
+                },
+                "lastName": {
+                  "default": "Dvorak"
+                },
+                "name": {
+                  "default": "C. Dvorak"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8477948,
+                "firstName": {
+                  "default": "Travis"
+                },
+                "lastName": {
+                  "default": "Sanheim"
+                },
+                "name": {
+                  "default": "T. Sanheim"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010026/ev708.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "0641",
+            "eventId": 160,
+            "strength": "sh",
+            "playerId": 8482964,
+            "firstName": {
+              "default": "Arber"
+            },
+            "lastName": {
+              "default": "Xhekaj"
+            },
+            "name": {
+              "default": "A. Xhekaj"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482964.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/phi-mtl-xhekaj-scores-empty-net-goal-6380018926112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/phi-mtl-xhekaj-mtl-marque-un-but-dans-un-filet-desert-6380018440112",
+            "highlightClip": 6380018926112,
+            "highlightClipFr": 6380018440112,
+            "discreteClip": 6380017351112,
+            "discreteClipFr": 6380018927112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "19:46",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010026/ev160.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480018,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8480018.png",
+        "name": {
+          "default": "N. Suzuki"
+        },
+        "sweaterNo": 14,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8481540,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481540.png",
+        "name": {
+          "default": "C. Caufield"
+        },
+        "sweaterNo": 13,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8484403,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8484403.png",
+        "name": {
+          "default": "F. Xhekaj"
+        },
+        "sweaterNo": 63,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:43",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alexandre"
+              },
+              "lastName": {
+                "default": "Carrier"
+              },
+              "sweaterNumber": 45
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Owen"
+              },
+              "lastName": {
+                "default": "Tippett"
+              },
+              "sweaterNumber": 74
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "04:25",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "S. Blais"
+            }
+          },
+          {
+            "timeInPeriod": "07:17",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nicolas"
+              },
+              "lastName": {
+                "default": "Deslauriers"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Florian"
+              },
+              "lastName": {
+                "default": "Xhekaj"
+              },
+              "sweaterNumber": 63
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "07:17",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Florian"
+              },
+              "lastName": {
+                "default": "Xhekaj"
+              },
+              "sweaterNumber": 63
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nicolas"
+              },
+              "lastName": {
+                "default": "Deslauriers"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "16:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Arber"
+              },
+              "lastName": {
+                "default": "Xhekaj"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Rodrigo"
+              },
+              "lastName": {
+                "default": "Abols"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "roughing",
+            "servedBy": {
+              "default": "L. Tuch"
+            }
+          },
+          {
+            "timeInPeriod": "16:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Arber"
+              },
+              "lastName": {
+                "default": "Xhekaj"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Rodrigo"
+              },
+              "lastName": {
+                "default": "Abols"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "16:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Rodrigo"
+              },
+              "lastName": {
+                "default": "Abols"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Arber"
+              },
+              "lastName": {
+                "default": "Xhekaj"
+              },
+              "sweaterNumber": 72
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "13:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Hunter"
+              },
+              "lastName": {
+                "default": "McDonald"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Luke"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "cross-checking",
+            "servedBy": {
+              "default": "Oscar Eklind"
+            }
+          },
+          {
+            "timeInPeriod": "13:54",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Hunter"
+              },
+              "lastName": {
+                "default": "McDonald"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "PHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Luke"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "13:54",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Luke"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 88
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Hunter"
+              },
+              "lastName": {
+                "default": "McDonald"
+              },
+              "sweaterNumber": 41
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "17:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Lane"
+              },
+              "lastName": {
+                "default": "Hutson"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Couturier"
+              },
+              "sweaterNumber": 14
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "id": 2025020178,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-31",
+  "venue": {
+    "default": "T-Mobile Arena"
+  },
+  "venueLocation": {
+    "default": "Paradise"
+  },
+  "startTimeUTC": "2025-10-31T20:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 2,
+      "market": "A",
+      "countryCode": "US",
+      "network": "ALT",
+      "sequenceNumber": 376
+    },
+    {
+      "id": 521,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 21,
+    "commonName": {
+      "default": "Avalanche"
+    },
+    "abbrev": "COL",
+    "placeName": {
+      "default": "Colorado"
+    },
+    "placeNameWithPreposition": {
+      "default": "Colorado",
+      "fr": "du Colorado"
+    },
+    "score": 4,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 54,
+    "commonName": {
+      "default": "Golden Knights"
+    },
+    "abbrev": "VGK",
+    "placeName": {
+      "default": "Vegas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vegas",
+      "fr": "de Vegas"
+    },
+    "score": 2,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 55,
+            "strength": "ev",
+            "playerId": 8480039,
+            "firstName": {
+              "default": "Martin"
+            },
+            "lastName": {
+              "default": "Necas",
+              "cs": "Nečas",
+              "sk": "Nečas"
+            },
+            "name": {
+              "default": "M. Necas",
+              "cs": "M. Nečas",
+              "sk": "M. Nečas"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480039.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-vgk-necas-scores-goal-against-carl-lindbom-6384365869112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-vgk-necas-marque-un-but-contre-carl-lindbom-6384367975112",
+            "highlightClip": 6384365869112,
+            "highlightClipFr": 6384367975112,
+            "discreteClip": 6384367177112,
+            "discreteClipFr": 6384367084112,
+            "goalsToDate": 8,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "00:41",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480069,
+                "firstName": {
+                  "default": "Cale"
+                },
+                "lastName": {
+                  "default": "Makar"
+                },
+                "name": {
+                  "default": "C. Makar"
+                },
+                "assistsToDate": 13,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8478038,
+                "firstName": {
+                  "default": "Devon"
+                },
+                "lastName": {
+                  "default": "Toews"
+                },
+                "name": {
+                  "default": "D. Toews"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 7
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020178/ev55.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 615,
+            "strength": "ev",
+            "playerId": 8475754,
+            "firstName": {
+              "default": "Brock"
+            },
+            "lastName": {
+              "default": "Nelson"
+            },
+            "name": {
+              "default": "B. Nelson"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8475754.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-vgk-nelson-scores-goal-against-carl-lindbom-6384369900112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-vgk-nelson-marque-un-but-contre-carl-lindbom-6384369606112",
+            "highlightClip": 6384369900112,
+            "highlightClipFr": 6384369606112,
+            "discreteClip": 6384370093112,
+            "discreteClipFr": 6384370291112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "04:32",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480835,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Drury"
+                },
+                "name": {
+                  "default": "J. Drury"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020178/ev615.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1341",
+            "eventId": 459,
+            "strength": "pp",
+            "playerId": 8476881,
+            "firstName": {
+              "default": "Tomas",
+              "cs": "Tomáš",
+              "sk": "Tomáš"
+            },
+            "lastName": {
+              "default": "Hertl"
+            },
+            "name": {
+              "default": "T. Hertl"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8476881.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-vgk-hertl-scores-goal-against-scott-wedgewood-6384371060112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-vgk-hertl-marque-un-but-contre-scott-wedgewood-6384372004112",
+            "highlightClip": 6384371060112,
+            "highlightClipFr": 6384372004112,
+            "discreteClip": 6384370177112,
+            "discreteClipFr": 6384371337112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "02:51",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477447,
+                "firstName": {
+                  "default": "Shea"
+                },
+                "lastName": {
+                  "default": "Theodore"
+                },
+                "name": {
+                  "default": "S. Theodore"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 27
+              },
+              {
+                "playerId": 8478483,
+                "firstName": {
+                  "default": "Mitch",
+                  "cs": "Mitchell",
+                  "de": "Mitchell",
+                  "es": "Mitchell",
+                  "fi": "Mitchell",
+                  "sk": "Mitchell",
+                  "sv": "Mitchell"
+                },
+                "lastName": {
+                  "default": "Marner"
+                },
+                "name": {
+                  "default": "M. Marner"
+                },
+                "assistsToDate": 11,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020178/ev459.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 988,
+            "strength": "ev",
+            "playerId": 8470613,
+            "firstName": {
+              "default": "Brent"
+            },
+            "lastName": {
+              "default": "Burns"
+            },
+            "name": {
+              "default": "B. Burns"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8470613.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-vgk-burns-scores-goal-against-carl-lindbom-6384372427112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-vgk-burns-marque-un-but-contre-carl-lindbom-6384371919112",
+            "highlightClip": 6384372427112,
+            "highlightClipFr": 6384371919112,
+            "discreteClip": 6384370368112,
+            "discreteClipFr": 6384371625112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "10:11",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480039,
+                "firstName": {
+                  "default": "Martin"
+                },
+                "lastName": {
+                  "default": "Necas",
+                  "cs": "Nečas",
+                  "sk": "Nečas"
+                },
+                "name": {
+                  "default": "M. Necas",
+                  "cs": "M. Nečas",
+                  "sk": "M. Nečas"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020178/ev988.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1020,
+            "strength": "ev",
+            "playerId": 8478483,
+            "firstName": {
+              "default": "Mitch",
+              "cs": "Mitchell",
+              "de": "Mitchell",
+              "es": "Mitchell",
+              "fi": "Mitchell",
+              "sk": "Mitchell",
+              "sv": "Mitchell"
+            },
+            "lastName": {
+              "default": "Marner"
+            },
+            "name": {
+              "default": "M. Marner"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478483.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-vgk-marner-scores-goal-against-scott-wedgewood-6384371285112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-vgk-marner-marque-un-but-contre-scott-wedgewood-6384371557112",
+            "highlightClip": 6384371285112,
+            "highlightClipFr": 6384371557112,
+            "discreteClip": 6384372821112,
+            "discreteClipFr": 6384371076112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "12:01",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476881,
+                "firstName": {
+                  "default": "Tomas",
+                  "cs": "Tomáš",
+                  "sk": "Tomáš"
+                },
+                "lastName": {
+                  "default": "Hertl"
+                },
+                "name": {
+                  "default": "T. Hertl"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 48
+              },
+              {
+                "playerId": 8477018,
+                "firstName": {
+                  "default": "Ben"
+                },
+                "lastName": {
+                  "default": "Hutton"
+                },
+                "name": {
+                  "default": "B. Hutton"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020178/ev1020.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 256,
+            "strength": "ev",
+            "playerId": 8480069,
+            "firstName": {
+              "default": "Cale"
+            },
+            "lastName": {
+              "default": "Makar"
+            },
+            "name": {
+              "default": "C. Makar"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480069.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/cale-makar-with-a-goal-vs-vegas-golden-knights-6384373519112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/cale-makar-with-a-goal-vs-les-go-lden-knights-de-vegas-6384371470112",
+            "highlightClip": 6384373519112,
+            "highlightClipFr": 6384371470112,
+            "discreteClip": 6384372934112,
+            "discreteClipFr": 6384372240112,
+            "goalsToDate": 4,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "18:22",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8480039,
+                "firstName": {
+                  "default": "Martin"
+                },
+                "lastName": {
+                  "default": "Necas",
+                  "cs": "Nečas",
+                  "sk": "Nečas"
+                },
+                "name": {
+                  "default": "M. Necas",
+                  "cs": "M. Nečas",
+                  "sk": "M. Nečas"
+                },
+                "assistsToDate": 8,
+                "sweaterNumber": 88
+              },
+              {
+                "playerId": 8477492,
+                "firstName": {
+                  "default": "Nathan"
+                },
+                "lastName": {
+                  "default": "MacKinnon"
+                },
+                "name": {
+                  "default": "N. MacKinnon"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 29
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020178/ev256.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480039,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480039.png",
+        "name": {
+          "default": "M. Necas",
+          "cs": "M. Nečas",
+          "sk": "M. Nečas"
+        },
+        "sweaterNo": 88,
+        "position": "C",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8470613,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8470613.png",
+        "name": {
+          "default": "B. Burns"
+        },
+        "sweaterNo": 84,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8476881,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8476881.png",
+        "name": {
+          "default": "T. Hertl"
+        },
+        "sweaterNo": 48,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "11:06",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Drury"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ivan"
+              },
+              "lastName": {
+                "default": "Barbashev",
+                "cs": "Barbašev",
+                "fi": "Barbashov",
+                "sk": "Barbašev"
+              },
+              "sweaterNumber": 49
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:24",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gabriel"
+              },
+              "lastName": {
+                "default": "Landeskog"
+              },
+              "sweaterNumber": 92
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tomas",
+                "cs": "Tomáš",
+                "sk": "Tomáš"
+              },
+              "lastName": {
+                "default": "Hertl"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "05:26",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brent"
+              },
+              "lastName": {
+                "default": "Burns"
+              },
+              "sweaterNumber": 84
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Pavel"
+              },
+              "lastName": {
+                "default": "Dorofeyev",
+                "cs": "Dorofejev",
+                "fi": "Dorofejev",
+                "sk": "Dorofejev"
+              },
+              "sweaterNumber": 16
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "14:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Whitecloud"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gabriel"
+              },
+              "lastName": {
+                "default": "Landeskog"
+              },
+              "sweaterNumber": 92
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "16:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Parker"
+              },
+              "lastName": {
+                "default": "Kelly"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Reinhardt"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:26",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brent"
+              },
+              "lastName": {
+                "default": "Burns"
+              },
+              "sweaterNumber": 84
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tomas",
+                "cs": "Tomáš",
+                "sk": "Tomáš"
+              },
+              "lastName": {
+                "default": "Hertl"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "01:55",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Devon"
+              },
+              "lastName": {
+                "default": "Toews"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Eichel"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "02:11",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pavel"
+              },
+              "lastName": {
+                "default": "Dorofeyev",
+                "cs": "Dorofejev",
+                "fi": "Dorofejev",
+                "sk": "Dorofejev"
+              },
+              "sweaterNumber": 16
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Manson"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "holding-the-stick"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

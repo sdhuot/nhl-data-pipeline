@@ -1,0 +1,924 @@
+{
+  "id": 2025020105,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-21",
+  "venue": {
+    "default": "Bridgestone Arena"
+  },
+  "venueLocation": {
+    "default": "Nashville"
+  },
+  "startTimeUTC": "2025-10-22T00:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 561,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNSO",
+      "sequenceNumber": 277
+    },
+    {
+      "id": 553,
+      "market": "A",
+      "countryCode": "US",
+      "network": "Victory+",
+      "sequenceNumber": 373
+    },
+    {
+      "id": 219,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KCOP-13",
+      "sequenceNumber": 656
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 24,
+    "commonName": {
+      "default": "Ducks"
+    },
+    "abbrev": "ANA",
+    "placeName": {
+      "default": "Anaheim"
+    },
+    "placeNameWithPreposition": {
+      "default": "Anaheim",
+      "fr": "d'Anaheim"
+    },
+    "score": 5,
+    "sog": 32,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/ANA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/ANA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 18,
+    "commonName": {
+      "default": "Predators"
+    },
+    "abbrev": "NSH",
+    "placeName": {
+      "default": "Nashville"
+    },
+    "placeNameWithPreposition": {
+      "default": "Nashville",
+      "fr": "de Nashville"
+    },
+    "score": 2,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 277,
+            "strength": "ev",
+            "playerId": 8477527,
+            "firstName": {
+              "default": "Ross"
+            },
+            "lastName": {
+              "default": "Johnston"
+            },
+            "name": {
+              "default": "R. Johnston"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8477527.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ana-nsh-johnston-scores-goal-against-juuse-saros-6383489382112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-nsh-johnston-marque-un-but-contre-juuse-saros-6383488675112",
+            "highlightClip": 6383489382112,
+            "highlightClipFr": 6383488675112,
+            "discreteClip": 6383489485112,
+            "discreteClipFr": 6383489271112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "08:52",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475462,
+                "firstName": {
+                  "default": "Radko"
+                },
+                "lastName": {
+                  "default": "Gudas"
+                },
+                "name": {
+                  "default": "R. Gudas"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 7
+              },
+              {
+                "playerId": 8483490,
+                "firstName": {
+                  "default": "Pavel"
+                },
+                "lastName": {
+                  "default": "Mintyukov",
+                  "cs": "Mintjukov",
+                  "fi": "Mintjukov",
+                  "sk": "Mintjukov"
+                },
+                "name": {
+                  "default": "P. Mintyukov",
+                  "cs": "P. Mintjukov",
+                  "fi": "P. Mintjukov",
+                  "sk": "P. Mintjukov"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 98
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020105/ev277.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 352,
+            "strength": "ev",
+            "playerId": 8479370,
+            "firstName": {
+              "default": "Tyson"
+            },
+            "lastName": {
+              "default": "Jost"
+            },
+            "name": {
+              "default": "T. Jost"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8479370.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ana-nsh-jost-scores-goal-against-lukas-dostal-6383491092112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-nsh-jost-marque-un-but-contre-lukas-dostal-6383489892112",
+            "highlightClip": 6383491092112,
+            "highlightClipFr": 6383489892112,
+            "discreteClip": 6383490712112,
+            "discreteClipFr": 6383488687112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "14:29",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481056,
+                "firstName": {
+                  "default": "Spencer"
+                },
+                "lastName": {
+                  "default": "Stastney"
+                },
+                "name": {
+                  "default": "S. Stastney"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8482111,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Barron"
+                },
+                "name": {
+                  "default": "J. Barron"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020105/ev352.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 405,
+            "strength": "ev",
+            "playerId": 8484153,
+            "firstName": {
+              "default": "Leo"
+            },
+            "lastName": {
+              "default": "Carlsson"
+            },
+            "name": {
+              "default": "L. Carlsson"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8484153.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ana-nsh-carlsson-scores-goal-against-juuse-saros-6383494446112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-nsh-carlsson-marque-un-but-contre-juuse-saros-6383493320112",
+            "highlightClip": 6383494446112,
+            "highlightClipFr": 6383493320112,
+            "discreteClip": 6383495234112,
+            "discreteClipFr": 6383493518112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "04:23",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476885,
+                "firstName": {
+                  "default": "Jacob"
+                },
+                "lastName": {
+                  "default": "Trouba"
+                },
+                "name": {
+                  "default": "J. Trouba"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 65
+              },
+              {
+                "playerId": 8483445,
+                "firstName": {
+                  "default": "Cutter"
+                },
+                "lastName": {
+                  "default": "Gauthier"
+                },
+                "name": {
+                  "default": "C. Gauthier"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 61
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020105/ev405.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 660,
+            "strength": "ev",
+            "playerId": 8476887,
+            "firstName": {
+              "default": "Filip"
+            },
+            "lastName": {
+              "default": "Forsberg"
+            },
+            "name": {
+              "default": "F. Forsberg"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8476887.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ana-nsh-forsberg-scores-goal-against-lukas-dostal-6383495441112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-nsh-forsberg-marque-un-but-contre-lukas-dostal-6383495440112",
+            "highlightClip": 6383495441112,
+            "highlightClipFr": 6383495440112,
+            "discreteClip": 6383494737112,
+            "discreteClipFr": 6383493324112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "06:39",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474600,
+                "firstName": {
+                  "default": "Roman"
+                },
+                "lastName": {
+                  "default": "Josi"
+                },
+                "name": {
+                  "default": "R. Josi"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 59
+              },
+              {
+                "playerId": 8475158,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "O'Reilly"
+                },
+                "name": {
+                  "default": "R. O'Reilly"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 90
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020105/ev660.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 771,
+            "strength": "ev",
+            "playerId": 8483445,
+            "firstName": {
+              "default": "Cutter"
+            },
+            "lastName": {
+              "default": "Gauthier"
+            },
+            "name": {
+              "default": "C. Gauthier"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8483445.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ana-nsh-gauthier-scores-goal-against-juuse-saros-6383496740112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-nsh-gauthier-marque-un-but-contre-juuse-saros-6383496438112",
+            "highlightClip": 6383496740112,
+            "highlightClipFr": 6383496438112,
+            "discreteClip": 6383492951112,
+            "discreteClipFr": 6383494958112,
+            "goalsToDate": 4,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "15:07",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476885,
+                "firstName": {
+                  "default": "Jacob"
+                },
+                "lastName": {
+                  "default": "Trouba"
+                },
+                "name": {
+                  "default": "J. Trouba"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 65
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020105/ev771.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 798,
+            "strength": "ev",
+            "playerId": 8484762,
+            "firstName": {
+              "default": "Beckett"
+            },
+            "lastName": {
+              "default": "Sennecke"
+            },
+            "name": {
+              "default": "B. Sennecke"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8484762.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ana-nsh-sennecke-scores-goal-against-juuse-saros-6383496745112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-nsh-sennecke-marque-un-but-contre-juuse-saros-6383494258112",
+            "highlightClip": 6383496745112,
+            "highlightClipFr": 6383494258112,
+            "discreteClip": 6383494466112,
+            "discreteClipFr": 6383493767112,
+            "goalsToDate": 3,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "16:59",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482745,
+                "firstName": {
+                  "default": "Mason"
+                },
+                "lastName": {
+                  "default": "McTavish"
+                },
+                "name": {
+                  "default": "M. McTavish"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8477527,
+                "firstName": {
+                  "default": "Ross"
+                },
+                "lastName": {
+                  "default": "Johnston"
+                },
+                "name": {
+                  "default": "R. Johnston"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020105/ev798.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 412,
+            "strength": "ev",
+            "playerId": 8478873,
+            "firstName": {
+              "default": "Troy"
+            },
+            "lastName": {
+              "default": "Terry"
+            },
+            "name": {
+              "default": "T. Terry"
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8478873.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/ana-nsh-terry-scores-goal-against-juuse-saros-6383499266112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/ana-nsh-terry-marque-un-but-contre-juuse-saros-6383498766112",
+            "highlightClip": 6383499266112,
+            "highlightClipFr": 6383498766112,
+            "discreteClip": 6383497875112,
+            "discreteClipFr": 6383497968112,
+            "goalsToDate": 1,
+            "awayScore": 5,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "ANA"
+            },
+            "timeInPeriod": "11:40",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480068,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Poehling"
+                },
+                "name": {
+                  "default": "R. Poehling"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 25
+              },
+              {
+                "playerId": 8477527,
+                "firstName": {
+                  "default": "Ross"
+                },
+                "lastName": {
+                  "default": "Johnston"
+                },
+                "name": {
+                  "default": "R. Johnston"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020105/ev412.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477527,
+        "teamAbbrev": "ANA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8477527.png",
+        "name": {
+          "default": "R. Johnston"
+        },
+        "sweaterNo": 44,
+        "position": "L",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8483445,
+        "teamAbbrev": "ANA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/ANA/8483445.png",
+        "name": {
+          "default": "C. Gauthier"
+        },
+        "sweaterNo": 61,
+        "position": "L",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8479370,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8479370.png",
+        "name": {
+          "default": "T. Jost"
+        },
+        "sweaterNo": 17,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "16:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Roman"
+              },
+              "lastName": {
+                "default": "Josi"
+              },
+              "sweaterNumber": 59
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikael"
+              },
+              "lastName": {
+                "default": "Granlund"
+              },
+              "sweaterNumber": 64
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Erik"
+              },
+              "lastName": {
+                "default": "Haula"
+              },
+              "sweaterNumber": 56
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cutter"
+              },
+              "lastName": {
+                "default": "Gauthier"
+              },
+              "sweaterNumber": 61
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "07:42",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Wilsby"
+              },
+              "sweaterNumber": 83
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikael"
+              },
+              "lastName": {
+                "default": "Granlund"
+              },
+              "sweaterNumber": 64
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "09:42",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cutter"
+              },
+              "lastName": {
+                "default": "Gauthier"
+              },
+              "sweaterNumber": 61
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:55",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Wilsby"
+              },
+              "sweaterNumber": 83
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mason"
+              },
+              "lastName": {
+                "default": "McTavish"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "13:31",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ross"
+              },
+              "lastName": {
+                "default": "Johnston"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "13:31",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "McCarron"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ross"
+              },
+              "lastName": {
+                "default": "Johnston"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "14:26",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ozzy"
+              },
+              "lastName": {
+                "default": "Wiesblatt"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Vatrano"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "14:26",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Frank"
+              },
+              "lastName": {
+                "default": "Vatrano"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "ANA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ozzy"
+              },
+              "lastName": {
+                "default": "Wiesblatt"
+              },
+              "sweaterNumber": 89
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "18:07",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 36
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Beckett"
+              },
+              "lastName": {
+                "default": "Sennecke"
+              },
+              "sweaterNumber": 45
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

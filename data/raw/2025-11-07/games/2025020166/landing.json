@@ -1,0 +1,912 @@
+{
+  "id": 2025020166,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-29",
+  "venue": {
+    "default": "Nationwide Arena"
+  },
+  "venueLocation": {
+    "default": "Columbus"
+  },
+  "startTimeUTC": "2025-10-29T23:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 291,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS2",
+      "sequenceNumber": 110
+    },
+    {
+      "id": 565,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNOH",
+      "sequenceNumber": 276
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 10,
+    "commonName": {
+      "default": "Maple Leafs"
+    },
+    "abbrev": "TOR",
+    "placeName": {
+      "default": "Toronto"
+    },
+    "placeNameWithPreposition": {
+      "default": "Toronto",
+      "fr": "de Toronto"
+    },
+    "score": 3,
+    "sog": 36,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg"
+  },
+  "homeTeam": {
+    "id": 29,
+    "commonName": {
+      "default": "Blue Jackets"
+    },
+    "abbrev": "CBJ",
+    "placeName": {
+      "default": "Columbus"
+    },
+    "placeNameWithPreposition": {
+      "default": "Columbus",
+      "fr": "de Columbus"
+    },
+    "score": 6,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CBJ_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CBJ_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 190,
+            "strength": "ev",
+            "playerId": 8482705,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Sillinger"
+            },
+            "name": {
+              "default": "C. Sillinger"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482705.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-sillinger-scores-goal-against-cayden-primeau-6384265314112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-sillinger-marque-un-but-contre-cayden-primeau-6384265802112",
+            "highlightClip": 6384265314112,
+            "highlightClipFr": 6384265802112,
+            "discreteClip": 6384265312112,
+            "discreteClipFr": 6384265896112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "06:56",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475745,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "Coyle"
+                },
+                "name": {
+                  "default": "C. Coyle"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8479671,
+                "firstName": {
+                  "default": "Mathieu"
+                },
+                "lastName": {
+                  "default": "Olivier"
+                },
+                "name": {
+                  "default": "M. Olivier"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev190.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 299,
+            "strength": "ev",
+            "playerId": 8478460,
+            "firstName": {
+              "default": "Zach"
+            },
+            "lastName": {
+              "default": "Werenski"
+            },
+            "name": {
+              "default": "Z. Werenski"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8478460.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-werenski-scores-goal-against-cayden-primeau-6384266310112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-werenski-marque-un-but-contre-cayden-primeau-6384265918112",
+            "highlightClip": 6384266310112,
+            "highlightClipFr": 6384265918112,
+            "discreteClip": 6384267794112,
+            "discreteClipFr": 6384265327112,
+            "goalsToDate": 3,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "11:16",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475745,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "Coyle"
+                },
+                "name": {
+                  "default": "C. Coyle"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8479671,
+                "firstName": {
+                  "default": "Mathieu"
+                },
+                "lastName": {
+                  "default": "Olivier"
+                },
+                "name": {
+                  "default": "M. Olivier"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev299.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 551,
+            "strength": "ev",
+            "playerId": 8478104,
+            "firstName": {
+              "default": "Sammy"
+            },
+            "lastName": {
+              "default": "Blais"
+            },
+            "name": {
+              "default": "S. Blais"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8478104.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-blais-scores-goal-against-elvis-merzlikins-6384268511112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-blais-marque-un-but-contre-elvis-merzlikins-6384268307112",
+            "highlightClip": 6384268511112,
+            "highlightClipFr": 6384268307112,
+            "discreteClip": 6384267135112,
+            "discreteClipFr": 6384267225112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "02:43",
+            "shotType": "bat",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476931,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "McCabe"
+                },
+                "name": {
+                  "default": "J. McCabe"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 22
+              },
+              {
+                "playerId": 8478904,
+                "firstName": {
+                  "default": "Steven"
+                },
+                "lastName": {
+                  "default": "Lorentz"
+                },
+                "name": {
+                  "default": "S. Lorentz"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev551.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 634,
+            "strength": "ev",
+            "playerId": 8478500,
+            "firstName": {
+              "default": "Ivan"
+            },
+            "lastName": {
+              "default": "Provorov"
+            },
+            "name": {
+              "default": "I. Provorov"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8478500.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-provorov-scores-goal-against-cayden-primeau-6384268326112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-provorov-marque-un-but-contre-cayden-primeau-6384269202112",
+            "highlightClip": 6384268326112,
+            "highlightClipFr": 6384269202112,
+            "discreteClip": 6384268219112,
+            "discreteClipFr": 6384266639112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "08:33",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481716,
+                "firstName": {
+                  "default": "Dmitri",
+                  "cs": "Dmitrij",
+                  "sk": "Dmitrij"
+                },
+                "lastName": {
+                  "default": "Voronkov"
+                },
+                "name": {
+                  "default": "D. Voronkov"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 10
+              },
+              {
+                "playerId": 8480893,
+                "firstName": {
+                  "default": "Kirill"
+                },
+                "lastName": {
+                  "default": "Marchenko",
+                  "cs": "Marčenko",
+                  "fi": "Martshenko",
+                  "sk": "Marčenko"
+                },
+                "name": {
+                  "default": "K. Marchenko",
+                  "cs": "K. Marčenko",
+                  "fi": "K. Martshenko",
+                  "sk": "K. Marčenko"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 86
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev634.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 697,
+            "strength": "ev",
+            "playerId": 8482705,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Sillinger"
+            },
+            "name": {
+              "default": "C. Sillinger"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482705.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-sillinger-scores-goal-against-cayden-primeau-6384267436112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-sillinger-marque-un-but-contre-cayden-primeau-6384269700112",
+            "highlightClip": 6384267436112,
+            "highlightClipFr": 6384269700112,
+            "discreteClip": 6384268528112,
+            "discreteClipFr": 6384268709112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "13:24",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475745,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "Coyle"
+                },
+                "name": {
+                  "default": "C. Coyle"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8478460,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Werenski"
+                },
+                "name": {
+                  "default": "Z. Werenski"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev697.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 747,
+            "strength": "ev",
+            "playerId": 8479371,
+            "firstName": {
+              "default": "Dante"
+            },
+            "lastName": {
+              "default": "Fabbro"
+            },
+            "name": {
+              "default": "D. Fabbro"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8479371.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-fabbro-scores-goal-against-cayden-primeau-6384269804112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-fabbro-marque-un-but-contre-cayden-primeau-6384270104112",
+            "highlightClip": 6384269804112,
+            "highlightClipFr": 6384270104112,
+            "discreteClip": 6384268719112,
+            "discreteClipFr": 6384269503112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "16:58",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479671,
+                "firstName": {
+                  "default": "Mathieu"
+                },
+                "lastName": {
+                  "default": "Olivier"
+                },
+                "name": {
+                  "default": "M. Olivier"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8482705,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Sillinger"
+                },
+                "name": {
+                  "default": "C. Sillinger"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 4
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev747.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 901,
+            "strength": "ev",
+            "playerId": 8479671,
+            "firstName": {
+              "default": "Mathieu"
+            },
+            "lastName": {
+              "default": "Olivier"
+            },
+            "name": {
+              "default": "M. Olivier"
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8479671.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-olivier-scores-goal-against-cayden-primeau-6384268870112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-olivier-marque-un-but-contre-cayden-primeau-6384269052112",
+            "highlightClip": 6384268870112,
+            "highlightClipFr": 6384269052112,
+            "discreteClip": 6384269648112,
+            "discreteClipFr": 6384269647112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "07:50",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475745,
+                "firstName": {
+                  "default": "Charlie"
+                },
+                "lastName": {
+                  "default": "Coyle"
+                },
+                "name": {
+                  "default": "C. Coyle"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 3
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev901.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1008,
+            "strength": "ev",
+            "playerId": 8475166,
+            "firstName": {
+              "default": "John"
+            },
+            "lastName": {
+              "default": "Tavares"
+            },
+            "name": {
+              "default": "J. Tavares"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8475166.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-tavares-scores-goal-against-elvis-merzlikins-6384271420112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-tavares-marque-un-but-contre-elvis-merzlikins-6384269556112",
+            "highlightClip": 6384271420112,
+            "highlightClipFr": 6384269556112,
+            "discreteClip": 6384269745112,
+            "discreteClipFr": 6384268578112,
+            "goalsToDate": 6,
+            "awayScore": 2,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "15:45",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482720,
+                "firstName": {
+                  "default": "Matthew"
+                },
+                "lastName": {
+                  "default": "Knies"
+                },
+                "name": {
+                  "default": "M. Knies"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8481582,
+                "firstName": {
+                  "default": "Nicholas"
+                },
+                "lastName": {
+                  "default": "Robertson"
+                },
+                "name": {
+                  "default": "N. Robertson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 89
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev1008.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1040,
+            "strength": "ev",
+            "playerId": 8481582,
+            "firstName": {
+              "default": "Nicholas"
+            },
+            "lastName": {
+              "default": "Robertson"
+            },
+            "name": {
+              "default": "N. Robertson"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8481582.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-cbj-robertson-scores-goal-against-elvis-merzlikins-6384271324112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-cbj-robertson-marque-un-but-contre-elvis-merzlikins-6384272014112",
+            "highlightClip": 6384271324112,
+            "highlightClipFr": 6384272014112,
+            "discreteClip": 6384269072112,
+            "discreteClipFr": 6384271321112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "CBJ"
+            },
+            "timeInPeriod": "18:10",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477503,
+                "firstName": {
+                  "default": "Max"
+                },
+                "lastName": {
+                  "default": "Domi"
+                },
+                "name": {
+                  "default": "M. Domi"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8478104,
+                "firstName": {
+                  "default": "Sammy"
+                },
+                "lastName": {
+                  "default": "Blais"
+                },
+                "name": {
+                  "default": "S. Blais"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 79
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020166/ev1040.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482705,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8482705.png",
+        "name": {
+          "default": "C. Sillinger"
+        },
+        "sweaterNo": 4,
+        "position": "C",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8475745,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8475745.png",
+        "name": {
+          "default": "C. Coyle"
+        },
+        "sweaterNo": 3,
+        "position": "C",
+        "goals": 0,
+        "assists": 4,
+        "points": 4
+      },
+      {
+        "star": 3,
+        "playerId": 8479671,
+        "teamAbbrev": "CBJ",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CBJ/8479671.png",
+        "name": {
+          "default": "M. Olivier"
+        },
+        "sweaterNo": 24,
+        "position": "R",
+        "goals": 1,
+        "assists": 3,
+        "points": 4
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "18:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Philippe"
+              },
+              "lastName": {
+                "default": "Myers"
+              },
+              "sweaterNumber": 51
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mathieu"
+              },
+              "lastName": {
+                "default": "Olivier"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Damon"
+              },
+              "lastName": {
+                "default": "Severson"
+              },
+              "sweaterNumber": 78
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dakota"
+              },
+              "lastName": {
+                "default": "Joshua"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "04:02",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Auston"
+              },
+              "lastName": {
+                "default": "Matthews"
+              },
+              "sweaterNumber": 34
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Denton"
+              },
+              "lastName": {
+                "default": "Mateychuk"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "12:25",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dmitri",
+                "cs": "Dmitrij",
+                "sk": "Dmitrij"
+              },
+              "lastName": {
+                "default": "Voronkov"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "CBJ"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Auston"
+              },
+              "lastName": {
+                "default": "Matthews"
+              },
+              "sweaterNumber": 34
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

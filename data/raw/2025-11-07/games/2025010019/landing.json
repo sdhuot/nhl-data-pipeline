@@ -1,0 +1,742 @@
+{
+  "id": 2025010019,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-23",
+  "venue": {
+    "default": "Little Caesars Arena"
+  },
+  "venueLocation": {
+    "default": "Detroit"
+  },
+  "startTimeUTC": "2025-09-23T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Detroit",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 551,
+      "market": "A",
+      "countryCode": "US",
+      "network": "CHSN",
+      "sequenceNumber": 243
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 16,
+    "commonName": {
+      "default": "Blackhawks"
+    },
+    "abbrev": "CHI",
+    "placeName": {
+      "default": "Chicago"
+    },
+    "placeNameWithPreposition": {
+      "default": "Chicago",
+      "fr": "de Chicago"
+    },
+    "score": 2,
+    "sog": 17,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CHI_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CHI_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 17,
+    "commonName": {
+      "default": "Red Wings"
+    },
+    "abbrev": "DET",
+    "placeName": {
+      "default": "Detroit"
+    },
+    "placeNameWithPreposition": {
+      "default": "Detroit",
+      "fr": "de Detroit"
+    },
+    "score": 3,
+    "sog": 43,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 451,
+            "strength": "pp",
+            "playerId": 8482802,
+            "firstName": {
+              "default": "Carter"
+            },
+            "lastName": {
+              "default": "Mazur"
+            },
+            "name": {
+              "default": "C. Mazur"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8482802.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-det-mazur-scores-goal-against-arvid-soderblom-6380014699112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-det-mazur-marque-un-but-contre-arvid-soderblom-6380013916112",
+            "highlightClip": 6380014699112,
+            "highlightClipFr": 6380013916112,
+            "discreteClip": 6380015179112,
+            "discreteClipFr": 6380012943112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "14:26",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484471,
+                "firstName": {
+                  "default": "Emmitt"
+                },
+                "lastName": {
+                  "default": "Finnie"
+                },
+                "name": {
+                  "default": "E. Finnie"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 58
+              },
+              {
+                "playerId": 8481077,
+                "firstName": {
+                  "default": "John"
+                },
+                "lastName": {
+                  "default": "Leonard"
+                },
+                "name": {
+                  "default": "J. Leonard"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 43
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010019/ev451.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 565,
+            "strength": "pp",
+            "playerId": 8484144,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "Bedard"
+            },
+            "name": {
+              "default": "C. Bedard"
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8484144.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-det-bedard-scores-ppg-against-sebastian-cossa-6380014341112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-det-bedard-marque-un-but-en-a-n-contre-sebastian-cossa-6380016287112",
+            "highlightClip": 6380014341112,
+            "highlightClipFr": 6380016287112,
+            "discreteClip": 6380015011112,
+            "discreteClipFr": 6380014921112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "02:41",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483506,
+                "firstName": {
+                  "default": "Sam"
+                },
+                "lastName": {
+                  "default": "Rinzel"
+                },
+                "name": {
+                  "default": "S. Rinzel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8483493,
+                "firstName": {
+                  "default": "Frank"
+                },
+                "lastName": {
+                  "default": "Nazar"
+                },
+                "name": {
+                  "default": "F. Nazar"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010019/ev565.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 585,
+            "strength": "ev",
+            "playerId": 8484160,
+            "firstName": {
+              "default": "Nate"
+            },
+            "lastName": {
+              "default": "Danielson"
+            },
+            "name": {
+              "default": "N. Danielson"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8484160.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-det-danielson-scores-goal-against-arvid-soderblom-6380016685112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-det-danielson-marque-un-but-contre-arvid-soderblom-6380016395112",
+            "highlightClip": 6380016685112,
+            "highlightClipFr": 6380016395112,
+            "discreteClip": 6380015503112,
+            "discreteClipFr": 6380014054112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "04:21",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482171,
+                "firstName": {
+                  "default": "William"
+                },
+                "lastName": {
+                  "default": "Wallinder"
+                },
+                "name": {
+                  "default": "W. Wallinder"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 54
+              },
+              {
+                "playerId": 8484794,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Brandsegg-Nygård"
+                },
+                "name": {
+                  "default": "M. Brandsegg-Nygård"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 28
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010019/ev585.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 856,
+            "strength": "ev",
+            "playerId": 8482176,
+            "firstName": {
+              "default": "Wyatt"
+            },
+            "lastName": {
+              "default": "Kaiser"
+            },
+            "name": {
+              "default": "W. Kaiser"
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8482176.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-det-kaiser-scores-goal-against-sebastian-cossa-6380016057112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-det-kaiser-marque-un-but-contre-sebastian-cossa-6380017821112",
+            "highlightClip": 6380016057112,
+            "highlightClipFr": 6380017821112,
+            "discreteClip": 6380015855112,
+            "discreteClipFr": 6380016543112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "06:26",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483685,
+                "firstName": {
+                  "default": "Aidan"
+                },
+                "lastName": {
+                  "default": "Thompson"
+                },
+                "name": {
+                  "default": "A. Thompson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 78
+              },
+              {
+                "playerId": 8484783,
+                "firstName": {
+                  "default": "Artyom"
+                },
+                "lastName": {
+                  "default": "Levshunov"
+                },
+                "name": {
+                  "default": "A. Levshunov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 55
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010019/ev856.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 462,
+            "strength": "ev",
+            "playerId": 8484471,
+            "firstName": {
+              "default": "Emmitt"
+            },
+            "lastName": {
+              "default": "Finnie"
+            },
+            "name": {
+              "default": "E. Finnie"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8484471.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/chi-det-finnie-scores-goal-against-arvid-soderblom-6380017843112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/chi-det-finnie-marque-un-but-contre-arvid-soderblom-6380018809112",
+            "highlightClip": 6380017843112,
+            "highlightClipFr": 6380018809112,
+            "discreteClip": 6380018910112,
+            "discreteClipFr": 6380018710112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "12:38",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484794,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Brandsegg-Nygård"
+                },
+                "name": {
+                  "default": "M. Brandsegg-Nygård"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 28
+              },
+              {
+                "playerId": 8480070,
+                "firstName": {
+                  "default": "Ian"
+                },
+                "lastName": {
+                  "default": "Mitchell"
+                },
+                "name": {
+                  "default": "I. Mitchell"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 51
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010019/ev462.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8484471,
+        "teamAbbrev": "DET",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8484471.png",
+        "name": {
+          "default": "E. Finnie"
+        },
+        "sweaterNo": 58,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8484794,
+        "teamAbbrev": "DET",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8484794.png",
+        "name": {
+          "default": "M. Brandsegg-Nygård"
+        },
+        "sweaterNo": 28,
+        "position": "R",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8484144,
+        "teamAbbrev": "CHI",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CHI/8484144.png",
+        "name": {
+          "default": "C. Bedard"
+        },
+        "sweaterNo": 98,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "12:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Colton"
+              },
+              "lastName": {
+                "default": "Dach"
+              },
+              "sweaterNumber": 34
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Shai"
+              },
+              "lastName": {
+                "default": "Buium"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "18:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Artyom"
+              },
+              "lastName": {
+                "default": "Levshunov"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Leonard"
+              },
+              "sweaterNumber": 43
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Michael"
+              },
+              "lastName": {
+                "default": "Brandsegg-Nygård"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dominic"
+              },
+              "lastName": {
+                "default": "Toninato"
+              },
+              "sweaterNumber": 25
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "05:33",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonatan"
+              },
+              "lastName": {
+                "default": "Berggren"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Wyatt"
+              },
+              "lastName": {
+                "default": "Kaiser"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "15:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ethan"
+              },
+              "lastName": {
+                "default": "Del Mastro"
+              },
+              "sweaterNumber": 38
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Carter"
+              },
+              "lastName": {
+                "default": "Mazur"
+              },
+              "sweaterNumber": 34
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "19:21",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Aidan"
+              },
+              "lastName": {
+                "default": "Thompson"
+              },
+              "sweaterNumber": 78
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jonatan"
+              },
+              "lastName": {
+                "default": "Berggren"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:41",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "A. Watson"
+            }
+          },
+          {
+            "timeInPeriod": "07:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Greene"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "CHI"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Carter"
+              },
+              "lastName": {
+                "default": "Bear"
+              },
+              "sweaterNumber": 41
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nate"
+              },
+              "lastName": {
+                "default": "Danielson"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Bedard"
+              },
+              "sweaterNumber": 98
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

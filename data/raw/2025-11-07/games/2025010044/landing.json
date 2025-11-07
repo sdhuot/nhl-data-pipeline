@@ -1,0 +1,754 @@
+{
+  "id": 2025010044,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-26",
+  "venue": {
+    "default": "SAP Center at San Jose"
+  },
+  "venueLocation": {
+    "default": "San Jose"
+  },
+  "startTimeUTC": "2025-09-27T02:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 521,
+      "market": "A",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 54,
+    "commonName": {
+      "default": "Golden Knights"
+    },
+    "abbrev": "VGK",
+    "placeName": {
+      "default": "Vegas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vegas",
+      "fr": "de Vegas"
+    },
+    "score": 2,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+  },
+  "homeTeam": {
+    "id": 28,
+    "commonName": {
+      "default": "Sharks"
+    },
+    "abbrev": "SJS",
+    "placeName": {
+      "default": "San Jose"
+    },
+    "placeNameWithPreposition": {
+      "default": "San Jose",
+      "fr": "de San Jose"
+    },
+    "score": 1,
+    "sog": 14,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SJS_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SJS_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 258,
+            "strength": "ev",
+            "playerId": 8475200,
+            "firstName": {
+              "default": "Dmitry",
+              "cs": "Dmitrij",
+              "fi": "Dmitri",
+              "sk": "Dmitrij"
+            },
+            "lastName": {
+              "default": "Orlov"
+            },
+            "name": {
+              "default": "D. Orlov"
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8475200.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-sjs-orlov-scores-goal-against-akira-schmid-6380173144112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-sjs-orlov-marque-un-but-contre-akira-schmid-6380170503112",
+            "highlightClip": 6380173144112,
+            "highlightClipFr": 6380170503112,
+            "discreteClip": 6380173237112,
+            "discreteClipFr": 6380171091112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "SJS"
+            },
+            "timeInPeriod": "04:48",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477505,
+                "firstName": {
+                  "default": "Alexander"
+                },
+                "lastName": {
+                  "default": "Wennberg"
+                },
+                "name": {
+                  "default": "A. Wennberg"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 21
+              },
+              {
+                "playerId": 8482206,
+                "firstName": {
+                  "default": "Ethan"
+                },
+                "lastName": {
+                  "default": "Cardwell"
+                },
+                "name": {
+                  "default": "E. Cardwell"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 56
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010044/ev258.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 603,
+            "strength": "ev",
+            "playerId": 8481655,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Schwindt"
+            },
+            "name": {
+              "default": "C. Schwindt"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481655.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-sjs-schwindt-scores-goal-against-yaroslav-askarov-6380170584112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-sjs-schwindt-marque-un-but-contre-yaroslav-askarov-6380173444112",
+            "highlightClip": 6380170584112,
+            "highlightClipFr": 6380173444112,
+            "discreteClip": 6380171100112,
+            "discreteClipFr": 6380170585112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "08:15",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010044/ev603.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 796,
+            "strength": "pp",
+            "playerId": 8482141,
+            "firstName": {
+              "default": "Lukas"
+            },
+            "lastName": {
+              "default": "Cormier"
+            },
+            "name": {
+              "default": "L. Cormier"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8482141.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-sjs-cormier-scores-ppg-against-yaroslav-askarov-6380175557112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-sjs-cormier-marque-un-but-en-a-n-contre-yaroslav-askarov-6380174885112",
+            "highlightClip": 6380175557112,
+            "highlightClipFr": 6380174885112,
+            "discreteClip": 6380173896112,
+            "discreteClipFr": 6380174104112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "05:12",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482724,
+                "firstName": {
+                  "default": "Jakub"
+                },
+                "lastName": {
+                  "default": "Brabenec"
+                },
+                "name": {
+                  "default": "J. Brabenec"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 12
+              },
+              {
+                "playerId": 8483890,
+                "firstName": {
+                  "default": "Braeden"
+                },
+                "lastName": {
+                  "default": "Bowman"
+                },
+                "name": {
+                  "default": "B. Bowman"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 42
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010044/ev796.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482141,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8482141.png",
+        "name": {
+          "default": "L. Cormier"
+        },
+        "sweaterNo": 51,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8475200,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8475200.png",
+        "name": {
+          "default": "D. Orlov"
+        },
+        "sweaterNo": 9,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482137,
+        "teamAbbrev": "SJS",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SJS/8482137.png",
+        "name": {
+          "default": "Y. Askarov"
+        },
+        "sweaterNo": 30,
+        "position": "G",
+        "goalsAgainstAverage": 2.04,
+        "savePctg": 0.931
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:40",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tanner"
+              },
+              "lastName": {
+                "default": "Laczynski"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mario"
+              },
+              "lastName": {
+                "default": "Ferraro"
+              },
+              "sweaterNumber": 38
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "10:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tanner"
+              },
+              "lastName": {
+                "default": "Laczynski"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Igor"
+              },
+              "lastName": {
+                "default": "Chernyshov"
+              },
+              "sweaterNumber": 92
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "13:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Shakir"
+              },
+              "lastName": {
+                "default": "Mukhamadullin"
+              },
+              "sweaterNumber": 85
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Braeden"
+              },
+              "lastName": {
+                "default": "Bowman"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:04",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Barclay"
+              },
+              "lastName": {
+                "default": "Goodrow"
+              },
+              "sweaterNumber": 23
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jakub"
+              },
+              "lastName": {
+                "default": "Demek"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "07:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Raphael"
+              },
+              "lastName": {
+                "default": "Lavoie"
+              },
+              "sweaterNumber": 36
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ty"
+              },
+              "lastName": {
+                "default": "Dellandrea"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "unsportsmanlike-conduct"
+          },
+          {
+            "timeInPeriod": "07:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ty"
+              },
+              "lastName": {
+                "default": "Dellandrea"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Raphael"
+              },
+              "lastName": {
+                "default": "Lavoie"
+              },
+              "sweaterNumber": 36
+            },
+            "descKey": "unsportsmanlike-conduct"
+          },
+          {
+            "timeInPeriod": "16:27",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Barclay"
+              },
+              "lastName": {
+                "default": "Goodrow"
+              },
+              "sweaterNumber": 23
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Coghlan"
+              },
+              "sweaterNumber": 52
+            },
+            "descKey": "elbowing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:03",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ty"
+              },
+              "lastName": {
+                "default": "Dellandrea"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexander"
+              },
+              "lastName": {
+                "default": "Holtz"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "14:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joe"
+              },
+              "lastName": {
+                "default": "Fleming"
+              },
+              "sweaterNumber": 50
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ty"
+              },
+              "lastName": {
+                "default": "Dellandrea"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "tripping",
+            "servedBy": {
+              "default": "A. Holtz"
+            }
+          },
+          {
+            "timeInPeriod": "14:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Wetsch"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Joe"
+              },
+              "lastName": {
+                "default": "Fleming"
+              },
+              "sweaterNumber": 50
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "14:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joe"
+              },
+              "lastName": {
+                "default": "Fleming"
+              },
+              "sweaterNumber": 50
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Wetsch"
+              },
+              "sweaterNumber": 62
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "14:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joe"
+              },
+              "lastName": {
+                "default": "Fleming"
+              },
+              "sweaterNumber": 50
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Wetsch"
+              },
+              "sweaterNumber": 62
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "14:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Wetsch"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Joe"
+              },
+              "lastName": {
+                "default": "Fleming"
+              },
+              "sweaterNumber": 50
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "14:36",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joe"
+              },
+              "lastName": {
+                "default": "Fleming"
+              },
+              "sweaterNumber": 50
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "descKey": "misconduct"
+          },
+          {
+            "timeInPeriod": "16:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Quentin"
+              },
+              "lastName": {
+                "default": "Musty"
+              },
+              "sweaterNumber": 13
+            },
+            "teamAbbrev": {
+              "default": "SJS"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "Hutton"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "slashing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

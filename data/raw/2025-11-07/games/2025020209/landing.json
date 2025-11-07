@@ -1,0 +1,761 @@
+{
+  "id": 2025020209,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-04",
+  "venue": {
+    "default": "Ball Arena"
+  },
+  "venueLocation": {
+    "default": "Denver"
+  },
+  "startTimeUTC": "2025-11-05T02:30:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "America/Denver",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 385,
+      "market": "N",
+      "countryCode": "US",
+      "network": "TNT",
+      "sequenceNumber": 11
+    },
+    {
+      "id": 501,
+      "market": "N",
+      "countryCode": "US",
+      "network": "truTV",
+      "sequenceNumber": 14
+    },
+    {
+      "id": 578,
+      "market": "N",
+      "countryCode": "US",
+      "network": "HBO MAX",
+      "sequenceNumber": 19
+    },
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 2,
+      "market": "H",
+      "countryCode": "US",
+      "network": "ALT",
+      "sequenceNumber": 376
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 14,
+    "commonName": {
+      "default": "Lightning"
+    },
+    "abbrev": "TBL",
+    "placeName": {
+      "default": "Tampa Bay"
+    },
+    "placeNameWithPreposition": {
+      "default": "Tampa Bay",
+      "fr": "de Tampa Bay"
+    },
+    "score": 2,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TBL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TBL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 21,
+    "commonName": {
+      "default": "Avalanche"
+    },
+    "abbrev": "COL",
+    "placeName": {
+      "default": "Colorado"
+    },
+    "placeNameWithPreposition": {
+      "default": "Colorado",
+      "fr": "du Colorado"
+    },
+    "score": 3,
+    "sog": 33,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 71,
+            "strength": "ev",
+            "playerId": 8476453,
+            "firstName": {
+              "default": "Nikita"
+            },
+            "lastName": {
+              "default": "Kucherov",
+              "cs": "Kučerov",
+              "fi": "Kutsherov",
+              "sk": "Kučerov"
+            },
+            "name": {
+              "default": "N. Kucherov",
+              "cs": "N. Kučerov",
+              "fi": "N. Kutsherov",
+              "sk": "N. Kučerov"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8476453.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-col-kucherov-scores-goal-against-scott-wedgewood-6384533063112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-col-kucherov-marque-un-but-contre-scott-wedgewood-6384533153112",
+            "highlightClip": 6384533063112,
+            "highlightClipFr": 6384533153112,
+            "discreteClip": 6384534131112,
+            "discreteClipFr": 6384533057112,
+            "goalsToDate": 5,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "TBL"
+            },
+            "timeInPeriod": "01:37",
+            "shotType": "wrap-around",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020209/ev71.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 301,
+            "strength": "pp",
+            "playerId": 8478109,
+            "firstName": {
+              "default": "Victor"
+            },
+            "lastName": {
+              "default": "Olofsson"
+            },
+            "name": {
+              "default": "V. Olofsson"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8478109.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-col-olofsson-scores-goal-against-andrei-vasilevskiy-6384534658112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-col-olofsson-marque-un-but-contre-andrei-vasilevskiy-6384533294112",
+            "highlightClip": 6384534658112,
+            "highlightClipFr": 6384533294112,
+            "discreteClip": 6384533784112,
+            "discreteClipFr": 6384534842112,
+            "goalsToDate": 4,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "13:51",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477492,
+                "firstName": {
+                  "default": "Nathan"
+                },
+                "lastName": {
+                  "default": "MacKinnon"
+                },
+                "name": {
+                  "default": "N. MacKinnon"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8480039,
+                "firstName": {
+                  "default": "Martin"
+                },
+                "lastName": {
+                  "default": "Necas",
+                  "cs": "Nečas",
+                  "sk": "Nečas"
+                },
+                "name": {
+                  "default": "M. Necas",
+                  "cs": "M. Nečas",
+                  "sk": "M. Nečas"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 88
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020209/ev301.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 564,
+            "strength": "ev",
+            "playerId": 8478109,
+            "firstName": {
+              "default": "Victor"
+            },
+            "lastName": {
+              "default": "Olofsson"
+            },
+            "name": {
+              "default": "V. Olofsson"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8478109.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-col-olofsson-scores-goal-against-andrei-vasilevskiy-6384535001112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-col-olofsson-marque-un-but-contre-andrei-vasilevskiy-6384536167112",
+            "highlightClip": 6384535001112,
+            "highlightClipFr": 6384536167112,
+            "discreteClip": 6384535975112,
+            "discreteClipFr": 6384536267112,
+            "goalsToDate": 5,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "04:08",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480835,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Drury"
+                },
+                "name": {
+                  "default": "J. Drury"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 18
+              },
+              {
+                "playerId": 8476455,
+                "firstName": {
+                  "default": "Gabriel"
+                },
+                "lastName": {
+                  "default": "Landeskog"
+                },
+                "name": {
+                  "default": "G. Landeskog"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 92
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020209/ev564.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 303,
+            "strength": "ev",
+            "playerId": 8479525,
+            "firstName": {
+              "default": "Ross"
+            },
+            "lastName": {
+              "default": "Colton"
+            },
+            "name": {
+              "default": "R. Colton"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8479525.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-col-colton-scores-goal-against-andrei-vasilevskiy-6384536750112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-col-colton-marque-un-but-contre-andrei-vasilevskiy-6384535278112",
+            "highlightClip": 6384536750112,
+            "highlightClipFr": 6384535278112,
+            "discreteClip": 6384535890112,
+            "discreteClipFr": 6384536068112,
+            "goalsToDate": 2,
+            "awayScore": 1,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "05:21",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484258,
+                "firstName": {
+                  "default": "Sam"
+                },
+                "lastName": {
+                  "default": "Malinski"
+                },
+                "name": {
+                  "default": "S. Malinski"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 70
+              },
+              {
+                "playerId": 8475754,
+                "firstName": {
+                  "default": "Brock"
+                },
+                "lastName": {
+                  "default": "Nelson"
+                },
+                "name": {
+                  "default": "B. Nelson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 11
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020209/ev303.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 832,
+            "strength": "ev",
+            "playerId": 8478010,
+            "firstName": {
+              "default": "Brayden"
+            },
+            "lastName": {
+              "default": "Point"
+            },
+            "name": {
+              "default": "B. Point"
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8478010.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tbl-col-point-scores-goal-against-scott-wedgewood-6384537795112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tbl-col-point-marque-un-but-contre-scott-wedgewood-6384538367112",
+            "highlightClip": 6384537795112,
+            "highlightClipFr": 6384538367112,
+            "discreteClip": 6384537310112,
+            "discreteClipFr": 6384538666112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "03:32",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480426,
+                "firstName": {
+                  "default": "Charle-Edouard"
+                },
+                "lastName": {
+                  "default": "D'Astous"
+                },
+                "name": {
+                  "default": "C. D'Astous"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 51
+              },
+              {
+                "playerId": 8475167,
+                "firstName": {
+                  "default": "Victor"
+                },
+                "lastName": {
+                  "default": "Hedman"
+                },
+                "name": {
+                  "default": "V. Hedman"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020209/ev832.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8478109,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8478109.png",
+        "name": {
+          "default": "V. Olofsson"
+        },
+        "sweaterNo": 95,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8479525,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8479525.png",
+        "name": {
+          "default": "R. Colton"
+        },
+        "sweaterNo": 20,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8478010,
+        "teamAbbrev": "TBL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TBL/8478010.png",
+        "name": {
+          "default": "B. Point"
+        },
+        "sweaterNo": 21,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:43",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Charle-Edouard"
+              },
+              "lastName": {
+                "default": "D'Astous"
+              },
+              "sweaterNumber": 51
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gabriel"
+              },
+              "lastName": {
+                "default": "Landeskog"
+              },
+              "sweaterNumber": 92
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "05:43",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gabriel"
+              },
+              "lastName": {
+                "default": "Landeskog"
+              },
+              "sweaterNumber": 92
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Charle-Edouard"
+              },
+              "lastName": {
+                "default": "D'Astous"
+              },
+              "sweaterNumber": 51
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "10:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pontus"
+              },
+              "lastName": {
+                "default": "Holmberg"
+              },
+              "sweaterNumber": 29
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brock"
+              },
+              "lastName": {
+                "default": "Nelson"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "13:34",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "G. Goncalves"
+            }
+          },
+          {
+            "timeInPeriod": "17:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Victor"
+              },
+              "lastName": {
+                "default": "Olofsson"
+              },
+              "sweaterNumber": 95
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nikita"
+              },
+              "lastName": {
+                "default": "Kucherov",
+                "cs": "Kučerov",
+                "fi": "Kutsherov",
+                "sk": "Kučerov"
+              },
+              "sweaterNumber": 86
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:21",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Manson"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Pontus"
+              },
+              "lastName": {
+                "default": "Holmberg"
+              },
+              "sweaterNumber": 29
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "16:59",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Victor"
+              },
+              "lastName": {
+                "default": "Hedman"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Martin"
+              },
+              "lastName": {
+                "default": "Necas",
+                "cs": "Nečas",
+                "sk": "Nečas"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:21",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brock"
+              },
+              "lastName": {
+                "default": "Nelson"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Erik"
+              },
+              "lastName": {
+                "default": "Cernak",
+                "cs": "Černák",
+                "sk": "Černák"
+              },
+              "sweaterNumber": 81
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "14:26",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Zemgus"
+              },
+              "lastName": {
+                "default": "Girgensons"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "TBL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Manson"
+              },
+              "sweaterNumber": 42
+            },
+            "descKey": "cross-checking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

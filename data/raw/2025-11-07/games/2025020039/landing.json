@@ -1,0 +1,677 @@
+{
+  "id": 2025020039,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-13",
+  "venue": {
+    "default": "KeyBank Center"
+  },
+  "venueLocation": {
+    "default": "Buffalo"
+  },
+  "startTimeUTC": "2025-10-13T16:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 2,
+      "market": "A",
+      "countryCode": "US",
+      "network": "ALT",
+      "sequenceNumber": 376
+    },
+    {
+      "id": 28,
+      "market": "H",
+      "countryCode": "US",
+      "network": "MSG-B",
+      "sequenceNumber": 383
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 21,
+    "commonName": {
+      "default": "Avalanche"
+    },
+    "abbrev": "COL",
+    "placeName": {
+      "default": "Colorado"
+    },
+    "placeNameWithPreposition": {
+      "default": "Colorado",
+      "fr": "du Colorado"
+    },
+    "score": 3,
+    "sog": 37,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/COL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/COL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 1,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 101,
+            "strength": "ev",
+            "playerId": 8477492,
+            "firstName": {
+              "default": "Nathan"
+            },
+            "lastName": {
+              "default": "MacKinnon"
+            },
+            "name": {
+              "default": "N. MacKinnon"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477492.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-buf-mackinnon-scores-goal-against-alex-lyon-6382692679112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-buf-mackinnon-marque-un-but-contre-alex-lyon-6382690141112",
+            "highlightClip": 6382692679112,
+            "highlightClipFr": 6382690141112,
+            "discreteClip": 6382691489112,
+            "discreteClipFr": 6382690807112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "03:14",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480039,
+                "firstName": {
+                  "default": "Martin"
+                },
+                "lastName": {
+                  "default": "Necas",
+                  "cs": "Nečas",
+                  "sk": "Nečas"
+                },
+                "name": {
+                  "default": "M. Necas",
+                  "cs": "M. Nečas",
+                  "sk": "M. Nečas"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 88
+              },
+              {
+                "playerId": 8470613,
+                "firstName": {
+                  "default": "Brent"
+                },
+                "lastName": {
+                  "default": "Burns"
+                },
+                "name": {
+                  "default": "B. Burns"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 84
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020039/ev101.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 435,
+            "strength": "ev",
+            "playerId": 8479420,
+            "firstName": {
+              "default": "Tage"
+            },
+            "lastName": {
+              "default": "Thompson"
+            },
+            "name": {
+              "default": "T. Thompson"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479420.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-buf-thompson-scores-goal-against-scott-wedgewood-6382692137112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-buf-thompson-marque-un-but-contre-scott-wedgewood-6382693495112",
+            "highlightClip": 6382692137112,
+            "highlightClipFr": 6382693495112,
+            "discreteClip": 6382691912112,
+            "discreteClipFr": 6382692016112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "16:32",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477949,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Tuch"
+                },
+                "name": {
+                  "default": "A. Tuch"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 89
+              },
+              {
+                "playerId": 8480839,
+                "firstName": {
+                  "default": "Rasmus"
+                },
+                "lastName": {
+                  "default": "Dahlin"
+                },
+                "name": {
+                  "default": "R. Dahlin"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 26
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020039/ev435.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 590,
+            "strength": "ev",
+            "playerId": 8480069,
+            "firstName": {
+              "default": "Cale"
+            },
+            "lastName": {
+              "default": "Makar"
+            },
+            "name": {
+              "default": "C. Makar"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480069.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-buf-makar-scores-goal-against-alex-lyon-6382694094112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-buf-makar-marque-un-but-contre-alex-lyon-6382692960112",
+            "highlightClip": 6382694094112,
+            "highlightClipFr": 6382692960112,
+            "discreteClip": 6382691359112,
+            "discreteClipFr": 6382693238112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "04:32",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477501,
+                "firstName": {
+                  "default": "Valeri",
+                  "cs": "Valerij",
+                  "sk": "Valerij"
+                },
+                "lastName": {
+                  "default": "Nichushkin",
+                  "cs": "Ničuškin",
+                  "fi": "Nitshushkin",
+                  "sk": "Ničuškin"
+                },
+                "name": {
+                  "default": "V. Nichushkin",
+                  "cs": "V. Ničuškin",
+                  "fi": "V. Nitshushkin",
+                  "sk": "V. Ničuškin"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020039/ev590.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1441",
+            "eventId": 705,
+            "strength": "ev",
+            "playerId": 8477492,
+            "firstName": {
+              "default": "Nathan"
+            },
+            "lastName": {
+              "default": "MacKinnon"
+            },
+            "name": {
+              "default": "N. MacKinnon"
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477492.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/col-buf-mackinnon-scores-goal-against-alex-lyon-6382695506112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/col-buf-mackinnon-marque-un-but-contre-alex-lyon-6382693077112",
+            "highlightClip": 6382695506112,
+            "highlightClipFr": 6382693077112,
+            "discreteClip": 6382693446112,
+            "discreteClipFr": 6382695009112,
+            "goalsToDate": 4,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "COL"
+            },
+            "timeInPeriod": "11:59",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480039,
+                "firstName": {
+                  "default": "Martin"
+                },
+                "lastName": {
+                  "default": "Necas",
+                  "cs": "Nečas",
+                  "sk": "Nečas"
+                },
+                "name": {
+                  "default": "M. Necas",
+                  "cs": "M. Nečas",
+                  "sk": "M. Nečas"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 88
+              },
+              {
+                "playerId": 8480069,
+                "firstName": {
+                  "default": "Cale"
+                },
+                "lastName": {
+                  "default": "Makar"
+                },
+                "name": {
+                  "default": "C. Makar"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020039/ev705.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477492,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8477492.png",
+        "name": {
+          "default": "N. MacKinnon"
+        },
+        "sweaterNo": 29,
+        "position": "C",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8480069,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480069.png",
+        "name": {
+          "default": "C. Makar"
+        },
+        "sweaterNo": 8,
+        "position": "D",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8480039,
+        "teamAbbrev": "COL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/COL/8480039.png",
+        "name": {
+          "default": "M. Necas",
+          "cs": "M. Nečas",
+          "sk": "M. Nečas"
+        },
+        "sweaterNo": 88,
+        "position": "C",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Drury"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Quinn"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "08:56",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "R. Colton"
+            }
+          },
+          {
+            "timeInPeriod": "13:42",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Dahlin"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Martin"
+              },
+              "lastName": {
+                "default": "Necas",
+                "cs": "Nečas",
+                "sk": "Nečas"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "18:15",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cale"
+              },
+              "lastName": {
+                "default": "Makar"
+              },
+              "sweaterNumber": 8
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jason"
+              },
+              "lastName": {
+                "default": "Zucker"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cale"
+              },
+              "lastName": {
+                "default": "Makar"
+              },
+              "sweaterNumber": 8
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "11:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brent"
+              },
+              "lastName": {
+                "default": "Burns"
+              },
+              "sweaterNumber": 84
+            },
+            "teamAbbrev": {
+              "default": "COL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "11:38",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "descKey": "embellishment"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Dahlin"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Valeri",
+                "cs": "Valerij",
+                "sk": "Valerij"
+              },
+              "lastName": {
+                "default": "Nichushkin",
+                "cs": "Ničuškin",
+                "fi": "Nitshushkin",
+                "sk": "Ničuškin"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "16:12",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Conor"
+              },
+              "lastName": {
+                "default": "Timmins"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

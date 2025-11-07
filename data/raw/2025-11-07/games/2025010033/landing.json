@@ -1,0 +1,618 @@
+{
+  "id": 2025010033,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-24",
+  "venue": {
+    "default": "Rogers Place"
+  },
+  "venueLocation": {
+    "default": "Edmonton"
+  },
+  "startTimeUTC": "2025-09-25T01:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "America/Edmonton",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 554,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KHN",
+      "sequenceNumber": 339
+    },
+    {
+      "id": 388,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KONG",
+      "sequenceNumber": 654
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 55,
+    "commonName": {
+      "default": "Kraken"
+    },
+    "abbrev": "SEA",
+    "placeName": {
+      "default": "Seattle"
+    },
+    "placeNameWithPreposition": {
+      "default": "Seattle",
+      "fr": "de Seattle"
+    },
+    "score": 4,
+    "sog": 19,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 22,
+    "commonName": {
+      "default": "Oilers"
+    },
+    "abbrev": "EDM",
+    "placeName": {
+      "default": "Edmonton"
+    },
+    "placeNameWithPreposition": {
+      "default": "Edmonton",
+      "fr": "d'Edmonton"
+    },
+    "score": 1,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 501,
+            "strength": "pp",
+            "playerId": 8483442,
+            "firstName": {
+              "default": "Jagger"
+            },
+            "lastName": {
+              "default": "Firkus"
+            },
+            "name": {
+              "default": "J. Firkus"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483442.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-firkus-scores-ppg-against-stuart-skinner-6380070665112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-firkus-marque-un-but-en-a-n-contre-stuart-skinner-6380070748112",
+            "highlightClip": 6380070665112,
+            "highlightClipFr": 6380070748112,
+            "discreteClip": 6380071339112,
+            "discreteClipFr": 6380071828112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "19:30",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483012,
+                "firstName": {
+                  "default": "Logan"
+                },
+                "lastName": {
+                  "default": "Morrison"
+                },
+                "name": {
+                  "default": "L. Morrison"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 96
+              },
+              {
+                "playerId": 8482665,
+                "firstName": {
+                  "default": "Matty"
+                },
+                "lastName": {
+                  "default": "Beniers"
+                },
+                "name": {
+                  "default": "M. Beniers"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 10
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010033/ev501.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 673,
+            "strength": "ev",
+            "playerId": 8483012,
+            "firstName": {
+              "default": "Logan"
+            },
+            "lastName": {
+              "default": "Morrison"
+            },
+            "name": {
+              "default": "L. Morrison"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483012.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-morrison-scores-goal-against-stuart-skinner-6380072856112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-morrison-marque-un-but-contre-stuart-skinner-6380069877112",
+            "highlightClip": 6380072856112,
+            "highlightClipFr": 6380069877112,
+            "discreteClip": 6380073546112,
+            "discreteClipFr": 6380071363112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "15:02",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483570,
+                "firstName": {
+                  "default": "Ben"
+                },
+                "lastName": {
+                  "default": "Meyers"
+                },
+                "name": {
+                  "default": "B. Meyers"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 59
+              },
+              {
+                "playerId": 8484168,
+                "firstName": {
+                  "default": "Oscar"
+                },
+                "lastName": {
+                  "default": "Fisker Molgaard"
+                },
+                "name": {
+                  "default": "O. Fisker Molgaard"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 78
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010033/ev673.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 502,
+            "strength": "ev",
+            "playerId": 8478233,
+            "firstName": {
+              "default": "Andrew"
+            },
+            "lastName": {
+              "default": "Mangiapane"
+            },
+            "name": {
+              "default": "A. Mangiapane"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478233.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-mangiapane-scores-goal-against-niklas-kokko-6380074773112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-mangiapane-marque-un-but-contre-niklas-kokko-6380074667112",
+            "highlightClip": 6380074773112,
+            "highlightClipFr": 6380074667112,
+            "discreteClip": 6380071624112,
+            "discreteClipFr": 6380074663112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "09:03",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480803,
+                "firstName": {
+                  "default": "Evan"
+                },
+                "lastName": {
+                  "default": "Bouchard"
+                },
+                "name": {
+                  "default": "E. Bouchard"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 2
+              },
+              {
+                "playerId": 8482162,
+                "firstName": {
+                  "default": "Roby"
+                },
+                "lastName": {
+                  "default": "Jarventie"
+                },
+                "name": {
+                  "default": "R. Jarventie"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010033/ev502.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 873,
+            "strength": "ev",
+            "playerId": 8483570,
+            "firstName": {
+              "default": "Ben"
+            },
+            "lastName": {
+              "default": "Meyers"
+            },
+            "name": {
+              "default": "B. Meyers"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483570.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-edm-meyers-scores-goal-against-stuart-skinner-6380073111112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-edm-meyers-marque-un-but-contre-stuart-skinner-6380075069112",
+            "highlightClip": 6380073111112,
+            "highlightClipFr": 6380075069112,
+            "discreteClip": 6380073003112,
+            "discreteClipFr": 6380071708112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "12:13",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475768,
+                "firstName": {
+                  "default": "Jaden"
+                },
+                "lastName": {
+                  "default": "Schwartz"
+                },
+                "name": {
+                  "default": "J. Schwartz"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8474586,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Eberle"
+                },
+                "name": {
+                  "default": "J. Eberle"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 7
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010033/ev873.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 504,
+            "strength": "ev",
+            "playerId": 8483497,
+            "firstName": {
+              "default": "Jani"
+            },
+            "lastName": {
+              "default": "Nyman"
+            },
+            "name": {
+              "default": "J. Nyman"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483497.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/jani-nyman-with-a-goal-vs-edmonton-oilers-6380072014112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/jani-nyman-with-a-goal-vs-le-oilers-d-edmonton-6380075571112",
+            "highlightClip": 6380072014112,
+            "highlightClipFr": 6380075571112,
+            "discreteClip": 6380075473112,
+            "discreteClipFr": 6380073608112,
+            "goalsToDate": 3,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "19:23",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010033/ev504.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8483012,
+        "teamAbbrev": "SEA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483012.png",
+        "name": {
+          "default": "L. Morrison"
+        },
+        "sweaterNo": 96,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8478233,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478233.png",
+        "name": {
+          "default": "A. Mangiapane"
+        },
+        "sweaterNo": 88,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8483570,
+        "teamAbbrev": "SEA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483570.png",
+        "name": {
+          "default": "B. Meyers"
+        },
+        "sweaterNo": 59,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Beau"
+              },
+              "lastName": {
+                "default": "Akey"
+              },
+              "sweaterNumber": 82
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kaapo"
+              },
+              "lastName": {
+                "default": "Kakko"
+              },
+              "sweaterNumber": 84
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "18:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mattias"
+              },
+              "lastName": {
+                "default": "Janmark"
+              },
+              "sweaterNumber": 13
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matty"
+              },
+              "lastName": {
+                "default": "Beniers"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "09:37",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joshua",
+                "cs": "Josh",
+                "de": "Josh",
+                "es": "Josh",
+                "fi": "Josh",
+                "sk": "Josh",
+                "sv": "Josh"
+              },
+              "lastName": {
+                "default": "Mahura"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mattias"
+              },
+              "lastName": {
+                "default": "Janmark"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "19:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Hayden"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Evan"
+              },
+              "lastName": {
+                "default": "Bouchard"
+              },
+              "sweaterNumber": 2
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

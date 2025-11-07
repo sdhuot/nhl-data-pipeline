@@ -1,0 +1,966 @@
+{
+  "id": 2025020155,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-28",
+  "venue": {
+    "default": "Lenovo Center"
+  },
+  "venueLocation": {
+    "default": "Raleigh"
+  },
+  "startTimeUTC": "2025-10-28T22:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 561,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNSO",
+      "sequenceNumber": 277
+    },
+    {
+      "id": 521,
+      "market": "A",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 54,
+    "commonName": {
+      "default": "Golden Knights"
+    },
+    "abbrev": "VGK",
+    "placeName": {
+      "default": "Vegas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vegas",
+      "fr": "de Vegas"
+    },
+    "score": 6,
+    "sog": 35,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+  },
+  "homeTeam": {
+    "id": 12,
+    "commonName": {
+      "default": "Hurricanes"
+    },
+    "abbrev": "CAR",
+    "placeName": {
+      "default": "Carolina",
+      "fr": "Caroline"
+    },
+    "placeNameWithPreposition": {
+      "default": "Carolina",
+      "fr": "de la Caroline"
+    },
+    "score": 3,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/CAR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/CAR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 167,
+            "strength": "pp",
+            "playerId": 8480830,
+            "firstName": {
+              "default": "Andrei",
+              "cs": "Andrej",
+              "sk": "Andrej"
+            },
+            "lastName": {
+              "default": "Svechnikov",
+              "cs": "Svečnikov",
+              "fi": "Svetshnikov",
+              "sk": "Svečnikov"
+            },
+            "name": {
+              "default": "A. Svechnikov",
+              "cs": "A. Svečnikov",
+              "fi": "A. Svetshnikov",
+              "sk": "A. Svečnikov"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8480830.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-svechnikov-scores-ppg-against-akira-schmid-6384208962112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-svechnikov-marque-un-but-en-a-n-contre-akira-schmid-6384209077112",
+            "highlightClip": 6384208962112,
+            "highlightClipFr": 6384209077112,
+            "discreteClip": 6384207855112,
+            "discreteClipFr": 6384211315112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "03:46",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478427,
+                "firstName": {
+                  "default": "Sebastian"
+                },
+                "lastName": {
+                  "default": "Aho"
+                },
+                "name": {
+                  "default": "S. Aho"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev167.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 259,
+            "strength": "ev",
+            "playerId": 8481604,
+            "firstName": {
+              "default": "Pavel"
+            },
+            "lastName": {
+              "default": "Dorofeyev",
+              "cs": "Dorofejev",
+              "fi": "Dorofejev",
+              "sk": "Dorofejev"
+            },
+            "name": {
+              "default": "P. Dorofeyev",
+              "cs": "P. Dorofejev",
+              "fi": "P. Dorofejev",
+              "sk": "P. Dorofejev"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-dorofeyev-scores-goal-against-frederik-andersen-6384211026112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-dorofeyev-marque-un-but-contre-frederik-andersen-6384210929112",
+            "highlightClip": 6384211026112,
+            "highlightClipFr": 6384210929112,
+            "discreteClip": 6384211519112,
+            "discreteClipFr": 6384210639112,
+            "goalsToDate": 8,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "06:27",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478483,
+                "firstName": {
+                  "default": "Mitch",
+                  "cs": "Mitchell",
+                  "de": "Mitchell",
+                  "es": "Mitchell",
+                  "fi": "Mitchell",
+                  "sk": "Mitchell",
+                  "sv": "Mitchell"
+                },
+                "lastName": {
+                  "default": "Marner"
+                },
+                "name": {
+                  "default": "M. Marner"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 93
+              },
+              {
+                "playerId": 8476881,
+                "firstName": {
+                  "default": "Tomas",
+                  "cs": "Tomáš",
+                  "sk": "Tomáš"
+                },
+                "lastName": {
+                  "default": "Hertl"
+                },
+                "name": {
+                  "default": "T. Hertl"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev259.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 464,
+            "strength": "pp",
+            "playerId": 8481604,
+            "firstName": {
+              "default": "Pavel"
+            },
+            "lastName": {
+              "default": "Dorofeyev",
+              "cs": "Dorofejev",
+              "fi": "Dorofejev",
+              "sk": "Dorofejev"
+            },
+            "name": {
+              "default": "P. Dorofeyev",
+              "cs": "P. Dorofejev",
+              "fi": "P. Dorofejev",
+              "sk": "P. Dorofejev"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-dorofeyev-scores-ppg-against-frederik-andersen-6384211160112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-dorofeyev-marque-un-but-en-a-n-contre-frederik-andersen-6384212429112",
+            "highlightClip": 6384211160112,
+            "highlightClipFr": 6384212429112,
+            "discreteClip": 6384211653112,
+            "discreteClipFr": 6384212136112,
+            "goalsToDate": 9,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "18:03",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477447,
+                "firstName": {
+                  "default": "Shea"
+                },
+                "lastName": {
+                  "default": "Theodore"
+                },
+                "name": {
+                  "default": "S. Theodore"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 27
+              },
+              {
+                "playerId": 8478403,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "Eichel"
+                },
+                "name": {
+                  "default": "J. Eichel"
+                },
+                "assistsToDate": 11,
+                "sweaterNumber": 9
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev464.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 689,
+            "strength": "ev",
+            "playerId": 8476921,
+            "firstName": {
+              "default": "Jordan"
+            },
+            "lastName": {
+              "default": "Martinook"
+            },
+            "name": {
+              "default": "J. Martinook"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476921.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-martinook-scores-goal-against-akira-schmid-6384213357112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-martinook-marque-un-but-contre-akira-schmid-6384210995112",
+            "highlightClip": 6384213357112,
+            "highlightClipFr": 6384210995112,
+            "discreteClip": 6384211195112,
+            "discreteClipFr": 6384210495112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "12:07",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev689.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 881,
+            "strength": "ev",
+            "playerId": 8482702,
+            "firstName": {
+              "default": "Logan"
+            },
+            "lastName": {
+              "default": "Stankoven"
+            },
+            "name": {
+              "default": "L. Stankoven"
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8482702.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-stankoven-scores-goal-against-akira-schmid-6384216673112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-stankoven-marque-un-but-contre-akira-schmid-6384214815112",
+            "highlightClip": 6384216673112,
+            "highlightClipFr": 6384214815112,
+            "discreteClip": 6384214018112,
+            "discreteClipFr": 6384214812112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "CAR"
+            },
+            "timeInPeriod": "02:31",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478970,
+                "firstName": {
+                  "default": "Jalen"
+                },
+                "lastName": {
+                  "default": "Chatfield"
+                },
+                "name": {
+                  "default": "J. Chatfield"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 5
+              },
+              {
+                "playerId": 8482809,
+                "firstName": {
+                  "default": "Jackson"
+                },
+                "lastName": {
+                  "default": "Blake"
+                },
+                "name": {
+                  "default": "J. Blake"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 53
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev881.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 210,
+            "strength": "ev",
+            "playerId": 8479353,
+            "firstName": {
+              "default": "Brett"
+            },
+            "lastName": {
+              "default": "Howden"
+            },
+            "name": {
+              "default": "B. Howden"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8479353.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-howden-scores-goal-against-frederik-andersen-6384216779112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-howden-marque-un-but-contre-frederik-andersen-6384215823112",
+            "highlightClip": 6384216779112,
+            "highlightClipFr": 6384215823112,
+            "discreteClip": 6384222270112,
+            "discreteClipFr": 6384214209112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "06:10",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481133,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Reinhardt"
+                },
+                "name": {
+                  "default": "C. Reinhardt"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8478434,
+                "firstName": {
+                  "default": "Keegan"
+                },
+                "lastName": {
+                  "default": "Kolesar"
+                },
+                "name": {
+                  "default": "K. Kolesar"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 55
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev210.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1106,
+            "strength": "ev",
+            "playerId": 8478403,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Eichel"
+            },
+            "name": {
+              "default": "J. Eichel"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-eichel-scores-goal-against-frederik-andersen-6384215032112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-eichel-marque-un-but-contre-frederik-andersen-6384215225112",
+            "highlightClip": 6384215032112,
+            "highlightClipFr": 6384215225112,
+            "discreteClip": 6384216704112,
+            "discreteClipFr": 6384215449112,
+            "goalsToDate": 7,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "15:01",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477964,
+                "firstName": {
+                  "default": "Ivan"
+                },
+                "lastName": {
+                  "default": "Barbashev",
+                  "cs": "Barbašev",
+                  "fi": "Barbashov",
+                  "sk": "Barbašev"
+                },
+                "name": {
+                  "default": "I. Barbashev",
+                  "cs": "I. Barbašev",
+                  "fi": "I. Barbashov",
+                  "sk": "I. Barbašev"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 49
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev1106.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 1147,
+            "strength": "ev",
+            "playerId": 8478403,
+            "firstName": {
+              "default": "Jack"
+            },
+            "lastName": {
+              "default": "Eichel"
+            },
+            "name": {
+              "default": "J. Eichel"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-eichel-scores-goal-against-frederik-andersen-6384216726112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-eichel-marque-un-but-contre-frederik-andersen-6384216803112",
+            "highlightClip": 6384216726112,
+            "highlightClipFr": 6384216803112,
+            "discreteClip": 6384217581112,
+            "discreteClipFr": 6384216131112,
+            "goalsToDate": 8,
+            "awayScore": 5,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "17:36",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477964,
+                "firstName": {
+                  "default": "Ivan"
+                },
+                "lastName": {
+                  "default": "Barbashev",
+                  "cs": "Barbašev",
+                  "fi": "Barbashov",
+                  "sk": "Barbašev"
+                },
+                "name": {
+                  "default": "I. Barbashev",
+                  "cs": "I. Barbašev",
+                  "fi": "I. Barbashov",
+                  "sk": "I. Barbašev"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 49
+              },
+              {
+                "playerId": 8478483,
+                "firstName": {
+                  "default": "Mitch",
+                  "cs": "Mitchell",
+                  "de": "Mitchell",
+                  "es": "Mitchell",
+                  "fi": "Mitchell",
+                  "sk": "Mitchell",
+                  "sv": "Mitchell"
+                },
+                "lastName": {
+                  "default": "Marner"
+                },
+                "name": {
+                  "default": "M. Marner"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 93
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev1147.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 1169,
+            "strength": "ev",
+            "playerId": 8476881,
+            "firstName": {
+              "default": "Tomas",
+              "cs": "Tomáš",
+              "sk": "Tomáš"
+            },
+            "lastName": {
+              "default": "Hertl"
+            },
+            "name": {
+              "default": "T. Hertl"
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8476881.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-car-hertl-scores-empty-net-goal-6384217899112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-car-hertl-vgk-marque-un-but-dans-un-filet-desert-6384217597112",
+            "highlightClip": 6384217899112,
+            "highlightClipFr": 6384217597112,
+            "discreteClip": 6384217589112,
+            "discreteClipFr": 6384216242112,
+            "goalsToDate": 4,
+            "awayScore": 6,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "VGK"
+            },
+            "timeInPeriod": "19:38",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8476448,
+                "firstName": {
+                  "default": "William"
+                },
+                "lastName": {
+                  "default": "Karlsson"
+                },
+                "name": {
+                  "default": "W. Karlsson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020155/ev1169.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8478403,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8478403.png",
+        "name": {
+          "default": "J. Eichel"
+        },
+        "sweaterNo": 9,
+        "position": "C",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8481604,
+        "teamAbbrev": "VGK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VGK/8481604.png",
+        "name": {
+          "default": "P. Dorofeyev",
+          "cs": "P. Dorofejev",
+          "fi": "P. Dorofejev",
+          "sk": "P. Dorofejev"
+        },
+        "sweaterNo": 16,
+        "position": "R",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8476921,
+        "teamAbbrev": "CAR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/CAR/8476921.png",
+        "name": {
+          "default": "J. Martinook"
+        },
+        "sweaterNo": 48,
+        "position": "L",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:44",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Seth"
+              },
+              "lastName": {
+                "default": "Jarvis"
+              },
+              "sweaterNumber": 24
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "13:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Andrei",
+                "cs": "Andrej",
+                "sk": "Andrej"
+              },
+              "lastName": {
+                "default": "Svechnikov",
+                "cs": "Svečnikov",
+                "fi": "Svetshnikov",
+                "sk": "Svečnikov"
+              },
+              "sweaterNumber": 37
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kaedan"
+              },
+              "lastName": {
+                "default": "Korczak"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "17:41",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Andrei",
+                "cs": "Andrej",
+                "sk": "Andrej"
+              },
+              "lastName": {
+                "default": "Svechnikov",
+                "cs": "Svečnikov",
+                "fi": "Svetshnikov",
+                "sk": "Svečnikov"
+              },
+              "sweaterNumber": 37
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Shea"
+              },
+              "lastName": {
+                "default": "Theodore"
+              },
+              "sweaterNumber": 27
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Staal"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "Eichel"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "18:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sean"
+              },
+              "lastName": {
+                "default": "Walker"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Howden"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Howden"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nikolaj"
+              },
+              "lastName": {
+                "default": "Ehlers"
+              },
+              "sweaterNumber": 27
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "08:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nikolaj"
+              },
+              "lastName": {
+                "default": "Ehlers"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "CAR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Howden"
+              },
+              "sweaterNumber": 21
+            },
+            "descKey": "roughing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

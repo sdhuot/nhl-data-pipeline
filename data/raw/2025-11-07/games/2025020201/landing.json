@@ -1,0 +1,995 @@
+{
+  "id": 2025020201,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-03",
+  "venue": {
+    "default": "Bridgestone Arena"
+  },
+  "venueLocation": {
+    "default": "Nashville"
+  },
+  "startTimeUTC": "2025-11-04T01:30:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 290,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "SNP",
+      "sequenceNumber": 33
+    },
+    {
+      "id": 561,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNSO",
+      "sequenceNumber": 277
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 23,
+    "commonName": {
+      "default": "Canucks"
+    },
+    "abbrev": "VAN",
+    "placeName": {
+      "default": "Vancouver"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vancouver",
+      "fr": "de Vancouver"
+    },
+    "score": 5,
+    "sog": 36,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VAN_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VAN_dark.svg"
+  },
+  "homeTeam": {
+    "id": 18,
+    "commonName": {
+      "default": "Predators"
+    },
+    "abbrev": "NSH",
+    "placeName": {
+      "default": "Nashville"
+    },
+    "placeNameWithPreposition": {
+      "default": "Nashville",
+      "fr": "de Nashville"
+    },
+    "score": 4,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NSH_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/NSH_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 203,
+            "strength": "ev",
+            "playerId": 8476887,
+            "firstName": {
+              "default": "Filip"
+            },
+            "lastName": {
+              "default": "Forsberg"
+            },
+            "name": {
+              "default": "F. Forsberg"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8476887.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-forsberg-scores-goal-against-thatcher-demko-6384479835112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-forsberg-marque-un-but-contre-thatcher-demko-6384479347112",
+            "highlightClip": 6384479835112,
+            "highlightClipFr": 6384479347112,
+            "discreteClip": 6384481413112,
+            "discreteClipFr": 6384481311112,
+            "goalsToDate": 6,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "NSH"
+            },
+            "timeInPeriod": "06:47",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476869,
+                "firstName": {
+                  "default": "Brady"
+                },
+                "lastName": {
+                  "default": "Skjei"
+                },
+                "name": {
+                  "default": "B. Skjei"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 76
+              },
+              {
+                "playerId": 8482146,
+                "firstName": {
+                  "default": "Luke"
+                },
+                "lastName": {
+                  "default": "Evangelista"
+                },
+                "name": {
+                  "default": "L. Evangelista"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev203.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 389,
+            "strength": "pp",
+            "playerId": 8475169,
+            "firstName": {
+              "default": "Evander"
+            },
+            "lastName": {
+              "default": "Kane"
+            },
+            "name": {
+              "default": "E. Kane"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8475169.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-kane-scores-ppg-against-juuse-saros-6384479665112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-kane-marque-un-but-en-a-n-contre-juuse-saros-6384481442112",
+            "highlightClip": 6384479665112,
+            "highlightClipFr": 6384481442112,
+            "discreteClip": 6384481702112,
+            "discreteClipFr": 6384479362112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "14:45",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479425,
+                "firstName": {
+                  "default": "Filip"
+                },
+                "lastName": {
+                  "default": "Hronek"
+                },
+                "name": {
+                  "default": "F. Hronek"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8483395,
+                "firstName": {
+                  "default": "Arshdeep"
+                },
+                "lastName": {
+                  "default": "Bains"
+                },
+                "name": {
+                  "default": "A. Bains"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev389.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 453,
+            "strength": "pp",
+            "playerId": 8478498,
+            "firstName": {
+              "default": "Jake"
+            },
+            "lastName": {
+              "default": "DeBrusk"
+            },
+            "name": {
+              "default": "J. DeBrusk"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8478498.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-debrusk-scores-ppg-against-juuse-saros-6384482852112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-debrusk-marque-un-but-en-a-n-contre-juuse-saros-6384482627112",
+            "highlightClip": 6384482852112,
+            "highlightClipFr": 6384482627112,
+            "discreteClip": 6384482846112,
+            "discreteClipFr": 6384483332112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "12:57",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478444,
+                "firstName": {
+                  "default": "Brock"
+                },
+                "lastName": {
+                  "default": "Boeser"
+                },
+                "name": {
+                  "default": "B. Boeser"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8480012,
+                "firstName": {
+                  "default": "Elias"
+                },
+                "lastName": {
+                  "default": "Pettersson"
+                },
+                "name": {
+                  "default": "E. Pettersson"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 40
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev453.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 747,
+            "strength": "ev",
+            "playerId": 8478444,
+            "firstName": {
+              "default": "Brock"
+            },
+            "lastName": {
+              "default": "Boeser"
+            },
+            "name": {
+              "default": "B. Boeser"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8478444.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-boeser-scores-goal-against-juuse-saros-6384483240112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-boeser-marque-un-but-contre-juuse-saros-6384483636112",
+            "highlightClip": 6384483240112,
+            "highlightClipFr": 6384483636112,
+            "discreteClip": 6384482634112,
+            "discreteClipFr": 6384483535112,
+            "goalsToDate": 5,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "15:05",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484240,
+                "firstName": {
+                  "default": "Tom"
+                },
+                "lastName": {
+                  "default": "Willander"
+                },
+                "name": {
+                  "default": "T. Willander"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 5
+              },
+              {
+                "playerId": 8483678,
+                "firstName": {
+                  "default": "Elias"
+                },
+                "lastName": {
+                  "default": "Pettersson"
+                },
+                "name": {
+                  "default": "E. Pettersson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 25
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev747.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 805,
+            "strength": "pp",
+            "playerId": 8475287,
+            "firstName": {
+              "default": "Erik"
+            },
+            "lastName": {
+              "default": "Haula"
+            },
+            "name": {
+              "default": "E. Haula"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8475287.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-haula-scores-ppg-against-thatcher-demko-6384482577112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-haula-marque-un-but-en-a-n-contre-thatcher-demko-6384483653112",
+            "highlightClip": 6384482577112,
+            "highlightClipFr": 6384483653112,
+            "discreteClip": 6384483363112,
+            "discreteClipFr": 6384482267112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "18:45",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476887,
+                "firstName": {
+                  "default": "Filip"
+                },
+                "lastName": {
+                  "default": "Forsberg"
+                },
+                "name": {
+                  "default": "F. Forsberg"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 9
+              },
+              {
+                "playerId": 8482146,
+                "firstName": {
+                  "default": "Luke"
+                },
+                "lastName": {
+                  "default": "Evangelista"
+                },
+                "name": {
+                  "default": "L. Evangelista"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 77
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev805.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "0651",
+            "eventId": 868,
+            "strength": "ev",
+            "playerId": 8475169,
+            "firstName": {
+              "default": "Evander"
+            },
+            "lastName": {
+              "default": "Kane"
+            },
+            "name": {
+              "default": "E. Kane"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8475169.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-kane-scores-goal-against-juuse-saros-6384484627112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-kane-marque-un-but-contre-juuse-saros-6384482777112",
+            "highlightClip": 6384484627112,
+            "highlightClipFr": 6384482777112,
+            "discreteClip": 6384483771112,
+            "discreteClipFr": 6384482290112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "03:02",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481024,
+                "firstName": {
+                  "default": "Linus"
+                },
+                "lastName": {
+                  "default": "Karlsson"
+                },
+                "name": {
+                  "default": "L. Karlsson"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 94
+              },
+              {
+                "playerId": 8477969,
+                "firstName": {
+                  "default": "Marcus"
+                },
+                "lastName": {
+                  "default": "Pettersson"
+                },
+                "name": {
+                  "default": "M. Pettersson"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 29
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev868.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 980,
+            "strength": "ev",
+            "playerId": 8478047,
+            "firstName": {
+              "default": "Michael"
+            },
+            "lastName": {
+              "default": "Bunting"
+            },
+            "name": {
+              "default": "M. Bunting"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8478047.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-bunting-scores-goal-against-thatcher-demko-6384484842112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-bunting-marque-un-but-contre-thatcher-demko-6384485934112",
+            "highlightClip": 6384484842112,
+            "highlightClipFr": 6384485934112,
+            "discreteClip": 6384484382112,
+            "discreteClipFr": 6384484280112,
+            "goalsToDate": 4,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "11:52",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481056,
+                "firstName": {
+                  "default": "Spencer"
+                },
+                "lastName": {
+                  "default": "Stastney"
+                },
+                "name": {
+                  "default": "S. Stastney"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8482768,
+                "firstName": {
+                  "default": "Fedor"
+                },
+                "lastName": {
+                  "default": "Svechkov"
+                },
+                "name": {
+                  "default": "F. Svechkov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 40
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev980.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 1059,
+            "strength": "pp",
+            "playerId": 8483565,
+            "firstName": {
+              "default": "Nick"
+            },
+            "lastName": {
+              "default": "Blankenburg"
+            },
+            "name": {
+              "default": "N. Blankenburg"
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8483565.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/nick-blankenburg-with-a-powerplay-goal-vs-vancouver-canucks-6384485058112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/nick-blankenburg-with-a-powerplay-goal-vs-les-canucks-de-vancouver-6384484308112",
+            "highlightClip": 6384485058112,
+            "highlightClipFr": 6384484308112,
+            "discreteClip": 6384484112112,
+            "discreteClipFr": 6384485353112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 4,
+            "timeInPeriod": "16:37",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484241,
+                "firstName": {
+                  "default": "Matthew"
+                },
+                "lastName": {
+                  "default": "Wood"
+                },
+                "name": {
+                  "default": "M. Wood"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8478047,
+                "firstName": {
+                  "default": "Michael"
+                },
+                "lastName": {
+                  "default": "Bunting"
+                },
+                "name": {
+                  "default": "M. Bunting"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 58
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev1059.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 1204,
+            "strength": "ev",
+            "playerId": 8478444,
+            "firstName": {
+              "default": "Brock"
+            },
+            "lastName": {
+              "default": "Boeser"
+            },
+            "name": {
+              "default": "B. Boeser"
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8478444.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/van-nsh-boeser-scores-goal-against-juuse-saros-6384486568112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/van-nsh-boeser-marque-un-but-contre-juuse-saros-6384485590112",
+            "highlightClip": 6384486568112,
+            "highlightClipFr": 6384485590112,
+            "discreteClip": 6384486480112,
+            "discreteClipFr": 6384486844112,
+            "goalsToDate": 6,
+            "awayScore": 5,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "VAN"
+            },
+            "timeInPeriod": "04:58",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480012,
+                "firstName": {
+                  "default": "Elias"
+                },
+                "lastName": {
+                  "default": "Pettersson"
+                },
+                "name": {
+                  "default": "E. Pettersson"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 40
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020201/ev1204.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8478444,
+        "teamAbbrev": "VAN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8478444.png",
+        "name": {
+          "default": "B. Boeser"
+        },
+        "sweaterNo": 6,
+        "position": "R",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8475169,
+        "teamAbbrev": "VAN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/VAN/8475169.png",
+        "name": {
+          "default": "E. Kane"
+        },
+        "sweaterNo": 91,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8476887,
+        "teamAbbrev": "NSH",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/NSH/8476887.png",
+        "name": {
+          "default": "F. Forsberg"
+        },
+        "sweaterNo": 9,
+        "position": "L",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "13:10",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nicolas"
+              },
+              "lastName": {
+                "default": "Hague"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Aatu"
+              },
+              "lastName": {
+                "default": "Raty",
+                "cs": "Räty",
+                "fi": "Räty",
+                "sk": "Räty",
+                "sv": "Räty"
+              },
+              "sweaterNumber": 54
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:42",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kiefer"
+              },
+              "lastName": {
+                "default": "Sherwood"
+              },
+              "sweaterNumber": 44
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Filip"
+              },
+              "lastName": {
+                "default": "Forsberg"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "10:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ozzy"
+              },
+              "lastName": {
+                "default": "Wiesblatt"
+              },
+              "sweaterNumber": 89
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Quinn"
+              },
+              "lastName": {
+                "default": "Hughes"
+              },
+              "sweaterNumber": 43
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "11:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Nick",
+                "cs": "Nicklaus",
+                "de": "Nicklaus",
+                "es": "Nicklaus",
+                "fi": "Nicklaus",
+                "sk": "Nicklaus",
+                "sv": "Nicklaus"
+              },
+              "lastName": {
+                "default": "Perbix"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "NSH"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jake"
+              },
+              "lastName": {
+                "default": "DeBrusk"
+              },
+              "sweaterNumber": 74
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "17:54",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Aatu"
+              },
+              "lastName": {
+                "default": "Raty",
+                "cs": "Räty",
+                "fi": "Räty",
+                "sk": "Räty",
+                "sv": "Räty"
+              },
+              "sweaterNumber": 54
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Steven"
+              },
+              "lastName": {
+                "default": "Stamkos"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "06:14",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Filip"
+              },
+              "lastName": {
+                "default": "Hronek"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matthew"
+              },
+              "lastName": {
+                "default": "Wood"
+              },
+              "sweaterNumber": 71
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "15:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Evander"
+              },
+              "lastName": {
+                "default": "Kane"
+              },
+              "sweaterNumber": 91
+            },
+            "teamAbbrev": {
+              "default": "VAN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Luke"
+              },
+              "lastName": {
+                "default": "Evangelista"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:02",
+    "secondsRemaining": 2,
+    "running": false,
+    "inIntermission": false
+  }
+}

@@ -1,0 +1,806 @@
+{
+  "id": 2025020162,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-28",
+  "venue": {
+    "default": "Rogers Place"
+  },
+  "venueLocation": {
+    "default": "Edmonton"
+  },
+  "startTimeUTC": "2025-10-29T01:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "America/Edmonton",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 558,
+      "market": "A",
+      "countryCode": "US",
+      "network": "Utah16",
+      "sequenceNumber": 372
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 68,
+    "commonName": {
+      "default": "Mammoth"
+    },
+    "abbrev": "UTA",
+    "placeName": {
+      "default": "Utah"
+    },
+    "placeNameWithPreposition": {
+      "default": "Utah",
+      "fr": "de l'Utah"
+    },
+    "score": 3,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 22,
+    "commonName": {
+      "default": "Oilers"
+    },
+    "abbrev": "EDM",
+    "placeName": {
+      "default": "Edmonton"
+    },
+    "placeNameWithPreposition": {
+      "default": "Edmonton",
+      "fr": "d'Edmonton"
+    },
+    "score": 6,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/EDM_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/EDM_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 174,
+            "strength": "ev",
+            "playerId": 8483431,
+            "firstName": {
+              "default": "Logan"
+            },
+            "lastName": {
+              "default": "Cooley"
+            },
+            "name": {
+              "default": "L. Cooley"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8483431.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-cooley-scores-goal-against-stuart-skinner-6384219138112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-cooley-marque-un-but-contre-stuart-skinner-6384218261112",
+            "highlightClip": 6384219138112,
+            "highlightClipFr": 6384218261112,
+            "discreteClip": 6384220208112,
+            "discreteClipFr": 6384217359112,
+            "goalsToDate": 8,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "09:25",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482699,
+                "firstName": {
+                  "default": "Dylan"
+                },
+                "lastName": {
+                  "default": "Guenther"
+                },
+                "name": {
+                  "default": "D. Guenther"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 11
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev174.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 384,
+            "strength": "ev",
+            "playerId": 8482175,
+            "firstName": {
+              "default": "JJ"
+            },
+            "lastName": {
+              "default": "Peterka"
+            },
+            "name": {
+              "default": "J. Peterka"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8482175.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-peterka-scores-goal-against-stuart-skinner-6384220837112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-peterka-marque-un-but-contre-stuart-skinner-6384220437112",
+            "highlightClip": 6384220837112,
+            "highlightClipFr": 6384220437112,
+            "discreteClip": 6384218976112,
+            "discreteClipFr": 6384219944112,
+            "goalsToDate": 4,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "17:45",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev384.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 413,
+            "strength": "ev",
+            "playerId": 8475218,
+            "firstName": {
+              "default": "Mattias"
+            },
+            "lastName": {
+              "default": "Ekholm"
+            },
+            "name": {
+              "default": "M. Ekholm"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8475218.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-ekholm-scores-goal-against-karel-vejmelka-6384220904112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-ekholm-marque-un-but-contre-karel-vejmelka-6384222467112",
+            "highlightClip": 6384220904112,
+            "highlightClipFr": 6384222467112,
+            "discreteClip": 6384223131112,
+            "discreteClipFr": 6384222463112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "00:22",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477934,
+                "firstName": {
+                  "default": "Leon"
+                },
+                "lastName": {
+                  "default": "Draisaitl"
+                },
+                "name": {
+                  "default": "L. Draisaitl"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8480803,
+                "firstName": {
+                  "default": "Evan"
+                },
+                "lastName": {
+                  "default": "Bouchard"
+                },
+                "name": {
+                  "default": "E. Bouchard"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev413.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 447,
+            "strength": "ev",
+            "playerId": 8483455,
+            "firstName": {
+              "default": "Isaac"
+            },
+            "lastName": {
+              "default": "Howard"
+            },
+            "name": {
+              "default": "I. Howard"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8483455.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-howard-scores-goal-against-karel-vejmelka-6384222578112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-howard-marque-un-but-contre-karel-vejmelka-6384222856112",
+            "highlightClip": 6384222578112,
+            "highlightClipFr": 6384222856112,
+            "discreteClip": 6384221786112,
+            "discreteClipFr": 6384222183112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "03:13",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474641,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Henrique"
+                },
+                "name": {
+                  "default": "A. Henrique"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 19
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev447.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 563,
+            "strength": "ev",
+            "playerId": 8480849,
+            "firstName": {
+              "default": "Barrett"
+            },
+            "lastName": {
+              "default": "Hayton"
+            },
+            "name": {
+              "default": "B. Hayton"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8480849.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-hayton-scores-empty-net-goal-6384222104112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-hayton-marque-un-but-contre-stuart-skinner-6384224042112",
+            "highlightClip": 6384222104112,
+            "highlightClipFr": 6384224042112,
+            "discreteClip": 6384223442112,
+            "discreteClipFr": 6384222865112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "UTA"
+            },
+            "timeInPeriod": "08:19",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477951,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Schmaltz"
+                },
+                "name": {
+                  "default": "N. Schmaltz"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 8
+              },
+              {
+                "playerId": 8479410,
+                "firstName": {
+                  "default": "Mikhail",
+                  "cs": "Michail",
+                  "fi": "Mihail",
+                  "sk": "Michail"
+                },
+                "lastName": {
+                  "default": "Sergachev",
+                  "cs": "Sergačov",
+                  "fi": "Sergatshov",
+                  "sk": "Sergačov"
+                },
+                "name": {
+                  "default": "M. Sergachev",
+                  "cs": "M. Sergačov",
+                  "fi": "M. Sergatshov",
+                  "sk": "M. Sergačov"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 98
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev563.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 633,
+            "strength": "ev",
+            "playerId": 8477934,
+            "firstName": {
+              "default": "Leon"
+            },
+            "lastName": {
+              "default": "Draisaitl"
+            },
+            "name": {
+              "default": "L. Draisaitl"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8477934.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-draisaitl-scores-goal-against-karel-vejmelka-6384224656112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-draisaitl-marque-un-but-contre-karel-vejmelka-6384223772112",
+            "highlightClip": 6384224656112,
+            "highlightClipFr": 6384223772112,
+            "discreteClip": 6384221208112,
+            "discreteClipFr": 6384223846112,
+            "goalsToDate": 8,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "13:33",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478013,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Walman"
+                },
+                "name": {
+                  "default": "J. Walman"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 96
+              },
+              {
+                "playerId": 8480803,
+                "firstName": {
+                  "default": "Evan"
+                },
+                "lastName": {
+                  "default": "Bouchard"
+                },
+                "name": {
+                  "default": "E. Bouchard"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev633.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 642,
+            "strength": "ev",
+            "playerId": 8480834,
+            "firstName": {
+              "default": "Ty"
+            },
+            "lastName": {
+              "default": "Emberson"
+            },
+            "name": {
+              "default": "T. Emberson"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8480834.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-emberson-scores-goal-against-karel-vejmelka-6384224460112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-emberson-marque-un-but-contre-karel-vejmelka-6384224076112",
+            "highlightClip": 6384224460112,
+            "highlightClipFr": 6384224076112,
+            "discreteClip": 6384224562112,
+            "discreteClipFr": 6384223080112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "14:10",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474641,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Henrique"
+                },
+                "name": {
+                  "default": "A. Henrique"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8475218,
+                "firstName": {
+                  "default": "Mattias"
+                },
+                "lastName": {
+                  "default": "Ekholm"
+                },
+                "name": {
+                  "default": "M. Ekholm"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev642.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 691,
+            "strength": "ev",
+            "playerId": 8478402,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "McDavid"
+            },
+            "name": {
+              "default": "C. McDavid"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478402.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-mcdavid-scores-goal-against-karel-vejmelka-6384223105112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-mcdavid-marque-un-but-contre-karel-vejmelka-6384224292112",
+            "highlightClip": 6384223105112,
+            "highlightClipFr": 6384224292112,
+            "discreteClip": 6384224673112,
+            "discreteClipFr": 6384225372112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "17:56",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476454,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "Nugent-Hopkins"
+                },
+                "name": {
+                  "default": "R. Nugent-Hopkins"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 93
+              },
+              {
+                "playerId": 8478013,
+                "firstName": {
+                  "default": "Jake"
+                },
+                "lastName": {
+                  "default": "Walman"
+                },
+                "name": {
+                  "default": "J. Walman"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 96
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev691.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "0651",
+            "eventId": 994,
+            "strength": "ev",
+            "playerId": 8478402,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "McDavid"
+            },
+            "name": {
+              "default": "C. McDavid"
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478402.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/uta-edm-mcdavid-scores-empty-net-goal-6384226286112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/uta-edm-mcdavid-edm-marque-un-but-dans-un-filet-desert-6384226383112",
+            "highlightClip": 6384226286112,
+            "highlightClipFr": 6384226383112,
+            "discreteClip": 6384225808112,
+            "discreteClipFr": 6384225702112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 6,
+            "leadingTeamAbbrev": {
+              "default": "EDM"
+            },
+            "timeInPeriod": "17:34",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8480803,
+                "firstName": {
+                  "default": "Evan"
+                },
+                "lastName": {
+                  "default": "Bouchard"
+                },
+                "name": {
+                  "default": "E. Bouchard"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 2
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020162/ev994.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8475218,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8475218.png",
+        "name": {
+          "default": "M. Ekholm"
+        },
+        "sweaterNo": 14,
+        "position": "D",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8477934,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8477934.png",
+        "name": {
+          "default": "L. Draisaitl"
+        },
+        "sweaterNo": 29,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8478013,
+        "teamAbbrev": "EDM",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/EDM/8478013.png",
+        "name": {
+          "default": "J. Walman"
+        },
+        "sweaterNo": 96,
+        "position": "D",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Liam"
+              },
+              "lastName": {
+                "default": "O'Brien"
+              },
+              "sweaterNumber": 38
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Ty"
+              },
+              "lastName": {
+                "default": "Emberson"
+              },
+              "sweaterNumber": 49
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "07:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Evan"
+              },
+              "lastName": {
+                "default": "Bouchard"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Logan"
+              },
+              "lastName": {
+                "default": "Cooley"
+              },
+              "sweaterNumber": 92
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "15:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Isaac"
+              },
+              "lastName": {
+                "default": "Howard"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "EDM"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "Guenther"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "tripping"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

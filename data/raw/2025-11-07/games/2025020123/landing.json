@@ -1,0 +1,880 @@
+{
+  "id": 2025020123,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-24",
+  "venue": {
+    "default": "KeyBank Center"
+  },
+  "venueLocation": {
+    "default": "Buffalo"
+  },
+  "startTimeUTC": "2025-10-24T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/New_York",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 329,
+      "market": "N",
+      "countryCode": "US",
+      "network": "ESPN+",
+      "sequenceNumber": 16
+    },
+    {
+      "id": 391,
+      "market": "N",
+      "countryCode": "US",
+      "network": "HULU",
+      "sequenceNumber": 17
+    },
+    {
+      "id": 284,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN1",
+      "sequenceNumber": 102
+    },
+    {
+      "id": 291,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS2",
+      "sequenceNumber": 110
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 10,
+    "commonName": {
+      "default": "Maple Leafs"
+    },
+    "abbrev": "TOR",
+    "placeName": {
+      "default": "Toronto"
+    },
+    "placeNameWithPreposition": {
+      "default": "Toronto",
+      "fr": "de Toronto"
+    },
+    "score": 3,
+    "sog": 34,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg"
+  },
+  "homeTeam": {
+    "id": 7,
+    "commonName": {
+      "default": "Sabres"
+    },
+    "abbrev": "BUF",
+    "placeName": {
+      "default": "Buffalo"
+    },
+    "placeNameWithPreposition": {
+      "default": "Buffalo",
+      "fr": "de Buffalo"
+    },
+    "score": 5,
+    "sog": 30,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/BUF_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/BUF_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 119,
+            "strength": "ev",
+            "playerId": 8480807,
+            "firstName": {
+              "default": "Mattias"
+            },
+            "lastName": {
+              "default": "Samuelsson"
+            },
+            "name": {
+              "default": "M. Samuelsson"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480807.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-buf-samuelsson-scores-goal-against-anthony-stolarz-6383833517112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-buf-samuelsson-marque-un-but-contre-anthony-stolarz-6383833219112",
+            "highlightClip": 6383833517112,
+            "highlightClipFr": 6383833219112,
+            "discreteClip": 6383832228112,
+            "discreteClipFr": 6383833420112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "04:38",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480802,
+                "firstName": {
+                  "default": "Ryan"
+                },
+                "lastName": {
+                  "default": "McLeod"
+                },
+                "name": {
+                  "default": "R. McLeod"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 71
+              },
+              {
+                "playerId": 8477949,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Tuch"
+                },
+                "name": {
+                  "default": "A. Tuch"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 89
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev119.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 126,
+            "strength": "ev",
+            "playerId": 8477939,
+            "firstName": {
+              "default": "William"
+            },
+            "lastName": {
+              "default": "Nylander"
+            },
+            "name": {
+              "default": "W. Nylander"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8477939.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-buf-nylander-scores-goal-against-alex-lyon-6383833223112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-buf-nylander-marque-un-but-contre-alex-lyon-6383835393112",
+            "highlightClip": 6383833223112,
+            "highlightClipFr": 6383835393112,
+            "discreteClip": 6383833818112,
+            "discreteClipFr": 6383833914112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "05:01",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475171,
+                "firstName": {
+                  "default": "Oliver"
+                },
+                "lastName": {
+                  "default": "Ekman-Larsson"
+                },
+                "name": {
+                  "default": "O. Ekman-Larsson"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 95
+              },
+              {
+                "playerId": 8478443,
+                "firstName": {
+                  "default": "Brandon"
+                },
+                "lastName": {
+                  "default": "Carlo"
+                },
+                "name": {
+                  "default": "B. Carlo"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 25
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev126.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 143,
+            "strength": "ev",
+            "playerId": 8483468,
+            "firstName": {
+              "default": "Jiri",
+              "cs": "Jiří",
+              "sk": "Jiří"
+            },
+            "lastName": {
+              "default": "Kulich"
+            },
+            "name": {
+              "default": "J.Kulich"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8483468.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-buf-kulich-scores-goal-against-anthony-stolarz-6383833240112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-buf-kulich-marque-un-but-contre-anthony-stolarz-6383833748112",
+            "highlightClip": 6383833240112,
+            "highlightClipFr": 6383833748112,
+            "discreteClip": 6383834219112,
+            "discreteClipFr": 6383834304112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "06:12",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484145,
+                "firstName": {
+                  "default": "Zach"
+                },
+                "lastName": {
+                  "default": "Benson"
+                },
+                "name": {
+                  "default": "Z. Benson"
+                },
+                "assistsToDate": 7,
+                "sweaterNumber": 6
+              },
+              {
+                "playerId": 8479420,
+                "firstName": {
+                  "default": "Tage"
+                },
+                "lastName": {
+                  "default": "Thompson"
+                },
+                "name": {
+                  "default": "T. Thompson"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 72
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev143.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 287,
+            "strength": "pp",
+            "playerId": 8479318,
+            "firstName": {
+              "default": "Auston"
+            },
+            "lastName": {
+              "default": "Matthews"
+            },
+            "name": {
+              "default": "A. Matthews"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8479318.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-buf-matthews-scores-ppg-against-alex-lyon-6383836458112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-buf-matthews-marque-un-but-en-a-n-contre-alex-lyon-6383837144112",
+            "highlightClip": 6383836458112,
+            "highlightClipFr": 6383837144112,
+            "discreteClip": 6383837919112,
+            "discreteClipFr": 6383834784112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "12:45",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475166,
+                "firstName": {
+                  "default": "John"
+                },
+                "lastName": {
+                  "default": "Tavares"
+                },
+                "name": {
+                  "default": "J. Tavares"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8475171,
+                "firstName": {
+                  "default": "Oliver"
+                },
+                "lastName": {
+                  "default": "Ekman-Larsson"
+                },
+                "name": {
+                  "default": "O. Ekman-Larsson"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 95
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev287.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 546,
+            "strength": "ev",
+            "playerId": 8479420,
+            "firstName": {
+              "default": "Tage"
+            },
+            "lastName": {
+              "default": "Thompson"
+            },
+            "name": {
+              "default": "T. Thompson"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479420.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-buf-thompson-scores-goal-against-anthony-stolarz-6383844440112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-buf-thompson-marque-un-but-contre-anthony-stolarz-6383844819112",
+            "highlightClip": 6383844440112,
+            "highlightClipFr": 6383844819112,
+            "discreteClip": 6383844054112,
+            "discreteClipFr": 6383844250112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "07:20",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481524,
+                "firstName": {
+                  "default": "Bowen"
+                },
+                "lastName": {
+                  "default": "Byram"
+                },
+                "name": {
+                  "default": "B. Byram"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 4
+              },
+              {
+                "playerId": 8483468,
+                "firstName": {
+                  "default": "Jiri",
+                  "cs": "Jiří",
+                  "sk": "Jiří"
+                },
+                "lastName": {
+                  "default": "Kulich"
+                },
+                "name": {
+                  "default": "J.Kulich"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev546.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 730,
+            "strength": "ev",
+            "playerId": 8480807,
+            "firstName": {
+              "default": "Mattias"
+            },
+            "lastName": {
+              "default": "Samuelsson"
+            },
+            "name": {
+              "default": "M. Samuelsson"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480807.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-buf-samuelsson-scores-goal-against-anthony-stolarz-6383846640112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-buf-samuelsson-marque-un-but-contre-anthony-stolarz-6383846968112",
+            "highlightClip": 6383846640112,
+            "highlightClipFr": 6383846968112,
+            "discreteClip": 6383846562112,
+            "discreteClipFr": 6383845365112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "13:10",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480839,
+                "firstName": {
+                  "default": "Rasmus"
+                },
+                "lastName": {
+                  "default": "Dahlin"
+                },
+                "name": {
+                  "default": "R. Dahlin"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 26
+              },
+              {
+                "playerId": 8481522,
+                "firstName": {
+                  "default": "Peyton"
+                },
+                "lastName": {
+                  "default": "Krebs"
+                },
+                "name": {
+                  "default": "P. Krebs"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 19
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev730.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 853,
+            "strength": "ev",
+            "playerId": 8478057,
+            "firstName": {
+              "default": "Dakota"
+            },
+            "lastName": {
+              "default": "Joshua"
+            },
+            "name": {
+              "default": "D. Joshua"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8478057.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dakota-joshua-with-a-goal-vs-buffalo-sabres-6383855300112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dakota-joshua-with-a-goal-vs-les-sabres-de-buffalo-6383853539112",
+            "highlightClip": 6383855300112,
+            "highlightClipFr": 6383853539112,
+            "discreteClip": 6383853716112,
+            "discreteClipFr": 6383853141112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 4,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "01:55",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484158,
+                "firstName": {
+                  "default": "Easton"
+                },
+                "lastName": {
+                  "default": "Cowan"
+                },
+                "name": {
+                  "default": "E. Cowan"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 53
+              },
+              {
+                "playerId": 8478462,
+                "firstName": {
+                  "default": "Nicolas"
+                },
+                "lastName": {
+                  "default": "Roy"
+                },
+                "name": {
+                  "default": "N. Roy"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 55
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev853.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 1059,
+            "strength": "sh",
+            "playerId": 8477949,
+            "firstName": {
+              "default": "Alex"
+            },
+            "lastName": {
+              "default": "Tuch"
+            },
+            "name": {
+              "default": "A. Tuch"
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8477949.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/tor-buf-tuch-scores-shg-against-anthony-stolarz-6383859168112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/tor-buf-tuch-marque-un-but-en-i-n-contre-anthony-stolarz-6383858858112",
+            "highlightClip": 6383859168112,
+            "highlightClipFr": 6383858858112,
+            "discreteClip": 6383858372112,
+            "discreteClipFr": 6383857893112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 5,
+            "leadingTeamAbbrev": {
+              "default": "BUF"
+            },
+            "timeInPeriod": "16:59",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482671,
+                "firstName": {
+                  "default": "Owen"
+                },
+                "lastName": {
+                  "default": "Power"
+                },
+                "name": {
+                  "default": "O. Power"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 25
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020123/ev1059.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8480807,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8480807.png",
+        "name": {
+          "default": "M. Samuelsson"
+        },
+        "sweaterNo": 23,
+        "position": "D",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8477949,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8477949.png",
+        "name": {
+          "default": "A. Tuch"
+        },
+        "sweaterNo": 89,
+        "position": "R",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8479312,
+        "teamAbbrev": "BUF",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/BUF/8479312.png",
+        "name": {
+          "default": "A. Lyon"
+        },
+        "sweaterNo": 34,
+        "position": "G",
+        "goalsAgainstAverage": 3.0,
+        "savePctg": 0.912
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "09:01",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Dahlin"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "William"
+              },
+              "lastName": {
+                "default": "Nylander"
+              },
+              "sweaterNumber": 88
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "11:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tage"
+              },
+              "lastName": {
+                "default": "Thompson"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Simon"
+              },
+              "lastName": {
+                "default": "Benoit"
+              },
+              "sweaterNumber": 2
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "13:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Max"
+              },
+              "lastName": {
+                "default": "Domi"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Dahlin"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "13:26",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Calle"
+              },
+              "lastName": {
+                "default": "Jarnkrok",
+                "cs": "Järnkrok",
+                "fi": "Järnkrok",
+                "sk": "Järnkrok"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Tuch"
+              },
+              "sweaterNumber": 89
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "15:23",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Rasmus"
+              },
+              "lastName": {
+                "default": "Dahlin"
+              },
+              "sweaterNumber": 26
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          },
+          {
+            "timeInPeriod": "19:48",
+            "type": "MIN",
+            "duration": 4,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Peyton"
+              },
+              "lastName": {
+                "default": "Krebs"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "BUF"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nicolas"
+              },
+              "lastName": {
+                "default": "Roy"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "high-sticking-double-minor"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

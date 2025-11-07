@@ -1,0 +1,752 @@
+{
+  "id": 2025010053,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-27",
+  "venue": {
+    "default": "Scotiabank Arena"
+  },
+  "venueLocation": {
+    "default": "Toronto"
+  },
+  "startTimeUTC": "2025-09-27T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Toronto",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 282,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN",
+      "sequenceNumber": 101
+    },
+    {
+      "id": 33,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "RDS",
+      "sequenceNumber": 132
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 8,
+    "commonName": {
+      "default": "Canadiens"
+    },
+    "abbrev": "MTL",
+    "placeName": {
+      "default": "Montréal"
+    },
+    "placeNameWithPreposition": {
+      "default": "Montréal",
+      "fr": "de Montréal"
+    },
+    "score": 4,
+    "sog": 29,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 10,
+    "commonName": {
+      "default": "Maple Leafs"
+    },
+    "abbrev": "TOR",
+    "placeName": {
+      "default": "Toronto"
+    },
+    "placeNameWithPreposition": {
+      "default": "Toronto",
+      "fr": "de Toronto"
+    },
+    "score": 2,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/TOR_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/TOR_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1441",
+            "eventId": 103,
+            "strength": "ev",
+            "playerId": 8481618,
+            "firstName": {
+              "default": "Alex"
+            },
+            "lastName": {
+              "default": "Newhook"
+            },
+            "name": {
+              "default": "A. Newhook"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481618.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-tor-newhook-scores-goal-against-anthony-stolarz-6380202335112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-tor-newhook-marque-un-but-contre-anthony-stolarz-6380201294112",
+            "highlightClip": 6380202335112,
+            "highlightClipFr": 6380201294112,
+            "discreteClip": 6380200696112,
+            "discreteClipFr": 6380201860112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "11:22",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478851,
+                "firstName": {
+                  "default": "Alexandre"
+                },
+                "lastName": {
+                  "default": "Carrier"
+                },
+                "name": {
+                  "default": "A. Carrier"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 45
+              },
+              {
+                "playerId": 8482737,
+                "firstName": {
+                  "default": "Zack"
+                },
+                "lastName": {
+                  "default": "Bolduc"
+                },
+                "name": {
+                  "default": "Z. Bolduc"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 76
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010053/ev103.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 643,
+            "strength": "pp",
+            "playerId": 8482828,
+            "firstName": {
+              "default": "Riley"
+            },
+            "lastName": {
+              "default": "Kidney"
+            },
+            "name": {
+              "default": "R. Kidney"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482828.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-tor-kidney-scores-ppg-against-anthony-stolarz-6380203754112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-tor-kidney-marque-un-but-en-a-n-contre-anthony-stolarz-6380203259112",
+            "highlightClip": 6380203754112,
+            "highlightClipFr": 6380203259112,
+            "discreteClip": 6380203752112,
+            "discreteClipFr": 6380203063112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "09:34",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482081,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Farrell"
+                },
+                "name": {
+                  "default": "S. Farrell"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 57
+              },
+              {
+                "playerId": 8478104,
+                "firstName": {
+                  "default": "Sammy"
+                },
+                "lastName": {
+                  "default": "Blais"
+                },
+                "name": {
+                  "default": "S. Blais"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010053/ev643.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 683,
+            "strength": "pp",
+            "playerId": 8475166,
+            "firstName": {
+              "default": "John"
+            },
+            "lastName": {
+              "default": "Tavares"
+            },
+            "name": {
+              "default": "J. Tavares"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8475166.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/john-tavares-with-a-powerplay-goal-vs-montreal-canadiens-6380202503112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-tor-tavares-marque-un-but-en-a-n-contre-kaapo-kahkonen-6380203469112",
+            "highlightClip": 6380202503112,
+            "highlightClipFr": 6380203469112,
+            "discreteClip": 6380203848112,
+            "discreteClipFr": 6380204046112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "13:00",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010053/ev683.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 734,
+            "strength": "pp",
+            "playerId": 8483457,
+            "firstName": {
+              "default": "Lane"
+            },
+            "lastName": {
+              "default": "Hutson"
+            },
+            "name": {
+              "default": "L. Hutson"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8483457.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-tor-hutson-scores-ppg-against-anthony-stolarz-6380202508112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-tor-hutson-marque-un-but-en-a-n-contre-anthony-stolarz-6380204052112",
+            "highlightClip": 6380202508112,
+            "highlightClipFr": 6380204052112,
+            "discreteClip": 6380203673112,
+            "discreteClipFr": 6380201814112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "16:11",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484533,
+                "firstName": {
+                  "default": "Tyler"
+                },
+                "lastName": {
+                  "default": "Thorpe"
+                },
+                "name": {
+                  "default": "T. Thorpe"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 24
+              },
+              {
+                "playerId": 8481618,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Newhook"
+                },
+                "name": {
+                  "default": "A. Newhook"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010053/ev734.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 106,
+            "strength": "ev",
+            "playerId": 8482081,
+            "firstName": {
+              "default": "Sean"
+            },
+            "lastName": {
+              "default": "Farrell"
+            },
+            "name": {
+              "default": "S. Farrell"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482081.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-tor-farrell-scores-goal-against-artur-akhtyamov-6380205456112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-tor-farrell-marque-un-but-contre-artur-akhtyamov-6380203203112",
+            "highlightClip": 6380205456112,
+            "highlightClipFr": 6380203203112,
+            "discreteClip": 6380203889112,
+            "discreteClipFr": 6380205159112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "09:21",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475968,
+                "firstName": {
+                  "default": "Alex"
+                },
+                "lastName": {
+                  "default": "Belzile"
+                },
+                "name": {
+                  "default": "A. Belzile"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 60
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010053/ev106.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 986,
+            "strength": "ev",
+            "playerId": 8477939,
+            "firstName": {
+              "default": "William"
+            },
+            "lastName": {
+              "default": "Nylander"
+            },
+            "name": {
+              "default": "W. Nylander"
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8477939.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-tor-nylander-scores-goal-against-kaapo-kahkonen-6380204679112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-tor-nylander-marque-un-but-contre-kaapo-kahkonen-6380204201112",
+            "highlightClip": 6380204679112,
+            "highlightClipFr": 6380204201112,
+            "discreteClip": 6380205561112,
+            "discreteClipFr": 6380204398112,
+            "goalsToDate": 1,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "16:07",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475166,
+                "firstName": {
+                  "default": "John"
+                },
+                "lastName": {
+                  "default": "Tavares"
+                },
+                "name": {
+                  "default": "J. Tavares"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8476853,
+                "firstName": {
+                  "default": "Morgan"
+                },
+                "lastName": {
+                  "default": "Rielly"
+                },
+                "name": {
+                  "default": "M. Rielly"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010053/ev986.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8482081,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482081.png",
+        "name": {
+          "default": "S. Farrell"
+        },
+        "sweaterNo": 57,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 2,
+        "playerId": 8481618,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481618.png",
+        "name": {
+          "default": "A. Newhook"
+        },
+        "sweaterNo": 15,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8475166,
+        "teamAbbrev": "TOR",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/TOR/8475166.png",
+        "name": {
+          "default": "J. Tavares"
+        },
+        "sweaterNo": 91,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:11",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jayden"
+              },
+              "lastName": {
+                "default": "Struble"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Max"
+              },
+              "lastName": {
+                "default": "Domi"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "10:11",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Max"
+              },
+              "lastName": {
+                "default": "Domi"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lane"
+              },
+              "lastName": {
+                "default": "Hutson"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "13:27",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Laurent"
+              },
+              "lastName": {
+                "default": "Dauphin"
+              },
+              "sweaterNumber": 36
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anthony"
+              },
+              "lastName": {
+                "default": "Stolarz"
+              },
+              "sweaterNumber": 41
+            },
+            "descKey": "interference-goalkeeper"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "07:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Dakota"
+              },
+              "lastName": {
+                "default": "Joshua"
+              },
+              "sweaterNumber": 81
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Arber"
+              },
+              "lastName": {
+                "default": "Xhekaj"
+              },
+              "sweaterNumber": 72
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "12:25",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Thorpe"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Oliver"
+              },
+              "lastName": {
+                "default": "Ekman-Larsson"
+              },
+              "sweaterNumber": 95
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "15:50",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "J. Tavares"
+            }
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Engstrom"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Nicholas"
+              },
+              "lastName": {
+                "default": "Robertson"
+              },
+              "sweaterNumber": 89
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "10:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Oliver"
+              },
+              "lastName": {
+                "default": "Ekman-Larsson"
+              },
+              "sweaterNumber": 95
+            },
+            "teamAbbrev": {
+              "default": "TOR"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jayden"
+              },
+              "lastName": {
+                "default": "Struble"
+              },
+              "sweaterNumber": 47
+            },
+            "descKey": "hooking"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

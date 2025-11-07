@@ -1,0 +1,562 @@
+{
+  "id": 2025010068,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": true,
+  "gameDate": "2025-09-30",
+  "venue": {
+    "default": "Idaho Central Arena"
+  },
+  "venueLocation": {
+    "default": "Boise"
+  },
+  "startTimeUTC": "2025-10-01T01:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-06:00",
+  "venueTimezone": "America/Boise",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 26,
+    "commonName": {
+      "default": "Kings"
+    },
+    "abbrev": "LAK",
+    "placeName": {
+      "default": "Los Angeles"
+    },
+    "placeNameWithPreposition": {
+      "default": "Los Angeles",
+      "fr": "de Los Angeles"
+    },
+    "score": 3,
+    "sog": 17,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+  },
+  "homeTeam": {
+    "id": 68,
+    "commonName": {
+      "default": "Mammoth"
+    },
+    "abbrev": "UTA",
+    "placeName": {
+      "default": "Utah"
+    },
+    "placeNameWithPreposition": {
+      "default": "Utah",
+      "fr": "de l'Utah"
+    },
+    "score": 2,
+    "sog": 25,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/UTA_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/UTA_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 9052,
+            "strength": "ev",
+            "playerId": 8483808,
+            "firstName": {
+              "default": "Andrei",
+              "cs": "Andrej",
+              "sk": "Andrej"
+            },
+            "lastName": {
+              "default": "Kuzmenko"
+            },
+            "name": {
+              "default": "A. Kuzmenko"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8483808.png",
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "10:07",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482408,
+                "firstName": {
+                  "default": "Jeff"
+                },
+                "lastName": {
+                  "default": "Malott",
+                  "cs": "Malottt",
+                  "de": "Malottt",
+                  "es": "Malottt",
+                  "fi": "Malottt",
+                  "sk": "Malottt",
+                  "sv": "Malottt"
+                },
+                "name": {
+                  "default": "J. Malott"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 39
+              },
+              {
+                "playerId": 8482730,
+                "firstName": {
+                  "default": "Brandt"
+                },
+                "lastName": {
+                  "default": "Clarke"
+                },
+                "name": {
+                  "default": "B. Clarke"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 92
+              }
+            ],
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 9056,
+            "strength": "ev",
+            "playerId": 8481732,
+            "firstName": {
+              "default": "Andre"
+            },
+            "lastName": {
+              "default": "Lee"
+            },
+            "name": {
+              "default": "A. Lee"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8481732.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-uta-lee-scores-goal-against-karel-vejmelka-6380469784112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-uta-lee-marque-un-but-contre-karel-vejmelka-6380469884112",
+            "highlightClip": 6380469784112,
+            "highlightClipFr": 6380469884112,
+            "discreteClip": 6380468214112,
+            "discreteClipFr": 6380468497112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "01:00",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482408,
+                "firstName": {
+                  "default": "Jeff"
+                },
+                "lastName": {
+                  "default": "Malott",
+                  "cs": "Malottt",
+                  "de": "Malottt",
+                  "es": "Malottt",
+                  "fi": "Malottt",
+                  "sk": "Malottt",
+                  "sv": "Malottt"
+                },
+                "name": {
+                  "default": "J. Malott"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 39
+              }
+            ],
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 9107,
+            "strength": "ev",
+            "playerId": 8479656,
+            "firstName": {
+              "default": "Cameron"
+            },
+            "lastName": {
+              "default": "Hebig"
+            },
+            "name": {
+              "default": "C. Hebig"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8479656.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-uta-hebig-scores-goal-against-pheonix-copley-6380470208112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-uta-hebig-marque-un-but-contre-pheonix-copley-6380468845112",
+            "highlightClip": 6380470208112,
+            "highlightClipFr": 6380468845112,
+            "discreteClip": 6380468237112,
+            "discreteClipFr": 6380469050112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "05:57",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484388,
+                "firstName": {
+                  "default": "Daniil"
+                },
+                "lastName": {
+                  "default": "But"
+                },
+                "name": {
+                  "default": "D. But"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 19
+              },
+              {
+                "playerId": 8480084,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "DeSimone"
+                },
+                "name": {
+                  "default": "N. DeSimone"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 57
+              }
+            ],
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 9060,
+            "strength": "ev",
+            "playerId": 8484388,
+            "firstName": {
+              "default": "Daniil"
+            },
+            "lastName": {
+              "default": "But"
+            },
+            "name": {
+              "default": "D. But"
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/UTA/8484388.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-uta-but-scores-goal-against-pheonix-copley-6380470131112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-uta-but-marque-un-but-contre-pheonix-copley-6380468751112",
+            "highlightClip": 6380470131112,
+            "highlightClipFr": 6380468751112,
+            "discreteClip": 6380470401112,
+            "discreteClipFr": 6380469345112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "07:47",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480434,
+                "firstName": {
+                  "default": "Sean"
+                },
+                "lastName": {
+                  "default": "Durzi"
+                },
+                "name": {
+                  "default": "S. Durzi"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 50
+              }
+            ],
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 9069,
+            "strength": "ev",
+            "playerId": 8483406,
+            "firstName": {
+              "default": "Taylor"
+            },
+            "lastName": {
+              "default": "Ward"
+            },
+            "name": {
+              "default": "T. Ward"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8483406.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/lak-uta-ward-scores-goal-against-karel-vejmelka-6380477829112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/lak-uta-ward-marque-un-but-contre-karel-vejmelka-6380477538112",
+            "highlightClip": 6380477829112,
+            "highlightClipFr": 6380477538112,
+            "discreteClip": 6380478713112,
+            "discreteClipFr": 6380479882112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "15:02",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480252,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Guttman"
+                },
+                "name": {
+                  "default": "C. Guttman"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 82
+              },
+              {
+                "playerId": 8484802,
+                "firstName": {
+                  "default": "Liam"
+                },
+                "lastName": {
+                  "default": "Greentree"
+                },
+                "name": {
+                  "default": "L. Greentree"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 64
+              }
+            ],
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:37",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cameron"
+              },
+              "lastName": {
+                "default": "Hebig"
+              },
+              "sweaterNumber": 78
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "15:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "McCartney"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "18:47",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jeff"
+              },
+              "lastName": {
+                "default": "Malott",
+                "cs": "Malottt",
+                "de": "Malottt",
+                "es": "Malottt",
+                "fi": "Malottt",
+                "sk": "Malottt",
+                "sv": "Malottt"
+              },
+              "sweaterNumber": 39
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:29",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Gabe"
+              },
+              "lastName": {
+                "default": "Smith"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "13:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Glenn"
+              },
+              "lastName": {
+                "default": "Gawdin"
+              },
+              "sweaterNumber": 57
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "17:19",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Taylor"
+              },
+              "lastName": {
+                "default": "Ward"
+              },
+              "sweaterNumber": 52
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "17:19",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ben"
+              },
+              "lastName": {
+                "default": "McCartney"
+              },
+              "sweaterNumber": 62
+            },
+            "teamAbbrev": {
+              "default": "UTA"
+            },
+            "descKey": "fighting"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

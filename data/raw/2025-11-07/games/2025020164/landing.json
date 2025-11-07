@@ -1,0 +1,910 @@
+{
+  "id": 2025020164,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-28",
+  "venue": {
+    "default": "Climate Pledge Arena"
+  },
+  "venueLocation": {
+    "default": "Seattle"
+  },
+  "startTimeUTC": "2025-10-29T02:30:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-07:00",
+  "venueTimezone": "US/Pacific",
+  "periodDescriptor": {
+    "number": 4,
+    "periodType": "OT",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 131,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "TSN2",
+      "sequenceNumber": 112
+    },
+    {
+      "id": 33,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "RDS",
+      "sequenceNumber": 132
+    },
+    {
+      "id": 554,
+      "market": "H",
+      "countryCode": "US",
+      "network": "KHN",
+      "sequenceNumber": 339
+    },
+    {
+      "id": 388,
+      "market": "H",
+      "countryCode": "US",
+      "network": "KONG",
+      "sequenceNumber": 654
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 8,
+    "commonName": {
+      "default": "Canadiens"
+    },
+    "abbrev": "MTL",
+    "placeName": {
+      "default": "Montréal"
+    },
+    "placeNameWithPreposition": {
+      "default": "Montréal",
+      "fr": "de Montréal"
+    },
+    "score": 4,
+    "sog": 21,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 55,
+    "commonName": {
+      "default": "Kraken"
+    },
+    "abbrev": "SEA",
+    "placeName": {
+      "default": "Seattle"
+    },
+    "placeNameWithPreposition": {
+      "default": "Seattle",
+      "fr": "de Seattle"
+    },
+    "score": 3,
+    "sog": 21,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 290,
+            "strength": "ev",
+            "playerId": 8481540,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Caufield"
+            },
+            "name": {
+              "default": "C. Caufield"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481540.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-sea-caufield-scores-goal-against-joey-daccord-6384222616112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-sea-caufield-marque-un-but-contre-joey-daccord-6384224458112",
+            "highlightClip": 6384222616112,
+            "highlightClipFr": 6384224458112,
+            "discreteClip": 6384224347112,
+            "discreteClipFr": 6384223766112,
+            "goalsToDate": 8,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "10:25",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480018,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Suzuki"
+                },
+                "name": {
+                  "default": "N. Suzuki"
+                },
+                "assistsToDate": 12,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8480865,
+                "firstName": {
+                  "default": "Noah"
+                },
+                "lastName": {
+                  "default": "Dobson"
+                },
+                "name": {
+                  "default": "N. Dobson"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 53
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020164/ev290.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 374,
+            "strength": "pp",
+            "playerId": 8483515,
+            "firstName": {
+              "default": "Juraj"
+            },
+            "lastName": {
+              "default": "Slafkovský"
+            },
+            "name": {
+              "default": "J. Slafkovský"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8483515.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-sea-slafkovsky-scores-ppg-against-joey-daccord-6384223208112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-sea-slafkovsky-marque-un-but-en-a-n-contre-joey-daccord-6384224679112",
+            "highlightClip": 6384223208112,
+            "highlightClipFr": 6384224679112,
+            "discreteClip": 6384223495112,
+            "discreteClipFr": 6384224482112,
+            "goalsToDate": 5,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "17:28",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481540,
+                "firstName": {
+                  "default": "Cole"
+                },
+                "lastName": {
+                  "default": "Caufield"
+                },
+                "name": {
+                  "default": "C. Caufield"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 13
+              },
+              {
+                "playerId": 8480018,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Suzuki"
+                },
+                "name": {
+                  "default": "N. Suzuki"
+                },
+                "assistsToDate": 13,
+                "sweaterNumber": 14
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020164/ev374.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 782,
+            "strength": "pp",
+            "playerId": 8481618,
+            "firstName": {
+              "default": "Alex"
+            },
+            "lastName": {
+              "default": "Newhook"
+            },
+            "name": {
+              "default": "A. Newhook"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481618.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-sea-newhook-scores-ppg-against-joey-daccord-6384227912112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-sea-newhook-marque-un-but-en-a-n-contre-joey-daccord-6384227428112",
+            "highlightClip": 6384227912112,
+            "highlightClipFr": 6384227428112,
+            "discreteClip": 6384227109112,
+            "discreteClipFr": 6384226324112,
+            "goalsToDate": 4,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "05:55",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481523,
+                "firstName": {
+                  "default": "Kirby"
+                },
+                "lastName": {
+                  "default": "Dach"
+                },
+                "name": {
+                  "default": "K. Dach"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 77
+              },
+              {
+                "playerId": 8480865,
+                "firstName": {
+                  "default": "Noah"
+                },
+                "lastName": {
+                  "default": "Dobson"
+                },
+                "name": {
+                  "default": "N. Dobson"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 53
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020164/ev782.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 818,
+            "strength": "pp",
+            "playerId": 8477986,
+            "firstName": {
+              "default": "Brandon"
+            },
+            "lastName": {
+              "default": "Montour"
+            },
+            "name": {
+              "default": "B. Montour"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8477986.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-sea-montour-scores-ppg-against-jakub-dobes-6384226837112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-sea-montour-marque-un-but-en-a-n-contre-jakub-dobes-6384226140112",
+            "highlightClip": 6384226837112,
+            "highlightClipFr": 6384226140112,
+            "discreteClip": 6384227522112,
+            "discreteClipFr": 6384228502112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "08:57",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484800,
+                "firstName": {
+                  "default": "Berkly"
+                },
+                "lastName": {
+                  "default": "Catton"
+                },
+                "name": {
+                  "default": "B. Catton"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 77
+              },
+              {
+                "playerId": 8478975,
+                "firstName": {
+                  "default": "Mason"
+                },
+                "lastName": {
+                  "default": "Marchment"
+                },
+                "name": {
+                  "default": "M. Marchment"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 27
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020164/ev818.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1441",
+            "eventId": 911,
+            "strength": "ev",
+            "playerId": 8483524,
+            "firstName": {
+              "default": "Shane"
+            },
+            "lastName": {
+              "default": "Wright"
+            },
+            "name": {
+              "default": "S. Wright"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8483524.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-sea-wright-scores-goal-against-jakub-dobes-6384226054112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-sea-wright-marque-un-but-contre-jakub-dobes-6384225752112",
+            "highlightClip": 6384226054112,
+            "highlightClipFr": 6384225752112,
+            "discreteClip": 6384226442112,
+            "discreteClipFr": 6384226052112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "15:17",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477986,
+                "firstName": {
+                  "default": "Brandon"
+                },
+                "lastName": {
+                  "default": "Montour"
+                },
+                "name": {
+                  "default": "B. Montour"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 62
+              },
+              {
+                "playerId": 8480009,
+                "firstName": {
+                  "default": "Eeli"
+                },
+                "lastName": {
+                  "default": "Tolvanen"
+                },
+                "name": {
+                  "default": "E. Tolvanen"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 20
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020164/ev911.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 949,
+            "strength": "ev",
+            "playerId": 8477986,
+            "firstName": {
+              "default": "Brandon"
+            },
+            "lastName": {
+              "default": "Montour"
+            },
+            "name": {
+              "default": "B. Montour"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8477986.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-sea-montour-scores-goal-against-jakub-dobes-6384227547112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-sea-montour-marque-un-but-contre-jakub-dobes-6384227934112",
+            "highlightClip": 6384227547112,
+            "highlightClipFr": 6384227934112,
+            "discreteClip": 6384229291112,
+            "discreteClipFr": 6384229093112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 3,
+            "timeInPeriod": "18:17",
+            "shotType": "slap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478407,
+                "firstName": {
+                  "default": "Vince"
+                },
+                "lastName": {
+                  "default": "Dunn"
+                },
+                "name": {
+                  "default": "V. Dunn"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 29
+              },
+              {
+                "playerId": 8475768,
+                "firstName": {
+                  "default": "Jaden"
+                },
+                "lastName": {
+                  "default": "Schwartz"
+                },
+                "name": {
+                  "default": "J. Schwartz"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020164/ev949.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1331",
+            "eventId": 105,
+            "strength": "ev",
+            "playerId": 8481540,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Caufield"
+            },
+            "name": {
+              "default": "C. Caufield"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481540.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/mtl-sea-caufield-scores-goal-against-joey-daccord-6384227050112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/mtl-sea-caufield-marque-un-but-contre-joey-daccord-6384228542112",
+            "highlightClip": 6384227050112,
+            "highlightClipFr": 6384228542112,
+            "discreteClip": 6384227741112,
+            "discreteClipFr": 6384225954112,
+            "goalsToDate": 9,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "00:44",
+            "shotType": "poke",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480018,
+                "firstName": {
+                  "default": "Nick"
+                },
+                "lastName": {
+                  "default": "Suzuki"
+                },
+                "name": {
+                  "default": "N. Suzuki"
+                },
+                "assistsToDate": 14,
+                "sweaterNumber": 14
+              },
+              {
+                "playerId": 8483457,
+                "firstName": {
+                  "default": "Lane"
+                },
+                "lastName": {
+                  "default": "Hutson"
+                },
+                "name": {
+                  "default": "L. Hutson"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020164/ev105.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481540,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8481540.png",
+        "name": {
+          "default": "C. Caufield"
+        },
+        "sweaterNo": 13,
+        "position": "R",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8477986,
+        "teamAbbrev": "SEA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8477986.png",
+        "name": {
+          "default": "B. Montour"
+        },
+        "sweaterNo": 62,
+        "position": "D",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 3,
+        "playerId": 8480018,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8480018.png",
+        "name": {
+          "default": "N. Suzuki"
+        },
+        "sweaterNo": 14,
+        "position": "C",
+        "goals": 0,
+        "assists": 3,
+        "points": 3
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Caufield"
+              },
+              "sweaterNumber": 13
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Berkly"
+              },
+              "lastName": {
+                "default": "Catton"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "16:17",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Lindgren"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Juraj"
+              },
+              "lastName": {
+                "default": "Slafkovský"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "18:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joe",
+                "cs": "Joseph",
+                "de": "Joseph",
+                "es": "Joseph",
+                "fi": "Joseph",
+                "sk": "Joseph",
+                "sv": "Joseph"
+              },
+              "lastName": {
+                "default": "Veleno"
+              },
+              "sweaterNumber": 90
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Chandler"
+              },
+              "lastName": {
+                "default": "Stephenson"
+              },
+              "sweaterNumber": 9
+            },
+            "descKey": "slashing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "13:59",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Zack"
+              },
+              "lastName": {
+                "default": "Bolduc"
+              },
+              "sweaterNumber": 76
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mason"
+              },
+              "lastName": {
+                "default": "Marchment"
+              },
+              "sweaterNumber": 27
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jaden"
+              },
+              "lastName": {
+                "default": "Schwartz"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Lane"
+              },
+              "lastName": {
+                "default": "Hutson"
+              },
+              "sweaterNumber": 48
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "07:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jayden"
+              },
+              "lastName": {
+                "default": "Struble"
+              },
+              "sweaterNumber": 47
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Berkly"
+              },
+              "lastName": {
+                "default": "Catton"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "13:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jani"
+              },
+              "lastName": {
+                "default": "Nyman"
+              },
+              "sweaterNumber": 38
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Kirby"
+              },
+              "lastName": {
+                "default": "Dach"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "13:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kirby"
+              },
+              "lastName": {
+                "default": "Dach"
+              },
+              "sweaterNumber": 77
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jani"
+              },
+              "lastName": {
+                "default": "Nyman"
+              },
+              "sweaterNumber": 38
+            },
+            "descKey": "roughing"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "04:16",
+    "secondsRemaining": 256,
+    "running": false,
+    "inIntermission": false
+  }
+}

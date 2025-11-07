@@ -1,0 +1,530 @@
+{
+  "id": 2025020120,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-23",
+  "venue": {
+    "default": "Canada Life Centre"
+  },
+  "venueLocation": {
+    "default": "Winnipeg"
+  },
+  "startTimeUTC": "2025-10-24T00:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "America/Winnipeg",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 292,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN3",
+      "sequenceNumber": 134
+    },
+    {
+      "id": 554,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KHN",
+      "sequenceNumber": 339
+    },
+    {
+      "id": 552,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KING 5",
+      "sequenceNumber": 340
+    },
+    {
+      "id": 388,
+      "market": "A",
+      "countryCode": "US",
+      "network": "KONG",
+      "sequenceNumber": 654
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 55,
+    "commonName": {
+      "default": "Kraken"
+    },
+    "abbrev": "SEA",
+    "placeName": {
+      "default": "Seattle"
+    },
+    "placeNameWithPreposition": {
+      "default": "Seattle",
+      "fr": "de Seattle"
+    },
+    "score": 3,
+    "sog": 28,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/SEA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/SEA_dark.svg"
+  },
+  "homeTeam": {
+    "id": 52,
+    "commonName": {
+      "default": "Jets"
+    },
+    "abbrev": "WPG",
+    "placeName": {
+      "default": "Winnipeg"
+    },
+    "placeNameWithPreposition": {
+      "default": "Winnipeg",
+      "fr": "de Winnipeg"
+    },
+    "score": 0,
+    "sog": 32,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 512,
+            "strength": "ev",
+            "playerId": 8475768,
+            "firstName": {
+              "default": "Jaden"
+            },
+            "lastName": {
+              "default": "Schwartz"
+            },
+            "name": {
+              "default": "J. Schwartz"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8475768.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-wpg-schwartz-scores-goal-against-connor-hellebuyck-6383657808112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-wpg-schwartz-marque-un-but-contre-connor-hellebuyck-6383658475112",
+            "highlightClip": 6383657808112,
+            "highlightClipFr": 6383658475112,
+            "discreteClip": 6383658000112,
+            "discreteClipFr": 6383659055112,
+            "goalsToDate": 3,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "02:28",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483524,
+                "firstName": {
+                  "default": "Shane"
+                },
+                "lastName": {
+                  "default": "Wright"
+                },
+                "name": {
+                  "default": "S. Wright"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 51
+              },
+              {
+                "playerId": 8476457,
+                "firstName": {
+                  "default": "Adam"
+                },
+                "lastName": {
+                  "default": "Larsson"
+                },
+                "name": {
+                  "default": "A. Larsson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020120/ev512.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1560",
+            "eventId": 990,
+            "strength": "ev",
+            "playerId": 8475768,
+            "firstName": {
+              "default": "Jaden"
+            },
+            "lastName": {
+              "default": "Schwartz"
+            },
+            "name": {
+              "default": "J. Schwartz"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8475768.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-wpg-schwartz-scores-empty-net-goal-6383675275112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/jaden-schwartz-with-a-goal-vs-les-jets-de-winnipeg-6383674192112",
+            "highlightClip": 6383675275112,
+            "highlightClipFr": 6383674192112,
+            "discreteClip": 6383673683112,
+            "discreteClipFr": 6383675152112,
+            "goalsToDate": 4,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "18:20",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020120/ev990.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 996,
+            "strength": "ev",
+            "playerId": 8474586,
+            "firstName": {
+              "default": "Jordan"
+            },
+            "lastName": {
+              "default": "Eberle"
+            },
+            "name": {
+              "default": "J. Eberle"
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8474586.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sea-wpg-eberle-scores-empty-net-goal-6383674991112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sea-wpg-eberle-sea-marque-un-but-dans-un-filet-desert-6383677630112",
+            "highlightClip": 6383674991112,
+            "highlightClipFr": 6383677630112,
+            "discreteClip": 6383676841112,
+            "discreteClipFr": 6383675447112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "SEA"
+            },
+            "timeInPeriod": "18:43",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [
+              {
+                "playerId": 8475768,
+                "firstName": {
+                  "default": "Jaden"
+                },
+                "lastName": {
+                  "default": "Schwartz"
+                },
+                "name": {
+                  "default": "J. Schwartz"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8478916,
+                "firstName": {
+                  "default": "Joey"
+                },
+                "lastName": {
+                  "default": "Daccord"
+                },
+                "name": {
+                  "default": "J. Daccord"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 35
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020120/ev996.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8478916,
+        "teamAbbrev": "SEA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8478916.png",
+        "name": {
+          "default": "J. Daccord"
+        },
+        "sweaterNo": 35,
+        "position": "G",
+        "goalsAgainstAverage": 0.0,
+        "savePctg": 1.0
+      },
+      {
+        "star": 2,
+        "playerId": 8476945,
+        "teamAbbrev": "WPG",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/WPG/8476945.png",
+        "name": {
+          "default": "C. Hellebuyck"
+        },
+        "sweaterNo": 37,
+        "position": "G",
+        "goalsAgainstAverage": 1.01,
+        "savePctg": 0.962
+      },
+      {
+        "star": 3,
+        "playerId": 8475768,
+        "teamAbbrev": "SEA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/SEA/8475768.png",
+        "name": {
+          "default": "J. Schwartz"
+        },
+        "sweaterNo": 17,
+        "position": "L",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "11:59",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jaden"
+              },
+              "lastName": {
+                "default": "Schwartz"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Gustav"
+              },
+              "lastName": {
+                "default": "Nyquist"
+              },
+              "sweaterNumber": 14
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jordan"
+              },
+              "lastName": {
+                "default": "Eberle"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mark"
+              },
+              "lastName": {
+                "default": "Scheifele"
+              },
+              "sweaterNumber": 55
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "13:24",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kyle"
+              },
+              "lastName": {
+                "default": "Connor"
+              },
+              "sweaterNumber": 81
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Vince"
+              },
+              "lastName": {
+                "default": "Dunn"
+              },
+              "sweaterNumber": 29
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "13:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Eeli"
+              },
+              "lastName": {
+                "default": "Tolvanen"
+              },
+              "sweaterNumber": 20
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Dylan"
+              },
+              "lastName": {
+                "default": "DeMelo",
+                "cs": "Demelo",
+                "de": "Demelo",
+                "fi": "Demelo",
+                "sk": "Demelo",
+                "sv": "Demelo"
+              },
+              "sweaterNumber": 2
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "19:03",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Koepke"
+              },
+              "sweaterNumber": 45
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "descKey": "misconduct"
+          },
+          {
+            "timeInPeriod": "19:03",
+            "type": "MIS",
+            "duration": 10,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Joshua",
+                "cs": "Josh",
+                "de": "Josh",
+                "es": "Josh",
+                "fi": "Josh",
+                "sk": "Josh",
+                "sv": "Josh"
+              },
+              "lastName": {
+                "default": "Mahura"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "SEA"
+            },
+            "descKey": "misconduct"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

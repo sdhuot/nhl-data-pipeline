@@ -1,0 +1,647 @@
+{
+  "id": 2025020015,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-09",
+  "venue": {
+    "default": "Enterprise Center"
+  },
+  "venueLocation": {
+    "default": "St. Louis"
+  },
+  "startTimeUTC": "2025-10-10T00:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 566,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNMW",
+      "sequenceNumber": 273
+    },
+    {
+      "id": 567,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNNO",
+      "sequenceNumber": 274
+    },
+    {
+      "id": 570,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNWIX",
+      "sequenceNumber": 411
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 30,
+    "commonName": {
+      "default": "Wild"
+    },
+    "abbrev": "MIN",
+    "placeName": {
+      "default": "Minnesota"
+    },
+    "placeNameWithPreposition": {
+      "default": "Minnesota",
+      "fr": "du Minnesota"
+    },
+    "score": 5,
+    "sog": 21,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MIN_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MIN_dark.svg"
+  },
+  "homeTeam": {
+    "id": 19,
+    "commonName": {
+      "default": "Blues"
+    },
+    "abbrev": "STL",
+    "placeName": {
+      "default": "St. Louis"
+    },
+    "placeNameWithPreposition": {
+      "default": "St. Louis",
+      "fr": "de St. Louis"
+    },
+    "score": 0,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 204,
+            "strength": "ev",
+            "playerId": 8477451,
+            "firstName": {
+              "default": "Ryan"
+            },
+            "lastName": {
+              "default": "Hartman"
+            },
+            "name": {
+              "default": "R. Hartman"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8477451.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-stl-hartman-scores-goal-against-jordan-binnington-6382529051112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/min-stl-hartman-marque-un-but-contre-jordan-binnington-6382531307112",
+            "highlightClip": 6382529051112,
+            "highlightClipFr": 6382531307112,
+            "discreteClip": 6382529914112,
+            "discreteClipFr": 6382528748112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MIN"
+            },
+            "timeInPeriod": "15:54",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475149,
+                "firstName": {
+                  "default": "Marcus"
+                },
+                "lastName": {
+                  "default": "Johansson"
+                },
+                "name": {
+                  "default": "M. Johansson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 90
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020015/ev204.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 382,
+            "strength": "ev",
+            "playerId": 8481557,
+            "firstName": {
+              "default": "Matt"
+            },
+            "lastName": {
+              "default": "Boldy"
+            },
+            "name": {
+              "default": "M. Boldy"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8481557.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-stl-boldy-scores-goal-against-jordan-binnington-6382529843112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/min-stl-boldy-marque-un-but-contre-jordan-binnington-6382529055112",
+            "highlightClip": 6382529843112,
+            "highlightClipFr": 6382529055112,
+            "discreteClip": 6382528642112,
+            "discreteClipFr": 6382529840112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MIN"
+            },
+            "timeInPeriod": "17:30",
+            "shotType": "tip-in",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478864,
+                "firstName": {
+                  "default": "Kirill"
+                },
+                "lastName": {
+                  "default": "Kaprizov"
+                },
+                "name": {
+                  "default": "K. Kaprizov"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 97
+              },
+              {
+                "playerId": 8482079,
+                "firstName": {
+                  "default": "Marco"
+                },
+                "lastName": {
+                  "default": "Rossi"
+                },
+                "name": {
+                  "default": "M. Rossi"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 23
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020015/ev382.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 207,
+            "strength": "pp",
+            "playerId": 8478493,
+            "firstName": {
+              "default": "Joel"
+            },
+            "lastName": {
+              "default": "Eriksson Ek"
+            },
+            "name": {
+              "default": "J. Eriksson Ek"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8478493.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-stl-eriksson-ek-scores-goal-against-jordan-binnington-6382533014112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/min-stl-eriksson-ek-marque-un-but-contre-jordan-binnington-6382531273112",
+            "highlightClip": 6382533014112,
+            "highlightClipFr": 6382531273112,
+            "discreteClip": 6382532621112,
+            "discreteClipFr": 6382532528112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MIN"
+            },
+            "timeInPeriod": "12:27",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478864,
+                "firstName": {
+                  "default": "Kirill"
+                },
+                "lastName": {
+                  "default": "Kaprizov"
+                },
+                "name": {
+                  "default": "K. Kaprizov"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 97
+              },
+              {
+                "playerId": 8481557,
+                "firstName": {
+                  "default": "Matt"
+                },
+                "lastName": {
+                  "default": "Boldy"
+                },
+                "name": {
+                  "default": "M. Boldy"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 12
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020015/ev207.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 747,
+            "strength": "ev",
+            "playerId": 8477451,
+            "firstName": {
+              "default": "Ryan"
+            },
+            "lastName": {
+              "default": "Hartman"
+            },
+            "name": {
+              "default": "R. Hartman"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8477451.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-stl-hartman-scores-goal-against-jordan-binnington-6382532771112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/min-stl-hartman-marque-un-but-contre-jordan-binnington-6382533270112",
+            "highlightClip": 6382532771112,
+            "highlightClipFr": 6382533270112,
+            "discreteClip": 6382534619112,
+            "discreteClipFr": 6382532767112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MIN"
+            },
+            "timeInPeriod": "17:36",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478508,
+                "firstName": {
+                  "default": "Yakov",
+                  "cs": "Jakov",
+                  "fi": "Jakov",
+                  "sk": "Jakov"
+                },
+                "lastName": {
+                  "default": "Trenin"
+                },
+                "name": {
+                  "default": "Y. Trenin",
+                  "cs": "J. Trenin",
+                  "fi": "J. Trenin",
+                  "sk": "J. Trenin"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 13
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020015/ev747.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 879,
+            "strength": "ev",
+            "playerId": 8482079,
+            "firstName": {
+              "default": "Marco"
+            },
+            "lastName": {
+              "default": "Rossi"
+            },
+            "name": {
+              "default": "M. Rossi"
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8482079.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/min-stl-rossi-scores-goal-against-jordan-binnington-6382534165112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/min-stl-rossi-marque-un-but-contre-jordan-binnington-6382536431112",
+            "highlightClip": 6382534165112,
+            "highlightClipFr": 6382536431112,
+            "discreteClip": 6382534953112,
+            "discreteClipFr": 6382536038112,
+            "goalsToDate": 1,
+            "awayScore": 5,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "MIN"
+            },
+            "timeInPeriod": "07:27",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478864,
+                "firstName": {
+                  "default": "Kirill"
+                },
+                "lastName": {
+                  "default": "Kaprizov"
+                },
+                "name": {
+                  "default": "K. Kaprizov"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 97
+              },
+              {
+                "playerId": 8481557,
+                "firstName": {
+                  "default": "Matt"
+                },
+                "lastName": {
+                  "default": "Boldy"
+                },
+                "name": {
+                  "default": "M. Boldy"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 12
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020015/ev879.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8479406,
+        "teamAbbrev": "MIN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8479406.png",
+        "name": {
+          "default": "F. Gustavsson"
+        },
+        "sweaterNo": 32,
+        "position": "G",
+        "goalsAgainstAverage": 0.0,
+        "savePctg": 1.0
+      },
+      {
+        "star": 2,
+        "playerId": 8477451,
+        "teamAbbrev": "MIN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8477451.png",
+        "name": {
+          "default": "R. Hartman"
+        },
+        "sweaterNo": 38,
+        "position": "R",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8481557,
+        "teamAbbrev": "MIN",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MIN/8481557.png",
+        "name": {
+          "default": "M. Boldy"
+        },
+        "sweaterNo": 12,
+        "position": "L",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Justin"
+              },
+              "lastName": {
+                "default": "Faulk"
+              },
+              "sweaterNumber": 72
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Joel"
+              },
+              "lastName": {
+                "default": "Eriksson Ek"
+              },
+              "sweaterNumber": 14
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "09:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Mathieu"
+              },
+              "lastName": {
+                "default": "Joseph"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Matt"
+              },
+              "lastName": {
+                "default": "Boldy"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "David"
+              },
+              "lastName": {
+                "default": "Jiricek",
+                "cs": "Jiříček",
+                "sk": "Jiříček"
+              },
+              "sweaterNumber": 55
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Robert"
+              },
+              "lastName": {
+                "default": "Thomas"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "06:50",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Vinnie"
+              },
+              "lastName": {
+                "default": "Hinostroza"
+              },
+              "sweaterNumber": 18
+            },
+            "teamAbbrev": {
+              "default": "MIN"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tyler"
+              },
+              "lastName": {
+                "default": "Tucker"
+              },
+              "sweaterNumber": 75
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "12:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brayden"
+              },
+              "lastName": {
+                "default": "Schenn"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Marco"
+              },
+              "lastName": {
+                "default": "Rossi"
+              },
+              "sweaterNumber": 23
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

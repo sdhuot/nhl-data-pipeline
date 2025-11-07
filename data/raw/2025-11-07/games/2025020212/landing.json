@@ -1,0 +1,610 @@
+{
+  "id": 2025020212,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-11-04",
+  "venue": {
+    "default": "Crypto.com Arena"
+  },
+  "venueLocation": {
+    "default": "Los Angeles"
+  },
+  "startTimeUTC": "2025-11-05T03:30:00Z",
+  "easternUTCOffset": "-05:00",
+  "venueUTCOffset": "-08:00",
+  "venueTimezone": "America/Los_Angeles",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 292,
+      "market": "A",
+      "countryCode": "CA",
+      "network": "TSN3",
+      "sequenceNumber": 134
+    },
+    {
+      "id": 564,
+      "market": "H",
+      "countryCode": "US",
+      "network": "FDSNW",
+      "sequenceNumber": 279
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 52,
+    "commonName": {
+      "default": "Jets"
+    },
+    "abbrev": "WPG",
+    "placeName": {
+      "default": "Winnipeg"
+    },
+    "placeNameWithPreposition": {
+      "default": "Winnipeg",
+      "fr": "de Winnipeg"
+    },
+    "score": 0,
+    "sog": 23,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/WPG_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/WPG_dark.svg"
+  },
+  "homeTeam": {
+    "id": 26,
+    "commonName": {
+      "default": "Kings"
+    },
+    "abbrev": "LAK",
+    "placeName": {
+      "default": "Los Angeles"
+    },
+    "placeNameWithPreposition": {
+      "default": "Los Angeles",
+      "fr": "de Los Angeles"
+    },
+    "score": 3,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/LAK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/LAK_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 337,
+            "strength": "ev",
+            "playerId": 8477960,
+            "firstName": {
+              "default": "Adrian"
+            },
+            "lastName": {
+              "default": "Kempe"
+            },
+            "name": {
+              "default": "A. Kempe"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8477960.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-lak-kempe-scores-goal-against-connor-hellebuyck-6384536584112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-lak-kempe-marque-un-but-contre-connor-hellebuyck-6384536968112",
+            "highlightClip": 6384536584112,
+            "highlightClipFr": 6384536968112,
+            "discreteClip": 6384535290112,
+            "discreteClipFr": 6384536580112,
+            "goalsToDate": 6,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "17:09",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476469,
+                "firstName": {
+                  "default": "Joel"
+                },
+                "lastName": {
+                  "default": "Armia"
+                },
+                "name": {
+                  "default": "J. Armia"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 40
+              },
+              {
+                "playerId": 8479998,
+                "firstName": {
+                  "default": "Mikey",
+                  "cs": "Michael",
+                  "de": "Michael",
+                  "fi": "Michael",
+                  "sk": "Michael",
+                  "sv": "Michael"
+                },
+                "lastName": {
+                  "default": "Anderson"
+                },
+                "name": {
+                  "default": "M. Anderson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 44
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020212/ev337.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 964,
+            "strength": "pp",
+            "playerId": 8477942,
+            "firstName": {
+              "default": "Kevin"
+            },
+            "lastName": {
+              "default": "Fiala"
+            },
+            "name": {
+              "default": "K. Fiala"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8477942.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-lak-fiala-scores-ppg-against-connor-hellebuyck-6384540599112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-lak-fiala-marque-un-but-en-a-n-contre-connor-hellebuyck-6384539558112",
+            "highlightClip": 6384540599112,
+            "highlightClipFr": 6384539558112,
+            "discreteClip": 6384540036112,
+            "discreteClipFr": 6384539451112,
+            "goalsToDate": 6,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "15:00",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8470621,
+                "firstName": {
+                  "default": "Corey"
+                },
+                "lastName": {
+                  "default": "Perry"
+                },
+                "name": {
+                  "default": "C. Perry"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 10
+              },
+              {
+                "playerId": 8482124,
+                "firstName": {
+                  "default": "Quinton"
+                },
+                "lastName": {
+                  "default": "Byfield"
+                },
+                "name": {
+                  "default": "Q. Byfield"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 55
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020212/ev964.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "0651",
+            "eventId": 1028,
+            "strength": "ev",
+            "playerId": 8474563,
+            "firstName": {
+              "default": "Drew"
+            },
+            "lastName": {
+              "default": "Doughty"
+            },
+            "name": {
+              "default": "D. Doughty"
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8474563.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/wpg-lak-doughty-scores-empty-net-goal-6384542094112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/wpg-lak-doughty-lak-marque-un-but-dans-un-filet-desert-6384541616112",
+            "highlightClip": 6384542094112,
+            "highlightClipFr": 6384541616112,
+            "discreteClip": 6384541128112,
+            "discreteClipFr": 6384540232112,
+            "goalsToDate": 2,
+            "awayScore": 0,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "LAK"
+            },
+            "timeInPeriod": "19:06",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020212/ev1028.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477960,
+        "teamAbbrev": "LAK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8477960.png",
+        "name": {
+          "default": "A. Kempe"
+        },
+        "sweaterNo": 9,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8475311,
+        "teamAbbrev": "LAK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8475311.png",
+        "name": {
+          "default": "D. Kuemper"
+        },
+        "sweaterNo": 35,
+        "position": "G",
+        "goalsAgainstAverage": 0.0,
+        "savePctg": 1.0
+      },
+      {
+        "star": 3,
+        "playerId": 8474563,
+        "teamAbbrev": "LAK",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/LAK/8474563.png",
+        "name": {
+          "default": "D. Doughty"
+        },
+        "sweaterNo": 8,
+        "position": "D",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Logan"
+              },
+              "lastName": {
+                "default": "Stanley"
+              },
+              "sweaterNumber": 64
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anze",
+                "cs": "Anže",
+                "sk": "Anže"
+              },
+              "lastName": {
+                "default": "Kopitar"
+              },
+              "sweaterNumber": 11
+            },
+            "descKey": "holding"
+          },
+          {
+            "timeInPeriod": "05:06",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "descKey": "too-many-men-on-the-ice",
+            "servedBy": {
+              "default": "C. Perry"
+            }
+          },
+          {
+            "timeInPeriod": "08:23",
+            "type": "BEN",
+            "duration": 2,
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "descKey": "delaying-game-unsuccessful-challenge",
+            "servedBy": {
+              "default": "Brad Lambert"
+            }
+          },
+          {
+            "timeInPeriod": "08:44",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Anze",
+                "cs": "Anže",
+                "sk": "Anže"
+              },
+              "lastName": {
+                "default": "Kopitar"
+              },
+              "sweaterNumber": 11
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Cole"
+              },
+              "lastName": {
+                "default": "Koepke"
+              },
+              "sweaterNumber": 45
+            },
+            "descKey": "high-sticking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:58",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brad"
+              },
+              "lastName": {
+                "default": "Lambert"
+              },
+              "sweaterNumber": 93
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mikey",
+                "cs": "Michael",
+                "de": "Michael",
+                "fi": "Michael",
+                "sk": "Michael",
+                "sv": "Michael"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 44
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "11:01",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alex"
+              },
+              "lastName": {
+                "default": "Turcotte"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Colin"
+              },
+              "lastName": {
+                "default": "Miller"
+              },
+              "sweaterNumber": 6
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brandt"
+              },
+              "lastName": {
+                "default": "Clarke"
+              },
+              "sweaterNumber": 92
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Vladislav"
+              },
+              "lastName": {
+                "default": "Namestnikov",
+                "cs": "Naměstnikov"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "interference"
+          },
+          {
+            "timeInPeriod": "04:53",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Kevin"
+              },
+              "lastName": {
+                "default": "Fiala"
+              },
+              "sweaterNumber": 22
+            },
+            "teamAbbrev": {
+              "default": "LAK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Vladislav"
+              },
+              "lastName": {
+                "default": "Namestnikov",
+                "cs": "Naměstnikov"
+              },
+              "sweaterNumber": 7
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "10:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Parker"
+              },
+              "lastName": {
+                "default": "Ford"
+              },
+              "sweaterNumber": 25
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "descKey": "delaying-game-puck-over-glass"
+          },
+          {
+            "timeInPeriod": "11:46",
+            "type": "MIN",
+            "duration": 4,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Vladislav"
+              },
+              "lastName": {
+                "default": "Namestnikov",
+                "cs": "Naměstnikov"
+              },
+              "sweaterNumber": 7
+            },
+            "teamAbbrev": {
+              "default": "WPG"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Corey"
+              },
+              "lastName": {
+                "default": "Perry"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "high-sticking-double-minor"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

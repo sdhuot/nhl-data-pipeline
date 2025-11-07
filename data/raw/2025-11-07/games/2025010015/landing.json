@@ -1,0 +1,862 @@
+{
+  "id": 2025010015,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-22",
+  "venue": {
+    "default": "Centre Bell"
+  },
+  "venueLocation": {
+    "default": "Montreal",
+    "fr": "Montréal"
+  },
+  "startTimeUTC": "2025-09-22T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "America/Montreal",
+  "periodDescriptor": {
+    "number": 5,
+    "periodType": "SO",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 131,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "TSN2",
+      "sequenceNumber": 112
+    },
+    {
+      "id": 33,
+      "market": "H",
+      "countryCode": "CA",
+      "network": "RDS",
+      "sequenceNumber": 132
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 5,
+    "commonName": {
+      "default": "Penguins"
+    },
+    "abbrev": "PIT",
+    "placeName": {
+      "default": "Pittsburgh"
+    },
+    "placeNameWithPreposition": {
+      "default": "Pittsburgh",
+      "fr": "de Pittsburgh"
+    },
+    "score": 1,
+    "sog": 34,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg"
+  },
+  "homeTeam": {
+    "id": 8,
+    "commonName": {
+      "default": "Canadiens"
+    },
+    "abbrev": "MTL",
+    "placeName": {
+      "default": "Montréal"
+    },
+    "placeNameWithPreposition": {
+      "default": "Montréal",
+      "fr": "de Montréal"
+    },
+    "score": 2,
+    "sog": 31,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/MTL_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 156,
+            "strength": "pp",
+            "playerId": 8482698,
+            "firstName": {
+              "default": "Tristan"
+            },
+            "lastName": {
+              "default": "Broz"
+            },
+            "name": {
+              "default": "T. Broz"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8482698.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-mtl-broz-scores-ppg-against-samuel-montembeault-6379949171112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-mtl-broz-marque-un-but-en-a-n-contre-samuel-montembeault-6379949080112",
+            "highlightClip": 6379949171112,
+            "highlightClipFr": 6379949080112,
+            "discreteClip": 6379949488112,
+            "discreteClipFr": 6379949564112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "10:26",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481703,
+                "firstName": {
+                  "default": "Valtteri"
+                },
+                "lastName": {
+                  "default": "Puustinen"
+                },
+                "name": {
+                  "default": "V. Puustinen"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 48
+              },
+              {
+                "playerId": 8484839,
+                "firstName": {
+                  "default": "Harrison"
+                },
+                "lastName": {
+                  "default": "Brunicke"
+                },
+                "name": {
+                  "default": "H. Brunicke"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 45
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010015/ev156.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 164,
+            "strength": "ev",
+            "playerId": 8483424,
+            "firstName": {
+              "default": "Owen"
+            },
+            "lastName": {
+              "default": "Beck"
+            },
+            "name": {
+              "default": "O. Beck"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8483424.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-mtl-beck-scores-goal-against-sergey-murashov-6379953120112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/owen-beck-with-a-goal-vs-les-penguins-de-pittsburgh-6379954310112",
+            "highlightClip": 6379953120112,
+            "highlightClipFr": 6379954310112,
+            "discreteClip": 6379952927112,
+            "discreteClipFr": 6379951632112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 1,
+            "timeInPeriod": "02:36",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8483488,
+                "firstName": {
+                  "default": "Filip"
+                },
+                "lastName": {
+                  "default": "Mesar"
+                },
+                "name": {
+                  "default": "F. Mesar"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 46
+              },
+              {
+                "playerId": 8476875,
+                "firstName": {
+                  "default": "Mike"
+                },
+                "lastName": {
+                  "default": "Matheson"
+                },
+                "name": {
+                  "default": "M. Matheson"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 8
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010015/ev164.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 5,
+          "periodType": "SO",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1010",
+            "eventId": 70,
+            "strength": "ev",
+            "playerId": 8482775,
+            "firstName": {
+              "default": "Oliver"
+            },
+            "lastName": {
+              "default": "Kapanen"
+            },
+            "name": {
+              "default": "O. Kapanen"
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482775.png",
+            "discreteClip": 6379957297112,
+            "discreteClipFr": 6379955465112,
+            "awayScore": 1,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "MTL"
+            },
+            "timeInPeriod": "00:00",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [],
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [
+      {
+        "sequence": 1,
+        "playerId": 8484984,
+        "teamAbbrev": {
+          "default": "MTL"
+        },
+        "firstName": {
+          "default": "Ivan"
+        },
+        "lastName": {
+          "default": "Demidov"
+        },
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8484984.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 2,
+        "playerId": 8477511,
+        "teamAbbrev": {
+          "default": "PIT"
+        },
+        "firstName": {
+          "default": "Anthony"
+        },
+        "lastName": {
+          "default": "Mantha"
+        },
+        "shotType": "snap",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8477511.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 3,
+        "playerId": 8479339,
+        "teamAbbrev": {
+          "default": "MTL"
+        },
+        "firstName": {
+          "default": "Patrik"
+        },
+        "lastName": {
+          "default": "Laine"
+        },
+        "shotType": "snap",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8479339.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 4,
+        "playerId": 8478438,
+        "teamAbbrev": {
+          "default": "PIT"
+        },
+        "firstName": {
+          "default": "Tommy",
+          "cs": "Thomas",
+          "de": "Thomas",
+          "es": "Thomas",
+          "fi": "Thomas",
+          "sk": "Thomas",
+          "sv": "Thomas"
+        },
+        "lastName": {
+          "default": "Novak"
+        },
+        "shotType": "snap",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8478438.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 5,
+        "playerId": 8482081,
+        "teamAbbrev": {
+          "default": "MTL"
+        },
+        "firstName": {
+          "default": "Sean"
+        },
+        "lastName": {
+          "default": "Farrell"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482081.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 6,
+        "playerId": 8482698,
+        "teamAbbrev": {
+          "default": "PIT"
+        },
+        "firstName": {
+          "default": "Tristan"
+        },
+        "lastName": {
+          "default": "Broz"
+        },
+        "shotType": "snap",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8482698.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 7,
+        "playerId": 8483488,
+        "teamAbbrev": {
+          "default": "MTL"
+        },
+        "firstName": {
+          "default": "Filip"
+        },
+        "lastName": {
+          "default": "Mesar"
+        },
+        "shotType": "wrist",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8483488.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 8,
+        "playerId": 8485414,
+        "teamAbbrev": {
+          "default": "PIT"
+        },
+        "firstName": {
+          "default": "Ben"
+        },
+        "lastName": {
+          "default": "Kindel"
+        },
+        "shotType": "backhand",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8485414.png",
+        "gameWinner": false
+      },
+      {
+        "sequence": 9,
+        "playerId": 8482775,
+        "teamAbbrev": {
+          "default": "MTL"
+        },
+        "firstName": {
+          "default": "Oliver"
+        },
+        "lastName": {
+          "default": "Kapanen"
+        },
+        "shotType": "backhand",
+        "result": "goal",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482775.png",
+        "gameWinner": true,
+        "discreteClip": 6379957297112,
+        "discreteClipFr": 6379955465112
+      },
+      {
+        "sequence": 10,
+        "playerId": 8482993,
+        "teamAbbrev": {
+          "default": "PIT"
+        },
+        "firstName": {
+          "default": "Avery"
+        },
+        "lastName": {
+          "default": "Hayes"
+        },
+        "shotType": "snap",
+        "result": "save",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8482993.png",
+        "gameWinner": false
+      }
+    ],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8483424,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8483424.png",
+        "name": {
+          "default": "O. Beck"
+        },
+        "sweaterNo": 62,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8484839,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8484839.png",
+        "name": {
+          "default": "H. Brunicke"
+        },
+        "sweaterNo": 45,
+        "position": "D",
+        "goals": 0,
+        "assists": 1,
+        "points": 1
+      },
+      {
+        "star": 3,
+        "playerId": 8482775,
+        "teamAbbrev": "MTL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/MTL/8482775.png",
+        "name": {
+          "default": "O. Kapanen"
+        },
+        "sweaterNo": 91,
+        "position": "C",
+        "goals": 0,
+        "assists": 0,
+        "points": 0
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:59",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Adam"
+              },
+              "lastName": {
+                "default": "Engstrom"
+              },
+              "sweaterNumber": 42
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Clifton"
+              },
+              "sweaterNumber": 75
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "05:06",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Bokondji"
+              },
+              "lastName": {
+                "default": "Imama"
+              },
+              "sweaterNumber": 14
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mike"
+              },
+              "lastName": {
+                "default": "Matheson"
+              },
+              "sweaterNumber": 8
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "05:36",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Graves"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Patrik"
+              },
+              "lastName": {
+                "default": "Laine"
+              },
+              "sweaterNumber": 92
+            },
+            "descKey": "slashing"
+          },
+          {
+            "timeInPeriod": "08:51",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jared"
+              },
+              "lastName": {
+                "default": "Davidson"
+              },
+              "sweaterNumber": 49
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tristan"
+              },
+              "lastName": {
+                "default": "Broz"
+              },
+              "sweaterNumber": 26
+            },
+            "descKey": "boarding"
+          },
+          {
+            "timeInPeriod": "14:49",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Robby"
+              },
+              "lastName": {
+                "default": "Fabbri"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "19:18",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Josh"
+              },
+              "lastName": {
+                "default": "Anderson"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Clifton"
+              },
+              "sweaterNumber": 75
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "10:05",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Poulin"
+              },
+              "sweaterNumber": 22
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jared"
+              },
+              "lastName": {
+                "default": "Davidson"
+              },
+              "sweaterNumber": 49
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "10:05",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jared"
+              },
+              "lastName": {
+                "default": "Davidson"
+              },
+              "sweaterNumber": 49
+            },
+            "teamAbbrev": {
+              "default": "MTL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sam"
+              },
+              "lastName": {
+                "default": "Poulin"
+              },
+              "sweaterNumber": 22
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "19:05",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Shea"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Patrik"
+              },
+              "lastName": {
+                "default": "Laine"
+              },
+              "sweaterNumber": 92
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:29",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Graves"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Oliver"
+              },
+              "lastName": {
+                "default": "Kapanen"
+              },
+              "sweaterNumber": 91
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "04:45",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Valtteri"
+              },
+              "lastName": {
+                "default": "Puustinen"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Mike"
+              },
+              "lastName": {
+                "default": "Matheson"
+              },
+              "sweaterNumber": 8
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 4,
+          "periodType": "OT",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

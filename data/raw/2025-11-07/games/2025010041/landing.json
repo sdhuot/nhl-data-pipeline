@@ -1,0 +1,888 @@
+{
+  "id": 2025010041,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-26",
+  "venue": {
+    "default": "PPG Paints Arena"
+  },
+  "venueLocation": {
+    "default": "Pittsburgh"
+  },
+  "startTimeUTC": "2025-09-26T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 290,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SNP",
+      "sequenceNumber": 33
+    },
+    {
+      "id": 324,
+      "market": "N",
+      "countryCode": "US",
+      "network": "NHLN",
+      "sequenceNumber": 35
+    },
+    {
+      "id": 562,
+      "market": "A",
+      "countryCode": "US",
+      "network": "FDSNDET",
+      "sequenceNumber": 271
+    },
+    {
+      "id": 528,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SN-PIT",
+      "sequenceNumber": 375
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 17,
+    "commonName": {
+      "default": "Red Wings"
+    },
+    "abbrev": "DET",
+    "placeName": {
+      "default": "Detroit"
+    },
+    "placeNameWithPreposition": {
+      "default": "Detroit",
+      "fr": "de Detroit"
+    },
+    "score": 2,
+    "sog": 20,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DET_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DET_dark.svg?season=20252026"
+  },
+  "homeTeam": {
+    "id": 5,
+    "commonName": {
+      "default": "Penguins"
+    },
+    "abbrev": "PIT",
+    "placeName": {
+      "default": "Pittsburgh"
+    },
+    "placeNameWithPreposition": {
+      "default": "Pittsburgh",
+      "fr": "de Pittsburgh"
+    },
+    "score": 3,
+    "sog": 20,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 318,
+            "strength": "ev",
+            "playerId": 8481077,
+            "firstName": {
+              "default": "John"
+            },
+            "lastName": {
+              "default": "Leonard"
+            },
+            "name": {
+              "default": "J. Leonard"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8481077.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-pit-leonard-scores-goal-against-tristan-jarry-6380166508112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-pit-leonard-marque-un-but-contre-tristan-jarry-6380168085112",
+            "highlightClip": 6380166508112,
+            "highlightClipFr": 6380168085112,
+            "discreteClip": 6380167188112,
+            "discreteClipFr": 6380166605112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "13:38",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484107,
+                "firstName": {
+                  "default": "Alexandre"
+                },
+                "lastName": {
+                  "default": "Doucet"
+                },
+                "name": {
+                  "default": "A. Doucet"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010041/ev318.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 379,
+            "strength": "pp",
+            "playerId": 8481077,
+            "firstName": {
+              "default": "John"
+            },
+            "lastName": {
+              "default": "Leonard"
+            },
+            "name": {
+              "default": "J. Leonard"
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8481077.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-pit-leonard-scores-ppg-against-tristan-jarry-6380168186112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-pit-leonard-marque-un-but-en-a-n-contre-tristan-jarry-6380166031112",
+            "highlightClip": 6380168186112,
+            "highlightClipFr": 6380166031112,
+            "discreteClip": 6380167996112,
+            "discreteClipFr": 6380166613112,
+            "goalsToDate": 2,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "18:20",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482171,
+                "firstName": {
+                  "default": "William"
+                },
+                "lastName": {
+                  "default": "Wallinder"
+                },
+                "name": {
+                  "default": "W. Wallinder"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 54
+              },
+              {
+                "playerId": 8484160,
+                "firstName": {
+                  "default": "Nate"
+                },
+                "lastName": {
+                  "default": "Danielson"
+                },
+                "name": {
+                  "default": "N. Danielson"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 29
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010041/ev379.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 561,
+            "strength": "ev",
+            "playerId": 8480980,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "Dewar"
+            },
+            "name": {
+              "default": "C. Dewar"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8480980.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-pit-dewar-scores-goal-against-john-gibson-6380167637112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-pit-dewar-marque-un-but-contre-john-gibson-6380169094112",
+            "highlightClip": 6380167637112,
+            "highlightClipFr": 6380169094112,
+            "discreteClip": 6380169193112,
+            "discreteClipFr": 6380166728112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "DET"
+            },
+            "timeInPeriod": "02:32",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481030,
+                "firstName": {
+                  "default": "Jack"
+                },
+                "lastName": {
+                  "default": "St. Ivany"
+                },
+                "name": {
+                  "default": "J. St. Ivany"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 3
+              },
+              {
+                "playerId": 8476856,
+                "firstName": {
+                  "default": "Mathew",
+                  "cs": "Matt",
+                  "de": "Matt",
+                  "es": "Matt",
+                  "fi": "Matt",
+                  "sk": "Matt",
+                  "sv": "Matt"
+                },
+                "lastName": {
+                  "default": "Dumba"
+                },
+                "name": {
+                  "default": "M. Dumba"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 24
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010041/ev561.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 158,
+            "strength": "ev",
+            "playerId": 8477952,
+            "firstName": {
+              "default": "Robby"
+            },
+            "lastName": {
+              "default": "Fabbri"
+            },
+            "name": {
+              "default": "R. Fabbri"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8477952.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-pit-fabbri-scores-goal-against-michal-postava-6380169227112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-pit-fabbri-marque-un-but-contre-michal-postava-6380169821112",
+            "highlightClip": 6380169227112,
+            "highlightClipFr": 6380169821112,
+            "discreteClip": 6380170607112,
+            "discreteClipFr": 6380167068112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "04:46",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8481741,
+                "firstName": {
+                  "default": "Aaron"
+                },
+                "lastName": {
+                  "default": "Huglen"
+                },
+                "name": {
+                  "default": "A. Huglen"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 10
+              },
+              {
+                "playerId": 8481703,
+                "firstName": {
+                  "default": "Valtteri"
+                },
+                "lastName": {
+                  "default": "Puustinen"
+                },
+                "name": {
+                  "default": "V. Puustinen"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 48
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010041/ev158.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 930,
+            "strength": "pp",
+            "playerId": 8481577,
+            "firstName": {
+              "default": "Philip"
+            },
+            "lastName": {
+              "default": "Tomasino"
+            },
+            "name": {
+              "default": "P. Tomasino"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8481577.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/det-pit-tomasino-scores-ppg-against-michal-postava-6380169626112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/det-pit-tomasino-marque-un-but-en-a-n-contre-michal-postava-6380169436112",
+            "highlightClip": 6380169626112,
+            "highlightClipFr": 6380169436112,
+            "discreteClip": 6380169919112,
+            "discreteClipFr": 6380170416112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "09:54",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480842,
+                "firstName": {
+                  "default": "Filip"
+                },
+                "lastName": {
+                  "default": "Hallander"
+                },
+                "name": {
+                  "default": "F. Hallander"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8478438,
+                "firstName": {
+                  "default": "Tommy",
+                  "cs": "Thomas",
+                  "de": "Thomas",
+                  "es": "Thomas",
+                  "fi": "Thomas",
+                  "sk": "Thomas",
+                  "sv": "Thomas"
+                },
+                "lastName": {
+                  "default": "Novak"
+                },
+                "name": {
+                  "default": "T. Novak"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010041/ev930.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8481577,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8481577.png",
+        "name": {
+          "default": "P. Tomasino"
+        },
+        "sweaterNo": 53,
+        "position": "R",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8481077,
+        "teamAbbrev": "DET",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DET/8481077.png",
+        "name": {
+          "default": "J. Leonard"
+        },
+        "sweaterNo": 43,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8477952,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8477952.png",
+        "name": {
+          "default": "R. Fabbri"
+        },
+        "sweaterNo": 12,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:35",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Alexandre"
+              },
+              "lastName": {
+                "default": "Doucet"
+              },
+              "sweaterNumber": 63
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "St. Ivany"
+              },
+              "sweaterNumber": 3
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "17:57",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "St. Ivany"
+              },
+              "sweaterNumber": 3
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Antti"
+              },
+              "lastName": {
+                "default": "Tuomisto"
+              },
+              "sweaterNumber": 38
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "04:21",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Valtteri"
+              },
+              "lastName": {
+                "default": "Puustinen"
+              },
+              "sweaterNumber": 48
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Elmer"
+              },
+              "lastName": {
+                "default": "Soderblom",
+                "sv": "Söderblom"
+              },
+              "sweaterNumber": 85
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Tomasino"
+              },
+              "sweaterNumber": 53
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Gibson"
+              },
+              "sweaterNumber": 36
+            },
+            "descKey": "interference-goalkeeper"
+          },
+          {
+            "timeInPeriod": "07:20",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "John"
+              },
+              "lastName": {
+                "default": "Leonard"
+              },
+              "sweaterNumber": 43
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Tomasino"
+              },
+              "sweaterNumber": 53
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "14:13",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Austin"
+              },
+              "lastName": {
+                "default": "Watson"
+              },
+              "sweaterNumber": 24
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "St. Ivany"
+              },
+              "sweaterNumber": 3
+            },
+            "descKey": "cross-checking"
+          },
+          {
+            "timeInPeriod": "16:19",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carter"
+              },
+              "lastName": {
+                "default": "Bear"
+              },
+              "sweaterNumber": 41
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jack"
+              },
+              "lastName": {
+                "default": "St. Ivany"
+              },
+              "sweaterNumber": 3
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "02:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Bantle"
+              },
+              "sweaterNumber": 64
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Dewar"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "illegal-check-to-head"
+          },
+          {
+            "timeInPeriod": "02:39",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Dewar"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Bantle"
+              },
+              "sweaterNumber": 64
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "02:39",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Dewar"
+              },
+              "sweaterNumber": 19
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Bantle"
+              },
+              "sweaterNumber": 64
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "02:39",
+            "type": "MAJ",
+            "duration": 5,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Carson"
+              },
+              "lastName": {
+                "default": "Bantle"
+              },
+              "sweaterNumber": 64
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Dewar"
+              },
+              "sweaterNumber": 19
+            },
+            "descKey": "fighting"
+          },
+          {
+            "timeInPeriod": "09:30",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Justice"
+              },
+              "lastName": {
+                "default": "Christensen"
+              },
+              "sweaterNumber": 83
+            },
+            "teamAbbrev": {
+              "default": "DET"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Robby"
+              },
+              "lastName": {
+                "default": "Fabbri"
+              },
+              "sweaterNumber": 12
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "15:43",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ryan"
+              },
+              "lastName": {
+                "default": "Graves"
+              },
+              "sweaterNumber": 27
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Sheldon"
+              },
+              "lastName": {
+                "default": "Dries"
+              },
+              "sweaterNumber": 15
+            },
+            "descKey": "boarding"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

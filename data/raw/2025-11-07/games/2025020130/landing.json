@@ -1,0 +1,573 @@
+{
+  "id": 2025020130,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-25",
+  "venue": {
+    "default": "Amerant Bank Arena"
+  },
+  "venueLocation": {
+    "default": "Sunrise"
+  },
+  "startTimeUTC": "2025-10-25T22:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 521,
+      "market": "A",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    },
+    {
+      "id": 521,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 54,
+    "commonName": {
+      "default": "Golden Knights"
+    },
+    "abbrev": "VGK",
+    "placeName": {
+      "default": "Vegas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Vegas",
+      "fr": "de Vegas"
+    },
+    "score": 0,
+    "sog": 17,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/VGK_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/VGK_dark.svg"
+  },
+  "homeTeam": {
+    "id": 13,
+    "commonName": {
+      "default": "Panthers"
+    },
+    "abbrev": "FLA",
+    "placeName": {
+      "default": "Florida",
+      "fr": "Floride"
+    },
+    "placeNameWithPreposition": {
+      "default": "Florida",
+      "fr": "de la Floride"
+    },
+    "score": 3,
+    "sog": 26,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 393,
+            "strength": "ev",
+            "playerId": 8477933,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Reinhart"
+            },
+            "name": {
+              "default": "S. Reinhart"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477933.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-fla-reinhart-scores-goal-against-akira-schmid-6384064534112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-fla-reinhart-marque-un-but-contre-akira-schmid-6384067506112",
+            "highlightClip": 6384064534112,
+            "highlightClipFr": 6384067506112,
+            "discreteClip": 6384066717112,
+            "discreteClipFr": 6384065443112,
+            "goalsToDate": 4,
+            "awayScore": 0,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "17:19",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8477409,
+                "firstName": {
+                  "default": "Carter"
+                },
+                "lastName": {
+                  "default": "Verhaeghe"
+                },
+                "name": {
+                  "default": "C. Verhaeghe"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 23
+              },
+              {
+                "playerId": 8478542,
+                "firstName": {
+                  "default": "Evan"
+                },
+                "lastName": {
+                  "default": "Rodrigues"
+                },
+                "name": {
+                  "default": "E. Rodrigues"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 17
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020130/ev393.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 851,
+            "strength": "ev",
+            "playerId": 8481655,
+            "firstName": {
+              "default": "Cole"
+            },
+            "lastName": {
+              "default": "Schwindt"
+            },
+            "name": {
+              "default": "C. Schwindt"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8481655.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-fla-schwindt-scores-goal-against-akira-schmid-6384070244112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-fla-schwindt-marque-un-but-contre-akira-schmid-6384070243112",
+            "highlightClip": 6384070244112,
+            "highlightClipFr": 6384070243112,
+            "discreteClip": 6384071535112,
+            "discreteClipFr": 6384070236112,
+            "goalsToDate": 1,
+            "awayScore": 0,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "03:29",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479981,
+                "firstName": {
+                  "default": "Jonah"
+                },
+                "lastName": {
+                  "default": "Gadjovich"
+                },
+                "name": {
+                  "default": "J. Gadjovich"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 12
+              },
+              {
+                "playerId": 8478421,
+                "firstName": {
+                  "default": "A.J."
+                },
+                "lastName": {
+                  "default": "Greer"
+                },
+                "name": {
+                  "default": "A. Greer"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 10
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020130/ev851.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 852,
+            "strength": "ev",
+            "playerId": 8478421,
+            "firstName": {
+              "default": "A.J."
+            },
+            "lastName": {
+              "default": "Greer"
+            },
+            "name": {
+              "default": "A. Greer"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8478421.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/vgk-fla-greer-scores-goal-against-akira-schmid-6384070361112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/vgk-fla-greer-marque-un-but-contre-akira-schmid-6384072539112",
+            "highlightClip": 6384070361112,
+            "highlightClipFr": 6384072539112,
+            "discreteClip": 6384071940112,
+            "discreteClipFr": 6384071453112,
+            "goalsToDate": 3,
+            "awayScore": 0,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "FLA"
+            },
+            "timeInPeriod": "10:04",
+            "shotType": "wrap-around",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8473419,
+                "firstName": {
+                  "default": "Brad"
+                },
+                "lastName": {
+                  "default": "Marchand"
+                },
+                "name": {
+                  "default": "B. Marchand"
+                },
+                "assistsToDate": 6,
+                "sweaterNumber": 63
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020130/ev852.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8477933,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477933.png",
+        "name": {
+          "default": "S. Reinhart"
+        },
+        "sweaterNo": 13,
+        "position": "C",
+        "goals": 1,
+        "assists": 0,
+        "points": 1
+      },
+      {
+        "star": 2,
+        "playerId": 8478421,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8478421.png",
+        "name": {
+          "default": "A. Greer"
+        },
+        "sweaterNo": 10,
+        "position": "L",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8475683,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8475683.png",
+        "name": {
+          "default": "S. Bobrovsky",
+          "cs": "S. Bobrovskij",
+          "fi": "S. Bobrovski",
+          "sk": "S. Bobrovskij"
+        },
+        "sweaterNo": 72,
+        "position": "G",
+        "goalsAgainstAverage": 0.0,
+        "savePctg": 1.0
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "00:32",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brad"
+              },
+              "lastName": {
+                "default": "Marchand"
+              },
+              "sweaterNumber": 63
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brandon"
+              },
+              "lastName": {
+                "default": "Saad"
+              },
+              "sweaterNumber": 20
+            },
+            "descKey": "tripping"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:28",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Pavel"
+              },
+              "lastName": {
+                "default": "Dorofeyev",
+                "cs": "Dorofejev",
+                "fi": "Dorofejev",
+                "sk": "Dorofejev"
+              },
+              "sweaterNumber": 16
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Seth"
+              },
+              "lastName": {
+                "default": "Jones"
+              },
+              "sweaterNumber": 3
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "11:22",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Brad"
+              },
+              "lastName": {
+                "default": "Marchand"
+              },
+              "sweaterNumber": 63
+            },
+            "descKey": "holding"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "14:37",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jonah"
+              },
+              "lastName": {
+                "default": "Gadjovich"
+              },
+              "sweaterNumber": 12
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jeremy"
+              },
+              "lastName": {
+                "default": "Lauzon"
+              },
+              "sweaterNumber": 5
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "17:09",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Brett"
+              },
+              "lastName": {
+                "default": "Howden"
+              },
+              "sweaterNumber": 21
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Evan"
+              },
+              "lastName": {
+                "default": "Rodrigues"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "high-sticking"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "A.J."
+              },
+              "lastName": {
+                "default": "Greer"
+              },
+              "sweaterNumber": 10
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Whitecloud"
+              },
+              "sweaterNumber": 2
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "20:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Zach"
+              },
+              "lastName": {
+                "default": "Whitecloud"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "VGK"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "A.J."
+              },
+              "lastName": {
+                "default": "Greer"
+              },
+              "sweaterNumber": 10
+            },
+            "descKey": "roughing"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

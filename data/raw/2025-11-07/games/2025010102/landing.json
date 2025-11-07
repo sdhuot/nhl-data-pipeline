@@ -1,0 +1,744 @@
+{
+  "id": 2025010102,
+  "season": 20252026,
+  "gameType": 1,
+  "limitedScoring": false,
+  "gameDate": "2025-09-30",
+  "venue": {
+    "default": "Enterprise Center"
+  },
+  "venueLocation": {
+    "default": "St. Louis"
+  },
+  "startTimeUTC": "2025-10-01T00:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-05:00",
+  "venueTimezone": "US/Central",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 579,
+      "market": "H",
+      "countryCode": "US",
+      "network": "Blues App",
+      "sequenceNumber": 1
+    },
+    {
+      "id": 553,
+      "market": "A",
+      "countryCode": "US",
+      "network": "Victory+",
+      "sequenceNumber": 373
+    }
+  ],
+  "gameState": "FINAL",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 25,
+    "commonName": {
+      "default": "Stars"
+    },
+    "abbrev": "DAL",
+    "placeName": {
+      "default": "Dallas"
+    },
+    "placeNameWithPreposition": {
+      "default": "Dallas",
+      "fr": "de Dallas"
+    },
+    "score": 5,
+    "sog": 30,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/DAL_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/DAL_dark.svg"
+  },
+  "homeTeam": {
+    "id": 19,
+    "commonName": {
+      "default": "Blues"
+    },
+    "abbrev": "STL",
+    "placeName": {
+      "default": "St. Louis"
+    },
+    "placeNameWithPreposition": {
+      "default": "St. Louis",
+      "fr": "de St. Louis"
+    },
+    "score": 3,
+    "sog": 24,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/STL_light.svg?season=20252026",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/STL_dark.svg?season=20252026"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 152,
+            "strength": "ev",
+            "playerId": 8480950,
+            "firstName": {
+              "default": "Ilya",
+              "cs": "Ilja",
+              "fi": "Ilja",
+              "sk": "Iľja"
+            },
+            "lastName": {
+              "default": "Lyubushkin",
+              "cs": "Ljubuškin",
+              "fi": "Ljubushkin",
+              "sk": "Ljubuškin"
+            },
+            "name": {
+              "default": "I. Lyubushkin",
+              "cs": "I. Ljubuškin",
+              "fi": "I. Ljubushkin",
+              "sk": "I. Ljubuškin"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8480950.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-lyubushkin-scores-goal-against-joel-hofer-6380454869112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-lyubushkin-marque-un-but-contre-joel-hofer-6380456138112",
+            "highlightClip": 6380454869112,
+            "highlightClipFr": 6380456138112,
+            "discreteClip": 6380454196112,
+            "discreteClipFr": 6380454000112,
+            "goalsToDate": 1,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "04:35",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475794,
+                "firstName": {
+                  "default": "Tyler"
+                },
+                "lastName": {
+                  "default": "Seguin"
+                },
+                "name": {
+                  "default": "T. Seguin"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 91
+              },
+              {
+                "playerId": 8483425,
+                "firstName": {
+                  "default": "Lian"
+                },
+                "lastName": {
+                  "default": "Bichsel"
+                },
+                "name": {
+                  "default": "L. Bichsel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 6
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev152.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 161,
+            "strength": "ev",
+            "playerId": 8482740,
+            "firstName": {
+              "default": "Wyatt"
+            },
+            "lastName": {
+              "default": "Johnston"
+            },
+            "name": {
+              "default": "W. Johnston"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8482740.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-johnston-scores-goal-against-joel-hofer-6380456052112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-johnston-marque-un-but-contre-joel-hofer-6380455361112",
+            "highlightClip": 6380456052112,
+            "highlightClipFr": 6380455361112,
+            "discreteClip": 6380455861112,
+            "discreteClipFr": 6380453909112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "05:35",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480036,
+                "firstName": {
+                  "default": "Miro"
+                },
+                "lastName": {
+                  "default": "Heiskanen"
+                },
+                "name": {
+                  "default": "M. Heiskanen"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 4
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev161.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 262,
+            "strength": "ev",
+            "playerId": 8482077,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Holloway"
+            },
+            "name": {
+              "default": "D. Holloway"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482077.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-holloway-scores-goal-against-casey-desmith-6380456130112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-holloway-marque-un-but-contre-casey-desmith-6380456978112",
+            "highlightClip": 6380456130112,
+            "highlightClipFr": 6380456978112,
+            "discreteClip": 6380457697112,
+            "discreteClipFr": 6380458155112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "12:56",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479385,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Kyrou"
+                },
+                "name": {
+                  "default": "J. Kyrou"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 25
+              },
+              {
+                "playerId": 8480459,
+                "firstName": {
+                  "default": "Pius"
+                },
+                "lastName": {
+                  "default": "Suter"
+                },
+                "name": {
+                  "default": "P. Suter"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 22
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev262.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 109,
+            "strength": "ev",
+            "playerId": 8481598,
+            "firstName": {
+              "default": "Philip"
+            },
+            "lastName": {
+              "default": "Broberg"
+            },
+            "name": {
+              "default": "P. Broberg"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8481598.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-broberg-scores-goal-against-casey-desmith-6380464270112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-broberg-marque-un-but-contre-casey-desmith-6380463855112",
+            "highlightClip": 6380464270112,
+            "highlightClipFr": 6380463855112,
+            "discreteClip": 6380464758112,
+            "discreteClipFr": 6380465037112,
+            "goalsToDate": 1,
+            "awayScore": 2,
+            "homeScore": 2,
+            "timeInPeriod": "15:24",
+            "shotType": "wrap-around",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484164,
+                "firstName": {
+                  "default": "Dalibor"
+                },
+                "lastName": {
+                  "default": "Dvorsky"
+                },
+                "name": {
+                  "default": "D. Dvorsky"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 54
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev109.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 306,
+            "strength": "ev",
+            "playerId": 8476889,
+            "firstName": {
+              "default": "Radek"
+            },
+            "lastName": {
+              "default": "Faksa"
+            },
+            "name": {
+              "default": "R. Faksa"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8476889.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-faksa-scores-goal-against-joel-hofer-6380466032112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-faksa-marque-un-but-contre-joel-hofer-6380466132112",
+            "highlightClip": 6380466032112,
+            "highlightClipFr": 6380466132112,
+            "discreteClip": 6380464857112,
+            "discreteClipFr": 6380463873112,
+            "goalsToDate": 1,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "17:45",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482740,
+                "firstName": {
+                  "default": "Wyatt"
+                },
+                "lastName": {
+                  "default": "Johnston"
+                },
+                "name": {
+                  "default": "W. Johnston"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 53
+              },
+              {
+                "playerId": 8475794,
+                "firstName": {
+                  "default": "Tyler"
+                },
+                "lastName": {
+                  "default": "Seguin"
+                },
+                "name": {
+                  "default": "T. Seguin"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 91
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev306.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 764,
+            "strength": "ev",
+            "playerId": 8475794,
+            "firstName": {
+              "default": "Tyler"
+            },
+            "lastName": {
+              "default": "Seguin"
+            },
+            "name": {
+              "default": "T. Seguin"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8475794.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-seguin-scores-goal-against-joel-hofer-6380467027112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-seguin-marque-un-but-contre-joel-hofer-6380468865112",
+            "highlightClip": 6380467027112,
+            "highlightClipFr": 6380468865112,
+            "discreteClip": 6380466622112,
+            "discreteClipFr": 6380467787112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "00:50",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8484829,
+                "firstName": {
+                  "default": "Justin"
+                },
+                "lastName": {
+                  "default": "Hryckowian"
+                },
+                "name": {
+                  "default": "J. Hryckowian"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 49
+              },
+              {
+                "playerId": 8475168,
+                "firstName": {
+                  "default": "Matt"
+                },
+                "lastName": {
+                  "default": "Duchene"
+                },
+                "name": {
+                  "default": "M. Duchene"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 95
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev764.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 112,
+            "strength": "ev",
+            "playerId": 8482077,
+            "firstName": {
+              "default": "Dylan"
+            },
+            "lastName": {
+              "default": "Holloway"
+            },
+            "name": {
+              "default": "D. Holloway"
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482077.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-holloway-scores-goal-against-casey-desmith-6380470820112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-holloway-marque-un-but-contre-casey-desmith-6380472006112",
+            "highlightClip": 6380470820112,
+            "highlightClipFr": 6380472006112,
+            "discreteClip": 6380471610112,
+            "discreteClipFr": 6380469945112,
+            "goalsToDate": 2,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "13:07",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8479385,
+                "firstName": {
+                  "default": "Jordan"
+                },
+                "lastName": {
+                  "default": "Kyrou"
+                },
+                "name": {
+                  "default": "J. Kyrou"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 25
+              },
+              {
+                "playerId": 8482516,
+                "firstName": {
+                  "default": "Matthew"
+                },
+                "lastName": {
+                  "default": "Kessel"
+                },
+                "name": {
+                  "default": "M. Kessel"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 51
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev112.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1560",
+            "eventId": 311,
+            "strength": "ev",
+            "playerId": 8480027,
+            "firstName": {
+              "default": "Jason"
+            },
+            "lastName": {
+              "default": "Robertson"
+            },
+            "name": {
+              "default": "J. Robertson"
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8480027.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/dal-stl-robertson-scores-empty-net-goal-6380471453112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/dal-stl-robertson-dal-marque-un-but-dans-un-filet-desert-6380471452112",
+            "highlightClip": 6380471453112,
+            "highlightClipFr": 6380471452112,
+            "discreteClip": 6380471448112,
+            "discreteClipFr": 6380471549112,
+            "goalsToDate": 2,
+            "awayScore": 5,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "DAL"
+            },
+            "timeInPeriod": "19:08",
+            "shotType": "wrist",
+            "goalModifier": "empty-net",
+            "assists": [],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025010102/ev311.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8475794,
+        "teamAbbrev": "DAL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8475794.png",
+        "name": {
+          "default": "T. Seguin"
+        },
+        "sweaterNo": 91,
+        "position": "C",
+        "goals": 1,
+        "assists": 2,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8482077,
+        "teamAbbrev": "STL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/STL/8482077.png",
+        "name": {
+          "default": "D. Holloway"
+        },
+        "sweaterNo": 81,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8482740,
+        "teamAbbrev": "DAL",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/DAL/8482740.png",
+        "name": {
+          "default": "W. Johnston"
+        },
+        "sweaterNo": 53,
+        "position": "C",
+        "goals": 1,
+        "assists": 1,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "03:37",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Philip"
+              },
+              "lastName": {
+                "default": "Broberg"
+              },
+              "sweaterNumber": 6
+            },
+            "teamAbbrev": {
+              "default": "STL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Miro"
+              },
+              "lastName": {
+                "default": "Heiskanen"
+              },
+              "sweaterNumber": 4
+            },
+            "descKey": "hooking"
+          },
+          {
+            "timeInPeriod": "05:56",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Ilya",
+                "cs": "Ilja",
+                "fi": "Ilja",
+                "sk": "Iľja"
+              },
+              "lastName": {
+                "default": "Lyubushkin",
+                "cs": "Ljubuškin",
+                "fi": "Ljubushkin",
+                "sk": "Ljubuškin"
+              },
+              "sweaterNumber": 46
+            },
+            "teamAbbrev": {
+              "default": "DAL"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Alexey",
+                "cs": "Alexej",
+                "de": "Alexei",
+                "es": "Alexei",
+                "fi": "Aleksei",
+                "sk": "Alexej",
+                "sv": "Alexei"
+              },
+              "lastName": {
+                "default": "Toropchenko",
+                "cs": "Toropčenko",
+                "fi": "Toroptshenko",
+                "sk": "Toropčenko"
+              },
+              "sweaterNumber": 13
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": []
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}

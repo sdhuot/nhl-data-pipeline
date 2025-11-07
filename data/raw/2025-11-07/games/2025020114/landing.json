@@ -1,0 +1,925 @@
+{
+  "id": 2025020114,
+  "season": 20252026,
+  "gameType": 2,
+  "limitedScoring": false,
+  "gameDate": "2025-10-23",
+  "venue": {
+    "default": "Amerant Bank Arena"
+  },
+  "venueLocation": {
+    "default": "Sunrise"
+  },
+  "startTimeUTC": "2025-10-23T23:00:00Z",
+  "easternUTCOffset": "-04:00",
+  "venueUTCOffset": "-04:00",
+  "venueTimezone": "US/Eastern",
+  "periodDescriptor": {
+    "number": 3,
+    "periodType": "REG",
+    "maxRegulationPeriods": 3
+  },
+  "tvBroadcasts": [
+    {
+      "id": 282,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "SN",
+      "sequenceNumber": 21
+    },
+    {
+      "id": 281,
+      "market": "N",
+      "countryCode": "CA",
+      "network": "TVAS",
+      "sequenceNumber": 109
+    },
+    {
+      "id": 528,
+      "market": "A",
+      "countryCode": "US",
+      "network": "SN-PIT",
+      "sequenceNumber": 375
+    },
+    {
+      "id": 521,
+      "market": "H",
+      "countryCode": "US",
+      "network": "SCRIPPS",
+      "sequenceNumber": 657
+    }
+  ],
+  "gameState": "OFF",
+  "gameScheduleState": "OK",
+  "awayTeam": {
+    "id": 5,
+    "commonName": {
+      "default": "Penguins"
+    },
+    "abbrev": "PIT",
+    "placeName": {
+      "default": "Pittsburgh"
+    },
+    "placeNameWithPreposition": {
+      "default": "Pittsburgh",
+      "fr": "de Pittsburgh"
+    },
+    "score": 5,
+    "sog": 17,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/PIT_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/PIT_dark.svg"
+  },
+  "homeTeam": {
+    "id": 13,
+    "commonName": {
+      "default": "Panthers"
+    },
+    "abbrev": "FLA",
+    "placeName": {
+      "default": "Florida",
+      "fr": "Floride"
+    },
+    "placeNameWithPreposition": {
+      "default": "Florida",
+      "fr": "de la Floride"
+    },
+    "score": 3,
+    "sog": 37,
+    "logo": "https://assets.nhle.com/logos/nhl/svg/FLA_light.svg",
+    "darkLogo": "https://assets.nhle.com/logos/nhl/svg/FLA_dark.svg"
+  },
+  "shootoutInUse": true,
+  "maxPeriods": 5,
+  "regPeriods": 3,
+  "otInUse": true,
+  "tiesInUse": false,
+  "summary": {
+    "scoring": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1541",
+            "eventId": 134,
+            "strength": "pp",
+            "playerId": 8471675,
+            "firstName": {
+              "default": "Sidney"
+            },
+            "lastName": {
+              "default": "Crosby"
+            },
+            "name": {
+              "default": "S. Crosby"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8471675.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-fla-crosby-scores-ppg-against-sergei-bobrovsky-6383638798112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-fla-crosby-marque-un-but-en-a-n-contre-sergei-bobrovsky-6383639113112",
+            "highlightClip": 6383638798112,
+            "highlightClipFr": 6383639113112,
+            "discreteClip": 6383637930112,
+            "discreteClipFr": 6383638994112,
+            "goalsToDate": 5,
+            "awayScore": 1,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "06:24",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8475810,
+                "firstName": {
+                  "default": "Bryan"
+                },
+                "lastName": {
+                  "default": "Rust"
+                },
+                "name": {
+                  "default": "B. Rust"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 17
+              },
+              {
+                "playerId": 8471215,
+                "firstName": {
+                  "default": "Evgeni",
+                  "cs": "Jevgenij",
+                  "fi": "Jevgeni",
+                  "sk": "Jevgenij"
+                },
+                "lastName": {
+                  "default": "Malkin"
+                },
+                "name": {
+                  "default": "E. Malkin"
+                },
+                "assistsToDate": 9,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev134.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1551",
+            "eventId": 651,
+            "strength": "ev",
+            "playerId": 8476483,
+            "firstName": {
+              "default": "Rickard"
+            },
+            "lastName": {
+              "default": "Rakell"
+            },
+            "name": {
+              "default": "R. Rakell"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8476483.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-fla-rakell-scores-goal-against-sergei-bobrovsky-6383650669112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-fla-rakell-marque-un-but-contre-sergei-bobrovsky-6383648222112",
+            "highlightClip": 6383650669112,
+            "highlightClipFr": 6383648222112,
+            "discreteClip": 6383648709112,
+            "discreteClipFr": 6383648884112,
+            "goalsToDate": 3,
+            "awayScore": 2,
+            "homeScore": 0,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "06:36",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474578,
+                "firstName": {
+                  "default": "Erik"
+                },
+                "lastName": {
+                  "default": "Karlsson"
+                },
+                "name": {
+                  "default": "E. Karlsson"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 65
+              },
+              {
+                "playerId": 8471675,
+                "firstName": {
+                  "default": "Sidney"
+                },
+                "lastName": {
+                  "default": "Crosby"
+                },
+                "name": {
+                  "default": "S. Crosby"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 87
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev651.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          },
+          {
+            "situationCode": "1451",
+            "eventId": 606,
+            "strength": "pp",
+            "playerId": 8473419,
+            "firstName": {
+              "default": "Brad"
+            },
+            "lastName": {
+              "default": "Marchand"
+            },
+            "name": {
+              "default": "B. Marchand"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8473419.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-fla-marchand-scores-ppg-against-tristan-jarry-6383650001112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-fla-marchand-marque-un-but-en-a-n-contre-tristan-jarry-6383650895112",
+            "highlightClip": 6383650001112,
+            "highlightClipFr": 6383650895112,
+            "discreteClip": 6383648929112,
+            "discreteClipFr": 6383649809112,
+            "goalsToDate": 4,
+            "awayScore": 2,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "08:26",
+            "shotType": "deflected",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482713,
+                "firstName": {
+                  "default": "Mackie"
+                },
+                "lastName": {
+                  "default": "Samoskevich"
+                },
+                "name": {
+                  "default": "M. Samoskevich"
+                },
+                "assistsToDate": 3,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8477495,
+                "firstName": {
+                  "default": "Seth"
+                },
+                "lastName": {
+                  "default": "Jones"
+                },
+                "name": {
+                  "default": "S. Jones"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 3
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev606.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 760,
+            "strength": "ev",
+            "playerId": 8485414,
+            "firstName": {
+              "default": "Ben"
+            },
+            "lastName": {
+              "default": "Kindel"
+            },
+            "name": {
+              "default": "B. Kindel"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8485414.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-fla-kindel-scores-goal-against-sergei-bobrovsky-6383653127112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-fla-kindel-marque-un-but-contre-sergei-bobrovsky-6383654031112",
+            "highlightClip": 6383653127112,
+            "highlightClipFr": 6383654031112,
+            "discreteClip": 6383653653112,
+            "discreteClipFr": 6383654027112,
+            "goalsToDate": 2,
+            "awayScore": 3,
+            "homeScore": 1,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "15:24",
+            "shotType": "snap",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8478438,
+                "firstName": {
+                  "default": "Tommy",
+                  "cs": "Thomas",
+                  "de": "Thomas",
+                  "es": "Thomas",
+                  "fi": "Thomas",
+                  "sk": "Thomas",
+                  "sv": "Thomas"
+                },
+                "lastName": {
+                  "default": "Novak"
+                },
+                "name": {
+                  "default": "T. Novak"
+                },
+                "assistsToDate": 2,
+                "sweaterNumber": 18
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev760.json",
+            "homeTeamDefendingSide": "left",
+            "isHome": false
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "goals": [
+          {
+            "situationCode": "1451",
+            "eventId": 857,
+            "strength": "pp",
+            "playerId": 8477933,
+            "firstName": {
+              "default": "Sam"
+            },
+            "lastName": {
+              "default": "Reinhart"
+            },
+            "name": {
+              "default": "S. Reinhart"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8477933.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-fla-reinhart-scores-ppg-against-tristan-jarry-6383659297112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-fla-reinhart-marque-un-but-en-a-n-contre-tristan-jarry-6383657420112",
+            "highlightClip": 6383659297112,
+            "highlightClipFr": 6383657420112,
+            "discreteClip": 6383658418112,
+            "discreteClipFr": 6383657825112,
+            "goalsToDate": 3,
+            "awayScore": 3,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "02:24",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8482713,
+                "firstName": {
+                  "default": "Mackie"
+                },
+                "lastName": {
+                  "default": "Samoskevich"
+                },
+                "name": {
+                  "default": "M. Samoskevich"
+                },
+                "assistsToDate": 4,
+                "sweaterNumber": 11
+              },
+              {
+                "playerId": 8477495,
+                "firstName": {
+                  "default": "Seth"
+                },
+                "lastName": {
+                  "default": "Jones"
+                },
+                "name": {
+                  "default": "S. Jones"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 3
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev857.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 894,
+            "strength": "ev",
+            "playerId": 8480980,
+            "firstName": {
+              "default": "Connor"
+            },
+            "lastName": {
+              "default": "Dewar"
+            },
+            "name": {
+              "default": "C. Dewar"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8480980.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/connor-dewar-with-a-goal-vs-florida-panthers-6383659803112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-fla-dewar-marque-un-but-contre-sergei-bobrovsky-6383660793112",
+            "highlightClip": 6383659803112,
+            "highlightClipFr": 6383660793112,
+            "discreteClip": 6383659802112,
+            "discreteClipFr": 6383660676112,
+            "goalsToDate": 3,
+            "awayScore": 4,
+            "homeScore": 2,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "04:49",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8474578,
+                "firstName": {
+                  "default": "Erik"
+                },
+                "lastName": {
+                  "default": "Karlsson"
+                },
+                "name": {
+                  "default": "E. Karlsson"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 65
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev894.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          },
+          {
+            "situationCode": "1551",
+            "eventId": 652,
+            "strength": "ev",
+            "playerId": 8473419,
+            "firstName": {
+              "default": "Brad"
+            },
+            "lastName": {
+              "default": "Marchand"
+            },
+            "name": {
+              "default": "B. Marchand"
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8473419.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/pit-fla-marchand-scores-goal-against-tristan-jarry-6383664098112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/pit-fla-marchand-marque-un-but-contre-tristan-jarry-6383664006112",
+            "highlightClip": 6383664098112,
+            "highlightClipFr": 6383664006112,
+            "discreteClip": 6383662423112,
+            "discreteClipFr": 6383662625112,
+            "goalsToDate": 5,
+            "awayScore": 4,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "11:06",
+            "shotType": "backhand",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8480185,
+                "firstName": {
+                  "default": "Eetu"
+                },
+                "lastName": {
+                  "default": "Luostarinen"
+                },
+                "name": {
+                  "default": "E. Luostarinen"
+                },
+                "assistsToDate": 1,
+                "sweaterNumber": 27
+              },
+              {
+                "playerId": 8482113,
+                "firstName": {
+                  "default": "Anton"
+                },
+                "lastName": {
+                  "default": "Lundell"
+                },
+                "name": {
+                  "default": "A. Lundell"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 15
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev652.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": true
+          },
+          {
+            "situationCode": "1541",
+            "eventId": 1005,
+            "strength": "pp",
+            "playerId": 8471675,
+            "firstName": {
+              "default": "Sidney"
+            },
+            "lastName": {
+              "default": "Crosby"
+            },
+            "name": {
+              "default": "S. Crosby"
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8471675.png",
+            "highlightClipSharingUrl": "https://nhl.com/video/sidney-crosby-with-a-powerplay-goal-vs-florida-panthers-6383674786112",
+            "highlightClipSharingUrlFr": "https://nhl.com/fr/video/sidney-crosby-with-a-powerplay-goal-vs-les-panthers-de-la-floride-6383664508112",
+            "highlightClip": 6383674786112,
+            "highlightClipFr": 6383664508112,
+            "discreteClip": 6383666604112,
+            "discreteClipFr": 6383663257112,
+            "goalsToDate": 6,
+            "awayScore": 5,
+            "homeScore": 3,
+            "leadingTeamAbbrev": {
+              "default": "PIT"
+            },
+            "timeInPeriod": "11:49",
+            "shotType": "wrist",
+            "goalModifier": "none",
+            "assists": [
+              {
+                "playerId": 8476483,
+                "firstName": {
+                  "default": "Rickard"
+                },
+                "lastName": {
+                  "default": "Rakell"
+                },
+                "name": {
+                  "default": "R. Rakell"
+                },
+                "assistsToDate": 5,
+                "sweaterNumber": 67
+              },
+              {
+                "playerId": 8471215,
+                "firstName": {
+                  "default": "Evgeni",
+                  "cs": "Jevgenij",
+                  "fi": "Jevgeni",
+                  "sk": "Jevgenij"
+                },
+                "lastName": {
+                  "default": "Malkin"
+                },
+                "name": {
+                  "default": "E. Malkin"
+                },
+                "assistsToDate": 10,
+                "sweaterNumber": 71
+              }
+            ],
+            "pptReplayUrl": "https://wsr.nhle.com/sprites/20252026/2025020114/ev1005.json",
+            "homeTeamDefendingSide": "right",
+            "isHome": false
+          }
+        ]
+      }
+    ],
+    "shootout": [],
+    "threeStars": [
+      {
+        "star": 1,
+        "playerId": 8471675,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8471675.png",
+        "name": {
+          "default": "S. Crosby"
+        },
+        "sweaterNo": 87,
+        "position": "C",
+        "goals": 2,
+        "assists": 1,
+        "points": 3
+      },
+      {
+        "star": 2,
+        "playerId": 8473419,
+        "teamAbbrev": "FLA",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/FLA/8473419.png",
+        "name": {
+          "default": "B. Marchand"
+        },
+        "sweaterNo": 63,
+        "position": "L",
+        "goals": 2,
+        "assists": 0,
+        "points": 2
+      },
+      {
+        "star": 3,
+        "playerId": 8474578,
+        "teamAbbrev": "PIT",
+        "headshot": "https://assets.nhle.com/mugs/nhl/20252026/PIT/8474578.png",
+        "name": {
+          "default": "E. Karlsson"
+        },
+        "sweaterNo": 65,
+        "position": "D",
+        "goals": 0,
+        "assists": 2,
+        "points": 2
+      }
+    ],
+    "penalties": [
+      {
+        "periodDescriptor": {
+          "number": 1,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "05:48",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Jeff"
+              },
+              "lastName": {
+                "default": "Petry"
+              },
+              "sweaterNumber": 2
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Tommy",
+                "cs": "Thomas",
+                "de": "Thomas",
+                "es": "Thomas",
+                "fi": "Thomas",
+                "sk": "Thomas",
+                "sv": "Thomas"
+              },
+              "lastName": {
+                "default": "Novak"
+              },
+              "sweaterNumber": 18
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "19:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Bryan"
+              },
+              "lastName": {
+                "default": "Rust"
+              },
+              "sweaterNumber": 17
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anton"
+              },
+              "lastName": {
+                "default": "Lundell"
+              },
+              "sweaterNumber": 15
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "19:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Parker"
+              },
+              "lastName": {
+                "default": "Wotherspoon"
+              },
+              "sweaterNumber": 28
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Niko"
+              },
+              "lastName": {
+                "default": "Mikkola"
+              },
+              "sweaterNumber": 77
+            },
+            "descKey": "roughing"
+          },
+          {
+            "timeInPeriod": "19:00",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Anton"
+              },
+              "lastName": {
+                "default": "Lundell"
+              },
+              "sweaterNumber": 15
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Bryan"
+              },
+              "lastName": {
+                "default": "Rust"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "interference"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 2,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "08:08",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Connor"
+              },
+              "lastName": {
+                "default": "Clifton"
+              },
+              "sweaterNumber": 75
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Jesper"
+              },
+              "lastName": {
+                "default": "Boqvist"
+              },
+              "sweaterNumber": 70
+            },
+            "descKey": "hooking"
+          }
+        ]
+      },
+      {
+        "periodDescriptor": {
+          "number": 3,
+          "periodType": "REG",
+          "maxRegulationPeriods": 3
+        },
+        "penalties": [
+          {
+            "timeInPeriod": "01:32",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Evgeni",
+                "cs": "Jevgenij",
+                "fi": "Jevgeni",
+                "sk": "Jevgenij"
+              },
+              "lastName": {
+                "default": "Malkin"
+              },
+              "sweaterNumber": 71
+            },
+            "teamAbbrev": {
+              "default": "PIT"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Anton"
+              },
+              "lastName": {
+                "default": "Lundell"
+              },
+              "sweaterNumber": 15
+            },
+            "descKey": "tripping"
+          },
+          {
+            "timeInPeriod": "11:34",
+            "type": "MIN",
+            "duration": 2,
+            "committedByPlayer": {
+              "firstName": {
+                "default": "Aaron"
+              },
+              "lastName": {
+                "default": "Ekblad"
+              },
+              "sweaterNumber": 5
+            },
+            "teamAbbrev": {
+              "default": "FLA"
+            },
+            "drawnBy": {
+              "firstName": {
+                "default": "Bryan"
+              },
+              "lastName": {
+                "default": "Rust"
+              },
+              "sweaterNumber": 17
+            },
+            "descKey": "interference"
+          }
+        ]
+      }
+    ]
+  },
+  "clock": {
+    "timeRemaining": "00:00",
+    "secondsRemaining": 0,
+    "running": false,
+    "inIntermission": false
+  }
+}
