@@ -22,13 +22,13 @@ jobs:
 
       - name: Ensure it's 4am in Alaska before running
         run: |
-          export TZ=America/Anchorage
-          HOUR=$(date +%H)
-          echo "Alaska current hour: $HOUR"
-          if [ "$HOUR" != "04" ]; then
-            echo "Not 4am in Alaska. Exiting."
-            exit 0
+          # Only enforce at scheduled time; allow manual tests to run any time
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            export TZ=America/Anchorage
+            HOUR=$(date +%H)
+            [ "$HOUR" = "04" ] || { echo "Not 4am Alaska. Exiting."; exit 0; }
           fi
+
 
       - name: Set up Python
         uses: actions/setup-python@v5
