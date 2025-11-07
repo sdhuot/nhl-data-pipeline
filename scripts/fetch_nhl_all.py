@@ -60,7 +60,7 @@ def today_yyyymmdd():
     return date.today().strftime("%Y-%m-%d")
 
 # ------------ Endpoints ------------
-STATSAPI = "https://statsapi.web.nhl.com/api/v1"
+STATSAPI = "https://api.nhle.com/stats/api/v1"
 API_WEB  = "https://api-web.nhle.com/v1"
 API_NHLE = "https://api.nhle.com/stats/rest/en"
 
