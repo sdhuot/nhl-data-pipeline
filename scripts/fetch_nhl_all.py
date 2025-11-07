@@ -1,230 +1,199 @@
 #!/usr/bin/env python3
 """
-NHL scraper (NEW API ONLY) — 2025-26 season
-- Standings + teams:  https://api-web.nhle.com/v1/standings/now
-- Schedule by day:    https://api-web.nhle.com/v1/schedule/YYYY-MM-DD
-- Gamecenter payloads:
-    landing:          https://api-web.nhle.com/v1/gamecenter/{gamePk}/landing
-    play-by-play:     https://api-web.nhle.com/v1/gamecenter/{gamePk}/play-by-play
-    boxscore:         https://api-web.nhle.com/v1/gamecenter/{gamePk}/boxscore
-- Shift charts:       https://api.nhle.com/stats/rest/en/shiftcharts?cayenneExp=gameId={gamePk}
+Fetch broad NHL data from api-web.nhle.com and save raw JSON files.
 
-Writes (atomic):
-- data/raw/YYYY-MM-DD/standings_now.json
-- data/raw/YYYY-MM-DD/games/{gamePk}/landing.json
-- data/raw/YYYY-MM-DD/games/{gamePk}/pbp.json
-- data/raw/YYYY-MM-DD/games/{gamePk}/boxscore.json
-- data/raw/YYYY-MM-DD/games/{gamePk}/shifts.json
+Folder layout:
+  data/raw/{seasonId}/{YYYY-MM}/{YYYY-MM-DD}/
+    standings_now.json
+    teams.json
+    schedule.json
+    games/
+      {gameId}/
+        boxscore.json
+        pbp.json
 
-CSV quick views:
-- data/csv/YYYY-MM-DD/standings.csv
-- data/csv/YYYY-MM-DD/teams.csv      (derived from standings)
-- data/csv/YYYY-MM-DD/schedule.csv   (from daily sweep)
-- data/csv/YYYY-MM-DD/players.csv    (derived from boxscores encountered)
+Usage:
+  python scripts/fetch_nhl_all.py --from 2025-09-01 --to 2025-11-07
+  python scripts/fetch_nhl_all.py --season auto   # infers season and scans 9/1..today
 """
 
-import os
+import argparse
 import json
+import os
+from datetime import date, datetime, timedelta, timezone
+from pathlib import Path
 import time
-from datetime import date, datetime, timedelta
-from typing import Dict, Any, List, Optional
+import sys
+import typing as T
 
-import pandas as pd
 import requests
 
-API_WEB = "https://api-web.nhle.com/v1"
-API_STATS_REST = "https://api.nhle.com/stats/rest/en"
+API = "https://api-web.nhle.com/v1"
+STANDINGS_NOW = f"{API}/standings/now"
+TEAMS = f"{API}/teams"
+SCHEDULE_DAY = f"{API}/schedule"              # /YYYY-MM-DD
+GAMECENTER = f"{API}/gamecenter"              # /{gameId}/boxscore, /{gameId}/play-by-play
 
-USER_AGENT = "nhl-newapi-scraper/1.1 (+github actions)"
-TIMEOUT = 45
-RETRIES = 3
-BACKOFF = 1.5
+# --------- utils ---------
+def log(msg: str) -> None:
+    ts = datetime.now().strftime("%H:%M:%S")
+    print(f"[{ts}] {msg}", flush=True)
 
-def season_start_for_2025_26() -> date:
-    return date(2025, 9, 1)
+def season_id_for(today: date) -> str:
+    start_year = today.year if today.month >= 7 else today.year - 1
+    return f"{start_year}{start_year+1}"
 
-def today_str() -> str:
-    return date.today().strftime("%Y-%m-%d")
+def season_start_for(today: date) -> date:
+    start_year = today.year if today.month >= 7 else today.year - 1
+    # NHL seasons effectively start Sept 1 for our harvesting window
+    return date(start_year, 9, 1)
 
-# ----------------- IO helpers (atomic) -----------------
-def ensure_dir(path: str):
-    os.makedirs(path, exist_ok=True)
+def daterange(d0: date, d1: date):
+    cur = d0
+    while cur <= d1:
+        yield cur
+        cur += timedelta(days=1)
 
-def atomic_write_bytes(path: str, data: bytes):
-    tmp = path + ".tmp"
-    with open(tmp, "wb") as f:
-        f.write(data)
-    os.replace(tmp, path)
+def ensure_dir(p: Path) -> None:
+    p.mkdir(parents=True, exist_ok=True)
 
-def dump_json_atomic(obj: Any, path: str):
-    data = json.dumps(obj, ensure_ascii=False, indent=2).encode("utf-8")
-    atomic_write_bytes(path, data)
+def save_json(obj: T.Any, path: Path) -> None:
+    ensure_dir(path.parent)
+    with path.open("w", encoding="utf-8") as f:
+        json.dump(obj, f, ensure_ascii=False, indent=2)
 
-def dump_csv_atomic(df: pd.DataFrame, path: str):
-    tmp = path + ".tmp"
-    df.to_csv(tmp, index=False)
-    os.replace(tmp, path)
-
-# ----------------- HTTP helper -----------------
-SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": USER_AGENT})
-
-def jget(url: str, params: Optional[Dict[str, Any]] = None,
-         retries: int = RETRIES, sleep: float = BACKOFF) -> Optional[Dict[str, Any]]:
-    for i in range(retries):
+def get_json(url: str, *, retries: int = 3, timeout: int = 30) -> T.Any:
+    for attempt in range(1, retries + 1):
         try:
-            r = SESSION.get(url, params=params, timeout=TIMEOUT)
-            if r.status_code >= 500:
-                raise requests.HTTPError(f"{r.status_code} on {url}")
+            r = requests.get(url, timeout=timeout)
             r.raise_for_status()
             return r.json()
         except Exception as e:
-            if i == retries - 1:
-                print(f"[WARN] Failed {url}: {e}")
-                return None
-            time.sleep(sleep * (2 ** i))
-    return None
+            if attempt == retries:
+                raise
+            sleep = 1.5 * attempt
+            log(f"Warn: {url} failed ({e}); retrying in {sleep:.1f}s …")
+            time.sleep(sleep)
+    return None  # never reached
 
-# ----------------- Main -----------------
-def main():
-    run_date = today_str()
-    raw_dir = os.path.join("data", "raw", run_date)
-    csv_dir = os.path.join("data", "csv", run_date)
-    ensure_dir(raw_dir)
-    ensure_dir(csv_dir)
+# --------- core fetchers ---------
+def fetch_standings() -> T.Any:
+    return get_json(STANDINGS_NOW)
 
-    # ---------- 0) Standings (teams metadata) ----------
-    print("Fetching standings/now …")
-    standings = jget(f"{API_WEB}/standings/now")
-    rows: List[Dict[str, Any]] = []
-    if standings:
-        dump_json_atomic(standings, os.path.join(raw_dir, "standings_now.json"))
-        rows = standings.get("standings", [])
-        if rows:
-            dump_csv_atomic(pd.json_normalize(rows, max_level=1), os.path.join(csv_dir, "standings.csv"))
-        # derive teams list
-        team_rows: List[Dict[str, Any]] = []
-        for row in rows:
-            team_rows.append({
-                "teamId": row.get("teamId"),
-                "name": row.get("teamName"),
-                "triCode": row.get("teamAbbrev"),
-                "conference": row.get("conferenceName"),
-                "division": row.get("divisionName"),
-            })
-        if team_rows:
-            teams_df = pd.DataFrame(team_rows).drop_duplicates("teamId").sort_values("teamId")
-            dump_csv_atomic(teams_df, os.path.join(csv_dir, "teams.csv"))
-    else:
-        print("[WARN] standings/now unavailable; continuing…")
+def fetch_teams() -> T.Any:
+    return get_json(TEAMS)
 
-    # ---------- 1) Schedule sweep (date-by-date) ----------
-    start_d = season_start_for_2025_26()
-    end_d = date.today()
-    print(f"Fetching schedule day-by-day: {start_d} → {end_d} …")
-    game_rows: List[Dict[str, Any]] = []
-    game_pks: List[int] = []
-    cur = start_d
-    while cur <= end_d:
-        ymd = cur.strftime("%Y-%m-%d")
-        sched = jget(f"{API_WEB}/schedule/{ymd}")
-        if sched and isinstance(sched.get("gameWeek"), list):
-            for wk in sched["gameWeek"]:
-                for g in wk.get("games", []):
-                    gpk = g.get("id") or g.get("gameId") or g.get("gamePk")
-                    if not gpk:
-                        continue
-                    gpk = int(gpk)
-                    if gpk not in game_pks:
-                        game_pks.append(gpk)
-                    game_rows.append({
-                        "gamePk": gpk,
-                        "gameDateUTC": g.get("startTimeUTC") or g.get("startTime"),
-                        "homeId": (g.get("homeTeam", {}) or {}).get("id"),
-                        "homeTri": (g.get("homeTeam", {}) or {}).get("abbrev"),
-                        "awayId": (g.get("awayTeam", {}) or {}).get("id"),
-                        "awayTri": (g.get("awayTeam", {}) or {}).get("abbrev"),
-                        "venue": (g.get("venue", {}) or {}).get("default") or g.get("venueName"),
-                        "gameState": g.get("gameState"),
-                    })
-        time.sleep(0.10)
-        cur += timedelta(days=1)
+def fetch_schedule_for_day(d: date) -> T.Any:
+    url = f"{SCHEDULE_DAY}/{d.strftime('%Y-%m-%d')}"
+    return get_json(url)
 
-    if game_rows:
-        sched_df = pd.DataFrame(game_rows).drop_duplicates("gamePk")
-        dump_csv_atomic(sched_df, os.path.join(csv_dir, "schedule.csv"))
-    print(f"Total unique games discovered: {len(game_pks)}")
+def fetch_game_boxscore(game_id: int) -> T.Any:
+    url = f"{GAMECENTER}/{game_id}/boxscore"
+    return get_json(url)
 
-    # ---------- 2) Per-game payloads (per-game subfolders, atomic) ----------
-    players_seen: Dict[int, Dict[str, Any]] = {}
+def fetch_game_pbp(game_id: int) -> T.Any:
+    url = f"{GAMECENTER}/{game_id}/play-by-play"
+    return get_json(url)
 
-    for idx, gpk in enumerate(game_pks, start=1):
-        if idx % 50 == 0:
-            print(f"…{idx} games processed")
+# --------- pipeline ---------
+def run_pipeline(from_date: date, to_date: date, out_root: Path) -> None:
+    today = date.today()
+    season = season_id_for(today)
 
-        gdir = os.path.join(raw_dir, "games", str(gpk))
-        ensure_dir(gdir)
+    # 1) standings + teams are stored once per run under the last day folder
+    last_day_folder = out_root / season / to_date.strftime("%Y-%m") / to_date.strftime("%Y-%m-%d")
+    ensure_dir(last_day_folder)
 
-        # landing
-        landing = jget(f"{API_WEB}/gamecenter/{gpk}/landing")
-        if landing:
-            dump_json_atomic(landing, os.path.join(gdir, "landing.json"))
+    log("Fetching standings …")
+    standings = fetch_standings()
+    save_json(standings, last_day_folder / "standings_now.json")
 
-        # play-by-play
-        pbp = jget(f"{API_WEB}/gamecenter/{gpk}/play-by-play")
-        if pbp:
-            dump_json_atomic(pbp, os.path.join(gdir, "pbp.json"))
+    log("Fetching teams …")
+    teams = fetch_teams()
+    save_json(teams, last_day_folder / "teams.json")
 
-        # boxscore (also harvest basic player fields)
-        box = jget(f"{API_WEB}/gamecenter/{gpk}/boxscore")
-        if box:
-            dump_json_atomic(box, os.path.join(gdir, "boxscore.json"))
+    # 2) day-by-day schedule + per-game artifacts
+    for d in daterange(from_date, to_date):
+        month_dir = out_root / season / d.strftime("%Y-%m")
+        day_dir = month_dir / d.strftime("%Y-%m-%d")
+        ensure_dir(day_dir)
+
+        log(f"Fetching schedule for {d.isoformat()} …")
+        try:
+            schedule = fetch_schedule_for_day(d)
+        except Exception as e:
+            log(f"Error schedule {d}: {e}")
+            continue
+
+        save_json(schedule, day_dir / "schedule.json")
+
+        games = schedule.get("gameWeek", [])
+        # gameWeek is usually a list with one item containing "games"; be defensive:
+        all_games = []
+        for bucket in games:
+            if isinstance(bucket, dict):
+                all_games.extend(bucket.get("games", []))
+
+        for g in all_games:
+            game_id = g.get("id") or g.get("gameId") or g.get("gamePk")
+            if not game_id:
+                continue
             try:
-                def harvest(side: Dict[str, Any], team_id: Optional[int]):
-                    players = (side or {}).get("players") or (side or {}).get("skaters") or []
-                    if isinstance(players, dict):
-                        players = list(players.values())
-                    for p in players:
-                        pid = p.get("playerId") or p.get("id")
-                        if not pid:
-                            continue
-                        pid = int(pid)
-                        rec = players_seen.get(pid, {})
-                        rec.update({
-                            "personId": pid,
-                            "fullName": p.get("name", {}).get("default") or p.get("name"),
-                            "teamId": team_id,
-                            "sweaterNumber": p.get("sweaterNumber") or p.get("jerseyNumber"),
-                            "position": (p.get("position") or {}).get("abbrev") or p.get("position"),
-                            "shootsCatches": p.get("shootsCatches") or p.get("shoots") or p.get("catches"),
-                            "height": p.get("height"),
-                            "weight": p.get("weight"),
-                        })
-                        players_seen[pid] = rec
+                gid = int(game_id)
+            except Exception:
+                continue
 
-                teams_blk = (box or {}).get("teams") or {}
-                home_blk = teams_blk.get("home") or {}
-                away_blk = teams_blk.get("away") or {}
-                home_id = home_blk.get("id") if isinstance(home_blk.get("id"), int) else None
-                away_id = away_blk.get("id") if isinstance(away_blk.get("id"), int) else None
-                harvest(home_blk, home_id)
-                harvest(away_blk, away_id)
+            game_dir = day_dir / "games" / str(gid)
+            ensure_dir(game_dir)
+
+            # Boxscore
+            try:
+                log(f"  Game {gid}: boxscore …")
+                box = fetch_game_boxscore(gid)
+                save_json(box, game_dir / "boxscore.json")
             except Exception as e:
-                print(f"[WARN] Could not harvest players from boxscore {gpk}: {e}")
+                log(f"  Warn {gid} boxscore: {e}")
 
-        # shift charts
-        shifts = jget(f"{API_STATS_REST}/shiftcharts", params={"cayenneExp": f"gameId={gpk}"})
-        if shifts:
-            dump_json_atomic(shifts, os.path.join(gdir, "shifts.json"))
+            # Play-by-play
+            try:
+                log(f"  Game {gid}: play-by-play …")
+                pbp = fetch_game_pbp(gid)
+                save_json(pbp, game_dir / "pbp.json")
+            except Exception as e:
+                log(f"  Warn {gid} pbp: {e}")
 
-        time.sleep(0.12)
+    log("Done.")
 
-    # ---------- 3) Players CSV ----------
-    if players_seen:
-        players_df = pd.DataFrame(list(players_seen.values())).drop_duplicates("personId", keep="last")
-        dump_csv_atomic(players_df, os.path.join(csv_dir, "players.csv"))
+# --------- CLI ---------
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="NHL all-in collector")
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument("--season", choices=["auto"], help="Use 'auto' to infer season and scan Sept 1..today")
+    group.add_argument("--from", dest="date_from", help="Start date YYYY-MM-DD")
+    parser.add_argument("--to", dest="date_to", help="End date YYYY-MM-DD")
+    parser.add_argument("--out", default="data/raw", help="Output root folder (default: data/raw)")
+    return parser.parse_args()
 
-    print("Done.")
+def main() -> None:
+    args = parse_args()
+    tz_anchorage = timezone(timedelta(hours=-9))  # project default
+    today_local = datetime.now(tz=tz_anchorage).date()
+
+    if args.season == "auto":
+        start = season_start_for(today_local)
+        end = today_local
+    else:
+        if not args.date_from or not args.date_to:
+            print("Error: --from and --to are required when --season is not used", file=sys.stderr)
+            sys.exit(2)
+        start = date.fromisoformat(args.date_from)
+        end = date.fromisoformat(args.date_to)
+        if end < start:
+            print("Error: --to earlier than --from", file=sys.stderr)
+            sys.exit(2)
+
+    out_root = Path(args.out)
+    run_pipeline(start, end, out_root)
 
 if __name__ == "__main__":
     main()
