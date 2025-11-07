@@ -2,10 +2,14 @@ name: Nightly (4am Alaska) — NHL Scraper
 
 on:
   schedule:
-    # 12:00 UTC = 4am AKDT, 13:00 UTC = 4am AKST
-    - cron: "0 12 * * *"
-    - cron: "0 13 * * *"
+    # First attempt (4:00 AM Alaska)
+    - cron: "0 12 * * *"    # AKDT
+    - cron: "0 13 * * *"    # AKST
+    # Second attempt (4:15 AM Alaska)
+    - cron: "15 12 * * *"   # AKDT
+    - cron: "15 13 * * *"   # AKST
   workflow_dispatch:
+
 
 jobs:
   run-nightly:
