@@ -1,4 +1,4 @@
-name: Nightly (4am Alaska) — Smoke Test
+name: Nightly (4am Alaska) — NHL Scraper
 
 on:
   schedule:
@@ -36,9 +36,9 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Run hello smoke test
+      - name: Run NHL scraper
         run: |
-          python scripts/hello.py
+          python scripts/fetch_nhl_all.py
 
       - name: Commit & push results
         run: |
@@ -48,6 +48,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "Nightly hello run: $(date -u +'%Y-%m-%d %H:%M:%S')"
+            git commit -m "Nightly NHL scrape: $(date -u +'%Y-%m-%d %H:%M:%S')"
             git push
           fi
